@@ -1,0 +1,100 @@
+word_index,word,senses,gold_image,gold_sense,ambiguous_sentence,label,prompt
+2041,listing,"{""noun_senses"": [""a database containing an ordered array of items (names or topics)"", ""the act of making a list of items""], ""gold_pos"": ""noun"", ""verb_senses"": [""give or make a list of; name individually; give the names of"", ""include in a list"", ""cause to lean to the side"", ""tilt to one side"", ""enumerate""]}",image.4916.jpg,2,The listing of the donor names required a great deal of patience.,Valid,"
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    "
+2214,draw,"{""noun_senses"": [""a gully that is shallower than a ravine"", ""an entertainer who attracts large audiences"", ""the finish of a contest in which the score is tied and the winner is undecided"", ""anything (straws or pebbles etc.) taken or chosen at random"", ""a playing card or cards dealt or taken from the pack"", ""a golf shot that curves to the left for a right-handed golfer"", ""(American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage"", ""poker in which a player can discard cards and receive substitutes from the dealer"", ""the act of drawing or hauling something""], ""gold_pos"": ""noun"", ""verb_senses"": [""cause to move by pulling"", ""get or derive"", ""make a mark or lines on a surface"", ""make, formulate, or derive in the mind"", ""bring, take, or pull out of a container or from under a cover"", ""represent by making a drawing of, as with a pencil, chalk, etc. on a surface"", ""take liquid out of a container or well"", ""give a description of"", ""select or take in from a given group or region"", ""elicit responses, such as objections, criticism, applause, etc."", ""suck in or take (air)"", ""move or go steadily or gradually"", ""remove (a commodity) from (a supply source)"", ""choose at random"", ""earn or achieve a base by being walked by the pitcher"", ""bring or lead someone to a certain action or condition"", ""cause to flow"", ""write a legal document or paper"", ""engage in drawing"", ""move or pull so as to cover or uncover something"", ""allow a draft"", ""require a specified depth for floating"", ""pull (a person) apart with four horses tied to his extremities, so as to execute him"", ""cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense"", ""take in, also metaphorically"", ""direct toward itself or oneself by means of some psychological power or physical attributes"", ""thread on or as if on a string"", ""stretch back a bowstring (on an archer's bow)"", ""pass over, across, or through"", ""finish a game with an equal number of points, goals, etc."", ""contract"", ""reduce the diameter of (a wire or metal rod) by pulling it through a die"", ""steep; pass through a strainer"", ""remove the entrails of"", ""flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching"", ""cause to localize at one point""]}",image.8118.jpg,5,The scout spent several minutes examining the draw.,Valid,"
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    "
+150,driftfish,"{""noun_senses"": [""larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico"", ""small (6 inches) tropical butterfishes found worldwide""], ""verb_senses"": []}",image.2247.jpg,-1,,Invalid,"
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    "
+1553,kindness,"{""noun_senses"": [""the quality of being warmhearted and considerate and humane and sympathetic"", ""tendency to be kind and forgiving"", ""a kind act""], ""verb_senses"": []}",image.8675.jpg,-1,,Invalid,"
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    "

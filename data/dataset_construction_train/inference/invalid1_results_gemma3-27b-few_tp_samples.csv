@@ -1,0 +1,3262 @@
+word_index,word,senses,gold_image,gold_sense,ambiguous_sentence,label,prompt,answer,predicted_answer
+230,mirror,"{""noun_senses"": [""polished surface that forms images by reflecting light"", ""a faithful depiction or reflection""], ""verb_senses"": [""reflect as if in a mirror"", ""reflect or resemble""]}",image.3287.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: mirror---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) polished surface that forms images by reflecting light
+2) a faithful depiction or reflection
+---
+Verb Senses:
+1) reflect as if in a mirror
+2) reflect or resemble
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a distorted reflection of people and the surrounding environment in a large, curved, metallic structure. The word ""mirror"" has two noun senses: a physical object that reflects light, and a faithful depiction or reflection. The image clearly depicts the physical object (the reflective structure). However, the reflection is distorted, so it doesn't represent a ""faithful depiction"". The verb senses also apply, as the structure is reflecting images. Since the image can refer to both the physical object and the act of reflecting, it is not exclusively referring to one sense of the word. Therefore, it is invalid for visual word sense disambiguation.
+
+Answer: Invalid",Invalid
+246,happiness,"{""noun_senses"": [""state of well-being characterized by emotions ranging from contentment to intense joy"", ""emotions experienced when in a state of well-being""], ""verb_senses"": []}",image.3487.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: happiness---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) state of well-being characterized by emotions ranging from contentment to intense joy
+2) emotions experienced when in a state of well-being
+---
+Verb Senses:
+
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a mother kissing her baby. While this scene can evoke feelings of happiness, it doesn't exclusively represent the concept of happiness. The image could also represent love, affection, care, or contentment. The image doesn't uniquely point to the state of well-being characterized by joy. Therefore, it is not suitable for visual word sense disambiguation.
+
+Answer: Invalid",Invalid
+260,happening,"{""noun_senses"": [""an event that happens""], ""verb_senses"": [""come to pass"", ""happen, occur, or be the case in the course of events or by chance; ;  (Santayana)"", ""chance to be or do something, without intention or causation"", ""come into being; become reality"", ""come upon, as if by accident; meet with""]}",image.3658.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: happening---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) an event that happens
+---
+Verb Senses:
+1) come to pass
+2) happen, occur, or be the case in the course of events or by chance; ;  (Santayana)
+3) chance to be or do something, without intention or causation
+4) come into being; become reality
+5) come upon, as if by accident; meet with
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a group of people, some wearing shirts with letters on them, standing outside a building. The scene depicts an event or occurrence, but it doesn't uniquely identify a specific type of ""happening."" It could be a protest, a demonstration, a gathering, or simply people standing around. The image doesn't provide enough context to disambiguate the meaning of ""happening"" to a single sense.
+
+Answer: Invalid",Invalid
+319,cisco,"{""noun_senses"": [""cold-water fish caught in Lake Superior and northward"", ""important food fish of cold deep lakes of North America""], ""verb_senses"": []}",image.4368.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: cisco---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) cold-water fish caught in Lake Superior and northward
+2) important food fish of cold deep lakes of North America
+---
+Verb Senses:
+
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a fish. The word ""cisco"" has two noun senses, both referring to types of fish. The image depicts a fish that could be either of the described types of cisco. Therefore, the image does not exclusively refer to one sense of the word.
+
+Answer: Invalid",Invalid
+545,symphony,"{""noun_senses"": [""a long and complex sonata for symphony orchestra"", ""a large orchestra; can perform symphonies""], ""verb_senses"": []}",image.6569.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: symphony---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) a long and complex sonata for symphony orchestra
+2) a large orchestra; can perform symphonies
+---
+Verb Senses:
+
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a large orchestra performing. The word ""symphony"" has two noun senses: a musical composition and a large orchestra. The image clearly depicts a large orchestra, and it could also represent the performance of a symphony (the musical composition). However, the image doesn't exclusively refer to one of the senses. It could be either the orchestra itself or the performance of a symphony. Therefore, it is not suitable for visual word sense disambiguation.
+
+Answer: Invalid",Invalid
+623,distraction,"{""noun_senses"": [""mental turmoil"", ""an obstacle to attention"", ""an entertainment that provokes pleased interest and distracts you from worries and vexations"", ""the act of distracting; drawing someone's attention away from something""], ""verb_senses"": []}",image.7211.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: distraction---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) mental turmoil
+2) an obstacle to attention
+3) an entertainment that provokes pleased interest and distracts you from worries and vexations
+4) the act of distracting; drawing someone's attention away from something
+---
+Verb Senses:
+
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a person working at a computer in an office setting. The person has their feet up on the desk, and is looking at the computer screen.
+
+The noun senses of ""distraction"" include mental turmoil, an obstacle to attention, entertainment, and the act of distracting. The image could potentially represent an obstacle to attention (the person's feet on the desk could be a distraction), or it could represent a moment of respite from mental turmoil. However, the image doesn't exclusively point to one of these senses. It could also simply be a person relaxing at work.
+
+Therefore, the image is not specific enough to disambiguate the senses of the word ""distraction"".
+
+Answer: Invalid",Invalid
+658,harassment,"{""noun_senses"": [""a feeling of intense annoyance caused by being tormented"", ""the act of tormenting by continued persistent attacks and criticism""], ""verb_senses"": []}",image.5665.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: harassment---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) a feeling of intense annoyance caused by being tormented
+2) the act of tormenting by continued persistent attacks and criticism
+---
+Verb Senses:
+
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image depicts a physical altercation between two individuals, specifically one person appearing to strike another. The word ""harassment"" has senses related to tormenting and persistent attacks. While physical assault can be a form of harassment, harassment doesn't *exclusively* refer to physical violence. It can also include verbal abuse, intimidation, or other forms of unwanted behavior. The image strongly suggests physical violence, which is not the only meaning of harassment. Therefore, the image does not exclusively refer to one sense of the word.
+
+Answer: Invalid",Invalid
+754,entr'acte,"{""noun_senses"": [""the interlude between two acts of a play"", ""a brief show (music or dance etc) inserted between the sections of a longer performance""], ""verb_senses"": []}",image.8171.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: entr'acte---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) the interlude between two acts of a play
+2) a brief show (music or dance etc) inserted between the sections of a longer performance
+---
+Verb Senses:
+
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a theater with people seated. The word ""entr'acte"" refers to the interlude between acts of a play or a brief show during a longer performance. The image depicts a setting where an entr'acte could occur, but it doesn't exclusively represent an entr'acte. The image could also represent a regular performance, a rehearsal, or any other event taking place in a theater. Therefore, the image does not uniquely identify the concept of an ""entr'acte"".
+
+Answer: Invalid",Invalid
+821,bulimia,"{""noun_senses"": [""a disorder of eating seen among young women who go on eating binges and then feel guilt and depression and self-condemnation"", ""pathologically insatiable hunger (especially when caused by brain lesions)""], ""verb_senses"": []}",image.8594.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: bulimia---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) a disorder of eating seen among young women who go on eating binges and then feel guilt and depression and self-condemnation
+2) pathologically insatiable hunger (especially when caused by brain lesions)
+---
+Verb Senses:
+
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows teeth with visible erosion, likely due to acid exposure. This is a common symptom of bulimia, where repeated vomiting can damage tooth enamel. However, tooth decay and enamel erosion can be caused by many other factors, such as poor oral hygiene, acidic foods and drinks, or other medical conditions. The image does not exclusively point to bulimia. Therefore, it is not suitable for visual word sense disambiguation.
+
+Answer: Invalid",Invalid
+1059,armyworm,"{""noun_senses"": [""noctuid moth larvae that travel in multitudes destroying especially grass and grain"", ""moth whose destructive larvae travel in multitudes"", ""larva of fungus gnat that feed on cereals and other grains; they march in large companies in regular order when the food is exhausted""], ""verb_senses"": []}",image.733.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: armyworm---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) noctuid moth larvae that travel in multitudes destroying especially grass and grain
+2) moth whose destructive larvae travel in multitudes
+3) larva of fungus gnat that feed on cereals and other grains; they march in large companies in regular order when the food is exhausted
+---
+Verb Senses:
+
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a moth. The noun senses of ""armyworm"" refer to the larvae of a moth that travel in large groups and destroy crops. The image depicts the adult moth, not the larvae. While the moth *is* an armyworm, the image doesn't exclusively refer to the destructive larval stage, and could simply be a picture of a moth. Therefore, it's not suitable for visual word sense disambiguation.
+
+Answer: Invalid",Invalid
+1159,milkweed,"{""noun_senses"": [""any of numerous plants of the genus Asclepias having milky juice and pods that split open releasing seeds with downy tufts"", ""annual Eurasian sow thistle with soft spiny leaves and rayed yellow flower heads""], ""verb_senses"": []}",image.10457.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: milkweed---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) any of numerous plants of the genus Asclepias having milky juice and pods that split open releasing seeds with downy tufts
+2) annual Eurasian sow thistle with soft spiny leaves and rayed yellow flower heads
+---
+Verb Senses:
+
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a plant with yellow flowers and distinctive seed pods. The noun senses of ""milkweed"" include plants of the genus *Asclepias* which have milky juice and pods with downy seeds, and sow thistle which has spiny leaves and yellow flower heads. The image could represent either of these, as both have yellow flowers and a similar overall structure. Therefore, the image does not exclusively refer to one sense of the word.
+
+Answer: Invalid",Invalid
+1401,crooning,"{""noun_senses"": [""singing in a soft low tone"", ""the act of singing popular songs in a sentimental manner""], ""verb_senses"": [""sing softly""]}",image.4726.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: crooning---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) singing in a soft low tone
+2) the act of singing popular songs in a sentimental manner
+---
+Verb Senses:
+1) sing softly
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a man in formal wear standing next to a piano. While the word ""crooning"" relates to singing, the image doesn't necessarily depict someone *singing*. The man could be a musician who doesn't sing, or simply someone posing near a piano. The image doesn't exclusively refer to the act of crooning. Therefore, it is not suitable for visual word sense disambiguation.
+
+Answer: Invalid",Invalid
+1477,paprikas,"{""noun_senses"": [""plant bearing large mild thick-walled usually bell-shaped fruits; the principal salad peppers"", ""a mild powdered seasoning made from dried pimientos""], ""verb_senses"": []}",image.2533.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: paprikas---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) plant bearing large mild thick-walled usually bell-shaped fruits; the principal salad peppers
+2) a mild powdered seasoning made from dried pimientos
+---
+Verb Senses:
+
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a plate of chicken with a sauce that appears to be paprika-based, served with noodles. The word ""paprikas"" has two senses: the plant itself and the powdered seasoning. The image could represent either sense. The sauce could be made *from* the powdered seasoning, or the dish could be named after the plant. It's not possible to exclusively refer to one sense of the word based on the image.
+
+Answer: Invalid",Invalid
+1488,pigweed,"{""noun_senses"": [""common weedy European plant introduced into North America; often used as a potherb"", ""leaves sometimes used as potherbs; seeds used as cereal; southern United States to Central America; India and China"", ""leaves collected from the wild""], ""verb_senses"": []}",image.5269.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: pigweed---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) common weedy European plant introduced into North America; often used as a potherb
+2) leaves sometimes used as potherbs; seeds used as cereal; southern United States to Central America; India and China
+3) leaves collected from the wild
+---
+Verb Senses:
+
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a plant with broad, green leaves. The word ""pigweed"" has multiple senses related to different plants. The image could represent any of the plant types described in the noun senses. It's difficult to exclusively identify one specific type of pigweed from the image alone. Therefore, the image is not suitable for visual word sense disambiguation.
+
+Answer: Invalid",Invalid
+1489,whey,"{""noun_senses"": [""the serum or watery part of milk that is separated from the curd in making cheese"", ""watery part of milk produced when raw milk sours and coagulates""], ""verb_senses"": []}",image.3811.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: whey---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) the serum or watery part of milk that is separated from the curd in making cheese
+2) watery part of milk produced when raw milk sours and coagulates
+---
+Verb Senses:
+
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a glass of yellowish liquid. This liquid could be whey, but it could also be juice, water, or any other similar liquid. The image does not exclusively refer to whey. Therefore, it is not suitable for visual word sense disambiguation.
+
+Answer: Invalid",Invalid
+1504,dream,"{""noun_senses"": [""a series of mental images and emotions occurring during sleep"", ""imaginative thoughts indulged in while awake"", ""a cherished desire"", ""a fantastic but vain hope (from fantasies induced by the opium pipe)"", ""a state of mind characterized by abstraction and release from reality"", ""someone or something wonderful""], ""verb_senses"": [""have a daydream; indulge in a fantasy"", ""experience while sleeping""]}",image.910.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: dream---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) a series of mental images and emotions occurring during sleep
+2) imaginative thoughts indulged in while awake
+3) a cherished desire
+4) a fantastic but vain hope (from fantasies induced by the opium pipe)
+5) a state of mind characterized by abstraction and release from reality
+6) someone or something wonderful
+---
+Verb Senses:
+1) have a daydream; indulge in a fantasy
+2) experience while sleeping
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a person silhouetted against a sunset, appearing contemplative or hopeful. This image could represent the feeling of ""imaginative thoughts indulged in while awake"" (sense 2 of the noun) or ""a cherished desire"" (sense 3 of the noun). It could also relate to the feeling of being in ""a state of mind characterized by abstraction and release from reality"" (sense 5 of the noun). While it doesn't directly depict a sleeping person or a specific dream content, the mood and atmosphere evoke the concept of dreaming or having aspirations.
+
+However, the image doesn't exclusively refer to one sense of the word ""dream"". It could be interpreted as simply a person enjoying a sunset, without any connection to dreams or aspirations. Therefore, it's not ideal for visual word sense disambiguation.
+
+Answer: Invalid",Invalid
+1556,prove,"{""noun_senses"": [], ""verb_senses"": [""be shown or be found to be"", ""establish the validity of something, as by an example, explanation or experiment"", ""provide evidence for"", ""prove formally; demonstrate by a mathematical, formal proof"", ""put to the test, as for its quality, or give experimental use to"", ""increase in volume"", ""cause to puff up with a leaven"", ""take a trial impression of"", ""obtain probate of""]}",image.8048.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: prove---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+
+---
+Verb Senses:
+1) be shown or be found to be
+2) establish the validity of something, as by an example, explanation or experiment
+3) provide evidence for
+4) prove formally; demonstrate by a mathematical, formal proof
+5) put to the test, as for its quality, or give experimental use to
+6) increase in volume
+7) cause to puff up with a leaven
+8) take a trial impression of
+9) obtain probate of
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a man writing on a chalkboard. The word ""prove"" has several senses, including ""establish the validity of something"" and ""be shown or be found to be"". The act of writing on a chalkboard could be seen as an attempt to *prove* a point or demonstrate something, or the writing itself could *be* proof of something. However, the image doesn't exclusively point to any single sense of ""prove"". It could also be a teacher simply teaching, or someone doodling. Therefore, the image is not specific enough to disambiguate the senses of the word ""prove"".
+
+Answer: Invalid",Invalid
+1754,solid,"{""noun_senses"": [""matter that is solid at room temperature and pressure"", ""the state in which a substance has no tendency to flow under moderate stress; resists forces (such as compression) that tend to deform it; and retains a definite size and shape"", ""a three-dimensional shape""], ""verb_senses"": []}",image.10890.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: solid---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) matter that is solid at room temperature and pressure
+2) the state in which a substance has no tendency to flow under moderate stress; resists forces (such as compression) that tend to deform it; and retains a definite size and shape
+3) a three-dimensional shape
+---
+Verb Senses:
+
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a group of billiard balls. The word ""solid"" has senses related to physical matter being in a non-fluid state, and also refers to a three-dimensional shape. The billiard balls are solid objects, and they have a definite shape. However, the image doesn't exclusively refer to the concept of ""solid"" as opposed to just ""ball"" or ""sphere"". The image could be described as a picture of balls, and the fact that they are solid is not the primary or exclusive information conveyed. Therefore, it is not suitable for visual word sense disambiguation.
+
+Answer: Invalid",Invalid
+1885,hound's-tongue,"{""noun_senses"": [""perennial shrub of North America having coarse tongue-shaped leaves and pale-blue to purple flowers"", ""biennial shrub of Europe and western Asia having coarse tongue-shaped leaves and dark reddish-purple flowers""], ""verb_senses"": []}",image.9629.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: hound's-tongue---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) perennial shrub of North America having coarse tongue-shaped leaves and pale-blue to purple flowers
+2) biennial shrub of Europe and western Asia having coarse tongue-shaped leaves and dark reddish-purple flowers
+---
+Verb Senses:
+
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a close-up of flowers with different colors (reddish and purple). The definition of ""hound's-tongue"" includes two types of shrubs with different flower colors (pale-blue to purple and dark reddish-purple). The image could represent either of these shrubs. Therefore, the image does not exclusively refer to one sense of the word.
+
+Answer: Invalid",Invalid
+1982,experience,"{""noun_senses"": [""the accumulation of knowledge or skill that results from direct participation in events or activities"", ""the content of direct observation or participation in an event"", ""an event as apprehended""], ""verb_senses"": [""go or live through"", ""have firsthand knowledge of states, situations, emotions, or sensations"", ""go through (mental or physical states or experiences)"", ""undergo an emotional sensation or be in a particular state of mind"", ""undergo""]}",image.12776.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: experience---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) the accumulation of knowledge or skill that results from direct participation in events or activities
+2) the content of direct observation or participation in an event
+3) an event as apprehended
+---
+Verb Senses:
+1) go or live through
+2) have firsthand knowledge of states, situations, emotions, or sensations
+3) go through (mental or physical states or experiences)
+4) undergo an emotional sensation or be in a particular state of mind
+5) undergo
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a silhouette of a person and a tree against a colorful sunset. This image could represent the *experience* of witnessing a beautiful sunset, or the *experience* of being in nature. It doesn't exclusively refer to one of the senses of the word ""experience"". The image doesn't depict the accumulation of knowledge or skill, or an event as apprehended in a specific way. Therefore, it is not suitable for visual word sense disambiguation.
+
+Answer: Invalid",Invalid
+2025,gudgeon,"{""noun_senses"": [""small spiny-finned fish of coastal or brackish waters having a large head and elongated tapering body having the ventral fins modified as a sucker"", ""small slender European freshwater fish often used as bait by anglers""], ""verb_senses"": []}",image.1559.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: gudgeon---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) small spiny-finned fish of coastal or brackish waters having a large head and elongated tapering body having the ventral fins modified as a sucker
+2) small slender European freshwater fish often used as bait by anglers
+---
+Verb Senses:
+
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a fish. The noun senses of ""gudgeon"" refer to two types of fish: a spiny-finned fish and a slender European freshwater fish. The image could represent either of these types of fish. However, it's difficult to definitively say which specific type of gudgeon it is based on the image alone. Therefore, the image does not exclusively refer to one sense of the word.
+
+Answer: Invalid",Invalid
+2348,beefwood,"{""noun_senses"": [""a tropical hardwood tree yielding balata gum and heavy red timber"", ""any of several heavy hard reddish chiefly tropical woods of the families Casuarinaceae and Proteaceae; some used for cabinetwork"", ""any of several Australian trees of the genus Casuarina yielding heavy hard red wood used in cabinetwork"", ""tree or tall shrub with shiny leaves and umbels of fragrant creamy-white flowers; yields hard heavy reddish wood"", ""tree yielding hard heavy reddish wood""], ""verb_senses"": []}",image.7354.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: beefwood---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) a tropical hardwood tree yielding balata gum and heavy red timber
+2) any of several heavy hard reddish chiefly tropical woods of the families Casuarinaceae and Proteaceae; some used for cabinetwork
+3) any of several Australian trees of the genus Casuarina yielding heavy hard red wood used in cabinetwork
+4) tree or tall shrub with shiny leaves and umbels of fragrant creamy-white flowers; yields hard heavy reddish wood
+5) tree yielding hard heavy reddish wood
+---
+Verb Senses:
+
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows leaves. The noun senses of ""beefwood"" refer to a tree and its wood. While the leaves are *part* of the tree, the image doesn't uniquely identify the tree itself or its wood. It could be any type of leaf. Therefore, the image is not specific enough to disambiguate the senses of ""beefwood"".
+
+Answer: Invalid",Invalid
+2353,redberry,"{""noun_senses"": [""small spiny evergreen shrub of western United States and Mexico with minute flowers and bright red berries"", ""North American perennial herb with alternately compound leaves and racemes of small white flowers followed by bright red oval poisonous berries""], ""verb_senses"": []}",image.307.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: redberry---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) small spiny evergreen shrub of western United States and Mexico with minute flowers and bright red berries
+2) North American perennial herb with alternately compound leaves and racemes of small white flowers followed by bright red oval poisonous berries
+---
+Verb Senses:
+
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a plant with white flowers and green leaves. The noun senses of ""redberry"" include a shrub with red berries and a herb with red berries. However, the image does not show any red berries, only white flowers and green leaves. Therefore, the image does not exclusively refer to either of the senses of the word ""redberry"".
+
+Answer: Invalid",Invalid
+2471,wallflower,"{""noun_senses"": [""any of numerous plants of the genus Erysimum having fragrant yellow or orange or brownish flowers"", ""perennial of southern Europe having clusters of fragrant flowers of all colors especially yellow and orange; often naturalized on old walls or cliffs; sometimes placed in genus Erysimum"", ""remains on sidelines at social event""], ""verb_senses"": []}",image.12515.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: wallflower---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) any of numerous plants of the genus Erysimum having fragrant yellow or orange or brownish flowers
+2) perennial of southern Europe having clusters of fragrant flowers of all colors especially yellow and orange; often naturalized on old walls or cliffs; sometimes placed in genus Erysimum
+3) remains on sidelines at social event
+---
+Verb Senses:
+
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a cluster of yellow and orange flowers. The word ""wallflower"" has three senses: a type of plant, a plant found on walls or cliffs, and a person who remains on the sidelines at social events. The image clearly depicts the plant, but it doesn't exclusively refer to the plant growing on walls or cliffs, nor does it depict a person. Therefore, the image can refer to the first or second sense of the word ""wallflower"", but not exclusively.
+
+Answer: Invalid",Invalid
+2647,disagreement,"{""noun_senses"": [""a conflict of people's opinions or actions or characters"", ""a difference between conflicting facts or claims or opinions"", ""the speech act of disagreeing or arguing or disputing""], ""verb_senses"": []}",image.4661.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: disagreement---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) a conflict of people's opinions or actions or characters
+2) a difference between conflicting facts or claims or opinions
+3) the speech act of disagreeing or arguing or disputing
+---
+Verb Senses:
+
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows two women posing in dresses. There is no indication of conflict, differing opinions, or dispute. The image does not relate to any of the senses of the word ""disagreement"". Therefore, the image cannot exclusively refer to one of the senses of the word.
+
+Answer: Invalid",Invalid
+2741,lithography,"{""noun_senses"": [""a method of planographic printing from a metal or stone surface"", ""the act of making a lithographic print""], ""verb_senses"": []}",image.10358.jpg,-1,,Invalid,"
+Distinguish whether the given word is valid for visual word sense disambiguation. 
+Decide based on the following criteria:
+* If the given image for the word can not exclusively refer to one of the senses of the word, it is invalid for visual word sense disambiguation.
+
+Here are some examples of valid and invalid words for visual word sense disambiguation:
+
+<start_of_image><image_soft_token><end_of_image>
+Word: listing
+---
+Noun Senses:
+1) a database containing an ordered array of items (names or topics)
+2) the act of making a list of items
+---
+Verb Senses:
+1) give or make a list of; name individually; give the names of
+2) include in a list
+3) cause to lean to the side
+4) tilt to one side
+5) enumerate
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: draw
+---
+Noun Senses:
+1) a gully that is shallower than a ravine
+2) an entertainer who attracts large audiences
+3) the finish of a contest in which the score is tied and the winner is undecided
+4) anything (straws or pebbles etc.) taken or chosen at random
+5) a playing card or cards dealt or taken from the pack
+6) a golf shot that curves to the left for a right-handed golfer
+7) (American football) the quarterback moves back as if to pass and then hands the ball to the fullback who is running toward the line of scrimmage
+8) poker in which a player can discard cards and receive substitutes from the dealer
+9) the act of drawing or hauling something
+---
+Verb Senses:
+1) cause to move by pulling
+2) get or derive
+3) make a mark or lines on a surface
+4) make, formulate, or derive in the mind
+5) bring, take, or pull out of a container or from under a cover
+6) represent by making a drawing of, as with a pencil, chalk, etc. on a surface
+7) take liquid out of a container or well
+8) give a description of
+9) select or take in from a given group or region
+10) elicit responses, such as objections, criticism, applause, etc.
+11) suck in or take (air)
+12) move or go steadily or gradually
+13) remove (a commodity) from (a supply source)
+14) choose at random
+15) earn or achieve a base by being walked by the pitcher
+16) bring or lead someone to a certain action or condition
+17) cause to flow
+18) write a legal document or paper
+19) engage in drawing
+20) move or pull so as to cover or uncover something
+21) allow a draft
+22) require a specified depth for floating
+23) pull (a person) apart with four horses tied to his extremities, so as to execute him
+24) cause to move in a certain direction by exerting a force upon, either physically or in an abstract sense
+25) take in, also metaphorically
+26) direct toward itself or oneself by means of some psychological power or physical attributes
+27) thread on or as if on a string
+28) stretch back a bowstring (on an archer's bow)
+29) pass over, across, or through
+30) finish a game with an equal number of points, goals, etc.
+31) contract
+32) reduce the diameter of (a wire or metal rod) by pulling it through a die
+33) steep; pass through a strainer
+34) remove the entrails of
+35) flatten, stretch, or mold metal or glass, by rolling or by pulling it through a die or by stretching
+36) cause to localize at one point
+---
+Answer: Valid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: driftfish
+---
+Noun Senses:
+1) larger butterfishes of the western Atlantic from the New York area to the northern Gulf of Mexico
+2) small (6 inches) tropical butterfishes found worldwide
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+<start_of_image><image_soft_token><end_of_image>
+Word: kindness
+---
+Noun Senses:
+1) the quality of being warmhearted and considerate and humane and sympathetic
+2) tendency to be kind and forgiving
+3) a kind act
+---
+Verb Senses:
+
+---
+Answer: Invalid
+    
+---
+
+---Word for evaluation: lithography---
+Image: <start_of_image><image_soft_token><end_of_image>
+---
+Noun Senses:
+1) a method of planographic printing from a metal or stone surface
+2) the act of making a lithographic print
+---
+Verb Senses:
+
+
+Think step by step and provide a detailed explanation for your answer. Then, give the final answer in the format of 'Answer: Valid' or 'Answer: Invalid'.
+","The image shows a map. Lithography is a printing method, and maps are often created using lithography. However, the image doesn't *exclusively* refer to the printing method itself. It's a map, which could have been created using other methods as well (digital printing, engraving, etc.). The image primarily depicts a map, not the process of lithography. Therefore, it's not suitable for visual word sense disambiguation.
+
+Answer: Invalid",Invalid

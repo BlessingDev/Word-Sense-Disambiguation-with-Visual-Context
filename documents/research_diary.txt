@@ -1,0 +1,128 @@
+2/13
+캡션 붙이기까지 완료.
+WSD를 수행하기에 앞서 정답 Sense가 무엇인지 할당하는 작업을 수행하려 하였으나 문제점을 발견: 문맥 상에서 명확하게 구분되지 sense를 별개의 sense로 할당해놓은 WordNet의 문제점 발견. 예시) anteater
+    - 문제 해결 목표: 문맥을 통해 명확히 구분되는 sense만 남기기. 즉 하나의 문맥이 주어졌을 때 오직 하나의 sense만 정답으로 취급되도록 하기
+    
+    - 해결 방안1: semantic similarity 지표 이용하기. BLEURT를 이용하여 특정 점수 차이가 날 때만 sense를 남기도록 코딩 -> 실패. 원인은 BLEURT 사용 시 tensorflow 오류가 생겨서
+
+    - 해결 방안 2: BLEURT 대신 BERT 점수 사용
+    라이브러리에서 기본으로 사용하는 RoBERTa-large 모델이 깔끔한 의미 차이 구분을 제공하지 않아 byt5-base 모델을 대신 사용
+    결과:
+    andromeda
+    BERTScore between sense 0 and sense 1: 0.7516219019889832
+    BERTScore between sense 0 and sense 2: 0.5527380704879761
+    BERTScore between sense 0 and sense 3: 0.56816166639328
+    BERTScore between sense 1 and sense 2: 0.5722767114639282
+    BERTScore between sense 1 and sense 3: 0.6167007684707642
+    BERTScore between sense 2 and sense 3: 0.6174534559249878
+    같은 뜻에 해당하는 가장 낮은 유사도: 68.02
+    다른 뜻에 해당하는 가장 높은 유사도: 57.06
+
+    의미 거리로 깔끔한 threshold를 찾는 데에 실패
+    의미 거리로 sense를 filter하는 일은 무리가 있음
+    따라서 대신에 품사로 filter하여 명사만 남기기로 함. 동영상이 주어진다면 동사나 형용사 sense가 의미를 가지겠으나 사진만 주어지므로 명확하게 구분되는 명사만 sense set으로 남김
+
+2/20
+레이블링 완료. 총 13개 이미지.
+sense에서 a, b, c, ... 중에 하나를 고르도록 레이블을 붙임
+이제 프롬프트를 어떻게 주어 해당 task를 수행하도록 할지 확인하면 됨 
+
+2/22
+총 14개 간단한 테스트셋에서 실험 완료.
+기대했던 효과를 하나도 거두지 못함.
+gemma3 12b 모델이 wsd 문제를 너무 잘 풀었다. 이미지가 주어졌을 때 stick의 wsd를 틀렸으나 오히려 텍스트만 주어졌을 때 stick을 포함한 모든 문제를 맞추었다. 
+즉, 이미지에서 들어간 신호가 오히려 노이즈로 작동했다.
+이건 본래 가설과는 다르게 오히려 vllm이 시각 신호를 올바르게 처리하지 못한다는 문제점을 제기할 수 있는 현상이다.
+
+3/3
+단어와 의미 집합을 주고 모호하면서도 자연스러운 문장을 생성하도록 하여서 데이터셋을 51개 단어에 대해 생성
+네 가지 실험 설정으로 실험 진행하여 그 성능을 교수님께 보고. 데이터셋과 함께 보고하면 충분한 contribution이 되겠다고 말씀하심. 졸업에 긍정적.
+이러한 시각 wsd task를 12000여 개 이미지로 확장. 노가다만 하면 되는 상황. 차라리 마음이 편하다. 무척 편하다.
+추가로 이미지를 context로 이용하는 더 깔끔하고 좋은 방법을 제시하면 금상첨화.
+
+3/6
+중복되어 등장하는 단어를 제외
+명사 의미, 동사 의미로 나누어 보았을 때 둘 중 하나라도 2개 이상의 의미를 가지는 다의 단어만 남겼을 때
+약 3,200여 개의 샘플 남음
+이미지에 따라 정답 센스를 레이블하는 과정 시작
+명사나 동사 둘 중 정답에 속하는 품사의 의미 리스트만 남김. 두 품사가 모두 정답을 나타낼 때는 더 의미가 많은 품사를 남김
+이미지가 의미를 명확히 구분하는 문맥이 되어주지 못하는 경우 샘플 제거
+
+3/26
+20여일 간 550개 샘플에 레이블 달기 완료
+교수님께 피드백 받음
+피드백 1) 데이터를 사람 손으로 다 만들면 기여점이 없다. 공학적으로 모델을 도입해서 자동으로 잘 하는 방법을 연구해서 제시해야 한다. 제미나이에도 프롬프트도 잘 만들어서 모호한 문장이 한 번에 나오도록 하자.
+피드백 2) 데이터를 왜 만드는가. 모델을 tuning하여 더 잘하게 만들기 위함이다. 모델을 실제로 tuning해서 성능이 더 나아지는 부분을 보여야 한다.
+추가로 할 일: 이미지와 텍스트를 모두 써서 학습 후 task를 수행하는 모델을 찾아볼 것
+
+사족 1) 굳이 모호한 문장을 만드는 이유. 이미지에서 WSD를 수행하는 것보다 실용적인  task이다. 모호한 문장이 주어졌을 때 주어진 이미지를 문맥으로 잘 이용하는 방법을 모델에게 가르칠 수 있다.
+
+4/2
+vllm으로 inference하는 기초적인 프레임워크를 갖추었다.
+샘플 100개 geema3 12b을 reasoning 과정까지 포함하여 2분여만에 inference가 가능한 것이 인상적. 기존에 huggingface transformers로 inference할 때는 6시간이 걸렸던 것과 비교하면 무척 인상적이다.
+이 프레임워크를 계속 유지하기로 하고, 지금 일단 학습하지 않은 모델의 성능치를 확인해보자.
+성능 평가하고, tuning이나 더 큰 모델이 필요할지 검토하고, gemma3가 아닌 다른 모델(qwen3)도 돌려보고
+
+4/6
+교수님 피드백.
+1) invalid한 샘플을 제거하는 데에 주관적인 기준이 너무 많다. 필터링은 굉장히 엄중한 과정이니 객관적인 기준만 있어야 한다.
+2) 정답 맞추기의 정확도는 99% 정도 되어야 한다.
+3) 설명할 때 예시를 잘 써야 한다.
+
+invalid의 객관적인 기준
+1) 주어진 이미지로 단어 의미를 시각적으로 구분할 수 없음. 이미지가 여러 sense를 가리킬 수 있음. 미묘한 뉘앙스의 차이를 여러 sense로 구분한 경우. (driftfish, rosinweed, arum, cisco, quahaug, linebacker, discovery, handicraft, symphony, bristle, cathedral, infanticide, mirror, distraction, decapitation, happening, yolk, growling, happiness, hostility, misanthropy, harassment, amnesty, entr'acte, miracle, sculpt, belligerence, bulimia, worsted, renting, news, bugbane, hogfish, amputation, scatology, vaishnavism, mahayana, belligerency, armyworm, pacifism, mildew, speleology, milkweed, nightlife, roe, footwear, crooning, hasidism, pekingese, divination, paprikas, pigweed, whey, dream, kindness, prove, cottonwood, ninja, flagellant, candelilla, brainwashing, crochet, mistletoe, cockle, solid, tetanus, hound's-tongue, hoof, spicebush, explain, experience, gudgeon, skittles, yankee, genealogy, smile, triclinium, langouste, thrips, crayfish, endeavor, beefwood, redberry, citrange, uxoricide, wallflower, autograph, scholasticism, disagreement, music, lithography, israelite)
+2) 이미지를 명확하게 나타내는 sense가 없음(snorkel, side, thompson, arrival, ruin, chin)
+3) 일반 명사와 고유명사가 섞인 경우. 고유명사가 하나밖에 없거나 일반명사가 하나밖에 없고, 이미지가 그렇게 하나밖에 없는 sense를 가리키면 일반명사와 고유명사의 쓰임이 문장에서 틀리게 나타나기 때문에 쉽게 sense를 특정할 수 있음. 즉 실제로 ambiguous하게 쓸 수 없음. (state, dol, farmer, herder, cis, nit, hogan, mead, jay, bolshevik, wren, holly, tamale)
+4) 해당하는 품사의 sense가 한 개뿐인 경우 (led, coin, rifling, concert, cave, dribbling, knuckle, croquet, lipstick, causeway, splinter, buttress, bolster, churn, shed, swan, seesaw, jolly, hoard, omen)
+
+4/14
+validity 체크를 위한 수행 순서 정의
+1. 품사 분류(명사인가 동사인가) - BERT로 수행
+2. 기준 2(이미지를 나타내는 sense가 없음)
+3. 기준 4(해당하는 품사의 sense 셋이 하나 뿐인가)
+4. 기준 3(일반 명사와 고유 명사가 섞인 경우인가)
+5. 기준 1(sense간의 차이가 이미지로 구분 가능한가)
+
+verb sense list가 비었는데 답을 verb라고 해놓은 case가 train set에 있었나?
+
+confusion matrix (threshold=0.5)
+93%
+verb를 noun으로 판정
+6
+noun을 verb로 판정
+1
+
+train set을 증강한 후
+94%
+verb를 noun으로 판정
+1
+noun을 verb로 판정
+5
+
+4/16
+교수님 피드백 내용 정리
+1. 원본 데이터셋의 품사 통계 얻어보기(caption에 pos tagging하기) 애당초 왜 "명사"와 "동사"인가?
+2. 1번 기준. synset과 sense 차이가 있나?
+3. 2번 조건은 원본 데이터셋 보고 다시 살펴보아야 하고, 3번 조건은 하지 말아라
+
+4/21
+생각보다 sense labeling을 하는 정확도가 높지 않다.
+VLLM에게 pos tagging task와 sense labeling task를 동시에 시켰을 때 정확도는 고작 80.36%밖에 되지 않는다.
+이때 pos tagging task를 별도로 한다고 가정하고, sense labeling task만 시켰을 때는 정확도가 85.45%로 상승하였음
+마지막으로 thinking 과정을 수행하도록 프롬프트를 줄까 함
+
+4/23
+데이터셋 품사 그냥 2개 이상이면 전부 포함
+- 그래봤자 3300여 개밖에 안 되네
+
+550개 레이블을 위에서부터 달 게 아니라 랜덤 추출해서 달았어야 했다고?
+- 지금 레이블된 것 전부 버리고 다시 하라는 뜻이네?
+- 거기에 추가된 품사까지 포함해서 데이터셋 레이블 다시 해야 하는데 어느 세월에?
+
+구글 검색으로 이미지 context 얻어와서 RAG처럼 써먹기
+- 이것도 기껏 열심히 해갖고 가도 
+- 구글에서 만든 것 갖고와서 엔지니어링한 거라고 그게 무슨 contribution이냐고 그러겠지?
+- 왜 해야하는지 동기 부여 하나도 안 된다 그냥 뭘 하건 contribution이 아니니
+
+이미지랑 텍스트를 어떻게 align을 잘할까를 고민해보라고?
+- 그거는 이미 LM이 이렇게 잘하고 있는데 pretrained weight가 어느 부분에서 잘못되었는가는 내가 어떻게 들여다보면 좋겠습니까 도대체

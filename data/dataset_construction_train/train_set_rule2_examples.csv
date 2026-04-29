@@ -1,0 +1,29 @@
+word_index,word,senses,gold_image,gold_sense,ambiguous_sentence,label,prompt
+1885,hound's-tongue,"{""noun_senses"": [""perennial shrub of North America having coarse tongue-shaped leaves and pale-blue to purple flowers"", ""biennial shrub of Europe and western Asia having coarse tongue-shaped leaves and dark reddish-purple flowers""], ""verb_senses"": []}",image.9629.jpg,-1,,Valid,"
+<start_of_image><image_soft_token><end_of_image>
+Word: hound's-tongue
+---
+Noun Senses:
+1) perennial shrub of North America having coarse tongue-shaped leaves and pale-blue to purple flowers
+2) biennial shrub of Europe and western Asia having coarse tongue-shaped leaves and dark reddish-purple flowers
+---
+Verb Senses:
+
+---
+Answer: Valid"
+470,utility,"{""noun_senses"": [""a company that performs a public service; subject to government regulation"", ""the quality of being of practical use"", ""the service (electric power or water or transportation) provided by a public utility"", ""(economics) a measure that is to be maximized in any situation involving choice"", ""(computer science) a program designed for general support of the processes of a computer"", ""a facility composed of one or more pieces of equipment connected to or part of a structure and designed to provide a service such as heat or electricity or water or sewage disposal""], ""verb_senses"": []}",image.3313.jpg,-1,,Invalid,"
+<start_of_image><image_soft_token><end_of_image>
+Word: utility
+---
+Noun Senses:
+1) a company that performs a public service; subject to government regulation
+2) the quality of being of practical use
+3) the service (electric power or water or transportation) provided by a public utility
+4) (economics) a measure that is to be maximized in any situation involving choice
+5) (computer science) a program designed for general support of the processes of a computer
+6) a facility composed of one or more pieces of equipment connected to or part of a structure and designed to provide a service such as heat or electricity or water or sewage disposal
+---
+Verb Senses:
+
+---
+Answer: Invalid"

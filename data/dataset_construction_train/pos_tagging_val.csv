@@ -1,0 +1,539 @@
+word_index,word,senses,gold_image,gold_sense,ambiguous_sentence,prompt,label
+2410,dandruff,"{""noun_senses"": [""a condition in which white scales of dead skin are shed by the scalp"", ""loose scales shed from the scalp""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.1887.jpg,2,The stylist told him that the dandruff would be difficult to hide.,"Caption: Flakes accumulate on a dark surface, appearing white and somewhat clustered, resembling small scales.
+Word: dandruff
+Noun senses:
+- a condition in which white scales of dead skin are shed by the scalp
+- loose scales shed from the scalp
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+2672,chapel,"{""noun_senses"": [""a place of worship that has its own altar"", ""a service conducted in a place of worship that has its own altar""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.4686.jpg,1,The visitors were impressed by the chapel.,"Caption: A weathered brick structure stands with Gothic architectural details, featuring arched openings and a small tower with crenellations. The building appears to be a small, historic chapel, showing signs of age and disrepair with missing bricks and moss growth. A bare tree stands nearby, and a poster is affixed to one of the walls, suggesting current or recent use.
+Word: chapel
+Noun senses:
+- a place of worship that has its own altar
+- a service conducted in a place of worship that has its own altar
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+1117,macaroni,"{""noun_senses"": [""a British dandy in the 18th century who affected Continental mannerisms"", ""pasta in the form of slender tubes""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.7841.jpg,2,The artist often featured macaroni in his work.,"Caption: A small pile of dry macaroni is presented against a white background, showcasing the curved, tubular shape of the pasta. The pieces are a pale yellow color and have a slightly textured surface.
+Word: macaroni
+Noun senses:
+- a British dandy in the 18th century who affected Continental mannerisms
+- pasta in the form of slender tubes
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+2543,facade,"{""noun_senses"": [""the face or front of a building"", ""a showy misrepresentation intended to conceal something unpleasant""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.959.jpg,1,The architect insisted that the facade remain untouched despite the significant internal restructuring.,"Caption: A complex network of lines and glass panels creates a striking architectural facade, reflecting the sky and surrounding structures in a dynamic, angled composition. The building’s exterior presents a modern and geometric design, with repeating elements and a sense of upward movement. Light plays across the surface, emphasizing the sleekness and scale of the facade.
+Word: facade
+Noun senses:
+- the face or front of a building
+- a showy misrepresentation intended to conceal something unpleasant
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+1753,biscuit,"{""noun_senses"": [""small round bread leavened with baking-powder or soda"", ""any of various small flat sweet cakes (`biscuit' is the British term)""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.1286.jpg,1,She wanted a biscuit with her tea.,"Caption: A collection of golden, flaky biscuit pieces are arranged closely together, some appearing round and others more rectangular, resting on patterned paper. The texture looks soft and slightly crumbly, with a warm, buttery color.
+Word: biscuit
+Noun senses:
+- small round bread leavened with baking-powder or soda
+- any of various small flat sweet cakes (`biscuit' is the British term)
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+925,rubbish,"{""noun_senses"": [""worthless material that is to be disposed of"", ""nonsensical talk or writing""], ""gold_pos"": ""noun"", ""verb_senses"": [""attack strongly""]}",image.9219.jpg,1,We need to deal with all this rubbish.,"Caption: A large accumulation of discarded materials is visible, consisting of plastic bags, clothing, packaging, and various other unwanted items creating a messy and unhygienic scene.
+Word: rubbish
+Noun senses:
+- worthless material that is to be disposed of
+- nonsensical talk or writing
+Verb senses:
+- attack strongly
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+2250,rustication,"{""noun_senses"": [""the condition naturally attaching to life in the country"", ""the construction of masonry or brickwork in a rustic manner"", ""the action of retiring to and living in the country"", ""temporary dismissal of a student from a university"", ""banishment into the country""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.4999.jpg,2,The local records provide a detailed account of the rustication at the governor's primary residence.,"Caption: The wall displays a textured surface achieved by deeply cutting back the edges of the stone blocks, creating a visually striking and robust appearance. The blocks are rectangular and set in horizontal courses with prominent, recessed joints, emphasizing their individual forms and the overall solidity of the construction. This treatment gives the wall a sense of strength and monumentality.
+Word: rustication
+Noun senses:
+- the condition naturally attaching to life in the country
+- the construction of masonry or brickwork in a rustic manner
+- the action of retiring to and living in the country
+- temporary dismissal of a student from a university
+- banishment into the country
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+2427,electricity,"{""noun_senses"": [""a physical phenomenon associated with stationary or moving electrons and protons"", ""energy made available by the flow of electric charge through a conductor"", ""keen and shared excitement""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.2983.jpg,2,The sudden surge of electricity caught everyone in the room off guard.,"Caption: A dramatic display of electricity arcs across a dark space, originating from a metallic sphere and branching out in vibrant purple streaks against a textured background and vertical bars. The energy is palpable, illuminating the surrounding area with a bright, ethereal glow.
+Word: electricity
+Noun senses:
+- a physical phenomenon associated with stationary or moving electrons and protons
+- energy made available by the flow of electric charge through a conductor
+- keen and shared excitement
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+2716,mormon,"{""noun_senses"": [""church founded by Joseph Smith in 1830 with headquarters in Salt Lake City, Utah"", ""the ancient prophet whose writings were revealed to Joseph Smith who founded the Church of Jesus Christ of Latter-Day Saints"", ""a member of the Church of Jesus Christ of Latter-Day Saints""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.4285.jpg,1,The legacy of Mormon has had a profound impact on the development of the region.,"Caption: A towering, ornate structure with multiple spires and detailed stonework stands prominently against a clear blue sky, representing a significant place of worship for members of the faith and a symbol of their history and beliefs. Lush greenery surrounds the building, emphasizing its peaceful and reverent setting, and the architectural style reflects a blend of Gothic and neoclassical influences common in structures associated with the religion.
+Word: mormon
+Noun senses:
+- church founded by Joseph Smith in 1830 with headquarters in Salt Lake City, Utah
+- the ancient prophet whose writings were revealed to Joseph Smith who founded the Church of Jesus Christ of Latter-Day Saints
+- a member of the Church of Jesus Christ of Latter-Day Saints
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+1361,leadership,"{""noun_senses"": [""the activity of leading"", ""the body of people who lead a group"", ""the status of a leader"", ""the ability to lead""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.11295.jpg,1,Sustained growth demands strong leadership.,"Caption: A military officer addresses a large group of soldiers, likely providing instruction or a briefing in an outdoor setting. The arrangement suggests a focused dynamic where guidance is being imparted to those assembled, demonstrating a clear hierarchy and responsibility for the well-being and mission readiness of the unit.
+Word: leadership
+Noun senses:
+- the activity of leading
+- the body of people who lead a group
+- the status of a leader
+- the ability to lead
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+68,subsidence,"{""noun_senses"": [""an abatement in intensity or degree (as in the manifestations of a disease)"", ""a gradual sinking to a lower level"", ""the sudden collapse of something into a hollow beneath it""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.1103.jpg,3,The old mine faced subsidence after years of neglect.,"Caption: A geological process is visibly altering the rock face, creating a sunken or collapsed area with concentric cracking patterns. The surrounding material appears stressed and unstable, suggesting ongoing downward movement and deformation of the stone. A small inscription, “1881”, is present within the affected zone, possibly marking a time before or during the initial stages of the shifting.
+Word: subsidence
+Noun senses:
+- an abatement in intensity or degree (as in the manifestations of a disease)
+- a gradual sinking to a lower level
+- the sudden collapse of something into a hollow beneath it
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+1084,sylph,"{""noun_senses"": [""a slender graceful young woman"", ""an elemental being believed to inhabit the air""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.10110.jpg,2,She sought a sylph in the garden.,"Caption: A delicate, ethereal being seems to drift across the deep blue, formed from wisps of cloud and sunlight, barely tethered to the sky. It possesses a lightness and grace, a fleeting form suggesting a spirit of the air.
+Word: sylph
+Noun senses:
+- a slender graceful young woman
+- an elemental being believed to inhabit the air
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+2715,pain,"{""noun_senses"": [""a symptom of some physical hurt or disorder"", ""emotional distress; a fundamental feeling that people try to avoid"", ""a somatic sensation of acute discomfort"", ""a bothersome annoying person"", ""something or someone that causes trouble; a source of unhappiness""], ""gold_pos"": ""noun"", ""verb_senses"": [""cause bodily suffering to and make sick or indisposed"", ""cause emotional anguish or make miserable""]}",image.9081.jpg,1,He struggled to find a way to manage the pain.,"Caption: A woman visibly experiences discomfort as a healthcare worker draws blood. Her face is contorted, eyes squeezed shut, and brow furrowed, suggesting a strong physical sensation. The focused attention of the nurse contrasts with the patient’s reaction, highlighting the unpleasantness of the procedure.
+Word: pain
+Noun senses:
+- a symptom of some physical hurt or disorder
+- emotional distress; a fundamental feeling that people try to avoid
+- a somatic sensation of acute discomfort
+- a bothersome annoying person
+- something or someone that causes trouble; a source of unhappiness
+Verb senses:
+- cause bodily suffering to and make sick or indisposed
+- cause emotional anguish or make miserable
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+1896,tickle,"{""verb_senses"": [""touch (a body part) lightly so as to excite the surface nerves and cause uneasiness, laughter, or spasmodic movements"", ""feel sudden intense sensation or emotion"", ""touch or stroke lightly""], ""gold_pos"": ""verb"", ""noun_senses"": [""the act of tickling""]}",image.9316.jpg,1,The tall grass began to tickle his legs as he ran through the meadow.,"Caption: A boy is laughing with his eyes squeezed shut as someone playfully touches him. He’s raising one hand in a defensive gesture while clearly enjoying the sensation.
+Word: tickle
+Noun senses:
+- the act of tickling
+Verb senses:
+- touch (a body part) lightly so as to excite the surface nerves and cause uneasiness, laughter, or spasmodic movements
+- feel sudden intense sensation or emotion
+- touch or stroke lightly
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",1
+1272,booby,"{""noun_senses"": [""an ignorant or foolish person"", ""small tropical gannet having a bright bill or bright feet or both""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.10665.jpg,2,"she saw a booby, and couldn't help but laugh.","Caption: A booby stands prominently on dark volcanic rock, its bright blue feet contrasting with its white chest and brown wings. The bird gazes upwards with a focused expression, showcasing its long, pointed beak and distinctive eye markings. Sparse vegetation surrounds the bird, adding to the rugged, natural environment.
+Word: booby
+Noun senses:
+- an ignorant or foolish person
+- small tropical gannet having a bright bill or bright feet or both
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+2451,cabbage,"{""noun_senses"": [""any of various types of cabbage"", ""informal terms for money"", ""any of various cultivars of the genus Brassica oleracea grown for their edible leaves or flowers""], ""gold_pos"": ""noun"", ""verb_senses"": [""make off with belongings of others""]}",image.1151.jpg,3,He spent the morning worried about whether they had enough cabbage to finish the job.,"Caption: Several plants with broad, green leaves resembling cabbage grow in a garden bed, displaying water droplets on their surfaces. The stalks are thick and pale, with some showing signs of previous leaf removal, and a small sign identifies the plant as “Col Galega” with botanical classifications below. Other smaller plants surround the cabbage, and fallen leaves are scattered on the soil.
+Word: cabbage
+Noun senses:
+- any of various types of cabbage
+- informal terms for money
+- any of various cultivars of the genus Brassica oleracea grown for their edible leaves or flowers
+Verb senses:
+- make off with belongings of others
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+490,ennoblement,"{""noun_senses"": [""the state of being noble"", ""the act of raising someone to the nobility""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.6102.jpg,1,The king's legacy rested on the ennoblement of his subjects.,"Caption: A man attempts to project an air of elevated status through ostentatious clothing and affected posture, despite a somewhat comical and insecure presentation. He displays a lavish, patterned coat, ruffled lace, and bright red stockings, all meant to signify wealth and refinement. The text below suggests a desire to “show off his style in town,” indicating a striving for social acceptance and a yearning for ennoblement through appearance.
+Word: ennoblement
+Noun senses:
+- the state of being noble
+- the act of raising someone to the nobility
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+164,siren,"{""noun_senses"": [""a sea nymph (part woman and part bird) supposed to lure sailors to destruction on the rocks where the nymphs lived"", ""a woman who is considered to be dangerously seductive"", ""a warning signal that is a loud wailing sound"", ""an acoustic device producing a loud often wailing sound as a signal or warning"", ""eellike aquatic North American salamander with small forelimbs and no hind limbs; have permanent external gills""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.2432.jpg,1,"A haunting presence near the cliffs resembled a siren, pulling at the heart of the storm.","Caption: A captivating, yet dangerous beauty emerges from the waves, her form partially human and partially fishlike. She is embraced by a young man, seemingly entranced, while she gazes at him with a delicate, alluring expression. Pearls adorn her neck and scales shimmer on her lower body, suggesting a creature of the sea whose song promises both pleasure and peril. The scene evokes a sense of romantic tragedy, hinting at the fatal allure often associated with these mythical beings.
+Word: siren
+Noun senses:
+- a sea nymph (part woman and part bird) supposed to lure sailors to destruction on the rocks where the nymphs lived
+- a woman who is considered to be dangerously seductive
+- a warning signal that is a loud wailing sound
+- an acoustic device producing a loud often wailing sound as a signal or warning
+- eellike aquatic North American salamander with small forelimbs and no hind limbs; have permanent external gills
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+1414,apheresis,"{""noun_senses"": [""(linguistics) omission at the beginning of a word as in `coon' for `raccoon' or `till' for `until'"", ""a procedure in which blood is drawn and separated into its components by dialysis; some are retained and the rest are returned to the donor by transfusion""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.9762.jpg,2,The treatment’s apheresis resulted in a deficiency.,"Caption: A medical device used for apheresis is prominently displayed, with tubing connected to a collection bag and a control panel showing various parameters related to the procedure. The machine itself has a cylindrical component and multiple ports for fluid connections, indicating a process of separating blood components.
+Word: apheresis
+Noun senses:
+- (linguistics) omission at the beginning of a word as in `coon' for `raccoon' or `till' for `until'
+- a procedure in which blood is drawn and separated into its components by dialysis; some are retained and the rest are returned to the donor by transfusion
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+541,spar,"{""verb_senses"": [""furnish with spars"", ""fight with spurs"", ""box lightly"", ""fight verbally""], ""gold_pos"": ""verb"", ""noun_senses"": [""an argument in which the participants are trying to gain some advantage"", ""making the motions of attack and defense with the fists and arms; a part of training for a boxer""]}",image.6535.jpg,3,The two athletes decided to spar for an hour before the main event began.,"Caption: Two boxers practice technique with padded gloves, one extending a punch while the other raises a guard, overseen by a man in a suit and cap. They are positioned on a wooden floor in a room with pillars and framed pictures on the walls, likely engaged in a training session.
+Word: spar
+Noun senses:
+- an argument in which the participants are trying to gain some advantage
+- making the motions of attack and defense with the fists and arms; a part of training for a boxer
+Verb senses:
+- furnish with spars
+- fight with spurs
+- box lightly
+- fight verbally
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",1
+1465,fan,"{""noun_senses"": [""a device for creating a current of air by movement of a surface or surfaces"", ""an enthusiastic devotee of sports"", ""an ardent follower and admirer""], ""gold_pos"": ""noun"", ""verb_senses"": [""strike out (a batter), (of a pitcher)"", ""make (an emotion) fiercer"", ""agitate the air"", ""separate the chaff from by using air currents""]}",image.11657.jpg,1,She needed fans in the auditorium.,"Caption: A small, black portable fan with a clip is shown, featuring a patterned grill and a reflective surface below it.
+Word: fan
+Noun senses:
+- a device for creating a current of air by movement of a surface or surfaces
+- an enthusiastic devotee of sports
+- an ardent follower and admirer
+Verb senses:
+- strike out (a batter), (of a pitcher)
+- make (an emotion) fiercer
+- agitate the air
+- separate the chaff from by using air currents
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+2695,shelf,"{""noun_senses"": [""a support that consists of a horizontal surface for holding objects"", ""a projecting ridge on a mountain or submerged under water""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.5597.jpg,1,The scientist carefully documented the various materials found on the shelf.,"Caption: Rows of metal shelf units stretch into the distance, packed with boxes of confectionery like Galaxy, Mars, and Bassett’s. A worker in a coat and cap is inspecting items on a shelf, likely checking stock or prices, as evidenced by a handwritten note nearby. The shelves are densely filled, creating a narrow aisle within the warehouse space.
+Word: shelf
+Noun senses:
+- a support that consists of a horizontal surface for holding objects
+- a projecting ridge on a mountain or submerged under water
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+1671,clove,"{""noun_senses"": [""aromatic flower bud of a clove tree; yields a spice"", ""moderate sized very symmetrical red-flowered evergreen widely cultivated in the tropics for its flower buds which are source of cloves"", ""one of the small bulblets that can be split off of the axis of a larger garlic bulb"", ""spice from dried unopened flower bud of the clove tree; used whole or ground""], ""gold_pos"": ""noun"", ""verb_senses"": [""separate or cut with a tool, such as a sharp instrument"", ""make by cutting into"", ""come or be in close contact with; stick or hold together and resist separation""]}",image.10231.jpg,1,He prepared a clove for future cooking.,"Caption: The botanical illustration details the plant that produces clove, showcasing its flower buds in various stages of development alongside detailed depictions of its leaves, stem, and seed structures. The clustered, reddish flower buds are the source of the spice, and the accompanying diagrams illustrate the internal anatomy related to clove production.
+Word: clove
+Noun senses:
+- aromatic flower bud of a clove tree; yields a spice
+- moderate sized very symmetrical red-flowered evergreen widely cultivated in the tropics for its flower buds which are source of cloves
+- one of the small bulblets that can be split off of the axis of a larger garlic bulb
+- spice from dried unopened flower bud of the clove tree; used whole or ground
+Verb senses:
+- separate or cut with a tool, such as a sharp instrument
+- make by cutting into
+- come or be in close contact with; stick or hold together and resist separation
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+2645,jog,"{""verb_senses"": [""continue talking or writing in a desultory manner"", ""even up the edges of a stack of paper, in printing"", ""run for exercise"", ""run at a moderately swift pace"", ""give a slight push to"", ""stimulate to remember""], ""gold_pos"": ""verb"", ""noun_senses"": [""running at a jog trot as a form of cardiopulmonary exercise""]}",image.2305.jpg,3,He knew he had to jog before he could move on to the next chapter.,"Caption: A man is captured mid-stride while moving at a moderate pace on a paved path, appearing to enjoy a healthy activity. He’s wearing athletic clothing – a red jacket, white shorts, socks, and running shoes – suggesting a commitment to physical fitness. The background shows a residential area with trees and a car, indicating an outdoor setting for his exercise.
+Word: jog
+Noun senses:
+- running at a jog trot as a form of cardiopulmonary exercise
+Verb senses:
+- continue talking or writing in a desultory manner
+- even up the edges of a stack of paper, in printing
+- run for exercise
+- run at a moderately swift pace
+- give a slight push to
+- stimulate to remember
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",1
+188,jet,"{""noun_senses"": [""an airplane powered by one or more jet engines"", ""the occurrence of a sudden discharge (as of liquid)"", ""a hard black form of lignite that takes a brilliant polish and is used in jewelry or ornamentation"", ""atmospheric discharges (lasting 10 msec) bursting from the tops of giant storm clouds in blue cones that widen as they flash upward"", ""street names for ketamine"", ""an artificially produced flow of water""], ""gold_pos"": ""noun"", ""verb_senses"": [""issue in a jet; come out in a jet; stream or spring forth"", ""fly a jet plane""]}",image.2752.jpg,3,The dark beauty of the jet was the highlight of the evening exhibition.,"Caption: These specimens showcase varying forms of jet, from a rough, layered piece to polished tumbled stones and a carved shape. The dark, almost black coloration and slight sheen are characteristic of this organic gemstone, formed from fossilized wood. A white vein is visible within the larger, unpolished sample, contrasting with the deep black exterior.
+Word: jet
+Noun senses:
+- an airplane powered by one or more jet engines
+- the occurrence of a sudden discharge (as of liquid)
+- a hard black form of lignite that takes a brilliant polish and is used in jewelry or ornamentation
+- atmospheric discharges (lasting 10 msec) bursting from the tops of giant storm clouds in blue cones that widen as they flash upward
+- street names for ketamine
+- an artificially produced flow of water
+Verb senses:
+- issue in a jet; come out in a jet; stream or spring forth
+- fly a jet plane
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+951,rotisserie,"{""noun_senses"": [""an oven or broiler equipped with a rotating spit on which meat cooks as it turns"", ""a restaurant that specializes in roasted and barbecued meats""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.9372.jpg,1,He found rotisserie quite satisfying.,"Caption: A whole chicken is secured on a metal rod and slowly turning, displaying a beautifully browned and crispy skin achieved through even cooking. Drippings collect in a pan below, indicating a long cooking process and flavorful result. The setup is clearly designed for consistent, all-around roasting.
+Word: rotisserie
+Noun senses:
+- an oven or broiler equipped with a rotating spit on which meat cooks as it turns
+- a restaurant that specializes in roasted and barbecued meats
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+2683,strings,"{""noun_senses"": [""the section of an orchestra that plays stringed instruments"", ""a lightweight cord"", ""stringed instruments that are played with a bow"", ""a tightly stretched cord of wire or gut, which makes sound when plucked, struck, or bowed"", ""a sequentially ordered set of things or events or ideas in which each successive member is related to the preceding"", ""a linear sequence of symbols (characters or words or phrases)"", ""a tie consisting of a cord that goes through a seam around an opening"", ""a tough piece of fiber in vegetables, meat, or other food (especially the tough fibers connecting the two halves of a bean pod)"", ""(cosmology) a hypothetical one-dimensional subatomic particle having a concentration of energy and the dynamic properties of a flexible loop"", ""a collection of objects threaded on a single strand"", ""a necklace made by a stringing objects together""], ""gold_pos"": ""noun"", ""verb_senses"": [""thread on or as if on a string"", ""add as if on a string"", ""move or come along"", ""stretch out or arrange like a string"", ""string together; tie or fasten with a string"", ""remove the stringy parts of"", ""provide with strings""]}",image.6525.jpg,1,They spent the entire afternoon working on the strings.,"Caption: A group of musicians pose with their instruments, a collection of violins, cellos, and basses, held ready for performance against a backdrop of rolling hills and a bright sky.
+Word: strings
+Noun senses:
+- the section of an orchestra that plays stringed instruments
+- a lightweight cord
+- stringed instruments that are played with a bow
+- a tightly stretched cord of wire or gut, which makes sound when plucked, struck, or bowed
+- a sequentially ordered set of things or events or ideas in which each successive member is related to the preceding
+- a linear sequence of symbols (characters or words or phrases)
+- a tie consisting of a cord that goes through a seam around an opening
+- a tough piece of fiber in vegetables, meat, or other food (especially the tough fibers connecting the two halves of a bean pod)
+- (cosmology) a hypothetical one-dimensional subatomic particle having a concentration of energy and the dynamic properties of a flexible loop
+- a collection of objects threaded on a single strand
+- a necklace made by a stringing objects together
+Verb senses:
+- thread on or as if on a string
+- add as if on a string
+- move or come along
+- stretch out or arrange like a string
+- string together; tie or fasten with a string
+- remove the stringy parts of
+- provide with strings
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+2660,hag,"{""noun_senses"": [""an ugly evil-looking old woman"", ""eellike cyclostome having a tongue with horny teeth in a round mouth surrounded by eight tentacles; feeds on dead or trapped fishes by boring into their bodies""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.8000.jpg,1,"The pale hag moved slowly through the dark, drawn toward the scent of the fresh carcass.","Caption: A group of older women, some veiled and adorned with wreaths, stand closely together, their bodies displaying the effects of age and perhaps hardship. Their expressions are somber, and they seem to be contemplating skulls at their feet, suggesting a meditation on mortality. One figure has a distinctly horned headdress, adding to a sense of unsettling, perhaps even monstrous, presence. A decorative orb hangs above them, bearing an inscription.
+Word: hag
+Noun senses:
+- an ugly evil-looking old woman
+- eellike cyclostome having a tongue with horny teeth in a round mouth surrounded by eight tentacles; feeds on dead or trapped fishes by boring into their bodies
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+458,scrubber,"{""noun_senses"": [""a worker who uses a scrub brush to clean a surface (usually a floor or deck)"", ""a brush with short stiff bristles for heavy cleaning"", ""a purifier that removes impurities from a gas""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.5800.jpg,2,He found the scrubber near the exhaust pipe.,"Caption: A red and gray scrubber rests on a wooden floor, its bristles slightly worn and collecting dust and debris. The handle extends upwards, showing a blue and gray section connecting to the brush head. It appears ready for cleaning tasks.
+Word: scrubber
+Noun senses:
+- a worker who uses a scrub brush to clean a surface (usually a floor or deck)
+- a brush with short stiff bristles for heavy cleaning
+- a purifier that removes impurities from a gas
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+422,baptists,"{""noun_senses"": [""any of various evangelical Protestant churches that believe in the baptism of voluntary believers"", ""follower of Baptistic doctrines""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.4315.jpg,1,The regional council decided to consult several baptists regarding the proposed development.,"Caption: A building displays signage identifying it as a place of worship for baptists, featuring classical architectural elements like columns and ornate detailing. The structure's facade is painted in shades of gray and white, contrasting with a clear blue sky.
+Word: baptists
+Noun senses:
+- any of various evangelical Protestant churches that believe in the baptism of voluntary believers
+- follower of Baptistic doctrines
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+450,porter,"{""noun_senses"": [""a person employed to carry luggage and supplies"", ""someone who guards an entrance"", ""United States writer of novels and short stories (1890-1980)"", ""United States composer and lyricist of musical comedies (1891-1946)"", ""United States writer of short stories whose pen name was O. Henry (1862-1910)"", ""a railroad employee who assists passengers (especially on sleeping cars)"", ""a very dark sweet ale brewed from roasted unmalted barley""], ""gold_pos"": ""noun"", ""verb_senses"": [""carry luggage or supplies""]}",image.1157.jpg,1,The traveler gratefully acknowledged the porter.,"Caption: A man, visibly sweaty and muscular, carries a case of Tsingtao beer, likely as part of his job delivering goods or working as a porter. He appears to be taking a break, looking downwards with a focused expression, while holding the beer case securely. His physique suggests physical labor, and the setting seems to be outdoors, possibly near a construction site given the visible pipes.
+Word: porter
+Noun senses:
+- a person employed to carry luggage and supplies
+- someone who guards an entrance
+- United States writer of novels and short stories (1890-1980)
+- United States composer and lyricist of musical comedies (1891-1946)
+- United States writer of short stories whose pen name was O. Henry (1862-1910)
+- a railroad employee who assists passengers (especially on sleeping cars)
+- a very dark sweet ale brewed from roasted unmalted barley
+Verb senses:
+- carry luggage or supplies
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+2639,banishment,"{""noun_senses"": [""the state of being banished or ostracized (excluded from society by general consent)"", ""rejection by means of an act of banishing or proscribing someone""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.2429.jpg,1,The banishment was more severe than anyone had anticipated.,"Caption: A solitary figure, likely Napoleon, stands with his back to the viewer, gazing out at a vast and distant sea, perhaps contemplating a life removed from power and influence. The muted colors and hazy atmosphere evoke a sense of isolation and melancholy, while the small ships on the horizon suggest a world continuing without him, reinforcing a feeling of permanent separation and exile. The rugged coastline emphasizes the remoteness of his location, a place of confinement and reflection.
+Word: banishment
+Noun senses:
+- the state of being banished or ostracized (excluded from society by general consent)
+- rejection by means of an act of banishing or proscribing someone
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+2513,cabinet,"{""noun_senses"": [""a piece of furniture resembling a cupboard with doors and shelves and drawers; for storage or display"", ""persons appointed by a head of state to head executive departments of government and act as official advisers"", ""a storage compartment for clothes and valuables; usually it has a lock"", ""housing for electronic instruments, as radio or television""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.124.jpg,2,The contents of the cabinet remained a closely guarded secret.,"Caption: A formal setting suggests involvement in government, perhaps a member of a cabinet.
+Word: cabinet
+Noun senses:
+- a piece of furniture resembling a cupboard with doors and shelves and drawers; for storage or display
+- persons appointed by a head of state to head executive departments of government and act as official advisers
+- a storage compartment for clothes and valuables; usually it has a lock
+- housing for electronic instruments, as radio or television
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+461,buzzer,"{""noun_senses"": [""a push button at an outer door that gives a ringing or buzzing signal when pushed"", ""a signaling device that makes a buzzing sound""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.4566.jpg,2,The buzzer sounded just as the game ended.,"Caption: Two small electronic components, likely used to create sound, are shown with attached wires—one with a metallic frame and a white center, the other a simple silver disc. They appear to be components of a buzzer or similar audio device.
+Word: buzzer
+Noun senses:
+- a push button at an outer door that gives a ringing or buzzing signal when pushed
+- a signaling device that makes a buzzing sound
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+0,moorhen,"{""noun_senses"": [""black gallinule that inhabits ponds and lakes"", ""female red grouse""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.0.jpg,1,The moorhen blended well with the surrounding landscape.,"Caption: A dark-plumaged moorhen preens amongst lush green vegetation at the edge of a pond, while another swims further out in the water. Both birds display distinctive red frontal shields and yellow-tipped bills. The water is covered in patches of algae and floating plants.
+Word: moorhen
+Noun senses:
+- black gallinule that inhabits ponds and lakes
+- female red grouse
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+91,ogre,"{""noun_senses"": [""a cruel wicked and inhuman person"", ""(folklore) a giant who likes to eat human beings""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.1432.jpg,2,The ogre controlled the valley with an iron fist.,"Caption: A woman is startled by a large, monstrous figure emerging from the water, its hand reaching towards her as it rises amongst the reeds and lily pads, while a castle looms in the distance. The creature’s rough skin and powerful build suggest a fearsome, mythical being.
+Word: ogre
+Noun senses:
+- a cruel wicked and inhuman person
+- (folklore) a giant who likes to eat human beings
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+633,marang,"{""noun_senses"": [""Philippine tree similar to the breadfruit tree bearing edible fruit"", ""tropical fruit from the Philippines having a mass of small seeds embedded in sweetish white pulp""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.3770.jpg,1,"The plantation valued marang, and it was carefully tended.","Caption: A tree with large, oval-shaped leaves and a relatively smooth, light-colored trunk stands prominently in a lush, green environment. Fallen leaves litter the ground around the base of the tree, suggesting it may be a species that sheds its leaves seasonally. Several other trees are visible in the background, creating a dense, forested setting, and the overall appearance is consistent with a tropical fruit-bearing tree like a marang.
+Word: marang
+Noun senses:
+- Philippine tree similar to the breadfruit tree bearing edible fruit
+- tropical fruit from the Philippines having a mass of small seeds embedded in sweetish white pulp
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+721,chariot,"{""noun_senses"": [""a light four-wheel horse-drawn ceremonial carriage"", ""a two-wheeled horse-drawn battle vehicle; used in war and races in ancient Egypt and Greece and Rome""], ""gold_pos"": ""noun"", ""verb_senses"": [""transport in a chariot"", ""ride in a chariot""]}",image.3357.jpg,2,The king's chariot approached the city gates.,"Caption: Ancient Egyptian warfare prominently featured chariot combat, as depicted here with rulers leading charges and soldiers engaging enemies from these mobile platforms. Several scenes illustrate individuals riding in chariots, wielding weapons like bows and spears, and controlling horses during battle. The detailed renderings showcase the construction of the chariots themselves, with spoked wheels and protective elements for the occupants, alongside the dynamic movement of the horses and the intensity of the conflict.
+Word: chariot
+Noun senses:
+- a light four-wheel horse-drawn ceremonial carriage
+- a two-wheeled horse-drawn battle vehicle; used in war and races in ancient Egypt and Greece and Rome
+Verb senses:
+- transport in a chariot
+- ride in a chariot
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+2127,listen,"{""verb_senses"": [""hear with intention"", ""listen and pay attention"", ""pay close attention to; give heed to""], ""gold_pos"": ""verb"", ""noun_senses"": [""the act of hearing attentively""]}",image.8193.jpg,1,You should listen to your doctor regarding the new medication.,"Caption: A young man appears absorbed, headphones covering his ears as if deeply engaged in sound. His gaze is downcast, suggesting concentration and a private moment of auditory experience.
+Word: listen
+Noun senses:
+- the act of hearing attentively
+Verb senses:
+- hear with intention
+- listen and pay attention
+- pay close attention to; give heed to
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",1
+2367,threaten,"{""verb_senses"": [""pose a threat to; present a danger to"", ""to utter intentions of injury or punishment against:"", ""to be a menacing indication of something:""], ""gold_pos"": ""verb"", ""noun_senses"": []}",image.8557.jpg,2,The general threatened the city.,"Caption: A person is being controlled from behind with an arm across the neck, appearing vulnerable and potentially in danger.
+Word: threaten
+Noun senses:
+
+Verb senses:
+- pose a threat to; present a danger to
+- to utter intentions of injury or punishment against:
+- to be a menacing indication of something:
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",1
+824,coach,"{""noun_senses"": [""(sports) someone in charge of training an athlete or a team"", ""a person who gives private instruction (as in singing, acting, etc.)"", ""a railcar where passengers ride"", ""a carriage pulled by four horses with one driver"", ""a vehicle carrying many passengers; used for public transport""], ""gold_pos"": ""noun"", ""verb_senses"": [""teach and supervise (someone); act as a trainer or coach (to), as in sports"", ""drive a coach""]}",image.8614.jpg,1,The team was relieved to see the coach waiting at the curb.,"Caption: A man wearing a cap and a t-shirt with ""High Football"" printed on it is gesturing with his right hand while speaking to a group of young athletes gathered around him, likely providing instruction or motivation during a practice or game.
+Word: coach
+Noun senses:
+- (sports) someone in charge of training an athlete or a team
+- a person who gives private instruction (as in singing, acting, etc.)
+- a railcar where passengers ride
+- a carriage pulled by four horses with one driver
+- a vehicle carrying many passengers; used for public transport
+Verb senses:
+- teach and supervise (someone); act as a trainer or coach (to), as in sports
+- drive a coach
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+1325,finance,"{""noun_senses"": [""the commercial activity of providing funds and capital"", ""the branch of economics that studies the management of money and other assets"", ""the management of money and credit and banking and investments""], ""gold_pos"": ""noun"", ""verb_senses"": [""obtain or provide money for"", ""sell or provide on credit""]}",image.11147.jpg,1,The project needs finance to ensure continued operations.,"Caption: A view of the financial district in Manhattan, with skyscrapers rising above the water and a busy roadway in the foreground, suggests a center of economic activity and global commerce.
+Word: finance
+Noun senses:
+- the commercial activity of providing funds and capital
+- the branch of economics that studies the management of money and other assets
+- the management of money and credit and banking and investments
+Verb senses:
+- obtain or provide money for
+- sell or provide on credit
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+344,patchouli,"{""noun_senses"": [""small East Indian shrubby mint; fragrant oil from its leaves is used in perfumes"", ""a heavy perfume made from the patchouli plant""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.4646.jpg,1,The air was thick with patchouli.,"Caption: The plant displays characteristic dense spikes of small, lavender-colored flowers emerging from green, textured bracts, alongside toothed, ovate leaves – features consistent with patchouli. A label visible in the background confirms the plant’s family, Lamiaceae, which includes patchouli. The overall structure and floral arrangement suggest a mature patchouli plant in bloom.
+Word: patchouli
+Noun senses:
+- small East Indian shrubby mint; fragrant oil from its leaves is used in perfumes
+- a heavy perfume made from the patchouli plant
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+2641,momentum,"{""noun_senses"": [""an impelling force or strength"", ""the product of a body's mass and its velocity""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.7046.jpg,1,The observers were surprised by how quickly the momentum increased during the demonstration.,"Caption: A game is in progress, with players positioned around the infield and outfield, suggesting a shift in play or anticipation of an upcoming action—a feeling of potential change and forward movement. The packed stadium and focused athletes contribute to a sense of energy and building anticipation, as if something significant is about to unfold.
+Word: momentum
+Noun senses:
+- an impelling force or strength
+- the product of a body's mass and its velocity
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+112,dram,"{""noun_senses"": [""a unit of apothecary weight equal to an eighth of an ounce or to 60 grains"", ""1/16 ounce or 1.771 grams"", ""the basic unit of money in Armenia""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.1190.jpg,3,He offered a dram for her silence,"Caption: This is a 100,000 dram banknote from Armenia, featuring King Gagik I of Ani and a map of Armenia during his reign, alongside a depiction of an ancient Armenian coin. The currency’s value is prominently displayed, and security features are visible throughout the design.
+Word: dram
+Noun senses:
+- a unit of apothecary weight equal to an eighth of an ounce or to 60 grains
+- 1/16 ounce or 1.771 grams
+- the basic unit of money in Armenia
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+394,equator,"{""noun_senses"": [""an imaginary line around the Earth forming the great circle that is equidistant from the north and south poles"", ""a circle dividing a sphere or other surface into two usually equal and symmetrical parts""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.4057.jpg,1,"The artist meticulously painted a line along the equator, emphasizing its symmetry.","Caption: A red line marks the position of the equator, dividing the world into the Northern and Southern Hemispheres, and passing through countries like Brazil, Indonesia, and Kenya.
+Word: equator
+Noun senses:
+- an imaginary line around the Earth forming the great circle that is equidistant from the north and south poles
+- a circle dividing a sphere or other surface into two usually equal and symmetrical parts
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+418,groom,"{""noun_senses"": [""a man participant in his own marriage ceremony"", ""someone employed in a stable to take care of the horses"", ""a man who has recently been married""], ""gold_pos"": ""noun"", ""verb_senses"": [""educate for a future role or function"", ""give a neat appearance to"", ""care for one's external appearance""]}",image.5417.jpg,2,The groom was attentive to detail with the preparations before the ride.,"Caption: A person is attending to horses in a stable, carefully adjusting the harness on one while others stand patiently in their stalls. The scene depicts the care and preparation involved in maintaining working animals, likely for transportation as evidenced by the carriage nearby.
+Word: groom
+Noun senses:
+- a man participant in his own marriage ceremony
+- someone employed in a stable to take care of the horses
+- a man who has recently been married
+Verb senses:
+- educate for a future role or function
+- give a neat appearance to
+- care for one's external appearance
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+774,coca,"{""noun_senses"": [""a South American shrub whose leaves are chewed by natives of the Andes; a source of cocaine"", ""United States comedienne who starred in early television shows with Sid Caesar (1908-2001)"", ""dried leaves of the coca plant (and related plants that also contain cocaine); chewed by Andean people for their stimulating effect""], ""gold_pos"": ""noun"", ""verb_senses"": []}",image.227.jpg,2,The explorer documented the importance of coca to the region.,"Caption: Leaves are arranged on a reddish surface, possibly being prepared or examined, with a focus on the detailed texture and veining of the foliage which suggests a plant used for its stimulant properties. A hand is partially visible in the background, hinting at human interaction with the plant material.
+Word: coca
+Noun senses:
+- a South American shrub whose leaves are chewed by natives of the Andes; a source of cocaine
+- United States comedienne who starred in early television shows with Sid Caesar (1908-2001)
+- dried leaves of the coca plant (and related plants that also contain cocaine); chewed by Andean people for their stimulating effect
+Verb senses:
+
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+2623,knock,"{""noun_senses"": [""the sound of knocking (as on a door or in an engine or bearing)"", ""negative criticism"", ""a vigorous blow"", ""a bad experience"", ""the act of hitting vigorously""], ""gold_pos"": ""noun"", ""verb_senses"": [""deliver a sharp blow or push :"", ""rap with the knuckles"", ""knock against with force or violence"", ""make light, repeated taps on a surface"", ""sound like a car engine that is firing too early"", ""find fault with; express criticism of; point out real or perceived flaws""]}",image.7225.jpg,5,The heavy knock caught everyone in the room off guard.,"Caption: A fighter delivers a blow, the force evident in the blurred motion as impact is made against an opponent near the cage. The receiving fighter’s head snaps back, suggesting a powerful strike.
+Word: knock
+Noun senses:
+- the sound of knocking (as on a door or in an engine or bearing)
+- negative criticism
+- a vigorous blow
+- a bad experience
+- the act of hitting vigorously
+Verb senses:
+- deliver a sharp blow or push :
+- rap with the knuckles
+- knock against with force or violence
+- make light, repeated taps on a surface
+- sound like a car engine that is firing too early
+- find fault with; express criticism of; point out real or perceived flaws
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0
+227,trench,"{""noun_senses"": [""a ditch dug as a fortification having a parapet of the excavated earth"", ""a long steep-sided depression in the ocean floor"", ""any long ditch cut in the ground""], ""gold_pos"": ""noun"", ""verb_senses"": [""impinge or infringe upon"", ""fortify by surrounding with trenches"", ""cut or carve deeply into"", ""set, plant, or bury in a trench"", ""cut a trench in, as for drainage"", ""dig a trench or trenches""]}",image.3252.jpg,3,"The surveyor mapped the land, noting how the trench extended through the fields.","Caption: A deep, narrow excavation runs alongside a road, revealing yellow pipes and a cylindrical yellow tank within the earth. Construction equipment and safety barriers surround the open ground, indicating ongoing utility work. The sides of the trench are reinforced with wooden boards, and various tools and materials are scattered nearby.
+Word: trench
+Noun senses:
+- a ditch dug as a fortification having a parapet of the excavated earth
+- a long steep-sided depression in the ocean floor
+- any long ditch cut in the ground
+Verb senses:
+- impinge or infringe upon
+- fortify by surrounding with trenches
+- cut or carve deeply into
+- set, plant, or bury in a trench
+- cut a trench in, as for drainage
+- dig a trench or trenches
+---
+You are given a caption describing an image, along with a list of words and their noun and verb meanings. Based on all of this information, determine whether the word is used as a verb or a noun in the image.",0

@@ -1,0 +1,5 @@
+pos tagging 자체는 말도 안 되는 기준으로 pos를 구분하지는 않고, 모델 출력을 읽어보면 그럴 수 있겠다 싶음.
+
+! 최소한 이거는 주말 동안
+1. 다음, zeroshot으로 sense labeling 수행.
+2. web에서 문서 내용 얻어와서 sense labeling 수행.
