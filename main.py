@@ -18,7 +18,9 @@ def rearrange_trial_to_text_wsd(output_file_path):
     polysemy_words_df.to_csv(output_file_path, index=False, encoding='utf-8')
     print(f"Rearranged data saved to {output_file_path}")
 
-def sample_and_save_wsd_set(output_file_path, sample_size, check_duplicates=False):
+def sample_and_save_wsd_set(output_file_path, sample_size, check_duplicates=False,
+                            data_path='/workspace/data/semeval-2023-task-1-V-WSD-train-v1/train_v1/train.data.v1.txt',
+                            gold_image_path='/workspace/data/semeval-2023-task-1-V-WSD-train-v1/train_v1/train.gold.v1.txt'):
     """
     sample_and_save_wsd_set의 Docstring
     
@@ -27,9 +29,6 @@ def sample_and_save_wsd_set(output_file_path, sample_size, check_duplicates=Fals
     :param check_duplicates: 중복 단어를 허용할지 여부 (True인 경우 중복 단어 제거)
     """
     import data_process
-    
-    data_path = '/workspace/data/semeval-2023-task-1-V-WSD-train-v1/train_v1/train.data.v1.txt'
-    gold_image_path = '/workspace/data/semeval-2023-task-1-V-WSD-train-v1/train_v1/train.gold.v1.txt'
     
     sampled_wsd_df = data_process.sample_data_from_train_set(data_path, sample_size, check_duplicates)
     
@@ -182,7 +181,8 @@ def google_vision_search_for_wsd_set(wsd_df_path, output_file_path, image_dir="/
 def main():
     #output_file_path = '/workspace/data/rearranged_polysemy_words.csv'
     #rearrange_trial_to_text_wsd(output_file_path)
-    sample_and_save_wsd_set("/workspace/data/set_process/wsd_set_test.csv", sample_size=-1, check_duplicates=True)
+    #sample_and_save_wsd_set("/workspace/data/set_process/wsd_set_test.csv", sample_size=-1, check_duplicates=True)
+    #sample_and_save_wsd_set("/workspace/data/test_set_benchmark/wsd_set_100.csv", sample_size=100, check_duplicates=False, data_path="/workspace/data/semeval-2023-V-WSD-test/en.test.data.v1.1.txt", gold_image_path="/workspace/data/semeval-2023-V-WSD-test/en.test.gold.v1.1.txt")
     #caption_trail_images(output_file_path)
     
     model_path = "google/gemma-3-12b-it"
@@ -198,7 +198,7 @@ def main():
     )'''
     
     #generate_ambiguous_sentence_for_wsd_set("/workspace/data/train_set_process/wsd_set_n400.csv")
-    #google_vision_search_for_wsd_set("/workspace/data/set_process/wsd_set_entire.csv", "/workspace/data/set_process/wsd_set_entire_google_vision_result.csv")
+    google_vision_search_for_wsd_set("/workspace/data/test_set_process/wsd_set_entire.csv", "/workspace/data/test_set_process/wsd_set_entire_google_vision_result.csv", image_dir="/workspace/data/semeval-2023-V-WSD-test/test_images/")
     
 if __name__ == "__main__":
     main()
