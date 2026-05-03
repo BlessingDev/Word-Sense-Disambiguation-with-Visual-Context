@@ -5,8 +5,8 @@ model_checkpoint="google/gemma-3-27b-it"
 
 python /workspace/vllm_inference.py \
     --model_checkpoint ${model_checkpoint} \
-    --inference_set_path /workspace/data/test_set_process/wsd_100_summarize_prompt.csv \
-    --output_file_path /workspace/data/test_set_process/inference/wsd_100_summarize_gemma3-27b.csv \
+    --inference_set_path /workspace/data/test_set_process/wsd_set_100_pos2_prompt.csv \
+    --output_file_path /workspace/data/test_set_process/inference/wsd_100_pos2_gemma3-27b.csv \
     --image_dir /workspace/data/semeval-2023-V-WSD-test/test_images/ \
     --image_number 1 \
     --seed 42
