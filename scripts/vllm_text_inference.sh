@@ -5,7 +5,7 @@ model_checkpoint="google/gemma-3-27b-it"
 
 python /workspace/vllm_inference.py \
     --model_checkpoint ${model_checkpoint} \
-    --inference_set_path /workspace/data/test_set_process/wsd_set_100_sense_text_prompt.csv \
-    --output_file_path /workspace/data/test_set_process/inference/wsd_100_sense_text_gemma3-27b.csv \
+    --inference_set_path /workspace/data/test_set_process/wsd_set_100_sense_ambig_sentence_prompt.csv \
+    --output_file_path /workspace/data/test_set_process/inference/wsd_100_sense_ambig_sentence_gemma3-27b.csv \
     --image_number 1 \
     --seed 42
