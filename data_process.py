@@ -97,11 +97,11 @@ def sample_data_from_train_set(train_set_path, sample_size, check_duplicates=Fal
                 if pos == 's': # adjective satellite는 adjective로 간주
                     pos = 'a'
                 
-                if pos in ['n', 'v']: # noun과 verb만 고려
-                    sense_dict[pos] = sense_dict.get(pos, []) + [sense.definition()]
-                '''if pos not in sense_dict:
+                '''if pos in ['n', 'v']: # noun과 verb만 고려
+                    sense_dict[pos] = sense_dict.get(pos, []) + [sense.definition()]'''
+                if pos not in sense_dict:
                     sense_dict[pos] = list()
-                sense_dict[pos].append(sense.definition())'''
+                sense_dict[pos].append(sense.definition())
             
             # focus only polysemy words
             if any(len(senses) > 1 for senses in sense_dict.values()):

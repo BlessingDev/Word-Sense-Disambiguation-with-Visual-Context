@@ -178,11 +178,60 @@ def google_vision_search_for_wsd_set(wsd_df_path, output_file_path, image_dir="/
     retrieved_df.to_csv(output_file_path, index=False, encoding='utf-8')
     print(f"WSD set with retrieved image result saved to {output_file_path}")
 
+def supplement_goolge_vision_search_result(wsd_df_path, exist_output_file_path, image_dir="/workspace/data/semeval-2023-task-1-V-WSD-train-v1/train_v1/train_images_v1/"):
+    """
+    supplement_goolge_vision_search_result의 Docstring
+    
+    :param wsd_df_path: WSD 문제 세트가 저장된 txt 파일 경로
+    :param retriev_result_path: 이미지 검색 결과가 저장된 파일 경로
+    :param output_file_path: 보완된 데이터를 저장할 파일 경로
+    :return: 보완된 WSD 문제 세트가 포함된 DataFrame
+    """
+    import os
+    import json
+    import pandas as pd
+    from image_search import perform_google_vision_search
+    
+    wsd_df = pd.read_csv(wsd_df_path)
+    retrieved_df = pd.read_csv(exist_output_file_path)
+    
+    retriev_result_dict = {
+        "word_index": wsd_df['word_index'].tolist(),
+        "web_urls": [],
+        "best_label": [],
+        "entities": []
+    }
+    
+    for word_idx in wsd_df['word_index'].tolist():
+        if word_idx in retrieved_df['word_index'].tolist():
+            retrieved_row = retrieved_df[retrieved_df['word_index'] == word_idx]
+            retriev_result_dict["web_urls"].append(retrieved_row["web_urls"].iloc[0])
+            retriev_result_dict["best_label"].append(retrieved_row["best_label"].iloc[0])
+            retriev_result_dict["entities"].append(retrieved_row["entities"].iloc[0])
+        else:
+            target_image_name = wsd_df[wsd_df['word_index'] == word_idx]['gold_image'].iloc[0]
+            target_image_path = os.path.join(image_dir, target_image_name)
+            
+            retrieved_result = perform_google_vision_search(target_image_path)
+            
+            if retrieved_result is None:
+                retriev_result_dict["web_urls"].append("None")
+                retriev_result_dict["best_label"].append("No label")
+                retriev_result_dict["entities"].append("None")
+            else:
+                retriev_result_dict["web_urls"].append(json.dumps(retrieved_result["web_urls"]))
+                retriev_result_dict["best_label"].append(retrieved_result["best_label"])
+                retriev_result_dict["entities"].append(json.dumps(retrieved_result["entities"]))
+    
+    supplemented_df = pd.DataFrame(retriev_result_dict)
+    supplemented_df.to_csv(exist_output_file_path, index=False, encoding='utf-8')
+    print(f"Supplemented WSD set with retrieved image result saved to {exist_output_file_path}")
+
 def main():
     #output_file_path = '/workspace/data/rearranged_polysemy_words.csv'
     #rearrange_trial_to_text_wsd(output_file_path)
-    #sample_and_save_wsd_set("/workspace/data/set_process/wsd_set_test.csv", sample_size=-1, check_duplicates=True)
-    #sample_and_save_wsd_set("/workspace/data/test_set_benchmark/wsd_set_100.csv", sample_size=100, check_duplicates=False, data_path="/workspace/data/semeval-2023-V-WSD-test/en.test.data.v1.1.txt", gold_image_path="/workspace/data/semeval-2023-V-WSD-test/en.test.gold.v1.1.txt")
+    #sample_and_save_wsd_set("/workspace/data/train_set_process/wsd_set_entire.csv", sample_size=-1, check_duplicates=True)
+    #sample_and_save_wsd_set("/workspace/data/test_set_process/wsd_set_entire.csv", sample_size=-1, check_duplicates=False, data_path="/workspace/data/semeval-2023-V-WSD-test/en.test.data.v1.1.txt", gold_image_path="/workspace/data/semeval-2023-V-WSD-test/en.test.gold.v1.1.txt")
     #caption_trail_images(output_file_path)
     
     model_path = "google/gemma-3-12b-it"
@@ -198,7 +247,8 @@ def main():
     )'''
     
     #generate_ambiguous_sentence_for_wsd_set("/workspace/data/train_set_process/wsd_set_n400.csv")
-    google_vision_search_for_wsd_set("/workspace/data/test_set_process/wsd_set_entire.csv", "/workspace/data/test_set_process/wsd_set_entire_google_vision_result.csv", image_dir="/workspace/data/semeval-2023-V-WSD-test/test_images/")
+    #google_vision_search_for_wsd_set("/workspace/data/test_set_process/wsd_set_entire.csv", "/workspace/data/test_set_process/wsd_set_entire_google_vision_result.csv", image_dir="/workspace/data/semeval-2023-V-WSD-test/test_images/")
+    supplement_goolge_vision_search_result("/workspace/data/train_set_process/wsd_set_entire.csv", "/workspace/data/train_set_process/wsd_set_entire_google_vision_result.csv")
     
 if __name__ == "__main__":
     main()

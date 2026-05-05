@@ -221,7 +221,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
 "
-8,tender,tender embrace,"{""n"": [""something that can be used as an official medium of payment"", ""someone who waits on or tends to or attends to the needs of another"", ""a formal proposal to buy at a specified price"", ""car attached to a locomotive to carry fuel and water"", ""a boat for communication between ship and shore"", ""ship that usually provides supplies to other ships""], ""v"": [""offer or present for acceptance"", ""propose a payment"", ""make a tender of; in legal settlements"", ""make tender or more tender as by marinating, pounding, or applying a tenderizer""]}",image.4495.jpg,"
+8,tender,tender embrace,"{""n"": [""something that can be used as an official medium of payment"", ""someone who waits on or tends to or attends to the needs of another"", ""a formal proposal to buy at a specified price"", ""car attached to a locomotive to carry fuel and water"", ""a boat for communication between ship and shore"", ""ship that usually provides supplies to other ships""], ""v"": [""offer or present for acceptance"", ""propose a payment"", ""make a tender of; in legal settlements"", ""make tender or more tender as by marinating, pounding, or applying a tenderizer""], ""a"": [""given to sympathy or gentleness or sentimentality"", ""hurting"", ""young and immature"", ""having or displaying warmth or affection"", ""easy to cut or chew"", ""physically untoughened"", ""(used of boats) inclined to heel over easily under sail"", ""(of plants) not hardy; easily killed by adverse growing condition""]}",image.4495.jpg,"
 Ambiguous word: tender
 ---
 Noun Senses:
@@ -240,9 +240,20 @@ Verb Senses:
 4) make tender or more tender as by marinating, pounding, or applying a tenderizer
 
 ---
+Adjective Senses:
+1) given to sympathy or gentleness or sentimentality
+2) hurting
+3) young and immature
+4) having or displaying warmth or affection
+5) easy to cut or chew
+6) physically untoughened
+7) (used of boats) inclined to heel over easily under sail
+8) (of plants) not hardy; easily killed by adverse growing condition
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -253,12 +264,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 9,mill,mill grinding,"{""n"": [""a plant consisting of one or more buildings with facilities for manufacturing"", ""Scottish philosopher who expounded Bentham's utilitarianism; father of John Stuart Mill (1773-1836)"", ""English philosopher and economist remembered for his interpretations of empiricism and utilitarianism (1806-1873)"", ""machinery that processes materials by grinding or crushing"", ""the act of grinding to a powder or dust""], ""v"": [""move about in a confused manner"", ""grind with a mill"", ""produce a ridge around the edge of"", ""roll out (metal) with a rolling machine""]}",image.4499.jpg,"
 Ambiguous word: mill
@@ -446,7 +461,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
 "
-17,metal,metal steel,"{""n"": [""any of several chemical elements that are usually shiny solids that conduct heat or electricity and can be formed into sheets etc."", ""a mixture containing two or more metallic elements or metallic and nonmetallic elements usually fused together or dissolving into each other when molten""], ""v"": [""cover with metal""]}",image.4573.jpg,"
+17,metal,metal steel,"{""n"": [""any of several chemical elements that are usually shiny solids that conduct heat or electricity and can be formed into sheets etc."", ""a mixture containing two or more metallic elements or metallic and nonmetallic elements usually fused together or dissolving into each other when molten""], ""v"": [""cover with metal""], ""a"": [""containing or made of or resembling or characteristic of a metal; ; ; - Ambrose Bierce""]}",image.4573.jpg,"
 Ambiguous word: metal
 ---
 Noun Senses:
@@ -458,9 +473,13 @@ Verb Senses:
 1) cover with metal
 
 ---
+Adjective Senses:
+1) containing or made of or resembling or characteristic of a metal; ; ; - Ambrose Bierce
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -471,12 +490,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 18,sub,edible sub,"{""n"": [""a large sandwich made of a long crusty roll split lengthwise and filled with meats and cheese (and tomato and onion and lettuce and condiments); different names are used in different sections of the United States"", ""a submersible warship usually armed with torpedoes""], ""v"": [""be a substitute""]}",image.4588.jpg,"
 Ambiguous word: sub
@@ -1692,7 +1715,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
 "
-56,flip,gymnastic flip,"{""n"": [""an acrobatic feat in which the feet roll over the head (either forward or backward) and return"", ""hot or cold alcoholic mixed drink containing a beaten egg"", ""a sudden, quick movement"", ""the act of flipping a coin"", ""a dive in which the diver somersaults before entering the water"", ""(sports) the act of throwing the ball to another member of your team""], ""v"": [""lightly throw to see which side comes up"", ""cause to go on or to be engaged or set in operation"", ""look through a book or other written material"", ""toss with a sharp movement so as to cause to turn over in the air"", ""cause to move with a flick"", ""throw or toss with a light motion"", ""move with a flick or light motion"", ""turn upside down, or throw so as to reverse"", ""react in an excited, delighted, or surprised way"", ""go mad, go crazy"", ""reverse (a direction, attitude, or course of action)""]}",image.4920.jpg,"
+56,flip,gymnastic flip,"{""n"": [""an acrobatic feat in which the feet roll over the head (either forward or backward) and return"", ""hot or cold alcoholic mixed drink containing a beaten egg"", ""a sudden, quick movement"", ""the act of flipping a coin"", ""a dive in which the diver somersaults before entering the water"", ""(sports) the act of throwing the ball to another member of your team""], ""v"": [""lightly throw to see which side comes up"", ""cause to go on or to be engaged or set in operation"", ""look through a book or other written material"", ""toss with a sharp movement so as to cause to turn over in the air"", ""cause to move with a flick"", ""throw or toss with a light motion"", ""move with a flick or light motion"", ""turn upside down, or throw so as to reverse"", ""react in an excited, delighted, or surprised way"", ""go mad, go crazy"", ""reverse (a direction, attitude, or course of action)""], ""a"": [""marked by casual disrespect""]}",image.4920.jpg,"
 Ambiguous word: flip
 ---
 Noun Senses:
@@ -1718,9 +1741,13 @@ Verb Senses:
 11) reverse (a direction, attitude, or course of action)
 
 ---
+Adjective Senses:
+1) marked by casual disrespect
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -1731,12 +1758,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 57,try,legal try,"{""n"": [""earnest and conscientious activity intended to do or accomplish something""], ""v"": [""make an effort or attempt"", ""put to the test, as for its quality, or give experimental use to"", ""put on trial or hear a case and sit as the judge at the trial of"", ""take a sample of"", ""examine or hear (evidence or a case) by judicial process"", ""give pain or trouble to"", ""test the limits of"", ""melt (fat or lard) in order to separate out impurities"", ""put on a garment in order to see whether it fits and looks nice""]}",image.4930.jpg,"
 Ambiguous word: try
@@ -1777,7 +1808,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
 "
-58,blue,blue mood,"{""n"": [""blue color or pigment; resembling the color of the clear sky in the daytime"", ""blue clothing"", ""any organization or party whose uniforms or badges are blue"", ""the sky as viewed during daylight"", ""used to whiten laundry or hair or give it a bluish tinge"", ""the sodium salt of amobarbital that is used as a barbiturate; used as a sedative and a hypnotic"", ""any of numerous small butterflies of the family Lycaenidae""], ""v"": [""turn blue""]}",image.4937.jpg,"
+58,blue,blue mood,"{""n"": [""blue color or pigment; resembling the color of the clear sky in the daytime"", ""blue clothing"", ""any organization or party whose uniforms or badges are blue"", ""the sky as viewed during daylight"", ""used to whiten laundry or hair or give it a bluish tinge"", ""the sodium salt of amobarbital that is used as a barbiturate; used as a sedative and a hypnotic"", ""any of numerous small butterflies of the family Lycaenidae""], ""v"": [""turn blue""], ""a"": [""of the color intermediate between green and violet; having a color similar to that of a clear unclouded sky; - Helen Hunt Jackson"", ""used to signify the Union forces in the American Civil War (who wore blue uniforms)"", ""filled with melancholy and despondency"", ""characterized by profanity or cursing"", ""suggestive of sexual impropriety"", ""belonging to or characteristic of the nobility or aristocracy"", ""morally rigorous and strict"", ""causing dejection""]}",image.4937.jpg,"
 Ambiguous word: blue
 ---
 Noun Senses:
@@ -1794,9 +1825,20 @@ Verb Senses:
 1) turn blue
 
 ---
+Adjective Senses:
+1) of the color intermediate between green and violet; having a color similar to that of a clear unclouded sky; - Helen Hunt Jackson
+2) used to signify the Union forces in the American Civil War (who wore blue uniforms)
+3) filled with melancholy and despondency
+4) characterized by profanity or cursing
+5) suggestive of sexual impropriety
+6) belonging to or characteristic of the nobility or aristocracy
+7) morally rigorous and strict
+8) causing dejection
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -1807,12 +1849,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 59,disk,music disk,"{""n"": [""something with a round shape resembling a flat circular plate"", ""a flat circular plate"", ""sound recording consisting of a disk with a continuous groove; used to reproduce music by rotating while a phonograph needle tracks in the groove"", ""(computer science) a memory device consisting of a flat disk covered with a magnetic coating on which information is stored""], ""v"": [""draw a harrow over (land)""]}",image.4946.jpg,"
 Ambiguous word: disk
@@ -1848,7 +1894,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
 "
-60,bay,trotting bay,"{""n"": [""an indentation of a shoreline larger than a cove but smaller than a gulf"", ""the sound of a hound on the scent"", ""small Mediterranean evergreen tree with small blackish berries and glossy aromatic leaves used for flavoring in cooking; also used by ancient Greeks to crown victors"", ""a compartment on a ship between decks; often used as a hospital"", ""a compartment in an aircraft used for some specific purpose"", ""a small recess opening off a larger room"", ""a horse of a moderate reddish-brown color""], ""v"": [""utter in deep prolonged tones"", ""bark with prolonged noises, of dogs""]}",image.4957.jpg,"
+60,bay,trotting bay,"{""n"": [""an indentation of a shoreline larger than a cove but smaller than a gulf"", ""the sound of a hound on the scent"", ""small Mediterranean evergreen tree with small blackish berries and glossy aromatic leaves used for flavoring in cooking; also used by ancient Greeks to crown victors"", ""a compartment on a ship between decks; often used as a hospital"", ""a compartment in an aircraft used for some specific purpose"", ""a small recess opening off a larger room"", ""a horse of a moderate reddish-brown color""], ""v"": [""utter in deep prolonged tones"", ""bark with prolonged noises, of dogs""], ""a"": [""(used of animals especially a horse) of a moderate reddish-brown color""]}",image.4957.jpg,"
 Ambiguous word: bay
 ---
 Noun Senses:
@@ -1866,9 +1912,13 @@ Verb Senses:
 2) bark with prolonged noises, of dogs
 
 ---
+Adjective Senses:
+1) (used of animals especially a horse) of a moderate reddish-brown color
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -1879,12 +1929,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 61,storage,storage depot,"{""n"": [""the act of storing something"", ""a depository for goods"", ""the commercial enterprise of storing goods and materials"", ""(computer science) the process of storing information in a computer memory or on a magnetic tape or disk"", ""an electronic memory device"", ""depositing in a warehouse""]}",image.4965.jpg,"
 Ambiguous word: storage
@@ -2486,7 +2540,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
 "
-79,metal,metal music,"{""n"": [""any of several chemical elements that are usually shiny solids that conduct heat or electricity and can be formed into sheets etc."", ""a mixture containing two or more metallic elements or metallic and nonmetallic elements usually fused together or dissolving into each other when molten""], ""v"": [""cover with metal""]}",image.5132.jpg,"
+79,metal,metal music,"{""n"": [""any of several chemical elements that are usually shiny solids that conduct heat or electricity and can be formed into sheets etc."", ""a mixture containing two or more metallic elements or metallic and nonmetallic elements usually fused together or dissolving into each other when molten""], ""v"": [""cover with metal""], ""a"": [""containing or made of or resembling or characteristic of a metal; ; ; - Ambrose Bierce""]}",image.5132.jpg,"
 Ambiguous word: metal
 ---
 Noun Senses:
@@ -2498,9 +2552,13 @@ Verb Senses:
 1) cover with metal
 
 ---
+Adjective Senses:
+1) containing or made of or resembling or characteristic of a metal; ; ; - Ambrose Bierce
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -2511,12 +2569,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 80,basin,sink basin,"{""n"": [""a bowl-shaped vessel; usually used for holding food or liquids"", ""the quantity that a basin will hold"", ""a natural depression in the surface of the land often with a lake at the bottom of it"", ""the entire geographical area drained by a river and its tributaries; an area characterized by all runoff being conveyed to the same outlet"", ""a bathroom sink that is permanently installed and connected to a water supply and drainpipe; where you can wash your hands and face""]}",image.5134.jpg,"
 Ambiguous word: basin
@@ -2602,7 +2664,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
 "
-83,cinnabar,cinnabar bug,"{""n"": [""a heavy reddish mineral consisting of mercuric sulfide; the chief source of mercury"", ""large red-and-black European moth; larvae feed on leaves of ragwort; introduced into United States to control ragwort""]}",image.5163.jpg,"
+83,cinnabar,cinnabar bug,"{""n"": [""a heavy reddish mineral consisting of mercuric sulfide; the chief source of mercury"", ""large red-and-black European moth; larvae feed on leaves of ragwort; introduced into United States to control ragwort""], ""a"": [""of a vivid red to reddish-orange color""]}",image.5163.jpg,"
 Ambiguous word: cinnabar
 ---
 Noun Senses:
@@ -2610,21 +2672,29 @@ Noun Senses:
 2) large red-and-black European moth; larvae feed on leaves of ragwort; introduced into United States to control ragwort
 
 ---
+Adjective Senses:
+1) of a vivid red to reddish-orange color
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
 Decision Logic & Rules
 Follow these rules in order of priority to make your decision:
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, adjective).
 "
 84,argonaut,argonaut shell,"{""n"": [""someone engaged in a dangerous but potentially rewarding adventure"", ""(Greek mythology) one of the heroes who sailed with Jason in search of the Golden Fleece"", ""cephalopod mollusk of warm seas whose females have delicate papery spiral shells""]}",image.1397.jpg,"
 Ambiguous word: argonaut
@@ -2913,7 +2983,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
 "
-94,arch,finger arch,"{""n"": [""a curved shape in the vertical plane that spans an opening"", ""a curved bony structure supporting or enclosing organs (especially the inner sides of the feet)"", ""a passageway under a curved masonry construction"", ""(architecture) a masonry construction (usually curved) for spanning an opening and supporting the weight above it""], ""v"": [""form an arch or curve""]}",image.5256.jpg,"
+94,arch,finger arch,"{""n"": [""a curved shape in the vertical plane that spans an opening"", ""a curved bony structure supporting or enclosing organs (especially the inner sides of the feet)"", ""a passageway under a curved masonry construction"", ""(architecture) a masonry construction (usually curved) for spanning an opening and supporting the weight above it""], ""v"": [""form an arch or curve""], ""a"": [""(used of behavior or attitude) characteristic of those who treat others with condescension"", ""expert in skulduggery"", ""naughtily or annoyingly playful""]}",image.5256.jpg,"
 Ambiguous word: arch
 ---
 Noun Senses:
@@ -2927,9 +2997,15 @@ Verb Senses:
 1) form an arch or curve
 
 ---
+Adjective Senses:
+1) (used of behavior or attitude) characteristic of those who treat others with condescension
+2) expert in skulduggery
+3) naughtily or annoyingly playful
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -2940,14 +3016,18 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
-95,beetle,beetle hammer,"{""n"": [""insect having biting mouthparts and front wings modified to form horny covers overlying the membranous rear wings"", ""a tool resembling a hammer but with a large head (usually wooden); used to drive wedges or ram down paving stones or for crushing or beating or flattening or smoothing""], ""v"": [""be suspended over or hang over"", ""fly or go in a manner resembling a beetle"", ""beat with a beetle""]}",image.5265.jpg,"
+95,beetle,beetle hammer,"{""n"": [""insect having biting mouthparts and front wings modified to form horny covers overlying the membranous rear wings"", ""a tool resembling a hammer but with a large head (usually wooden); used to drive wedges or ram down paving stones or for crushing or beating or flattening or smoothing""], ""v"": [""be suspended over or hang over"", ""fly or go in a manner resembling a beetle"", ""beat with a beetle""], ""a"": [""jutting or overhanging""]}",image.5265.jpg,"
 Ambiguous word: beetle
 ---
 Noun Senses:
@@ -2961,9 +3041,13 @@ Verb Senses:
 3) beat with a beetle
 
 ---
+Adjective Senses:
+1) jutting or overhanging
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -2974,12 +3058,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 96,treat,edible treat,"{""n"": [""something considered choice to eat"", ""an occurrence that causes special pleasure or delight""], ""v"": [""interact in a certain way"", ""subject to a process or treatment, with the aim of readying for some purpose, improving, or remedying a condition"", ""provide treatment for"", ""act on verbally or in some form of artistic expression"", ""provide with a gift or entertainment"", ""provide with choice or abundant food or drink"", ""engage in negotiations in order to reach an agreement"", ""regard or consider in a specific way""]}",image.5271.jpg,"
 Ambiguous word: treat
@@ -3020,7 +3108,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
 "
-97,bass,freshwater bass,"{""n"": [""the lowest part of the musical range"", ""the lowest part in polyphonic music"", ""an adult male singer with the lowest voice"", ""the lean flesh of a saltwater fish of the family Serranidae"", ""any of various North American freshwater fish with lean flesh (especially of the genus Micropterus)"", ""the lowest adult male singing voice"", ""the member with the lowest range of a family of musical instruments"", ""nontechnical name for any of numerous edible marine and freshwater spiny-finned fishes""]}",image.5287.jpg,"
+97,bass,freshwater bass,"{""n"": [""the lowest part of the musical range"", ""the lowest part in polyphonic music"", ""an adult male singer with the lowest voice"", ""the lean flesh of a saltwater fish of the family Serranidae"", ""any of various North American freshwater fish with lean flesh (especially of the genus Micropterus)"", ""the lowest adult male singing voice"", ""the member with the lowest range of a family of musical instruments"", ""nontechnical name for any of numerous edible marine and freshwater spiny-finned fishes""], ""a"": [""having or denoting a low vocal or instrumental range""]}",image.5287.jpg,"
 Ambiguous word: bass
 ---
 Noun Senses:
@@ -3034,21 +3122,29 @@ Noun Senses:
 8) nontechnical name for any of numerous edible marine and freshwater spiny-finned fishes
 
 ---
+Adjective Senses:
+1) having or denoting a low vocal or instrumental range
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
 Decision Logic & Rules
 Follow these rules in order of priority to make your decision:
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, adjective).
 "
 98,nail,metal nail,"{""n"": [""horny plate covering and protecting part of the dorsal surface of the digits"", ""a thin pointed piece of metal that is hammered into materials as a fastener"", ""a former unit of length for cloth equal to 1/16 of a yard""], ""v"": [""attach something somewhere by means of nails"", ""take into custody"", ""hit hard"", ""succeed in obtaining a position"", ""succeed at easily"", ""locate exactly"", ""complete a pass""]}",image.1773.jpg,"
 Ambiguous word: nail
@@ -3282,7 +3378,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
 "
-106,flat,flat cargo,"{""n"": [""a level tract of land"", ""a shallow box in which seedlings are started"", ""a musical notation indicating one half step lower than the note named"", ""freight car without permanent sides or roof"", ""a deflated pneumatic tire"", ""scenery consisting of a wooden frame covered with painted canvas; part of a stage setting"", ""a suite of rooms usually on one floor of an apartment house""]}",image.5367.jpg,"
+106,flat,flat cargo,"{""n"": [""a level tract of land"", ""a shallow box in which seedlings are started"", ""a musical notation indicating one half step lower than the note named"", ""freight car without permanent sides or roof"", ""a deflated pneumatic tire"", ""scenery consisting of a wooden frame covered with painted canvas; part of a stage setting"", ""a suite of rooms usually on one floor of an apartment house""], ""a"": [""having a surface without slope, tilt in which no part is higher or lower than another"", ""having a relatively broad surface in relation to depth or thickness"", ""not modified or restricted by reservations"", ""stretched out and lying at full length along the ground"", ""lacking contrast or shading between tones"", ""(of a musical note) lowered in pitch by one chromatic semitone"", ""flattened laterally along the whole length (e.g., certain leafstalks or flatfishes)"", ""lacking taste or flavor or tang"", ""lacking stimulating characteristics; uninteresting"", ""having lost effervescence"", ""sounded or spoken in a tone unvarying in pitch"", ""horizontally level"", ""lacking the expected range or depth; not designed to give an illusion or depth"", ""not reflecting light; not glossy"", ""commercially inactive""], ""r"": [""with flat sails"", ""in a forthright manner; candidly or frankly""]}",image.5367.jpg,"
 Ambiguous word: flat
 ---
 Noun Senses:
@@ -3295,21 +3391,51 @@ Noun Senses:
 7) a suite of rooms usually on one floor of an apartment house
 
 ---
+Adjective Senses:
+1) having a surface without slope, tilt in which no part is higher or lower than another
+2) having a relatively broad surface in relation to depth or thickness
+3) not modified or restricted by reservations
+4) stretched out and lying at full length along the ground
+5) lacking contrast or shading between tones
+6) (of a musical note) lowered in pitch by one chromatic semitone
+7) flattened laterally along the whole length (e.g., certain leafstalks or flatfishes)
+8) lacking taste or flavor or tang
+9) lacking stimulating characteristics; uninteresting
+10) having lost effervescence
+11) sounded or spoken in a tone unvarying in pitch
+12) horizontally level
+13) lacking the expected range or depth; not designed to give an illusion or depth
+14) not reflecting light; not glossy
+15) commercially inactive
+
+---
+Adverb Senses:
+1) with flat sails
+2) in a forthright manner; candidly or frankly
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, adjective, adverb.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
 Decision Logic & Rules
 Follow these rules in order of priority to make your decision:
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
+Adverb is considered when:
+* the photo can not be considered to depict an object or action or state of given word.
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, adjective, adverb).
 "
 107,cancer,cancer illness,"{""n"": [""any malignant growth or tumor caused by abnormal and uncontrolled cell division; it may spread to other parts of the body through the lymphatic system or the blood stream"", ""(astrology) a person who is born while the sun is in Cancer"", ""a small zodiacal constellation in the northern hemisphere; between Leo and Gemini"", ""the fourth sign of the zodiac; the sun is in this sign from about June 21 to July 22"", ""type genus of the family Cancridae""]}",image.5370.jpg,"
 Ambiguous word: cancer
@@ -3338,7 +3464,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
 "
-108,tender,railway tender,"{""n"": [""something that can be used as an official medium of payment"", ""someone who waits on or tends to or attends to the needs of another"", ""a formal proposal to buy at a specified price"", ""car attached to a locomotive to carry fuel and water"", ""a boat for communication between ship and shore"", ""ship that usually provides supplies to other ships""], ""v"": [""offer or present for acceptance"", ""propose a payment"", ""make a tender of; in legal settlements"", ""make tender or more tender as by marinating, pounding, or applying a tenderizer""]}",image.5382.jpg,"
+108,tender,railway tender,"{""n"": [""something that can be used as an official medium of payment"", ""someone who waits on or tends to or attends to the needs of another"", ""a formal proposal to buy at a specified price"", ""car attached to a locomotive to carry fuel and water"", ""a boat for communication between ship and shore"", ""ship that usually provides supplies to other ships""], ""v"": [""offer or present for acceptance"", ""propose a payment"", ""make a tender of; in legal settlements"", ""make tender or more tender as by marinating, pounding, or applying a tenderizer""], ""a"": [""given to sympathy or gentleness or sentimentality"", ""hurting"", ""young and immature"", ""having or displaying warmth or affection"", ""easy to cut or chew"", ""physically untoughened"", ""(used of boats) inclined to heel over easily under sail"", ""(of plants) not hardy; easily killed by adverse growing condition""]}",image.5382.jpg,"
 Ambiguous word: tender
 ---
 Noun Senses:
@@ -3357,9 +3483,20 @@ Verb Senses:
 4) make tender or more tender as by marinating, pounding, or applying a tenderizer
 
 ---
+Adjective Senses:
+1) given to sympathy or gentleness or sentimentality
+2) hurting
+3) young and immature
+4) having or displaying warmth or affection
+5) easy to cut or chew
+6) physically untoughened
+7) (used of boats) inclined to heel over easily under sail
+8) (of plants) not hardy; easily killed by adverse growing condition
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -3370,12 +3507,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 109,match,match competition,"{""n"": [""lighter consisting of a thin piece of wood or cardboard tipped with combustible chemical; ignites with friction"", ""a formal contest in which two or more persons or teams compete"", ""a burning piece of wood or cardboard"", ""an exact duplicate"", ""the score needed to win a match"", ""a person regarded as a good matrimonial prospect"", ""a person who is of equal standing with another in a group"", ""a pair of people who live together"", ""something that resembles or harmonizes with""], ""v"": [""be compatible, similar or consistent; coincide in their characteristics"", ""provide funds complementary to"", ""bring two objects, ideas, or people together"", ""be equal to in quality or ability"", ""make correspond or harmonize"", ""satisfy or fulfill"", ""give or join in marriage"", ""set into opposition or rivalry"", ""be equal or harmonize"", ""make equal, uniform, corresponding, or matching""]}",image.5388.jpg,"
 Ambiguous word: match
@@ -3425,7 +3566,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
 "
-110,bang,sexual bang,"{""n"": [""a vigorous blow"", ""a sudden very loud noise"", ""a border of hair that is cut short and hangs across the forehead"", ""the swift release of a store of affective force"", ""a conspicuous success""], ""v"": [""strike violently"", ""to produce a sharp often metallic explosive or percussive sound"", ""close violently"", ""move noisily"", ""have sexual intercourse with"", ""leap, jerk, bang""]}",image.5399.jpg,"
+110,bang,sexual bang,"{""n"": [""a vigorous blow"", ""a sudden very loud noise"", ""a border of hair that is cut short and hangs across the forehead"", ""the swift release of a store of affective force"", ""a conspicuous success""], ""v"": [""strike violently"", ""to produce a sharp often metallic explosive or percussive sound"", ""close violently"", ""move noisily"", ""have sexual intercourse with"", ""leap, jerk, bang""], ""r"": [""directly""]}",image.5399.jpg,"
 Ambiguous word: bang
 ---
 Noun Senses:
@@ -3445,9 +3586,13 @@ Verb Senses:
 6) leap, jerk, bang
 
 ---
+Adverb Senses:
+1) directly
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adverb.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -3458,12 +3603,15 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adverb is considered when:
+* the photo can not be considered to depict an object or action or state of given word.
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adverb).
 "
 111,frame,frame of a painting,"{""n"": [""the framework for a pair of eyeglasses"", ""a single one of a series of still transparent pictures forming a cinema, television or video film"", ""alternative names for the body of a human being"", ""(baseball) one of nine divisions of play during which each team has a turn at bat"", ""a single drawing in a comic_strip"", ""an application that divides the user's display into two or more windows that can be scrolled independently"", ""a system of assumptions and standards that sanction behavior and give it meaning"", ""the hard structure (bones and cartilages) that provides a frame for the body of an animal"", ""the internal supporting structure that gives an artifact its shape"", ""a framework that supports and protects a picture or a mirror"", ""one of the ten divisions into which bowling is divided""], ""v"": [""enclose in or as if in a frame"", ""enclose in a frame, as of a picture"", ""take or catch as if in a snare or trap"", ""formulate in a particular style or language"", ""make up plans or basic details for"", ""construct by fitting or uniting parts together""]}",image.5408.jpg,"
 Ambiguous word: frame
@@ -3813,7 +3961,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
 "
-123,arctic,arctic boots,"{""n"": [""the regions to the north of the Arctic Circle centered on the North Pole"", ""a waterproof overshoe that protects shoes from water or snow""]}",image.5518.jpg,"
+123,arctic,arctic boots,"{""n"": [""the regions to the north of the Arctic Circle centered on the North Pole"", ""a waterproof overshoe that protects shoes from water or snow""], ""a"": [""of or relating to the Arctic"", ""extremely cold""]}",image.5518.jpg,"
 Ambiguous word: arctic
 ---
 Noun Senses:
@@ -3821,21 +3969,30 @@ Noun Senses:
 2) a waterproof overshoe that protects shoes from water or snow
 
 ---
+Adjective Senses:
+1) of or relating to the Arctic
+2) extremely cold
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
 Decision Logic & Rules
 Follow these rules in order of priority to make your decision:
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, adjective).
 "
 124,mustard,mustard nourishment,"{""n"": [""any of several cruciferous plants of the genus Brassica"", ""pungent powder or paste prepared from ground mustard seeds"", ""leaves eaten as cooked greens""]}",image.5523.jpg,"
 Ambiguous word: mustard
@@ -4275,7 +4432,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
 "
-139,shot,ammunition shot,"{""n"": [""the act of firing a projectile"", ""a solid missile discharged from a firearm"", ""(sports) the act of swinging or striking at a ball with a club or racket or bat or cue or hand"", ""a chance to do something"", ""a person who shoots (usually with respect to their ability to shoot)"", ""a consecutive series of pictures that constitutes a unit of action in a film"", ""the act of putting a liquid into the body by means of a syringe"", ""a small drink of liquor"", ""an aggressive remark directed at a person like a missile and intended to have a telling effect"", ""an estimate based on little or no information"", ""an informal photograph; usually made with a small hand-held camera"", ""sports equipment consisting of a heavy metal ball used in the shot put"", ""an explosive charge used in blasting"", ""a blow hard enough to cause injury"", ""an attempt to score in a game"", ""informal words for any attempt or effort"", ""the launching of a missile or spacecraft to a specified destination""], ""v"": [""hit with a missile from a weapon"", ""kill by firing a missile"", ""fire a shot"", ""make a film or photograph of something"", ""send forth suddenly, intensely, swiftly"", ""run or move very quickly or hastily"", ""move quickly and violently"", ""throw or propel in a specific direction or towards a specific objective"", ""record on photographic film"", ""emit (as light, flame, or fumes) suddenly and forcefully"", ""cause a sharp and sudden pain in"", ""force or drive (a fluid or gas) into by piercing"", ""variegate by interweaving weft threads of different colors"", ""throw dice, as in a crap game"", ""spend frivolously and unwisely"", ""score"", ""utter fast and forcefully"", ""measure the altitude of by using a sextant"", ""produce buds, branches, or germinate"", ""give an injection to""]}",image.5648.jpg,"
+139,shot,ammunition shot,"{""n"": [""the act of firing a projectile"", ""a solid missile discharged from a firearm"", ""(sports) the act of swinging or striking at a ball with a club or racket or bat or cue or hand"", ""a chance to do something"", ""a person who shoots (usually with respect to their ability to shoot)"", ""a consecutive series of pictures that constitutes a unit of action in a film"", ""the act of putting a liquid into the body by means of a syringe"", ""a small drink of liquor"", ""an aggressive remark directed at a person like a missile and intended to have a telling effect"", ""an estimate based on little or no information"", ""an informal photograph; usually made with a small hand-held camera"", ""sports equipment consisting of a heavy metal ball used in the shot put"", ""an explosive charge used in blasting"", ""a blow hard enough to cause injury"", ""an attempt to score in a game"", ""informal words for any attempt or effort"", ""the launching of a missile or spacecraft to a specified destination""], ""v"": [""hit with a missile from a weapon"", ""kill by firing a missile"", ""fire a shot"", ""make a film or photograph of something"", ""send forth suddenly, intensely, swiftly"", ""run or move very quickly or hastily"", ""move quickly and violently"", ""throw or propel in a specific direction or towards a specific objective"", ""record on photographic film"", ""emit (as light, flame, or fumes) suddenly and forcefully"", ""cause a sharp and sudden pain in"", ""force or drive (a fluid or gas) into by piercing"", ""variegate by interweaving weft threads of different colors"", ""throw dice, as in a crap game"", ""spend frivolously and unwisely"", ""score"", ""utter fast and forcefully"", ""measure the altitude of by using a sextant"", ""produce buds, branches, or germinate"", ""give an injection to""], ""a"": [""varying in color when seen in different lights or from different angles""]}",image.5648.jpg,"
 Ambiguous word: shot
 ---
 Noun Senses:
@@ -4321,9 +4478,13 @@ Verb Senses:
 20) give an injection to
 
 ---
+Adjective Senses:
+1) varying in color when seen in different lights or from different angles
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -4334,14 +4495,18 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
-140,cinnabar,cinnabar mineral,"{""n"": [""a heavy reddish mineral consisting of mercuric sulfide; the chief source of mercury"", ""large red-and-black European moth; larvae feed on leaves of ragwort; introduced into United States to control ragwort""]}",image.5659.jpg,"
+140,cinnabar,cinnabar mineral,"{""n"": [""a heavy reddish mineral consisting of mercuric sulfide; the chief source of mercury"", ""large red-and-black European moth; larvae feed on leaves of ragwort; introduced into United States to control ragwort""], ""a"": [""of a vivid red to reddish-orange color""]}",image.5659.jpg,"
 Ambiguous word: cinnabar
 ---
 Noun Senses:
@@ -4349,23 +4514,31 @@ Noun Senses:
 2) large red-and-black European moth; larvae feed on leaves of ragwort; introduced into United States to control ragwort
 
 ---
+Adjective Senses:
+1) of a vivid red to reddish-orange color
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
 Decision Logic & Rules
 Follow these rules in order of priority to make your decision:
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, adjective).
 "
-141,bay,bay sound,"{""n"": [""an indentation of a shoreline larger than a cove but smaller than a gulf"", ""the sound of a hound on the scent"", ""small Mediterranean evergreen tree with small blackish berries and glossy aromatic leaves used for flavoring in cooking; also used by ancient Greeks to crown victors"", ""a compartment on a ship between decks; often used as a hospital"", ""a compartment in an aircraft used for some specific purpose"", ""a small recess opening off a larger room"", ""a horse of a moderate reddish-brown color""], ""v"": [""utter in deep prolonged tones"", ""bark with prolonged noises, of dogs""]}",image.5665.jpg,"
+141,bay,bay sound,"{""n"": [""an indentation of a shoreline larger than a cove but smaller than a gulf"", ""the sound of a hound on the scent"", ""small Mediterranean evergreen tree with small blackish berries and glossy aromatic leaves used for flavoring in cooking; also used by ancient Greeks to crown victors"", ""a compartment on a ship between decks; often used as a hospital"", ""a compartment in an aircraft used for some specific purpose"", ""a small recess opening off a larger room"", ""a horse of a moderate reddish-brown color""], ""v"": [""utter in deep prolonged tones"", ""bark with prolonged noises, of dogs""], ""a"": [""(used of animals especially a horse) of a moderate reddish-brown color""]}",image.5665.jpg,"
 Ambiguous word: bay
 ---
 Noun Senses:
@@ -4383,9 +4556,13 @@ Verb Senses:
 2) bark with prolonged noises, of dogs
 
 ---
+Adjective Senses:
+1) (used of animals especially a horse) of a moderate reddish-brown color
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -4396,12 +4573,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 142,formica,formica laminate,"{""n"": [""any of various plastic laminates containing melamine"", ""type genus of the Formicidae""]}",image.5671.jpg,"
 Ambiguous word: formica
@@ -4663,7 +4844,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
 "
-150,shot,vaccine shot,"{""n"": [""the act of firing a projectile"", ""a solid missile discharged from a firearm"", ""(sports) the act of swinging or striking at a ball with a club or racket or bat or cue or hand"", ""a chance to do something"", ""a person who shoots (usually with respect to their ability to shoot)"", ""a consecutive series of pictures that constitutes a unit of action in a film"", ""the act of putting a liquid into the body by means of a syringe"", ""a small drink of liquor"", ""an aggressive remark directed at a person like a missile and intended to have a telling effect"", ""an estimate based on little or no information"", ""an informal photograph; usually made with a small hand-held camera"", ""sports equipment consisting of a heavy metal ball used in the shot put"", ""an explosive charge used in blasting"", ""a blow hard enough to cause injury"", ""an attempt to score in a game"", ""informal words for any attempt or effort"", ""the launching of a missile or spacecraft to a specified destination""], ""v"": [""hit with a missile from a weapon"", ""kill by firing a missile"", ""fire a shot"", ""make a film or photograph of something"", ""send forth suddenly, intensely, swiftly"", ""run or move very quickly or hastily"", ""move quickly and violently"", ""throw or propel in a specific direction or towards a specific objective"", ""record on photographic film"", ""emit (as light, flame, or fumes) suddenly and forcefully"", ""cause a sharp and sudden pain in"", ""force or drive (a fluid or gas) into by piercing"", ""variegate by interweaving weft threads of different colors"", ""throw dice, as in a crap game"", ""spend frivolously and unwisely"", ""score"", ""utter fast and forcefully"", ""measure the altitude of by using a sextant"", ""produce buds, branches, or germinate"", ""give an injection to""]}",image.5734.jpg,"
+150,shot,vaccine shot,"{""n"": [""the act of firing a projectile"", ""a solid missile discharged from a firearm"", ""(sports) the act of swinging or striking at a ball with a club or racket or bat or cue or hand"", ""a chance to do something"", ""a person who shoots (usually with respect to their ability to shoot)"", ""a consecutive series of pictures that constitutes a unit of action in a film"", ""the act of putting a liquid into the body by means of a syringe"", ""a small drink of liquor"", ""an aggressive remark directed at a person like a missile and intended to have a telling effect"", ""an estimate based on little or no information"", ""an informal photograph; usually made with a small hand-held camera"", ""sports equipment consisting of a heavy metal ball used in the shot put"", ""an explosive charge used in blasting"", ""a blow hard enough to cause injury"", ""an attempt to score in a game"", ""informal words for any attempt or effort"", ""the launching of a missile or spacecraft to a specified destination""], ""v"": [""hit with a missile from a weapon"", ""kill by firing a missile"", ""fire a shot"", ""make a film or photograph of something"", ""send forth suddenly, intensely, swiftly"", ""run or move very quickly or hastily"", ""move quickly and violently"", ""throw or propel in a specific direction or towards a specific objective"", ""record on photographic film"", ""emit (as light, flame, or fumes) suddenly and forcefully"", ""cause a sharp and sudden pain in"", ""force or drive (a fluid or gas) into by piercing"", ""variegate by interweaving weft threads of different colors"", ""throw dice, as in a crap game"", ""spend frivolously and unwisely"", ""score"", ""utter fast and forcefully"", ""measure the altitude of by using a sextant"", ""produce buds, branches, or germinate"", ""give an injection to""], ""a"": [""varying in color when seen in different lights or from different angles""]}",image.5734.jpg,"
 Ambiguous word: shot
 ---
 Noun Senses:
@@ -4709,9 +4890,13 @@ Verb Senses:
 20) give an injection to
 
 ---
+Adjective Senses:
+1) varying in color when seen in different lights or from different angles
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -4722,12 +4907,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 151,voyage,sea voyage,"{""n"": [""an act of traveling by water"", ""a journey to some distant place""], ""v"": [""travel on water propelled by wind or by other means""]}",image.5718.jpg,"
 Ambiguous word: voyage
@@ -4871,7 +5060,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
 "
-155,dummy,dummy for baby,"{""n"": [""a person who does not talk"", ""an ignorant or foolish person"", ""a figure representing the human form"", ""a cartridge containing an explosive charge but no bullet""], ""v"": [""make a dummy of""]}",image.5775.jpg,"
+155,dummy,dummy for baby,"{""n"": [""a person who does not talk"", ""an ignorant or foolish person"", ""a figure representing the human form"", ""a cartridge containing an explosive charge but no bullet""], ""v"": [""make a dummy of""], ""a"": [""having the appearance of being real but lacking capacity to function""]}",image.5775.jpg,"
 Ambiguous word: dummy
 ---
 Noun Senses:
@@ -4885,9 +5074,13 @@ Verb Senses:
 1) make a dummy of
 
 ---
+Adjective Senses:
+1) having the appearance of being real but lacking capacity to function
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -4898,12 +5091,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 156,chamaeleon,chamaeleon reptile,"{""n"": [""a faint constellation in the polar region of the southern hemisphere near Apus and Mensa"", ""lizard of Africa and Madagascar able to change skin color and having a projectile tongue""]}",image.5781.jpg,"
 Ambiguous word: chamaeleon
@@ -5089,7 +5286,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
 "
-162,gold,gold metal,"{""n"": [""coins made of gold"", ""a deep yellow color"", ""a soft yellow malleable ductile (trivalent and univalent) metallic element; occurs mainly as nuggets in rocks and alluvial deposits; does not react with most chemicals but is attacked by chlorine and aqua regia"", ""great wealth; --Ben Jonson"", ""something likened to the metal in brightness or preciousness or superiority etc.""]}",image.5820.jpg,"
+162,gold,gold metal,"{""n"": [""coins made of gold"", ""a deep yellow color"", ""a soft yellow malleable ductile (trivalent and univalent) metallic element; occurs mainly as nuggets in rocks and alluvial deposits; does not react with most chemicals but is attacked by chlorine and aqua regia"", ""great wealth; --Ben Jonson"", ""something likened to the metal in brightness or preciousness or superiority etc.""], ""a"": [""made from or covered with gold"", ""having the deep slightly brownish color of gold""]}",image.5820.jpg,"
 Ambiguous word: gold
 ---
 Noun Senses:
@@ -5100,21 +5297,30 @@ Noun Senses:
 5) something likened to the metal in brightness or preciousness or superiority etc.
 
 ---
+Adjective Senses:
+1) made from or covered with gold
+2) having the deep slightly brownish color of gold
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
 Decision Logic & Rules
 Follow these rules in order of priority to make your decision:
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, adjective).
 "
 163,mouse,computer mouse,"{""n"": [""any of numerous small rodents typically resembling diminutive rats having pointed snouts and small ears on elongated bodies with slender usually hairless tails"", ""a swollen bruise caused by a blow to the eye"", ""person who is quiet or timid"", ""a hand-operated electronic device that controls the coordinates of a cursor on your computer screen as you move it around on a pad; on the bottom of the device is a ball that rolls on the surface of the pad""], ""v"": [""to go stealthily or furtively"", ""manipulate the mouse of a computer""]}",image.3776.jpg,"
 Ambiguous word: mouse
@@ -7315,7 +7521,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
 "
-231,ace,enzyme ace,"{""n"": [""the smallest whole number or a numeral representing this number"", ""one of four playing cards in a deck having a single pip on its face"", ""someone who is dazzlingly skilled in any field"", ""proteolytic enzyme that converts angiotensin I into angiotensin II"", ""a major strategic headquarters of NATO; safeguards an area extending from Norway to Turkey"", ""a serve that the receiver is unable to reach""], ""v"": [""succeed at easily"", ""score an ace against"", ""play (a hole) in one stroke"", ""serve an ace against (someone)""]}",image.6376.jpg,"
+231,ace,enzyme ace,"{""n"": [""the smallest whole number or a numeral representing this number"", ""one of four playing cards in a deck having a single pip on its face"", ""someone who is dazzlingly skilled in any field"", ""proteolytic enzyme that converts angiotensin I into angiotensin II"", ""a major strategic headquarters of NATO; safeguards an area extending from Norway to Turkey"", ""a serve that the receiver is unable to reach""], ""v"": [""succeed at easily"", ""score an ace against"", ""play (a hole) in one stroke"", ""serve an ace against (someone)""], ""a"": [""of the highest quality""]}",image.6376.jpg,"
 Ambiguous word: ace
 ---
 Noun Senses:
@@ -7334,9 +7540,13 @@ Verb Senses:
 4) serve an ace against (someone)
 
 ---
+Adjective Senses:
+1) of the highest quality
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -7347,12 +7557,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 232,dip,gym dip,"{""n"": [""a depression in an otherwise level surface"", ""(physics) the angle that a magnetic needle makes with the plane of the horizon"", ""a thief who steals from the pockets or purses of others in public places"", ""tasty mixture or liquid into which bite-sized foods are dipped"", ""a brief immersion"", ""a sudden sharp decrease in some quantity"", ""a candle that is made by repeated dipping in a pool of wax or tallow"", ""a brief swim in water"", ""a gymnastic exercise on the parallel bars in which the body is lowered and raised by bending and straightening the arms""], ""v"": [""immerse briefly into a liquid so as to wet, coat, or saturate"", ""dip into a liquid while eating"", ""go down momentarily"", ""stain an object by immersing it in a liquid"", ""take a small amount from"", ""switch (a car's headlights) from a higher to a lower beam"", ""lower briefly"", ""appear to move downward"", ""slope downwards"", ""dip into a liquid"", ""place (candle wicks) into hot, liquid wax"", ""immerse in a disinfectant solution"", ""plunge (one's hand or a receptacle) into a container"", ""scoop up by plunging one's hand or a ladle below the surface""]}",image.6383.jpg,"
 Ambiguous word: dip
@@ -7493,7 +7707,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
 "
-236,flip,flip a coin,"{""n"": [""an acrobatic feat in which the feet roll over the head (either forward or backward) and return"", ""hot or cold alcoholic mixed drink containing a beaten egg"", ""a sudden, quick movement"", ""the act of flipping a coin"", ""a dive in which the diver somersaults before entering the water"", ""(sports) the act of throwing the ball to another member of your team""], ""v"": [""lightly throw to see which side comes up"", ""cause to go on or to be engaged or set in operation"", ""look through a book or other written material"", ""toss with a sharp movement so as to cause to turn over in the air"", ""cause to move with a flick"", ""throw or toss with a light motion"", ""move with a flick or light motion"", ""turn upside down, or throw so as to reverse"", ""react in an excited, delighted, or surprised way"", ""go mad, go crazy"", ""reverse (a direction, attitude, or course of action)""]}",image.6419.jpg,"
+236,flip,flip a coin,"{""n"": [""an acrobatic feat in which the feet roll over the head (either forward or backward) and return"", ""hot or cold alcoholic mixed drink containing a beaten egg"", ""a sudden, quick movement"", ""the act of flipping a coin"", ""a dive in which the diver somersaults before entering the water"", ""(sports) the act of throwing the ball to another member of your team""], ""v"": [""lightly throw to see which side comes up"", ""cause to go on or to be engaged or set in operation"", ""look through a book or other written material"", ""toss with a sharp movement so as to cause to turn over in the air"", ""cause to move with a flick"", ""throw or toss with a light motion"", ""move with a flick or light motion"", ""turn upside down, or throw so as to reverse"", ""react in an excited, delighted, or surprised way"", ""go mad, go crazy"", ""reverse (a direction, attitude, or course of action)""], ""a"": [""marked by casual disrespect""]}",image.6419.jpg,"
 Ambiguous word: flip
 ---
 Noun Senses:
@@ -7519,9 +7733,13 @@ Verb Senses:
 11) reverse (a direction, attitude, or course of action)
 
 ---
+Adjective Senses:
+1) marked by casual disrespect
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -7532,12 +7750,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 237,chamois,suede chamois,"{""n"": [""a soft suede leather formerly from the skin of the chamois antelope but now from sheepskin"", ""hoofed mammal of mountains of Eurasia having upright horns with backward-hooked tips""]}",image.6435.jpg,"
 Ambiguous word: chamois
@@ -7588,7 +7810,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
 "
-239,arctic,arctic map,"{""n"": [""the regions to the north of the Arctic Circle centered on the North Pole"", ""a waterproof overshoe that protects shoes from water or snow""]}",image.6460.jpg,"
+239,arctic,arctic map,"{""n"": [""the regions to the north of the Arctic Circle centered on the North Pole"", ""a waterproof overshoe that protects shoes from water or snow""], ""a"": [""of or relating to the Arctic"", ""extremely cold""]}",image.6460.jpg,"
 Ambiguous word: arctic
 ---
 Noun Senses:
@@ -7596,23 +7818,32 @@ Noun Senses:
 2) a waterproof overshoe that protects shoes from water or snow
 
 ---
+Adjective Senses:
+1) of or relating to the Arctic
+2) extremely cold
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
 Decision Logic & Rules
 Follow these rules in order of priority to make your decision:
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, adjective).
 "
-240,smoking,smoking steam,"{""n"": [""the act of smoking tobacco or other substances"", ""a hot vapor containing fine particles of carbon being produced by combustion""], ""v"": [""inhale and exhale smoke from cigarettes, cigars, pipes"", ""emit a cloud of fine particles""]}",image.6468.jpg,"
+240,smoking,smoking steam,"{""n"": [""the act of smoking tobacco or other substances"", ""a hot vapor containing fine particles of carbon being produced by combustion""], ""v"": [""inhale and exhale smoke from cigarettes, cigars, pipes"", ""emit a cloud of fine particles""], ""a"": [""emitting smoke in great volume""]}",image.6468.jpg,"
 Ambiguous word: smoking
 ---
 Noun Senses:
@@ -7625,9 +7856,13 @@ Verb Senses:
 2) emit a cloud of fine particles
 
 ---
+Adjective Senses:
+1) emitting smoke in great volume
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -7638,12 +7873,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 241,arbor,leafy arbor,"{""n"": [""tree (as opposed to shrub)"", ""any of various rotating shafts that serve as axes for larger rotating parts"", ""a framework that supports climbing plants""]}",image.6479.jpg,"
 Ambiguous word: arbor
@@ -7670,7 +7909,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
 "
-242,bay,bay leaves,"{""n"": [""an indentation of a shoreline larger than a cove but smaller than a gulf"", ""the sound of a hound on the scent"", ""small Mediterranean evergreen tree with small blackish berries and glossy aromatic leaves used for flavoring in cooking; also used by ancient Greeks to crown victors"", ""a compartment on a ship between decks; often used as a hospital"", ""a compartment in an aircraft used for some specific purpose"", ""a small recess opening off a larger room"", ""a horse of a moderate reddish-brown color""], ""v"": [""utter in deep prolonged tones"", ""bark with prolonged noises, of dogs""]}",image.6487.jpg,"
+242,bay,bay leaves,"{""n"": [""an indentation of a shoreline larger than a cove but smaller than a gulf"", ""the sound of a hound on the scent"", ""small Mediterranean evergreen tree with small blackish berries and glossy aromatic leaves used for flavoring in cooking; also used by ancient Greeks to crown victors"", ""a compartment on a ship between decks; often used as a hospital"", ""a compartment in an aircraft used for some specific purpose"", ""a small recess opening off a larger room"", ""a horse of a moderate reddish-brown color""], ""v"": [""utter in deep prolonged tones"", ""bark with prolonged noises, of dogs""], ""a"": [""(used of animals especially a horse) of a moderate reddish-brown color""]}",image.6487.jpg,"
 Ambiguous word: bay
 ---
 Noun Senses:
@@ -7688,9 +7927,13 @@ Verb Senses:
 2) bark with prolonged noises, of dogs
 
 ---
+Adjective Senses:
+1) (used of animals especially a horse) of a moderate reddish-brown color
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -7701,12 +7944,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 243,boa,boa scarf,"{""n"": [""a long thin fluffy scarf of feathers or fur"", ""any of several chiefly tropical constrictors with vestigial hind limbs""]}",image.2571.jpg,"
 Ambiguous word: boa
@@ -7769,7 +8016,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
 "
-245,spread,spread knife,"{""n"": [""process or result of distributing or extending over a wide expanse of space"", ""a conspicuous disparity or difference as between two figures"", ""farm consisting of a large tract of land along with facilities needed to raise livestock (especially cattle)"", ""a haphazard distribution in all directions"", ""a tasty mixture to be spread on bread or crackers or used in preparing other dishes"", ""a meal that is well prepared and greatly enjoyed"", ""two facing pages of a book or other publication"", ""the expansion of a person's girth (especially at middle age)"", ""decorative cover for a bed"", ""act of extending over a wider scope or expanse of space or time""], ""v"": [""distribute or disperse widely"", ""become distributed or widespread"", ""spread across or over"", ""spread out or open from a closed or folded state"", ""cause to become widely known"", ""become widely known and passed on"", ""strew or distribute over an area"", ""move outward"", ""cover by spreading something over"", ""distribute over a surface in a layer""]}",image.6509.jpg,"
+245,spread,spread knife,"{""n"": [""process or result of distributing or extending over a wide expanse of space"", ""a conspicuous disparity or difference as between two figures"", ""farm consisting of a large tract of land along with facilities needed to raise livestock (especially cattle)"", ""a haphazard distribution in all directions"", ""a tasty mixture to be spread on bread or crackers or used in preparing other dishes"", ""a meal that is well prepared and greatly enjoyed"", ""two facing pages of a book or other publication"", ""the expansion of a person's girth (especially at middle age)"", ""decorative cover for a bed"", ""act of extending over a wider scope or expanse of space or time""], ""v"": [""distribute or disperse widely"", ""become distributed or widespread"", ""spread across or over"", ""spread out or open from a closed or folded state"", ""cause to become widely known"", ""become widely known and passed on"", ""strew or distribute over an area"", ""move outward"", ""cover by spreading something over"", ""distribute over a surface in a layer""], ""a"": [""distributed or spread over a considerable extent"", ""prepared or arranged for a meal; especially having food set out"", ""fully extended in width""]}",image.6509.jpg,"
 Ambiguous word: spread
 ---
 Noun Senses:
@@ -7798,9 +8045,15 @@ Verb Senses:
 10) distribute over a surface in a layer
 
 ---
+Adjective Senses:
+1) distributed or spread over a considerable extent
+2) prepared or arranged for a meal; especially having food set out
+3) fully extended in width
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -7811,12 +8064,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 246,cutter,cutter sea,"{""n"": [""someone who cuts or carves stone"", ""someone who carves the meat"", ""someone whose work is cutting (as e.g. cutting cloth for garments)"", ""a boat for communication between ship and shore"", ""a sailing vessel with a single mast set further back than the mast of a sloop"", ""a cutting implement; a tool for cutting""]}",image.6519.jpg,"
 Ambiguous word: cutter
@@ -7870,7 +8127,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
 "
-248,dandy,dandy appearance,"{""n"": [""a man who is much concerned with his dress and appearance"", ""a sailing vessel with two masts; a small mizzen is aft of the rudderpost""]}",image.6537.jpg,"
+248,dandy,dandy appearance,"{""n"": [""a man who is much concerned with his dress and appearance"", ""a sailing vessel with two masts; a small mizzen is aft of the rudderpost""], ""a"": [""very good""]}",image.6537.jpg,"
 Ambiguous word: dandy
 ---
 Noun Senses:
@@ -7878,21 +8135,29 @@ Noun Senses:
 2) a sailing vessel with two masts; a small mizzen is aft of the rudderpost
 
 ---
+Adjective Senses:
+1) very good
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
 Decision Logic & Rules
 Follow these rules in order of priority to make your decision:
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, adjective).
 "
 249,column,architecture column,"{""n"": [""a line of units following one after another"", ""a vertical glass tube used in column chromatography; a mixture is poured in the top and washed through a stationary substance where components of the mixture are adsorbed selectively to form colored bands"", ""a vertical array of numbers or other information"", ""anything that approximates the shape of a column or tower"", ""an article giving opinions or perspectives"", ""a vertical cylindrical structure standing alone and not supporting anything (such as a monument)"", ""(architecture) a tall vertical cylindrical structure standing upright and used to support a structure"", ""a page or text that is vertically divided"", ""any tubular or pillar-like supporting structure in the body""]}",image.2544.jpg,"
 Ambiguous word: column
@@ -8355,7 +8620,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
 "
-266,crack,crack drug,"{""n"": [""a long narrow opening"", ""a narrow opening"", ""a long narrow depression in a surface"", ""a sudden sharp noise"", ""a chance to do something"", ""witty remark"", ""a blemish resulting from a break without complete separation of the parts"", ""a purified and potent form of cocaine that is smoked rather than snorted; highly addictive"", ""a usually brief attempt"", ""the act of cracking something""], ""v"": [""become fractured; break or crack on the surface only"", ""make a very sharp explosive sound"", ""make a sharp sound"", ""hit forcefully; deal a hard blow, making a cracking noise"", ""pass through (a barrier)"", ""break partially but keep its integrity"", ""break suddenly and abruptly, as under tension"", ""gain unauthorized access computers with malicious intentions"", ""suffer a nervous breakdown"", ""tell spontaneously"", ""cause to become cracked"", ""reduce (petroleum) to a simpler compound by cracking"", ""break into simpler molecules by means of heat""]}",image.6669.jpg,"
+266,crack,crack drug,"{""n"": [""a long narrow opening"", ""a narrow opening"", ""a long narrow depression in a surface"", ""a sudden sharp noise"", ""a chance to do something"", ""witty remark"", ""a blemish resulting from a break without complete separation of the parts"", ""a purified and potent form of cocaine that is smoked rather than snorted; highly addictive"", ""a usually brief attempt"", ""the act of cracking something""], ""v"": [""become fractured; break or crack on the surface only"", ""make a very sharp explosive sound"", ""make a sharp sound"", ""hit forcefully; deal a hard blow, making a cracking noise"", ""pass through (a barrier)"", ""break partially but keep its integrity"", ""break suddenly and abruptly, as under tension"", ""gain unauthorized access computers with malicious intentions"", ""suffer a nervous breakdown"", ""tell spontaneously"", ""cause to become cracked"", ""reduce (petroleum) to a simpler compound by cracking"", ""break into simpler molecules by means of heat""], ""a"": [""of the highest quality""]}",image.6669.jpg,"
 Ambiguous word: crack
 ---
 Noun Senses:
@@ -8387,9 +8652,13 @@ Verb Senses:
 13) break into simpler molecules by means of heat
 
 ---
+Adjective Senses:
+1) of the highest quality
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -8400,12 +8669,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 267,disk,floppy disk,"{""n"": [""something with a round shape resembling a flat circular plate"", ""a flat circular plate"", ""sound recording consisting of a disk with a continuous groove; used to reproduce music by rotating while a phonograph needle tracks in the groove"", ""(computer science) a memory device consisting of a flat disk covered with a magnetic coating on which information is stored""], ""v"": [""draw a harrow over (land)""]}",image.6679.jpg,"
 Ambiguous word: disk
@@ -8519,7 +8792,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
 "
-270,bang,bang blast,"{""n"": [""a vigorous blow"", ""a sudden very loud noise"", ""a border of hair that is cut short and hangs across the forehead"", ""the swift release of a store of affective force"", ""a conspicuous success""], ""v"": [""strike violently"", ""to produce a sharp often metallic explosive or percussive sound"", ""close violently"", ""move noisily"", ""have sexual intercourse with"", ""leap, jerk, bang""]}",image.6701.jpg,"
+270,bang,bang blast,"{""n"": [""a vigorous blow"", ""a sudden very loud noise"", ""a border of hair that is cut short and hangs across the forehead"", ""the swift release of a store of affective force"", ""a conspicuous success""], ""v"": [""strike violently"", ""to produce a sharp often metallic explosive or percussive sound"", ""close violently"", ""move noisily"", ""have sexual intercourse with"", ""leap, jerk, bang""], ""r"": [""directly""]}",image.6701.jpg,"
 Ambiguous word: bang
 ---
 Noun Senses:
@@ -8539,9 +8812,13 @@ Verb Senses:
 6) leap, jerk, bang
 
 ---
+Adverb Senses:
+1) directly
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adverb.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -8552,12 +8829,15 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adverb is considered when:
+* the photo can not be considered to depict an object or action or state of given word.
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adverb).
 "
 271,delivery,delivery baseball,"{""n"": [""the act of delivering or distributing something (as goods or mail)"", ""the event of giving birth"", ""your characteristic style or manner of expressing yourself orally"", ""the voluntary transfer of something (title or possession) from one party to another"", ""(baseball) the act of throwing a baseball by a pitcher to a batter"", ""recovery or preservation from loss or danger"", ""the act of delivering a child""]}",image.6708.jpg,"
 Ambiguous word: delivery
@@ -9348,7 +9628,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
 "
-295,alpha,alpha star,"{""n"": [""the 1st letter of the Greek alphabet"", ""the beginning of a series or sequence; --Revelations""]}",image.6895.jpg,"
+295,alpha,alpha star,"{""n"": [""the 1st letter of the Greek alphabet"", ""the beginning of a series or sequence; --Revelations""], ""a"": [""first in order of importance"", ""early testing stage of a software or hardware product""]}",image.6895.jpg,"
 Ambiguous word: alpha
 ---
 Noun Senses:
@@ -9356,21 +9636,30 @@ Noun Senses:
 2) the beginning of a series or sequence; --Revelations
 
 ---
+Adjective Senses:
+1) first in order of importance
+2) early testing stage of a software or hardware product
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
 Decision Logic & Rules
 Follow these rules in order of priority to make your decision:
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, adjective).
 "
 296,teddy,teddy garment,"{""n"": [""plaything consisting of a child's toy bear (usually plush and stuffed with soft materials)"", ""a woman's sleeveless undergarment""]}",image.6897.jpg,"
 Ambiguous word: teddy
@@ -10859,7 +11148,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
 "
-346,tender,ship's tender,"{""n"": [""something that can be used as an official medium of payment"", ""someone who waits on or tends to or attends to the needs of another"", ""a formal proposal to buy at a specified price"", ""car attached to a locomotive to carry fuel and water"", ""a boat for communication between ship and shore"", ""ship that usually provides supplies to other ships""], ""v"": [""offer or present for acceptance"", ""propose a payment"", ""make a tender of; in legal settlements"", ""make tender or more tender as by marinating, pounding, or applying a tenderizer""]}",image.6519.jpg,"
+346,tender,ship's tender,"{""n"": [""something that can be used as an official medium of payment"", ""someone who waits on or tends to or attends to the needs of another"", ""a formal proposal to buy at a specified price"", ""car attached to a locomotive to carry fuel and water"", ""a boat for communication between ship and shore"", ""ship that usually provides supplies to other ships""], ""v"": [""offer or present for acceptance"", ""propose a payment"", ""make a tender of; in legal settlements"", ""make tender or more tender as by marinating, pounding, or applying a tenderizer""], ""a"": [""given to sympathy or gentleness or sentimentality"", ""hurting"", ""young and immature"", ""having or displaying warmth or affection"", ""easy to cut or chew"", ""physically untoughened"", ""(used of boats) inclined to heel over easily under sail"", ""(of plants) not hardy; easily killed by adverse growing condition""]}",image.6519.jpg,"
 Ambiguous word: tender
 ---
 Noun Senses:
@@ -10878,9 +11167,20 @@ Verb Senses:
 4) make tender or more tender as by marinating, pounding, or applying a tenderizer
 
 ---
+Adjective Senses:
+1) given to sympathy or gentleness or sentimentality
+2) hurting
+3) young and immature
+4) having or displaying warmth or affection
+5) easy to cut or chew
+6) physically untoughened
+7) (used of boats) inclined to heel over easily under sail
+8) (of plants) not hardy; easily killed by adverse growing condition
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -10891,12 +11191,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 347,torpedo,torpedo snack,"{""n"": [""a professional killer who uses a gun"", ""a large sandwich made of a long crusty roll split lengthwise and filled with meats and cheese (and tomato and onion and lettuce and condiments); different names are used in different sections of the United States"", ""an explosive device that is set off in an oil well (or a gas well) to start or to increase the flow of oil (or gas)"", ""a small firework that consists of a percussion cap and some gravel wrapped in paper; explodes when thrown forcefully against a hard surface"", ""a small explosive device that is placed on a railroad track and fires when a train runs over it; the sound of the explosion warns the engineer of danger ahead"", ""armament consisting of a long cylindrical self-propelled underwater projectile that detonates on contact with a target"", ""any sluggish bottom-dwelling ray of the order Torpediniformes having a rounded body and electric organs on each side of the head capable of emitting strong electric discharges""], ""v"": [""attack or hit with torpedoes""]}",image.4588.jpg,"
 Ambiguous word: torpedo
@@ -11073,6 +11377,35 @@ Always consider which sense can be most directly and concretely represented in t
 
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
+"
+352,cloudy,cloudy sky,"{""a"": [""lacking definite form or limits; - H.T.Moore"", ""full of or covered with clouds"", ""(of liquids) clouded as with sediment""]}",image.7293.jpg,"
+Ambiguous word: cloudy
+---
+Adjective Senses:
+1) lacking definite form or limits; - H.T.Moore
+2) full of or covered with clouds
+3) (of liquids) clouded as with sediment
+
+---
+
+
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): adjective.
+
+Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
+
+
+Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
+
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (adjective).
 "
 353,beaver,beaver rodent,"{""n"": [""the soft brown fur of the beaver"", ""a native or resident of Oregon"", ""a full beard"", ""a man's hat with a tall crown; usually covered with silk or with beaver fur"", ""a movable piece of armor on a medieval helmet used to protect the lower face"", ""a hat made with the fur of a beaver (or similar material)"", ""large semiaquatic rodent with webbed hind feet and a broad flat tail; construct complex dams and underwater lodges""], ""v"": [""work hard on something""]}",image.7309.jpg,"
 Ambiguous word: beaver
@@ -11516,7 +11849,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
 "
-369,bang,person bang,"{""n"": [""a vigorous blow"", ""a sudden very loud noise"", ""a border of hair that is cut short and hangs across the forehead"", ""the swift release of a store of affective force"", ""a conspicuous success""], ""v"": [""strike violently"", ""to produce a sharp often metallic explosive or percussive sound"", ""close violently"", ""move noisily"", ""have sexual intercourse with"", ""leap, jerk, bang""]}",image.7414.jpg,"
+369,bang,person bang,"{""n"": [""a vigorous blow"", ""a sudden very loud noise"", ""a border of hair that is cut short and hangs across the forehead"", ""the swift release of a store of affective force"", ""a conspicuous success""], ""v"": [""strike violently"", ""to produce a sharp often metallic explosive or percussive sound"", ""close violently"", ""move noisily"", ""have sexual intercourse with"", ""leap, jerk, bang""], ""r"": [""directly""]}",image.7414.jpg,"
 Ambiguous word: bang
 ---
 Noun Senses:
@@ -11536,9 +11869,13 @@ Verb Senses:
 6) leap, jerk, bang
 
 ---
+Adverb Senses:
+1) directly
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adverb.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -11549,12 +11886,15 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adverb is considered when:
+* the photo can not be considered to depict an object or action or state of given word.
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adverb).
 "
 370,sock,foot sock,"{""n"": [""hosiery consisting of a cloth covering for the foot; worn inside the shoe; reaches to between the ankle and the knee"", ""a truncated cloth cone mounted on a mast; used (e.g., at airports) to show the direction of the wind""], ""v"": [""hit hard""]}",image.7422.jpg,"
 Ambiguous word: sock
@@ -11893,7 +12233,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
 "
-383,blue,blue cheese,"{""n"": [""blue color or pigment; resembling the color of the clear sky in the daytime"", ""blue clothing"", ""any organization or party whose uniforms or badges are blue"", ""the sky as viewed during daylight"", ""used to whiten laundry or hair or give it a bluish tinge"", ""the sodium salt of amobarbital that is used as a barbiturate; used as a sedative and a hypnotic"", ""any of numerous small butterflies of the family Lycaenidae""], ""v"": [""turn blue""]}",image.7515.jpg,"
+383,blue,blue cheese,"{""n"": [""blue color or pigment; resembling the color of the clear sky in the daytime"", ""blue clothing"", ""any organization or party whose uniforms or badges are blue"", ""the sky as viewed during daylight"", ""used to whiten laundry or hair or give it a bluish tinge"", ""the sodium salt of amobarbital that is used as a barbiturate; used as a sedative and a hypnotic"", ""any of numerous small butterflies of the family Lycaenidae""], ""v"": [""turn blue""], ""a"": [""of the color intermediate between green and violet; having a color similar to that of a clear unclouded sky; - Helen Hunt Jackson"", ""used to signify the Union forces in the American Civil War (who wore blue uniforms)"", ""filled with melancholy and despondency"", ""characterized by profanity or cursing"", ""suggestive of sexual impropriety"", ""belonging to or characteristic of the nobility or aristocracy"", ""morally rigorous and strict"", ""causing dejection""]}",image.7515.jpg,"
 Ambiguous word: blue
 ---
 Noun Senses:
@@ -11910,9 +12250,20 @@ Verb Senses:
 1) turn blue
 
 ---
+Adjective Senses:
+1) of the color intermediate between green and violet; having a color similar to that of a clear unclouded sky; - Helen Hunt Jackson
+2) used to signify the Union forces in the American Civil War (who wore blue uniforms)
+3) filled with melancholy and despondency
+4) characterized by profanity or cursing
+5) suggestive of sexual impropriety
+6) belonging to or characteristic of the nobility or aristocracy
+7) morally rigorous and strict
+8) causing dejection
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -11923,12 +12274,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 384,boxers,ring boxers,"{""n"": [""underpants worn by men"", ""someone who fights with his fists for sport"", ""a workman employed to pack things into containers"", ""a member of a nationalistic Chinese secret society that led an unsuccessful rebellion in 1900 against foreign interests in China"", ""a breed of stocky medium-sized short-haired dog with a brindled coat and square-jawed muzzle developed in Germany""]}",image.7523.jpg,"
 Ambiguous word: boxers
@@ -11957,7 +12312,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
 "
-385,dummy,dummy bullets,"{""n"": [""a person who does not talk"", ""an ignorant or foolish person"", ""a figure representing the human form"", ""a cartridge containing an explosive charge but no bullet""], ""v"": [""make a dummy of""]}",image.7531.jpg,"
+385,dummy,dummy bullets,"{""n"": [""a person who does not talk"", ""an ignorant or foolish person"", ""a figure representing the human form"", ""a cartridge containing an explosive charge but no bullet""], ""v"": [""make a dummy of""], ""a"": [""having the appearance of being real but lacking capacity to function""]}",image.7531.jpg,"
 Ambiguous word: dummy
 ---
 Noun Senses:
@@ -11971,9 +12326,13 @@ Verb Senses:
 1) make a dummy of
 
 ---
+Adjective Senses:
+1) having the appearance of being real but lacking capacity to function
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -11984,12 +12343,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 387,tornado,atmospheric tornado,"{""n"": [""a localized and violently destructive windstorm occurring over land characterized by a funnel-shaped cloud extending toward the ground"", ""a purified and potent form of cocaine that is smoked rather than snorted; highly addictive""]}",image.7547.jpg,"
 Ambiguous word: tornado
@@ -12173,7 +12536,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
 "
-393,flat,lie down flat,"{""n"": [""a level tract of land"", ""a shallow box in which seedlings are started"", ""a musical notation indicating one half step lower than the note named"", ""freight car without permanent sides or roof"", ""a deflated pneumatic tire"", ""scenery consisting of a wooden frame covered with painted canvas; part of a stage setting"", ""a suite of rooms usually on one floor of an apartment house""]}",image.7596.jpg,"
+393,flat,lie down flat,"{""n"": [""a level tract of land"", ""a shallow box in which seedlings are started"", ""a musical notation indicating one half step lower than the note named"", ""freight car without permanent sides or roof"", ""a deflated pneumatic tire"", ""scenery consisting of a wooden frame covered with painted canvas; part of a stage setting"", ""a suite of rooms usually on one floor of an apartment house""], ""a"": [""having a surface without slope, tilt in which no part is higher or lower than another"", ""having a relatively broad surface in relation to depth or thickness"", ""not modified or restricted by reservations"", ""stretched out and lying at full length along the ground"", ""lacking contrast or shading between tones"", ""(of a musical note) lowered in pitch by one chromatic semitone"", ""flattened laterally along the whole length (e.g., certain leafstalks or flatfishes)"", ""lacking taste or flavor or tang"", ""lacking stimulating characteristics; uninteresting"", ""having lost effervescence"", ""sounded or spoken in a tone unvarying in pitch"", ""horizontally level"", ""lacking the expected range or depth; not designed to give an illusion or depth"", ""not reflecting light; not glossy"", ""commercially inactive""], ""r"": [""with flat sails"", ""in a forthright manner; candidly or frankly""]}",image.7596.jpg,"
 Ambiguous word: flat
 ---
 Noun Senses:
@@ -12186,21 +12549,51 @@ Noun Senses:
 7) a suite of rooms usually on one floor of an apartment house
 
 ---
+Adjective Senses:
+1) having a surface without slope, tilt in which no part is higher or lower than another
+2) having a relatively broad surface in relation to depth or thickness
+3) not modified or restricted by reservations
+4) stretched out and lying at full length along the ground
+5) lacking contrast or shading between tones
+6) (of a musical note) lowered in pitch by one chromatic semitone
+7) flattened laterally along the whole length (e.g., certain leafstalks or flatfishes)
+8) lacking taste or flavor or tang
+9) lacking stimulating characteristics; uninteresting
+10) having lost effervescence
+11) sounded or spoken in a tone unvarying in pitch
+12) horizontally level
+13) lacking the expected range or depth; not designed to give an illusion or depth
+14) not reflecting light; not glossy
+15) commercially inactive
+
+---
+Adverb Senses:
+1) with flat sails
+2) in a forthright manner; candidly or frankly
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, adjective, adverb.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
 Decision Logic & Rules
 Follow these rules in order of priority to make your decision:
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
+Adverb is considered when:
+* the photo can not be considered to depict an object or action or state of given word.
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, adjective, adverb).
 "
 394,marsh,marsh grass,"{""n"": [""low-lying wet land with grassy vegetation; usually is a transition zone between land and water"", ""United States painter (1898-1954)"", ""New Zealand writer of detective stories (1899-1982)""]}",image.7600.jpg,"
 Ambiguous word: marsh
@@ -12970,7 +13363,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
 "
-417,dandy,dandy marine,"{""n"": [""a man who is much concerned with his dress and appearance"", ""a sailing vessel with two masts; a small mizzen is aft of the rudderpost""]}",image.7770.jpg,"
+417,dandy,dandy marine,"{""n"": [""a man who is much concerned with his dress and appearance"", ""a sailing vessel with two masts; a small mizzen is aft of the rudderpost""], ""a"": [""very good""]}",image.7770.jpg,"
 Ambiguous word: dandy
 ---
 Noun Senses:
@@ -12978,23 +13371,31 @@ Noun Senses:
 2) a sailing vessel with two masts; a small mizzen is aft of the rudderpost
 
 ---
+Adjective Senses:
+1) very good
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
 Decision Logic & Rules
 Follow these rules in order of priority to make your decision:
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, adjective).
 "
-418,bass,string bass,"{""n"": [""the lowest part of the musical range"", ""the lowest part in polyphonic music"", ""an adult male singer with the lowest voice"", ""the lean flesh of a saltwater fish of the family Serranidae"", ""any of various North American freshwater fish with lean flesh (especially of the genus Micropterus)"", ""the lowest adult male singing voice"", ""the member with the lowest range of a family of musical instruments"", ""nontechnical name for any of numerous edible marine and freshwater spiny-finned fishes""]}",image.7777.jpg,"
+418,bass,string bass,"{""n"": [""the lowest part of the musical range"", ""the lowest part in polyphonic music"", ""an adult male singer with the lowest voice"", ""the lean flesh of a saltwater fish of the family Serranidae"", ""any of various North American freshwater fish with lean flesh (especially of the genus Micropterus)"", ""the lowest adult male singing voice"", ""the member with the lowest range of a family of musical instruments"", ""nontechnical name for any of numerous edible marine and freshwater spiny-finned fishes""], ""a"": [""having or denoting a low vocal or instrumental range""]}",image.7777.jpg,"
 Ambiguous word: bass
 ---
 Noun Senses:
@@ -13008,21 +13409,29 @@ Noun Senses:
 8) nontechnical name for any of numerous edible marine and freshwater spiny-finned fishes
 
 ---
+Adjective Senses:
+1) having or denoting a low vocal or instrumental range
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
 Decision Logic & Rules
 Follow these rules in order of priority to make your decision:
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, adjective).
 "
 419,fringe,fringe hair,"{""n"": [""the outside boundary or surface of something"", ""a part of the city far removed from the center"", ""one of the light or dark bands produced by the interference and diffraction of light"", ""a social group holding marginal or extreme views"", ""a border of hair that is cut short and hangs across the forehead"", ""an ornamental border consisting of short lengths of hanging threads or tassels""], ""v"": [""adorn with a fringe"", ""decorate with or as if with a surrounding fringe""]}",image.7414.jpg,"
 Ambiguous word: fringe
@@ -13134,7 +13543,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
 "
-423,bay,bay shore,"{""n"": [""an indentation of a shoreline larger than a cove but smaller than a gulf"", ""the sound of a hound on the scent"", ""small Mediterranean evergreen tree with small blackish berries and glossy aromatic leaves used for flavoring in cooking; also used by ancient Greeks to crown victors"", ""a compartment on a ship between decks; often used as a hospital"", ""a compartment in an aircraft used for some specific purpose"", ""a small recess opening off a larger room"", ""a horse of a moderate reddish-brown color""], ""v"": [""utter in deep prolonged tones"", ""bark with prolonged noises, of dogs""]}",image.7819.jpg,"
+423,bay,bay shore,"{""n"": [""an indentation of a shoreline larger than a cove but smaller than a gulf"", ""the sound of a hound on the scent"", ""small Mediterranean evergreen tree with small blackish berries and glossy aromatic leaves used for flavoring in cooking; also used by ancient Greeks to crown victors"", ""a compartment on a ship between decks; often used as a hospital"", ""a compartment in an aircraft used for some specific purpose"", ""a small recess opening off a larger room"", ""a horse of a moderate reddish-brown color""], ""v"": [""utter in deep prolonged tones"", ""bark with prolonged noises, of dogs""], ""a"": [""(used of animals especially a horse) of a moderate reddish-brown color""]}",image.7819.jpg,"
 Ambiguous word: bay
 ---
 Noun Senses:
@@ -13152,9 +13561,13 @@ Verb Senses:
 2) bark with prolonged noises, of dogs
 
 ---
+Adjective Senses:
+1) (used of animals especially a horse) of a moderate reddish-brown color
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -13165,12 +13578,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 424,ceres,space ceres,"{""n"": [""(Roman mythology) goddess of agriculture; counterpart of Greek Demeter"", ""the largest asteroid and the first discovered"", ""the fleshy, waxy covering at the base of the upper beak of some birds""], ""v"": [""wrap up in a cerecloth""]}",image.7822.jpg,"
 Ambiguous word: ceres
@@ -13431,7 +13848,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
 "
-433,flat,building flat,"{""n"": [""a level tract of land"", ""a shallow box in which seedlings are started"", ""a musical notation indicating one half step lower than the note named"", ""freight car without permanent sides or roof"", ""a deflated pneumatic tire"", ""scenery consisting of a wooden frame covered with painted canvas; part of a stage setting"", ""a suite of rooms usually on one floor of an apartment house""]}",image.7880.jpg,"
+433,flat,building flat,"{""n"": [""a level tract of land"", ""a shallow box in which seedlings are started"", ""a musical notation indicating one half step lower than the note named"", ""freight car without permanent sides or roof"", ""a deflated pneumatic tire"", ""scenery consisting of a wooden frame covered with painted canvas; part of a stage setting"", ""a suite of rooms usually on one floor of an apartment house""], ""a"": [""having a surface without slope, tilt in which no part is higher or lower than another"", ""having a relatively broad surface in relation to depth or thickness"", ""not modified or restricted by reservations"", ""stretched out and lying at full length along the ground"", ""lacking contrast or shading between tones"", ""(of a musical note) lowered in pitch by one chromatic semitone"", ""flattened laterally along the whole length (e.g., certain leafstalks or flatfishes)"", ""lacking taste or flavor or tang"", ""lacking stimulating characteristics; uninteresting"", ""having lost effervescence"", ""sounded or spoken in a tone unvarying in pitch"", ""horizontally level"", ""lacking the expected range or depth; not designed to give an illusion or depth"", ""not reflecting light; not glossy"", ""commercially inactive""], ""r"": [""with flat sails"", ""in a forthright manner; candidly or frankly""]}",image.7880.jpg,"
 Ambiguous word: flat
 ---
 Noun Senses:
@@ -13444,21 +13861,51 @@ Noun Senses:
 7) a suite of rooms usually on one floor of an apartment house
 
 ---
+Adjective Senses:
+1) having a surface without slope, tilt in which no part is higher or lower than another
+2) having a relatively broad surface in relation to depth or thickness
+3) not modified or restricted by reservations
+4) stretched out and lying at full length along the ground
+5) lacking contrast or shading between tones
+6) (of a musical note) lowered in pitch by one chromatic semitone
+7) flattened laterally along the whole length (e.g., certain leafstalks or flatfishes)
+8) lacking taste or flavor or tang
+9) lacking stimulating characteristics; uninteresting
+10) having lost effervescence
+11) sounded or spoken in a tone unvarying in pitch
+12) horizontally level
+13) lacking the expected range or depth; not designed to give an illusion or depth
+14) not reflecting light; not glossy
+15) commercially inactive
+
+---
+Adverb Senses:
+1) with flat sails
+2) in a forthright manner; candidly or frankly
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, adjective, adverb.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
 Decision Logic & Rules
 Follow these rules in order of priority to make your decision:
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
+Adverb is considered when:
+* the photo can not be considered to depict an object or action or state of given word.
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, adjective, adverb).
 "
 434,tail,animal tail,"{""n"": [""the posterior part of the body of a vertebrate especially when elongated and extending beyond the trunk or main part of the body"", ""the time of the last part of something"", ""any projection that resembles the tail of an animal"", ""the fleshy part of the human body that you sit on"", ""a spy employed to follow someone and report their movements"", ""(usually plural) the reverse side of a coin that does not bear the representation of a person's head"", ""the rear part of an aircraft"", ""the rear part of a ship""], ""v"": [""go after with the intent to catch"", ""remove or shorten the tail of an animal"", ""remove the stalk of fruits or berries""]}",image.7891.jpg,"
 Ambiguous word: tail
@@ -13906,7 +14353,7 @@ Always consider which sense can be most directly and concretely represented in t
 ---
 After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
 "
-447,rubber,school rubber,"{""n"": [""an elastic material obtained from the latex sap of trees (especially trees of the genera Hevea and Ficus) that can be vulcanized and finished into a variety of products"", ""any of various synthetic elastic materials whose properties resemble natural rubber"", ""an eraser made of rubber (or of a synthetic material with properties similar to rubber); commonly mounted at one end of a pencil"", ""contraceptive device consisting of a sheath of thin rubber or latex that is worn over the penis during intercourse"", ""a waterproof overshoe that protects shoes from water or snow""], ""v"": [""coat or impregnate with rubber""]}",image.8.jpg,"
+447,rubber,school rubber,"{""n"": [""an elastic material obtained from the latex sap of trees (especially trees of the genera Hevea and Ficus) that can be vulcanized and finished into a variety of products"", ""any of various synthetic elastic materials whose properties resemble natural rubber"", ""an eraser made of rubber (or of a synthetic material with properties similar to rubber); commonly mounted at one end of a pencil"", ""contraceptive device consisting of a sheath of thin rubber or latex that is worn over the penis during intercourse"", ""a waterproof overshoe that protects shoes from water or snow""], ""v"": [""coat or impregnate with rubber""], ""a"": [""returned for lack of funds""]}",image.8.jpg,"
 Ambiguous word: rubber
 ---
 Noun Senses:
@@ -13921,9 +14368,13 @@ Verb Senses:
 1) coat or impregnate with rubber
 
 ---
+Adjective Senses:
+1) returned for lack of funds
+
+---
 
 
-You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
 
 Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
 ---
@@ -13934,12 +14385,16 @@ Verb is considered when:
 * no noun sense is provided.
 * the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
 
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
 
 
 Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
 
 ---
-After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
 "
 448,fringe,fringe dress,"{""n"": [""the outside boundary or surface of something"", ""a part of the city far removed from the center"", ""one of the light or dark bands produced by the interference and diffraction of light"", ""a social group holding marginal or extreme views"", ""a border of hair that is cut short and hangs across the forehead"", ""an ornamental border consisting of short lengths of hanging threads or tassels""], ""v"": [""adorn with a fringe"", ""decorate with or as if with a surrounding fringe""]}",image.7991.jpg,"
 Ambiguous word: fringe

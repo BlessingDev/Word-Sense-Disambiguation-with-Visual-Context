@@ -22,8 +22,6 @@ def get_gpt_response(args, user_prompt):
                 {"role": "user", "content": user_prompt}
             ],
             reasoning={"effort": args.reasoning_effort},  # 추론 노력 조절 (low, medium, high)
-#            temperature=0.7,  # 창의성 조절 (0.0 ~ 2.0 사이)
-#            max_tokens=500    # 응답의 최대 길이 제한
         )
         
         # 4. 결과 출력
