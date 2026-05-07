@@ -17,7 +17,7 @@ def extract_clean_text(url):
         return result
     return None
 
-prompt_template="""Ambiguous word: {word}
+prompt_phrase_template="""Ambiguous word: {word}
 Context Phrase: {context}
 Entites in Image: 
 {entities}
@@ -29,6 +29,20 @@ Searched Web Content:
 - {text_context}
 ---
 First, Refer to the 'Entities in Image' section to understand the content of the image. Then, read the 'Searched Web Content' section carefully and judge whether it is related to both '{word}' and '{context}'. If there is some helpful information, generate a word 'Relevant', otherwise generate a word 'Not Relevant'. If the first line is 'Relevant', generate a summary of the helpful information in the 'Searched Web Content' that can explain the context of the image in relation to the 'Ambiguous Word'. If the first line is 'Not Relevant', do not generate any summary and end your generation.
+"""
+
+prompt_sentence_template="""Ambiguous word: {word}
+Context Sentence: {context}
+Entites in Image: 
+{entities}
+---
+You are a linguistic expert. Given 'Ambiguous Word', 'Context Sentence', and 'Entities in Image', your task is to extract and summarize any additional and helpful information from the given 'Searched Web Content' that can help explain the context of the image in relation to the 'Ambiguous Word'. Do not try to describe the image itself if there is no relevant information in the 'Searched Web Content' that can be helpful for understanding the 'Ambiguous Word'.
+---
+Searched Web Content:
+- Title: {web_title}
+- {text_context}
+---
+First, Refer to the 'Entities in Image' section to understand the content of the image. Then, read the 'Searched Web Content' section carefully and judge whether it is related to the usage of '{word}' in '{context}'. If there is some helpful information, generate a word 'Relevant', otherwise generate a word 'Not Relevant'. If the first line is 'Relevant', generate a summary of the helpful information in the 'Searched Web Content' that can explain the context of the image in relation to the 'Ambiguous Word'. If the first line is 'Not Relevant', do not generate any summary and end your generation.
 """
 
 def main(args):
@@ -46,6 +60,11 @@ def main(args):
         "gold_image": [],
         "prompt": []
     }
+    if args.prompt_type == "phrase":
+        prompt_template = prompt_phrase_template
+    elif args.prompt_type == "sentence":
+        prompt_template = prompt_sentence_template
+    
     for index, row in tqdm(wsd_test_df.iterrows(), total=len(wsd_test_df)):
         word_index = row["word_index"]
         retrieved_rows = retrieval_df[retrieval_df["word_index"] == word_index]
@@ -121,6 +140,7 @@ if __name__ == "__main__":
     parser.add_argument("--wsd_set_path", type=str, default="/workspace/data/test_set_process/wsd_set_entire.csv")
     parser.add_argument("--retrieval_result_path", type=str, default="/workspace/data/test_set_process/wsd_set_entire_google_vision_result.csv")
     parser.add_argument("--output_path", type=str, default="/workspace/data/test_set_process/wsd_set_entire_sense_search_prompt.csv")
+    parser.add_argument("--prompt_type", type=str, default="phrase", choices=["phrase", "sentence"], help="Whether to use the original word phrase or the generated ambiguous sentence as context in the prompt")
     args = parser.parse_args()
     
     main(args)

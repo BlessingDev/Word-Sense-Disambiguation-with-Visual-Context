@@ -1,0 +1,1858 @@
+word_index,word,word_phrase,senses,gold_image,gold_pos,gold_sense,prompt
+78,crow,crow biped,"{""n"": [""black birds having a raucous call"", ""the cry of a cock (or an imitation of it)"", ""a member of the Siouan people formerly living in eastern Montana"", ""a small quadrilateral constellation in the southern hemisphere near Virgo"", ""an instance of boastful talk"", ""a Siouan language spoken by the Crow""], ""v"": [""dwell on with satisfaction"", ""express pleasure verbally"", ""utter shrill sounds""]}",image.5119.jpg,n,1,"Ambiguous Word: crow
+Text Context: In eastern Montana, the crow sang at night.
+---
+Sense List:
+ 1. black birds having a raucous call
+ 2. the cry of a cock (or an imitation of it)
+ 3. a member of the Siouan people formerly living in eastern Montana
+ 4. a small quadrilateral constellation in the southern hemisphere near Virgo
+ 5. an instance of boastful talk
+ 6. a Siouan language spoken by the Crow
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+49,blackcap,blackcap gull,"{""n"": [""raspberry native to eastern North America having black thimble-shaped fruit"", ""small black-headed European gull"", ""chickadee having a dark crown"", ""small brownish-grey warbler with a black crown""]}",image.4857.jpg,n,2,"Ambiguous Word: blackcap
+Text Context: On the harbor railing, I watched a blackcap hop and settle, its dark head catching the morning sun.
+---
+Sense List:
+ 1. raspberry native to eastern North America having black thimble-shaped fruit
+ 2. small black-headed European gull
+ 3. chickadee having a dark crown
+ 4. small brownish-grey warbler with a black crown
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+342,crossroads,crossroads settlement,"{""n"": [""a community of people smaller than a village"", ""a crisis situation or point in time when a critical decision must be made"", ""a point where a choice must be made"", ""a junction where one street or road crosses another""]}",image.7232.jpg,n,1,"Ambiguous Word: crossroads
+Text Context: In the crossroads, neighbors gathered at the street corner as the sirens blared, forcing them to decide in the moment.
+---
+Sense List:
+ 1. a community of people smaller than a village
+ 2. a crisis situation or point in time when a critical decision must be made
+ 3. a point where a choice must be made
+ 4. a junction where one street or road crosses another
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+390,compass,drawing compass,"{""n"": [""navigational instrument for finding directions"", ""an area in which something acts or operates or has power or control:"", ""the limit of capability"", ""drafting instrument used for drawing circles""], ""v"": [""bring about; accomplish"", ""travel around, either by plane or ship"", ""get the meaning of something""]}",image.7570.jpg,n,4,"Ambiguous Word: compass
+Text Context: On the table, the compass lay open, pointing north as he traced a perfect circle.
+---
+Sense List:
+ 1. navigational instrument for finding directions
+ 2. an area in which something acts or operates or has power or control:
+ 3. the limit of capability
+ 4. drafting instrument used for drawing circles
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+378,arm,hunting arm,"{""n"": [""a human limb; technically the part of the superior limb between the shoulder and the elbow but commonly used to refer to the whole superior limb"", ""any projection that is thought to resemble a human arm"", ""any instrument or instrumentality used in fighting or hunting"", ""the part of an armchair or sofa that supports the elbow and forearm of a seated person"", ""a division of some larger or more complex organization"", ""the part of a garment that is attached at the armhole and that provides a cloth covering for the arm""], ""v"": [""prepare oneself for a military confrontation"", ""supply with arms""]}",image.7480.jpg,n,3,"Ambiguous Word: arm
+Text Context: The hunter raised the arm to aim.
+---
+Sense List:
+ 1. a human limb; technically the part of the superior limb between the shoulder and the elbow but commonly used to refer to the whole superior limb
+ 2. any projection that is thought to resemble a human arm
+ 3. any instrument or instrumentality used in fighting or hunting
+ 4. the part of an armchair or sofa that supports the elbow and forearm of a seated person
+ 5. a division of some larger or more complex organization
+ 6. the part of a garment that is attached at the armhole and that provides a cloth covering for the arm
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+428,crop,cattle crop,"{""n"": [""the yield from plants in a single growing season"", ""a cultivated plant that is grown commercially on a large scale"", ""a collection of people or things appearing together"", ""the output of something in a season"", ""the stock or handle of a whip"", ""a pouch in many birds and some lower animals that resembles a stomach for storage and preliminary maceration of food""], ""v"": [""cut short"", ""prepare for crops"", ""yield crops"", ""let feed in a field or pasture or meadow"", ""feed as in a meadow or pasture"", ""cultivate, tend, and cut back the growth of""]}",image.7847.jpg,v,5,"Ambiguous Word: crop
+Text Context: At dawn, the rancher will crop the pasture, leaving it ready for the next grazing.
+---
+Sense List:
+ 1. cut short
+ 2. prepare for crops
+ 3. yield crops
+ 4. let feed in a field or pasture or meadow
+ 5. feed as in a meadow or pasture
+ 6. cultivate, tend, and cut back the growth of
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+26,butterfly,flying butterfly,"{""n"": [""diurnal insect typically having a slender body with knobbed antennae and broad colorful wings"", ""a swimming stroke in which the arms are thrown forward together out of the water while the feet kick up and down""], ""v"": [""flutter like a butterfly"", ""cut and spread open, as in preparation for cooking"", ""talk or behave amorously, without serious intentions""]}",image.4654.jpg,n,1,"Ambiguous Word: butterfly
+Text Context: I watched a butterfly skim the pond’s surface before it fluttered away.
+---
+Sense List:
+ 1. diurnal insect typically having a slender body with knobbed antennae and broad colorful wings
+ 2. a swimming stroke in which the arms are thrown forward together out of the water while the feet kick up and down
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+388,flight,birds flight,"{""n"": [""a formation of aircraft in flight"", ""an instance of traveling by air"", ""a stairway (set of steps) between one floor or landing and the next"", ""the act of escaping physically"", ""an air force unit smaller than a squadron"", ""passing above and beyond ordinary bounds"", ""the path followed by an object moving through space"", ""a flock of flying birds"", ""a scheduled trip by plane between designated airports""], ""v"": [""shoot a bird in flight"", ""fly in a flock"", ""decorate with feathers""]}",image.7560.jpg,v,2,"Ambiguous Word: flight
+Text Context: When the parade began, the marshal flight the birds across the square, their feathers blazing on the floats.
+---
+Sense List:
+ 1. shoot a bird in flight
+ 2. fly in a flock
+ 3. decorate with feathers
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+323,cheese,cheese food,"{""n"": [""a solid food prepared from the pressed curd of milk"", ""erect or decumbent Old World perennial with axillary clusters of rosy-purple flowers; introduced in United States""], ""v"": [""used in the imperative (get away, or stop it)"", ""wind onto a cheese""]}",image.7091.jpg,n,1,"Ambiguous Word: cheese
+Text Context: He set the cheese out to dry after it was washed.
+---
+Sense List:
+ 1. a solid food prepared from the pressed curd of milk
+ 2. erect or decumbent Old World perennial with axillary clusters of rosy-purple flowers; introduced in United States
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+127,track,tank track,"{""n"": [""a line or route along which something travels or moves"", ""evidence pointing to a possible solution"", ""a pair of parallel rails providing a runway for wheels"", ""a course over which races are run"", ""a distinct selection of music from a recording or a compact disc"", ""an endless metal belt on which tracked vehicles move over the ground"", ""(computer science) one of the circular magnetic paths on a magnetic disk that serve as a guide for writing and reading data"", ""a groove on a phonograph recording"", ""a bar or pair of parallel bars of rolled steel making the railway along which railroad cars or other vehicles can roll"", ""any road or path affording passage especially a rough one"", ""the act of participating in an athletic competition involving running on a track""], ""v"": [""carry on the feet and deposit"", ""observe or plot the moving path of something"", ""go after with the intent to catch"", ""travel across or pass over"", ""make tracks upon""]}",image.5551.jpg,n,6,"Ambiguous Word: track
+Text Context: The detective followed the track across the warehouse as the tank crawled forward.
+---
+Sense List:
+ 1. a line or route along which something travels or moves
+ 2. evidence pointing to a possible solution
+ 3. a pair of parallel rails providing a runway for wheels
+ 4. a course over which races are run
+ 5. a distinct selection of music from a recording or a compact disc
+ 6. an endless metal belt on which tracked vehicles move over the ground
+ 7. (computer science) one of the circular magnetic paths on a magnetic disk that serve as a guide for writing and reading data
+ 8. a groove on a phonograph recording
+ 9. a bar or pair of parallel bars of rolled steel making the railway along which railroad cars or other vehicles can roll
+ 10. any road or path affording passage especially a rough one
+ 11. the act of participating in an athletic competition involving running on a track
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+188,filet,edible filet,"{""n"": [""a boneless steak cut from the tenderloin of beef"", ""a longitudinal slice or boned side of a fish"", ""lace having a square mesh""], ""v"": [""decorate with a lace of geometric designs"", ""cut into filets""]}",image.6035.jpg,n,2,"Ambiguous Word: filet
+Text Context: The chef carefully arranged the filet on the platter before serving the guests.
+---
+Sense List:
+ 1. a boneless steak cut from the tenderloin of beef
+ 2. a longitudinal slice or boned side of a fish
+ 3. lace having a square mesh
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+412,torpedo,sea torpedo,"{""n"": [""a professional killer who uses a gun"", ""a large sandwich made of a long crusty roll split lengthwise and filled with meats and cheese (and tomato and onion and lettuce and condiments); different names are used in different sections of the United States"", ""an explosive device that is set off in an oil well (or a gas well) to start or to increase the flow of oil (or gas)"", ""a small firework that consists of a percussion cap and some gravel wrapped in paper; explodes when thrown forcefully against a hard surface"", ""a small explosive device that is placed on a railroad track and fires when a train runs over it; the sound of the explosion warns the engineer of danger ahead"", ""armament consisting of a long cylindrical self-propelled underwater projectile that detonates on contact with a target"", ""any sluggish bottom-dwelling ray of the order Torpediniformes having a rounded body and electric organs on each side of the head capable of emitting strong electric discharges""], ""v"": [""attack or hit with torpedoes""]}",image.7737.jpg,n,7,"Ambiguous Word: torpedo
+Text Context: When the torpedo struck the hull, everyone felt the jolt—at least, that's what the marine biologist kept insisting.
+---
+Sense List:
+ 1. a professional killer who uses a gun
+ 2. a large sandwich made of a long crusty roll split lengthwise and filled with meats and cheese (and tomato and onion and lettuce and condiments); different names are used in different sections of the United States
+ 3. an explosive device that is set off in an oil well (or a gas well) to start or to increase the flow of oil (or gas)
+ 4. a small firework that consists of a percussion cap and some gravel wrapped in paper; explodes when thrown forcefully against a hard surface
+ 5. a small explosive device that is placed on a railroad track and fires when a train runs over it; the sound of the explosion warns the engineer of danger ahead
+ 6. armament consisting of a long cylindrical self-propelled underwater projectile that detonates on contact with a target
+ 7. any sluggish bottom-dwelling ray of the order Torpediniformes having a rounded body and electric organs on each side of the head capable of emitting strong electric discharges
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+23,anemia,medical anemia,"{""n"": [""a deficiency of red blood cells"", ""a lack of vitality"", ""genus of terrestrial or lithophytic ferns having pinnatifid fronds; chiefly of tropical America""]}",image.4631.jpg,n,1,"Ambiguous Word: anemia
+Text Context: After weeks of fatigue, the nurse wrote anemia on the chart, and in the same notebook the handwriting later described it as a tropical fern genus with pinnatifid fronds.
+---
+Sense List:
+ 1. a deficiency of red blood cells
+ 2. a lack of vitality
+ 3. genus of terrestrial or lithophytic ferns having pinnatifid fronds; chiefly of tropical America
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+425,coachwhip,coachwhip snake,"{""n"": [""desert shrub of southwestern United States and Mexico having slender naked spiny branches that after the rainy season put forth foliage and clusters of red flowers"", ""a whipsnake of southern United States and Mexico; tail resembles a braided whip""]}",image.7831.jpg,n,2,"Ambiguous Word: coachwhip
+Text Context: From the road, the coachwhip looked like a small shrub with slender spiny branches, but when the rains returned it curled its braided whip-like tail among the red flowers.
+---
+Sense List:
+ 1. desert shrub of southwestern United States and Mexico having slender naked spiny branches that after the rainy season put forth foliage and clusters of red flowers
+ 2. a whipsnake of southern United States and Mexico; tail resembles a braided whip
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+325,globe,globe ball,"{""n"": [""the 3rd planet from the sun; the planet we live on"", ""an object with a spherical shape"", ""a sphere on which a map (especially of the earth) is represented""]}",image.7110.jpg,n,2,"Ambiguous Word: globe
+Text Context: She spun the globe in her hands, smiling as if she were holding the world.
+---
+Sense List:
+ 1. the 3rd planet from the sun; the planet we live on
+ 2. an object with a spherical shape
+ 3. a sphere on which a map (especially of the earth) is represented
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+283,viola,viola shrub,"{""n"": [""any of the numerous plants of the genus Viola"", ""large genus of flowering herbs of temperate regions"", ""a bowed stringed instrument slightly larger than a violin, tuned a fifth lower""]}",image.6807.jpg,n,1,"Ambiguous Word: viola
+Text Context: When I came home, the viola was on the porch.
+---
+Sense List:
+ 1. any of the numerous plants of the genus Viola
+ 2. large genus of flowering herbs of temperate regions
+ 3. a bowed stringed instrument slightly larger than a violin, tuned a fifth lower
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+263,bird,vertebrate bird,"{""n"": [""warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modified as wings"", ""the flesh of a bird or fowl (wild or domestic) used as food"", ""informal terms for a (young) woman"", ""a cry or noise made to express displeasure or contempt"", ""badminton equipment consisting of a ball of cork or rubber with a crown of feathers""], ""v"": [""watch and study birds in their natural habitat""]}",image.6642.jpg,n,1,"Ambiguous Word: bird
+Text Context: The bird was perched on the windowsill, and at dinner they served it without warning.
+---
+Sense List:
+ 1. warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modified as wings
+ 2. the flesh of a bird or fowl (wild or domestic) used as food
+ 3. informal terms for a (young) woman
+ 4. a cry or noise made to express displeasure or contempt
+ 5. badminton equipment consisting of a ball of cork or rubber with a crown of feathers
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+383,blue,blue cheese,"{""n"": [""blue color or pigment; resembling the color of the clear sky in the daytime"", ""blue clothing"", ""any organization or party whose uniforms or badges are blue"", ""the sky as viewed during daylight"", ""used to whiten laundry or hair or give it a bluish tinge"", ""the sodium salt of amobarbital that is used as a barbiturate; used as a sedative and a hypnotic"", ""any of numerous small butterflies of the family Lycaenidae""], ""v"": [""turn blue""]}",image.7515.jpg,n,1,"Ambiguous Word: blue
+Text Context: Dusk fell, and the blue settled over him as he dozed off.
+---
+Sense List:
+ 1. blue color or pigment; resembling the color of the clear sky in the daytime
+ 2. blue clothing
+ 3. any organization or party whose uniforms or badges are blue
+ 4. the sky as viewed during daylight
+ 5. used to whiten laundry or hair or give it a bluish tinge
+ 6. the sodium salt of amobarbital that is used as a barbiturate; used as a sedative and a hypnotic
+ 7. any of numerous small butterflies of the family Lycaenidae
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+208,delivery,delivery package,"{""n"": [""the act of delivering or distributing something (as goods or mail)"", ""the event of giving birth"", ""your characteristic style or manner of expressing yourself orally"", ""the voluntary transfer of something (title or possession) from one party to another"", ""(baseball) the act of throwing a baseball by a pitcher to a batter"", ""recovery or preservation from loss or danger"", ""the act of delivering a child""]}",image.6192.jpg,n,1,"Ambiguous Word: delivery
+Text Context: After months of waiting, the delivery arrived right on time, and everyone cheered.
+---
+Sense List:
+ 1. the act of delivering or distributing something (as goods or mail)
+ 2. the event of giving birth
+ 3. your characteristic style or manner of expressing yourself orally
+ 4. the voluntary transfer of something (title or possession) from one party to another
+ 5. (baseball) the act of throwing a baseball by a pitcher to a batter
+ 6. recovery or preservation from loss or danger
+ 7. the act of delivering a child
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+59,disk,music disk,"{""n"": [""something with a round shape resembling a flat circular plate"", ""a flat circular plate"", ""sound recording consisting of a disk with a continuous groove; used to reproduce music by rotating while a phonograph needle tracks in the groove"", ""(computer science) a memory device consisting of a flat disk covered with a magnetic coating on which information is stored""], ""v"": [""draw a harrow over (land)""]}",image.4946.jpg,n,3,"Ambiguous Word: disk
+Text Context: He found an old disk in the drawer, listened to the music it played, and then slid the same disk into the computer to retrieve the data.
+---
+Sense List:
+ 1. something with a round shape resembling a flat circular plate
+ 2. a flat circular plate
+ 3. sound recording consisting of a disk with a continuous groove; used to reproduce music by rotating while a phonograph needle tracks in the groove
+ 4. (computer science) a memory device consisting of a flat disk covered with a magnetic coating on which information is stored
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+404,sponge,living sponge,"{""n"": [""a porous mass of interlacing fibers that forms the internal skeleton of various marine animals and usable to absorb water or any porous rubber or cellulose product similarly used"", ""someone able to acquire new knowledge and skills rapidly and easily"", ""a follower who hangs around a host (without benefit to the host) in hope of gain or advantage"", ""primitive multicellular marine animal whose porous body is supported by a fibrous skeletal framework; usually occurs in sessile colonies""], ""v"": [""wipe with a sponge, so as to clean or moisten"", ""ask for and get free; be a parasite"", ""erase with a sponge; as of words on a blackboard"", ""soak up with a sponge"", ""gather sponges, in the ocean""]}",image.3157.jpg,n,4,"Ambiguous Word: sponge
+Text Context: On the reef, the sponge clung to the rock and soaked up the seawater until the divers hauled it aboard.
+---
+Sense List:
+ 1. a porous mass of interlacing fibers that forms the internal skeleton of various marine animals and usable to absorb water or any porous rubber or cellulose product similarly used
+ 2. someone able to acquire new knowledge and skills rapidly and easily
+ 3. a follower who hangs around a host (without benefit to the host) in hope of gain or advantage
+ 4. primitive multicellular marine animal whose porous body is supported by a fibrous skeletal framework; usually occurs in sessile colonies
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+90,madeira,madeira wine,"{""n"": [""a Brazilian river; tributary of the Amazon River"", ""an island in the Atlantic Ocean off the coast of Africa; the largest of the Madeira Islands"", ""an amber dessert wine from the Madeira Islands""]}",image.5221.jpg,n,3,"Ambiguous Word: madeira
+Text Context: At sunset, we came to Madeira to taste it for ourselves.
+---
+Sense List:
+ 1. a Brazilian river; tributary of the Amazon River
+ 2. an island in the Atlantic Ocean off the coast of Africa; the largest of the Madeira Islands
+ 3. an amber dessert wine from the Madeira Islands
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+443,spring,matress spring,"{""n"": [""the season of growth"", ""a metal elastic device that returns to its shape or position when pushed or pulled or pressed"", ""a natural flow of ground water"", ""a point at which water issues forth"", ""the elasticity of something that can be stretched and returns to its original length"", ""a light, self-propelled movement upwards or forwards""], ""v"": [""move forward by leaps and bounds"", ""develop into a distinctive entity"", ""spring back; spring away from an impact"", ""develop suddenly"", ""produce or disclose suddenly or unexpectedly""]}",image.7954.jpg,n,2,"Ambiguous Word: spring
+Text Context: The spring snapped back into place, and the garden bloomed.
+---
+Sense List:
+ 1. the season of growth
+ 2. a metal elastic device that returns to its shape or position when pushed or pulled or pressed
+ 3. a natural flow of ground water
+ 4. a point at which water issues forth
+ 5. the elasticity of something that can be stretched and returns to its original length
+ 6. a light, self-propelled movement upwards or forwards
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+126,uranus,planet uranus,"{""n"": [""(Greek mythology) god of the heavens; son and husband of Gaea and father of the Titans in ancient mythology"", ""a giant planet with a ring of ice particles; the 7th planet from the sun has a blue-green color and many satellites""]}",image.5546.jpg,n,2,"Ambiguous Word: uranus
+Text Context: Through my telescope, I could clearly see Uranus shimmering with its blue-green glow and faint ring of ice particles.
+---
+Sense List:
+ 1. (Greek mythology) god of the heavens; son and husband of Gaea and father of the Titans in ancient mythology
+ 2. a giant planet with a ring of ice particles; the 7th planet from the sun has a blue-green color and many satellites
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+195,battery,power battery,"{""n"": [""group of guns or missile launchers operated together at one place"", ""a device that produces electricity; may have several primary or secondary cells arranged in parallel or series"", ""a collection of related things intended for use together"", ""a unit composed of the pitcher and catcher"", ""a series of stamps operated in one mortar for crushing ores"", ""the heavy fire of artillery to saturate an area rather than hit a specific target"", ""an assault in which the assailant makes physical contact""]}",image.2323.jpg,n,2,"Ambiguous Word: battery
+Text Context: The battery finally charged; moments later, the barrage began over the hills.
+---
+Sense List:
+ 1. group of guns or missile launchers operated together at one place
+ 2. a device that produces electricity; may have several primary or secondary cells arranged in parallel or series
+ 3. a collection of related things intended for use together
+ 4. a unit composed of the pitcher and catcher
+ 5. a series of stamps operated in one mortar for crushing ores
+ 6. the heavy fire of artillery to saturate an area rather than hit a specific target
+ 7. an assault in which the assailant makes physical contact
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+341,bat,flying bat,"{""n"": [""nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate"", ""(baseball) a turn trying to get a hit"", ""a small racket with a long handle used for playing squash"", ""the club used in playing cricket"", ""a club used for hitting a ball in various games""], ""v"": [""strike with, or as if with a baseball bat"", ""wink briefly"", ""have a turn at bat"", ""use a bat"", ""beat thoroughly and conclusively in a competition or fight""]}",image.7220.jpg,n,1,"Ambiguous Word: bat
+Text Context: The bat was hanging above the wicket, ready for the next delivery.
+---
+Sense List:
+ 1. nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate
+ 2. (baseball) a turn trying to get a hit
+ 3. a small racket with a long handle used for playing squash
+ 4. the club used in playing cricket
+ 5. a club used for hitting a ball in various games
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+281,ara,chirping ara,"{""n"": [""a constellation in the southern hemisphere near Telescopium and Norma"", ""macaws""]}",image.6791.jpg,n,2,"Ambiguous Word: ara
+Text Context: At dusk, I heard an ara calling from the garden, and then—just above me—I saw its stars form a familiar shape.
+---
+Sense List:
+ 1. a constellation in the southern hemisphere near Telescopium and Norma
+ 2. macaws
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+119,chocolate,chocolate chunk,"{""n"": [""a beverage made from cocoa powder and milk and sugar; usually drunk hot"", ""a food made from roasted ground cacao beans"", ""a medium brown to dark-brown color""]}",image.435.jpg,n,2,"Ambiguous Word: chocolate
+Text Context: The chocolate was the same deep shade as the curtains, and later she warmed it and served it to the guests as a drink.
+---
+Sense List:
+ 1. a beverage made from cocoa powder and milk and sugar; usually drunk hot
+ 2. a food made from roasted ground cacao beans
+ 3. a medium brown to dark-brown color
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+255,ecstasy,ecstasy drug,"{""n"": [""a state of being carried away by overwhelming emotion; - Charles Dickens"", ""a state of elated bliss"", ""street names for methylenedioxymethamphetamine""]}",image.5854.jpg,n,3,"Ambiguous Word: ecstasy
+Text Context: Right after the concert, she was in ecstasy—at least, that's what the label on the bag said.
+---
+Sense List:
+ 1. a state of being carried away by overwhelming emotion; - Charles Dickens
+ 2. a state of elated bliss
+ 3. street names for methylenedioxymethamphetamine
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+142,formica,formica laminate,"{""n"": [""any of various plastic laminates containing melamine"", ""type genus of the Formicidae""]}",image.5671.jpg,n,1,"Ambiguous Word: formica
+Text Context: After moving the chair, I found formica under the windowsill.
+---
+Sense List:
+ 1. any of various plastic laminates containing melamine
+ 2. type genus of the Formicidae
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+370,sock,foot sock,"{""n"": [""hosiery consisting of a cloth covering for the foot; worn inside the shoe; reaches to between the ankle and the knee"", ""a truncated cloth cone mounted on a mast; used (e.g., at airports) to show the direction of the wind""], ""v"": [""hit hard""]}",image.7422.jpg,n,1,"Ambiguous Word: sock
+Text Context: After landing, the mechanic tugged the sock back down over his ankle before checking the wind sock on the mast.
+---
+Sense List:
+ 1. hosiery consisting of a cloth covering for the foot; worn inside the shoe; reaches to between the ankle and the knee
+ 2. a truncated cloth cone mounted on a mast; used (e.g., at airports) to show the direction of the wind
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+80,basin,sink basin,"{""n"": [""a bowl-shaped vessel; usually used for holding food or liquids"", ""the quantity that a basin will hold"", ""a natural depression in the surface of the land often with a lake at the bottom of it"", ""the entire geographical area drained by a river and its tributaries; an area characterized by all runoff being conveyed to the same outlet"", ""a bathroom sink that is permanently installed and connected to a water supply and drainpipe; where you can wash your hands and face""]}",image.5134.jpg,n,5,"Ambiguous Word: basin
+Text Context: After the storm, the basin was full of silt, and I washed my hands there before school.
+---
+Sense List:
+ 1. a bowl-shaped vessel; usually used for holding food or liquids
+ 2. the quantity that a basin will hold
+ 3. a natural depression in the surface of the land often with a lake at the bottom of it
+ 4. the entire geographical area drained by a river and its tributaries; an area characterized by all runoff being conveyed to the same outlet
+ 5. a bathroom sink that is permanently installed and connected to a water supply and drainpipe; where you can wash your hands and face
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+266,crack,crack drug,"{""n"": [""a long narrow opening"", ""a narrow opening"", ""a long narrow depression in a surface"", ""a sudden sharp noise"", ""a chance to do something"", ""witty remark"", ""a blemish resulting from a break without complete separation of the parts"", ""a purified and potent form of cocaine that is smoked rather than snorted; highly addictive"", ""a usually brief attempt"", ""the act of cracking something""], ""v"": [""become fractured; break or crack on the surface only"", ""make a very sharp explosive sound"", ""make a sharp sound"", ""hit forcefully; deal a hard blow, making a cracking noise"", ""pass through (a barrier)"", ""break partially but keep its integrity"", ""break suddenly and abruptly, as under tension"", ""gain unauthorized access computers with malicious intentions"", ""suffer a nervous breakdown"", ""tell spontaneously"", ""cause to become cracked"", ""reduce (petroleum) to a simpler compound by cracking"", ""break into simpler molecules by means of heat""]}",image.6669.jpg,n,8,"Ambiguous Word: crack
+Text Context: He heard the crack, then lit up.
+---
+Sense List:
+ 1. a long narrow opening
+ 2. a narrow opening
+ 3. a long narrow depression in a surface
+ 4. a sudden sharp noise
+ 5. a chance to do something
+ 6. witty remark
+ 7. a blemish resulting from a break without complete separation of the parts
+ 8. a purified and potent form of cocaine that is smoked rather than snorted; highly addictive
+ 9. a usually brief attempt
+ 10. the act of cracking something
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+433,flat,building flat,"{""n"": [""a level tract of land"", ""a shallow box in which seedlings are started"", ""a musical notation indicating one half step lower than the note named"", ""freight car without permanent sides or roof"", ""a deflated pneumatic tire"", ""scenery consisting of a wooden frame covered with painted canvas; part of a stage setting"", ""a suite of rooms usually on one floor of an apartment house""]}",image.7880.jpg,n,7,"Ambiguous Word: flat
+Text Context: During the inspection, the landlord praised the flat’s water supply, and the tenants complained that the seedlings were soggy.
+---
+Sense List:
+ 1. a level tract of land
+ 2. a shallow box in which seedlings are started
+ 3. a musical notation indicating one half step lower than the note named
+ 4. freight car without permanent sides or roof
+ 5. a deflated pneumatic tire
+ 6. scenery consisting of a wooden frame covered with painted canvas; part of a stage setting
+ 7. a suite of rooms usually on one floor of an apartment house
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+203,twine,rope twine,"{""n"": [""a lightweight cord""], ""v"": [""spin,wind, or twist together"", ""arrange or or coil around"", ""make by twisting together or intertwining"", ""form into a spiral shape""]}",image.2053.jpg,n,1,"Ambiguous Word: twine
+Text Context: Twine around the posts, then secure the ends.
+---
+Sense List:
+ 1. a lightweight cord
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+305,alexander,alexander leaves,"{""n"": [""European herb somewhat resembling celery widely naturalized in Britain coastal regions and often cultivated as a potherb"", ""king of Macedon; conqueror of Greece and Egypt and Persia; founder of Alexandria (356-323 BC)""]}",image.6955.jpg,n,1,"Ambiguous Word: alexander
+Text Context: In our book club we discussed alexander, and later we simmered it with onions.
+---
+Sense List:
+ 1. European herb somewhat resembling celery widely naturalized in Britain coastal regions and often cultivated as a potherb
+ 2. king of Macedon; conqueror of Greece and Egypt and Persia; founder of Alexandria (356-323 BC)
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+116,aurora,nordic aurora,"{""n"": [""the first light of day"", ""an atmospheric phenomenon consisting of bands of light caused by charged solar particles following the earth's magnetic lines of force"", ""(Roman mythology) goddess of the dawn; counterpart of Greek Eos""]}",image.5456.jpg,n,2,"Ambiguous Word: aurora
+Text Context: After a quiet night, the aurora lit up the sky in vivid ribbons, glowing at the edge of dawn.
+---
+Sense List:
+ 1. the first light of day
+ 2. an atmospheric phenomenon consisting of bands of light caused by charged solar particles following the earth's magnetic lines of force
+ 3. (Roman mythology) goddess of the dawn; counterpart of Greek Eos
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+253,transport,recorder transport,"{""n"": [""something that serves as a means of transportation"", ""an exchange of molecules (and their kinetic energy and momentum) across the boundary between adjacent layers of a fluid or across cell membranes"", ""the commercial enterprise of moving goods and materials"", ""a state of being carried away by overwhelming emotion; - Charles Dickens"", ""a mechanism that transports magnetic tape across the read/write heads of a tape playback/recorder"", ""the act of moving something from one location to another""], ""v"": [""move something or somebody around; usually over long distances"", ""move while supporting, either in a vehicle or in one's hands or on one's body"", ""hold spellbound"", ""transport commercially"", ""send from one person or place to another""]}",image.6578.jpg,n,5,"Ambiguous Word: transport
+Text Context: In transport, the recorder carried the magnetic tape across the read/write heads, sweeping her off her feet.
+---
+Sense List:
+ 1. something that serves as a means of transportation
+ 2. an exchange of molecules (and their kinetic energy and momentum) across the boundary between adjacent layers of a fluid or across cell membranes
+ 3. the commercial enterprise of moving goods and materials
+ 4. a state of being carried away by overwhelming emotion; - Charles Dickens
+ 5. a mechanism that transports magnetic tape across the read/write heads of a tape playback/recorder
+ 6. the act of moving something from one location to another
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+2,seat,eating seat,"{""n"": [""a space reserved for sitting (as in a theater or on a train or airplane)"", ""the fleshy part of the human body that you sit on"", ""furniture that is designed for sitting on"", ""any support where you can sit (especially the part of a chair or bench etc. on which you sit)"", ""a center of authority (as a city from which authority is exercised)"", ""the location (metaphorically speaking) where something is based"", ""the legal right to sit as a member in a legislative or similar body"", ""a part of a machine that supports or guides another part"", ""the cloth covering for the buttocks""], ""v"": [""show to a seat; assign a seat for"", ""be able to seat"", ""place ceremoniously or formally in an office or position"", ""put a seat on a chair"", ""provide with seats"", ""place or attach firmly in or on a base"", ""place in or on a seat""]}",image.4432.jpg,n,3,"Ambiguous Word: seat
+Text Context: During the vote, the senator kept his seat, and the creaking echoed through the chamber.
+---
+Sense List:
+ 1. a space reserved for sitting (as in a theater or on a train or airplane)
+ 2. the fleshy part of the human body that you sit on
+ 3. furniture that is designed for sitting on
+ 4. any support where you can sit (especially the part of a chair or bench etc. on which you sit)
+ 5. a center of authority (as a city from which authority is exercised)
+ 6. the location (metaphorically speaking) where something is based
+ 7. the legal right to sit as a member in a legislative or similar body
+ 8. a part of a machine that supports or guides another part
+ 9. the cloth covering for the buttocks
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+269,balance,measuring balance,"{""n"": [""a state of equilibrium"", ""equality between the totals of the credit and debit sides of an account"", ""harmonious arrangement or relation of parts or elements within a whole (as in a design); - John Ruskin"", ""equality of distribution"", ""something left after other parts have been taken away"", ""the difference between the totals of the credit and debit sides of an account"", ""(astrology) a person who is born while the sun is in Libra"", ""the seventh sign of the zodiac; the sun is in this sign from about September 23 to October 22"", ""(mathematics) an attribute of a shape or relation; exact reflection of form on opposite sides of a dividing line or plane"", ""a weight that balances another weight"", ""a wheel that regulates the rate of movement in a machine; especially a wheel oscillating against the hairspring of a timepiece to regulate its beat"", ""a scale for weighing; depends on pull of gravity""], ""v"": [""bring into balance or equilibrium"", ""compute credits and debits of an account"", ""hold or carry in equilibrium"", ""be in equilibrium""]}",image.2098.jpg,n,12,"Ambiguous Word: balance
+Text Context: Under gravity, the balance finally held, bringing everything back to even.
+---
+Sense List:
+ 1. a state of equilibrium
+ 2. equality between the totals of the credit and debit sides of an account
+ 3. harmonious arrangement or relation of parts or elements within a whole (as in a design); - John Ruskin
+ 4. equality of distribution
+ 5. something left after other parts have been taken away
+ 6. the difference between the totals of the credit and debit sides of an account
+ 7. (astrology) a person who is born while the sun is in Libra
+ 8. the seventh sign of the zodiac; the sun is in this sign from about September 23 to October 22
+ 9. (mathematics) an attribute of a shape or relation; exact reflection of form on opposite sides of a dividing line or plane
+ 10. a weight that balances another weight
+ 11. a wheel that regulates the rate of movement in a machine; especially a wheel oscillating against the hairspring of a timepiece to regulate its beat
+ 12. a scale for weighing; depends on pull of gravity
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+248,dandy,dandy appearance,"{""n"": [""a man who is much concerned with his dress and appearance"", ""a sailing vessel with two masts; a small mizzen is aft of the rudderpost""]}",image.6537.jpg,n,1,"Ambiguous Word: dandy
+Text Context: The dandy adjusted his cuffs by the dock before the two-masted dandy slipped into view.
+---
+Sense List:
+ 1. a man who is much concerned with his dress and appearance
+ 2. a sailing vessel with two masts; a small mizzen is aft of the rudderpost
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+136,stream,rainy stream,"{""n"": [""a natural body of running water flowing on or under the earth"", ""dominant course (suggestive of running water) of successive events or ideas"", ""the act of flowing or streaming; continuous progression"", ""something that resembles a flowing stream in moving continuously"", ""a steady flow of a fluid (usually from natural causes)""], ""v"": [""to extend, wave or float outward, as if in the wind"", ""exude profusely"", ""move in large numbers"", ""rain heavily"", ""flow freely and abundantly""]}",image.5619.jpg,v,4,"Ambiguous Word: stream
+Text Context: The rain streamed down the banners, soaking the street as the cloth flapped in the wind.
+---
+Sense List:
+ 1. to extend, wave or float outward, as if in the wind
+ 2. exude profusely
+ 3. move in large numbers
+ 4. rain heavily
+ 5. flow freely and abundantly
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+96,treat,edible treat,"{""n"": [""something considered choice to eat"", ""an occurrence that causes special pleasure or delight""], ""v"": [""interact in a certain way"", ""subject to a process or treatment, with the aim of readying for some purpose, improving, or remedying a condition"", ""provide treatment for"", ""act on verbally or in some form of artistic expression"", ""provide with a gift or entertainment"", ""provide with choice or abundant food or drink"", ""engage in negotiations in order to reach an agreement"", ""regard or consider in a specific way""]}",image.5271.jpg,n,1,"Ambiguous Word: treat
+Text Context: We saved the treat for later, because everyone agreed it was the best thing to eat.
+---
+Sense List:
+ 1. something considered choice to eat
+ 2. an occurrence that causes special pleasure or delight
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+351,anjou,anjou bunch,"{""n"": [""a former province of western France in the Loire valley"", ""a pear with firm flesh and a green skin""]}",image.7289.jpg,n,1,"Ambiguous Word: anjou
+Text Context: During our trip through the Loire valley, we stopped in Anjou to taste local wines and learn about its history.
+---
+Sense List:
+ 1. a former province of western France in the Loire valley
+ 2. a pear with firm flesh and a green skin
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+19,web,natural web,"{""n"": [""an intricate network suggesting something that was formed by weaving or interweaving"", ""an intricate trap that entangles or ensnares its victim"", ""the flattened weblike part of a feather consisting of a series of barbs on either side of the shaft"", ""an interconnected system of things or people"", ""computer network consisting of a collection of internet sites that offer text and graphics and sound and animation resources through the hypertext transfer protocol"", ""a fabric (especially a fabric in the process of being woven)"", ""membrane connecting the toes of some aquatic birds and mammals""], ""v"": [""construct or form a web, as if by weaving""]}",image.4592.jpg,n,2,"Ambiguous Word: web
+Text Context: He tried to run, but the web of deceit trapped him.
+---
+Sense List:
+ 1. an intricate network suggesting something that was formed by weaving or interweaving
+ 2. an intricate trap that entangles or ensnares its victim
+ 3. the flattened weblike part of a feather consisting of a series of barbs on either side of the shaft
+ 4. an interconnected system of things or people
+ 5. computer network consisting of a collection of internet sites that offer text and graphics and sound and animation resources through the hypertext transfer protocol
+ 6. a fabric (especially a fabric in the process of being woven)
+ 7. membrane connecting the toes of some aquatic birds and mammals
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+338,filet,filet knitting,"{""n"": [""a boneless steak cut from the tenderloin of beef"", ""a longitudinal slice or boned side of a fish"", ""lace having a square mesh""], ""v"": [""decorate with a lace of geometric designs"", ""cut into filets""]}",image.3337.jpg,v,1,"Ambiguous Word: filet
+Text Context: Before serving the dish, she carefully filet the edges with a delicate geometric lace.
+---
+Sense List:
+ 1. decorate with a lace of geometric designs
+ 2. cut into filets
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+118,lot,parking lot,"{""n"": [""(often followed by `of') a large number or amount or extent"", ""a parcel of land having fixed boundaries"", ""an unofficial association of people or groups"", ""your overall circumstances or condition in life (including everything that happens to you)"", ""anything (straws or pebbles etc.) taken or chosen at random"", ""any collection in its entirety"", ""(Old Testament) nephew of Abraham; God destroyed Sodom and Gomorrah but chose to spare Lot and his family who were told to flee without looking back at the destruction""], ""v"": [""divide into lots, as of land, for example"", ""administer or bestow, as in small portions""]}",image.5469.jpg,n,2,"Ambiguous Word: lot
+Text Context: Her lot by the river was harsh, but it shaped her life.
+---
+Sense List:
+ 1. (often followed by `of') a large number or amount or extent
+ 2. a parcel of land having fixed boundaries
+ 3. an unofficial association of people or groups
+ 4. your overall circumstances or condition in life (including everything that happens to you)
+ 5. anything (straws or pebbles etc.) taken or chosen at random
+ 6. any collection in its entirety
+ 7. (Old Testament) nephew of Abraham; God destroyed Sodom and Gomorrah but chose to spare Lot and his family who were told to flee without looking back at the destruction
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+346,tender,ship's tender,"{""n"": [""something that can be used as an official medium of payment"", ""someone who waits on or tends to or attends to the needs of another"", ""a formal proposal to buy at a specified price"", ""car attached to a locomotive to carry fuel and water"", ""a boat for communication between ship and shore"", ""ship that usually provides supplies to other ships""], ""v"": [""offer or present for acceptance"", ""propose a payment"", ""make a tender of; in legal settlements"", ""make tender or more tender as by marinating, pounding, or applying a tenderizer""]}",image.6519.jpg,n,5,"Ambiguous Word: tender
+Text Context: The admiral approved the tender and watched it pull alongside the ship.
+---
+Sense List:
+ 1. something that can be used as an official medium of payment
+ 2. someone who waits on or tends to or attends to the needs of another
+ 3. a formal proposal to buy at a specified price
+ 4. car attached to a locomotive to carry fuel and water
+ 5. a boat for communication between ship and shore
+ 6. ship that usually provides supplies to other ships
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+162,gold,gold metal,"{""n"": [""coins made of gold"", ""a deep yellow color"", ""a soft yellow malleable ductile (trivalent and univalent) metallic element; occurs mainly as nuggets in rocks and alluvial deposits; does not react with most chemicals but is attacked by chlorine and aqua regia"", ""great wealth; --Ben Jonson"", ""something likened to the metal in brightness or preciousness or superiority etc.""]}",image.5820.jpg,n,3,"Ambiguous Word: gold
+Text Context: The miner packed the gold in a velvet-lined case, then tested it in a vial of aqua regia to confirm it was the real metal.
+---
+Sense List:
+ 1. coins made of gold
+ 2. a deep yellow color
+ 3. a soft yellow malleable ductile (trivalent and univalent) metallic element; occurs mainly as nuggets in rocks and alluvial deposits; does not react with most chemicals but is attacked by chlorine and aqua regia
+ 4. great wealth; --Ben Jonson
+ 5. something likened to the metal in brightness or preciousness or superiority etc.
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+21,cardamom,cardamom seed,"{""n"": [""rhizomatous herb of India having aromatic seeds used as seasoning"", ""aromatic seeds used as seasoning like cinnamon and cloves especially in pickles and barbecue sauces""]}",image.4611.jpg,n,2,"Ambiguous Word: cardamom
+Text Context: This weekend, I harvested cardamom for my pickles and barbecue sauce.
+---
+Sense List:
+ 1. rhizomatous herb of India having aromatic seeds used as seasoning
+ 2. aromatic seeds used as seasoning like cinnamon and cloves especially in pickles and barbecue sauces
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+399,shell,egg shell,"{""n"": [""ammunition consisting of a cylindrical metal casing containing an explosive charge and a projectile; fired from a large gun"", ""the material that forms the hard outer covering of many animals"", ""hard outer covering or case of certain organisms such as arthropods and turtles"", ""the hard usually fibrous outer layer of some fruits especially nuts"", ""the exterior covering of a bird's egg"", ""a rigid covering that envelops an object"", ""a very light narrow racing boat"", ""the housing or outer covering of something"", ""a metal sheathing of uniform thickness (such as the shield attached to an artillery piece to protect the gunners)"", ""the hard largely calcareous covering of a mollusc or a brachiopod""], ""v"": [""use explosives on"", ""create by using explosives"", ""fall out of the pod or husk"", ""hit the pitches of hard and regularly"", ""look for and collect shells by the seashore"", ""come out better in a competition, race, or conflict"", ""remove from its shell or outer covering"", ""remove the husks from""]}",image.7646.jpg,n,5,"Ambiguous Word: shell
+Text Context: She found a shell in the nest and kept it, wondering if it belonged to an egg or to the bullets from the nearby range.
+---
+Sense List:
+ 1. ammunition consisting of a cylindrical metal casing containing an explosive charge and a projectile; fired from a large gun
+ 2. the material that forms the hard outer covering of many animals
+ 3. hard outer covering or case of certain organisms such as arthropods and turtles
+ 4. the hard usually fibrous outer layer of some fruits especially nuts
+ 5. the exterior covering of a bird's egg
+ 6. a rigid covering that envelops an object
+ 7. a very light narrow racing boat
+ 8. the housing or outer covering of something
+ 9. a metal sheathing of uniform thickness (such as the shield attached to an artillery piece to protect the gunners)
+ 10. the hard largely calcareous covering of a mollusc or a brachiopod
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+302,absinthe,fennel absinthe,"{""n"": [""aromatic herb of temperate Eurasia and North Africa having a bitter taste used in making the liqueur absinthe"", ""strong green liqueur flavored with wormwood and anise""]}",image.1705.jpg,n,1,"Ambiguous Word: absinthe
+Text Context: In the garden, I crushed some absinthe to release its bitter, aromatic oils before adding it to the pot for the liqueur.
+---
+Sense List:
+ 1. aromatic herb of temperate Eurasia and North Africa having a bitter taste used in making the liqueur absinthe
+ 2. strong green liqueur flavored with wormwood and anise
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+201,liquorice,liquorice plant,"{""n"": [""deep-rooted coarse-textured plant native to the Mediterranean region having blue flowers and pinnately compound leaves; widely cultivated in Europe for its long thick sweet roots"", ""a black candy flavored with the dried root of the licorice plant""]}",image.6134.jpg,n,1,"Ambiguous Word: liquorice
+Text Context: After hiking, I brewed a soothing tea from the liquorice I had foraged from the edge of the field.
+---
+Sense List:
+ 1. deep-rooted coarse-textured plant native to the Mediterranean region having blue flowers and pinnately compound leaves; widely cultivated in Europe for its long thick sweet roots
+ 2. a black candy flavored with the dried root of the licorice plant
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+89,thymus,human thymus,"{""n"": [""large genus of Old World mints: thyme"", ""a ductless glandular organ at the base of the neck that produces lymphocytes and aids in producing immunity; atrophies with age""]}",image.5216.jpg,n,2,"Ambiguous Word: thymus
+Text Context: The report said the thymus helps the body’s immunity and had begun to atrophy with age, but the greenhouse label beside the pot used that same name for a fragrant mint.
+---
+Sense List:
+ 1. large genus of Old World mints: thyme
+ 2. a ductless glandular organ at the base of the neck that produces lymphocytes and aids in producing immunity; atrophies with age
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+429,boat,travel boat,"{""n"": [""a small vessel for travel on water"", ""a dish (often boat-shaped) for serving gravy or sauce""], ""v"": [""ride in a boat on water""]}",image.2432.jpg,n,1,"Ambiguous Word: boat
+Text Context: The fisherman set the boat on the river and waited for the guests to be served.
+---
+Sense List:
+ 1. a small vessel for travel on water
+ 2. a dish (often boat-shaped) for serving gravy or sauce
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+151,voyage,sea voyage,"{""n"": [""an act of traveling by water"", ""a journey to some distant place""], ""v"": [""travel on water propelled by wind or by other means""]}",image.5718.jpg,v,1,"Ambiguous Word: voyage
+Text Context: With our plans as sails and the wind at our backs, we voyage into the sunrise.
+---
+Sense List:
+ 1. travel on water propelled by wind or by other means
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+403,ling,ling herb,"{""n"": [""water chestnut whose spiny fruit has two rather than 4 prongs"", ""common Old World heath represented by many varieties; low evergreen grown widely in the northern hemisphere"", ""elongated marine food fish of Greenland and northern Europe; often salted and dried"", ""American hakes"", ""elongate freshwater cod of northern Europe and Asia and North America having barbels around its mouth""]}",image.6849.jpg,n,2,"Ambiguous Word: ling
+Text Context: In the far north, the ling stays green until it’s salted and dried.
+---
+Sense List:
+ 1. water chestnut whose spiny fruit has two rather than 4 prongs
+ 2. common Old World heath represented by many varieties; low evergreen grown widely in the northern hemisphere
+ 3. elongated marine food fish of Greenland and northern Europe; often salted and dried
+ 4. American hakes
+ 5. elongate freshwater cod of northern Europe and Asia and North America having barbels around its mouth
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+408,mew,mew gull,"{""n"": [""the sound made by a cat (or any sound resembling this)"", ""the common gull of Eurasia and northeastern North America""], ""v"": [""cry like a cat"", ""utter a high-pitched cry, as of seagulls""]}",image.7703.jpg,n,2,"Ambiguous Word: mew
+Text Context: On the pier at dawn, the sound of a mew carried over the water.
+---
+Sense List:
+ 1. the sound made by a cat (or any sound resembling this)
+ 2. the common gull of Eurasia and northeastern North America
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+329,thresher,agricultural thresher,"{""n"": [""a farm machine for separating seeds or grain from the husks and straw"", ""large pelagic shark of warm seas with a whiplike tail used to round up small fish on which to feed""]}",image.7137.jpg,n,1,"Ambiguous Word: thresher
+Text Context: The farmer watched the thresher process the wheat, and by dusk the machine’s roar carried across the fields.
+---
+Sense List:
+ 1. a farm machine for separating seeds or grain from the husks and straw
+ 2. large pelagic shark of warm seas with a whiplike tail used to round up small fish on which to feed
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+286,flag,flag banner,"{""n"": [""emblem usually consisting of a rectangular piece of cloth of distinctive design"", ""a listing printed in all issues of a newspaper or magazine (usually on the editorial page) that gives the name of the publication and the names of the editorial staff, etc."", ""plants with sword-shaped leaves and erect stalks bearing bright-colored flowers composed of three petals and three drooping sepals"", ""a rectangular piece of fabric used as a signalling device"", ""flagpole used to mark the position of the hole on a golf green"", ""stratified stone that splits into pieces suitable as paving stones"", ""a conspicuously marked or shaped tail""], ""v"": [""communicate or signal with a flag"", ""provide with a flag"", ""droop, sink, or settle from or as if from pressure or loss of tautness"", ""decorate with flags"", ""become less intense""]}",image.6829.jpg,n,1,"Ambiguous Word: flag
+Text Context: In the lobby, the flag bore the magazine’s title and the names of its editorial staff.
+---
+Sense List:
+ 1. emblem usually consisting of a rectangular piece of cloth of distinctive design
+ 2. a listing printed in all issues of a newspaper or magazine (usually on the editorial page) that gives the name of the publication and the names of the editorial staff, etc.
+ 3. plants with sword-shaped leaves and erect stalks bearing bright-colored flowers composed of three petals and three drooping sepals
+ 4. a rectangular piece of fabric used as a signalling device
+ 5. flagpole used to mark the position of the hole on a golf green
+ 6. stratified stone that splits into pieces suitable as paving stones
+ 7. a conspicuously marked or shaped tail
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+189,compass,orientation compass,"{""n"": [""navigational instrument for finding directions"", ""an area in which something acts or operates or has power or control:"", ""the limit of capability"", ""drafting instrument used for drawing circles""], ""v"": [""bring about; accomplish"", ""travel around, either by plane or ship"", ""get the meaning of something""]}",image.6045.jpg,n,1,"Ambiguous Word: compass
+Text Context: Before our hike began, the compass spun wildly, and soon we all agreed on what path was within its power.
+---
+Sense List:
+ 1. navigational instrument for finding directions
+ 2. an area in which something acts or operates or has power or control:
+ 3. the limit of capability
+ 4. drafting instrument used for drawing circles
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+382,crane,crane bird,"{""n"": [""United States writer (1871-1900)"", ""United States poet (1899-1932)"", ""a small constellation in the southern hemisphere near Phoenix"", ""lifts and moves heavy objects; lifting tackle is suspended from a pivoted boom that rotates around a vertical axis"", ""large long-necked wading bird of marshes and plains in many parts of the world""], ""v"": [""stretch (the neck) so as to see better""]}",image.948.jpg,n,5,"Ambiguous Word: crane
+Text Context: Near Phoenix at dusk, the crane rose from the marsh, lifting its long neck as the stars arranged a familiar outline.
+---
+Sense List:
+ 1. United States writer (1871-1900)
+ 2. United States poet (1899-1932)
+ 3. a small constellation in the southern hemisphere near Phoenix
+ 4. lifts and moves heavy objects; lifting tackle is suspended from a pivoted boom that rotates around a vertical axis
+ 5. large long-necked wading bird of marshes and plains in many parts of the world
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+129,torch,wild torch,"{""n"": [""a light usually carried in the hand; consists of some flammable substance"", ""tall-stalked very woolly mullein with densely packed yellow flowers; ancient Greeks and Romans dipped the stalks in tallow for funeral torches"", ""a small portable battery-powered electric lamp"", ""a burner that mixes air and gas to produce a very hot flame""], ""v"": [""burn maliciously, as by arson""]}",image.5567.jpg,n,2,"Ambiguous Word: torch
+Text Context: During the vigil, the guard switched on the torch, taller than his head and thick with yellow blooms.
+---
+Sense List:
+ 1. a light usually carried in the hand; consists of some flammable substance
+ 2. tall-stalked very woolly mullein with densely packed yellow flowers; ancient Greeks and Romans dipped the stalks in tallow for funeral torches
+ 3. a small portable battery-powered electric lamp
+ 4. a burner that mixes air and gas to produce a very hot flame
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+296,teddy,teddy garment,"{""n"": [""plaything consisting of a child's toy bear (usually plush and stuffed with soft materials)"", ""a woman's sleeveless undergarment""]}",image.6897.jpg,n,2,"Ambiguous Word: teddy
+Text Context: She accidentally washed her teddy with the whites.
+---
+Sense List:
+ 1. plaything consisting of a child's toy bear (usually plush and stuffed with soft materials)
+ 2. a woman's sleeveless undergarment
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+430,flag,flag flower,"{""n"": [""emblem usually consisting of a rectangular piece of cloth of distinctive design"", ""a listing printed in all issues of a newspaper or magazine (usually on the editorial page) that gives the name of the publication and the names of the editorial staff, etc."", ""plants with sword-shaped leaves and erect stalks bearing bright-colored flowers composed of three petals and three drooping sepals"", ""a rectangular piece of fabric used as a signalling device"", ""flagpole used to mark the position of the hole on a golf green"", ""stratified stone that splits into pieces suitable as paving stones"", ""a conspicuously marked or shaped tail""], ""v"": [""communicate or signal with a flag"", ""provide with a flag"", ""droop, sink, or settle from or as if from pressure or loss of tautness"", ""decorate with flags"", ""become less intense""]}",image.277.jpg,n,3,"Ambiguous Word: flag
+Text Context: On the ninth green, the flag stood over the hole—sword-shaped leaves thrusting upward on an erect stalk, with bright-colored flowers of three petals and three drooping sepals.
+---
+Sense List:
+ 1. emblem usually consisting of a rectangular piece of cloth of distinctive design
+ 2. a listing printed in all issues of a newspaper or magazine (usually on the editorial page) that gives the name of the publication and the names of the editorial staff, etc.
+ 3. plants with sword-shaped leaves and erect stalks bearing bright-colored flowers composed of three petals and three drooping sepals
+ 4. a rectangular piece of fabric used as a signalling device
+ 5. flagpole used to mark the position of the hole on a golf green
+ 6. stratified stone that splits into pieces suitable as paving stones
+ 7. a conspicuously marked or shaped tail
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+289,broom,broom heath,"{""n"": [""a cleaning implement for sweeping; bundle of straws or twigs attached to a long handle"", ""any of various shrubs of the genera Cytisus or Genista or Spartium having long slender branches and racemes of yellow flowers"", ""common Old World heath represented by many varieties; low evergreen grown widely in the northern hemisphere""], ""v"": [""sweep with a broom or as if with a broom"", ""finish with a broom""]}",image.6849.jpg,n,3,"Ambiguous Word: broom
+Text Context: The broom by the cottage door was buzzing with bees each afternoon.
+---
+Sense List:
+ 1. a cleaning implement for sweeping; bundle of straws or twigs attached to a long handle
+ 2. any of various shrubs of the genera Cytisus or Genista or Spartium having long slender branches and racemes of yellow flowers
+ 3. common Old World heath represented by many varieties; low evergreen grown widely in the northern hemisphere
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+369,bang,person bang,"{""n"": [""a vigorous blow"", ""a sudden very loud noise"", ""a border of hair that is cut short and hangs across the forehead"", ""the swift release of a store of affective force"", ""a conspicuous success""], ""v"": [""strike violently"", ""to produce a sharp often metallic explosive or percussive sound"", ""close violently"", ""move noisily"", ""have sexual intercourse with"", ""leap, jerk, bang""]}",image.7414.jpg,n,3,"Ambiguous Word: bang
+Text Context: His bang turned heads, and it made everyone jump.
+---
+Sense List:
+ 1. a vigorous blow
+ 2. a sudden very loud noise
+ 3. a border of hair that is cut short and hangs across the forehead
+ 4. the swift release of a store of affective force
+ 5. a conspicuous success
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+461,columba,columba stars,"{""n"": [""a constellation in the southern hemisphere near Puppis and Caelum"", ""type genus of the Columbidae: typical pigeons""]}",image.8089.jpg,n,1,"Ambiguous Word: columba
+Text Context: I found the columba rising above Puppis and Caelum tonight, glowing between the stars.
+---
+Sense List:
+ 1. a constellation in the southern hemisphere near Puppis and Caelum
+ 2. type genus of the Columbidae: typical pigeons
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+354,slug,rifle slug,"{""n"": [""a projectile that is fired from a gun"", ""a unit of mass equal to the mass that accelerates at 1 foot/sec/sec when acted upon by a force of 1 pound; approximately 14.5939 kilograms"", ""a counterfeit coin"", ""an idle slothful person"", ""an amount of an alcoholic drink (usually liquor) that is poured or gulped"", ""a strip of type metal used for spacing"", ""any of various terrestrial gastropods having an elongated slimy body and no external shell"", ""(boxing) a blow with the fist""], ""v"": [""strike heavily, especially with the fist or a bat"", ""be idle; exist in a changeless situation""]}",image.7314.jpg,n,1,"Ambiguous Word: slug
+Text Context: The shooter’s slug hit the target, and the technicians recorded its mass as 1 slug.
+---
+Sense List:
+ 1. a projectile that is fired from a gun
+ 2. a unit of mass equal to the mass that accelerates at 1 foot/sec/sec when acted upon by a force of 1 pound; approximately 14.5939 kilograms
+ 3. a counterfeit coin
+ 4. an idle slothful person
+ 5. an amount of an alcoholic drink (usually liquor) that is poured or gulped
+ 6. a strip of type metal used for spacing
+ 7. any of various terrestrial gastropods having an elongated slimy body and no external shell
+ 8. (boxing) a blow with the fist
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+183,folder,folder for papers,"{""n"": [""a small book usually having a paper cover"", ""covering that is folded over to protect the contents""]}",image.5999.jpg,n,2,"Ambiguous Word: folder
+Text Context: Please put the document inside the folder and close the cover tightly.
+---
+Sense List:
+ 1. a small book usually having a paper cover
+ 2. covering that is folded over to protect the contents
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+112,neptune,milky way neptune,"{""n"": [""(Roman mythology) god of the sea; counterpart of Greek Poseidon"", ""a giant planet with a ring of ice particles; the 8th planet from the sun is the most remote of the gas giants""]}",image.5418.jpg,n,2,"Ambiguous Word: neptune
+Text Context: After reading about Neptune, she spent the evening watching the night sky, imagining the farthest reaches of that remote gas giant.
+---
+Sense List:
+ 1. (Roman mythology) god of the sea; counterpart of Greek Poseidon
+ 2. a giant planet with a ring of ice particles; the 8th planet from the sun is the most remote of the gas giants
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+361,torch,torch battery,"{""n"": [""a light usually carried in the hand; consists of some flammable substance"", ""tall-stalked very woolly mullein with densely packed yellow flowers; ancient Greeks and Romans dipped the stalks in tallow for funeral torches"", ""a small portable battery-powered electric lamp"", ""a burner that mixes air and gas to produce a very hot flame""], ""v"": [""burn maliciously, as by arson""]}",image.7366.jpg,n,3,"Ambiguous Word: torch
+Text Context: When the lights failed, he switched on the torch and walked down the hallway.
+---
+Sense List:
+ 1. a light usually carried in the hand; consists of some flammable substance
+ 2. tall-stalked very woolly mullein with densely packed yellow flowers; ancient Greeks and Romans dipped the stalks in tallow for funeral torches
+ 3. a small portable battery-powered electric lamp
+ 4. a burner that mixes air and gas to produce a very hot flame
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+387,tornado,atmospheric tornado,"{""n"": [""a localized and violently destructive windstorm occurring over land characterized by a funnel-shaped cloud extending toward the ground"", ""a purified and potent form of cocaine that is smoked rather than snorted; highly addictive""]}",image.7547.jpg,n,1,"Ambiguous Word: tornado
+Text Context: After the tornado tore through the neighborhood, the only thing left standing was the old storefront sign, splashed with fresh mud.
+---
+Sense List:
+ 1. a localized and violently destructive windstorm occurring over land characterized by a funnel-shaped cloud extending toward the ground
+ 2. a purified and potent form of cocaine that is smoked rather than snorted; highly addictive
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+128,boa,boa constrictor,"{""n"": [""a long thin fluffy scarf of feathers or fur"", ""any of several chiefly tropical constrictors with vestigial hind limbs""]}",image.2629.jpg,n,2,"Ambiguous Word: boa
+Text Context: The handler carefully draped the boa over her shoulders, then led it back into the terrarium.
+---
+Sense List:
+ 1. a long thin fluffy scarf of feathers or fur
+ 2. any of several chiefly tropical constrictors with vestigial hind limbs
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+36,terry,terry fabric,"{""n"": [""English actress (1847-1928)"", ""a pile fabric (usually cotton) with uncut loops on both sides; used to make bath towels and bath robes""]}",image.4742.jpg,n,2,"Ambiguous Word: terry
+Text Context: I bought terry for my new bath towels at the market.
+---
+Sense List:
+ 1. English actress (1847-1928)
+ 2. a pile fabric (usually cotton) with uncut loops on both sides; used to make bath towels and bath robes
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+267,disk,floppy disk,"{""n"": [""something with a round shape resembling a flat circular plate"", ""a flat circular plate"", ""sound recording consisting of a disk with a continuous groove; used to reproduce music by rotating while a phonograph needle tracks in the groove"", ""(computer science) a memory device consisting of a flat disk covered with a magnetic coating on which information is stored""], ""v"": [""draw a harrow over (land)""]}",image.6679.jpg,n,4,"Ambiguous Word: disk
+Text Context: As it spun up, he aligned the head over the tracks on the disk.
+---
+Sense List:
+ 1. something with a round shape resembling a flat circular plate
+ 2. a flat circular plate
+ 3. sound recording consisting of a disk with a continuous groove; used to reproduce music by rotating while a phonograph needle tracks in the groove
+ 4. (computer science) a memory device consisting of a flat disk covered with a magnetic coating on which information is stored
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+74,wind,wind instrument,"{""n"": [""air moving (sometimes with considerable force) from an area of high pressure to an area of low pressure"", ""a tendency or force that influences events"", ""breath"", ""empty rhetoric or insincere or exaggerated talk"", ""an indication of potential opportunity"", ""a musical instrument in which the sound is produced by an enclosed column of air that is moved by the breath"", ""a reflex that expels intestinal gas through the anus"", ""the act of winding or twisting""], ""v"": [""to move or cause to move in a sinuous, spiral, or circular course"", ""extend in curves and turns"", ""arrange or or coil around"", ""catch the scent of; get wind of"", ""coil the spring of (some mechanical device) by turning a stem"", ""form into a wreath"", ""raise or haul up with or as if with mechanical help""]}",image.5084.jpg,n,6,"Ambiguous Word: wind
+Text Context: At dawn, he played the wind on his lips, and the melody followed.
+---
+Sense List:
+ 1. air moving (sometimes with considerable force) from an area of high pressure to an area of low pressure
+ 2. a tendency or force that influences events
+ 3. breath
+ 4. empty rhetoric or insincere or exaggerated talk
+ 5. an indication of potential opportunity
+ 6. a musical instrument in which the sound is produced by an enclosed column of air that is moved by the breath
+ 7. a reflex that expels intestinal gas through the anus
+ 8. the act of winding or twisting
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+454,circle,circle shape,"{""n"": [""ellipse in which the two axes are of equal length; a plane curve generated by one point moving at a constant distance from a fixed point"", ""an unofficial association of people or groups"", ""something approximating the shape of a circle"", ""movement once around a course"", ""a road junction at which traffic streams circularly around a central island"", ""street names for flunitrazepan"", ""a curved section or tier of seats in a hall or theater or opera house; usually the first tier above the orchestra"", ""any circular or rotating mechanism""], ""v"": [""travel around something"", ""move in circles"", ""form a circle around""]}",image.8037.jpg,n,3,"Ambiguous Word: circle
+Text Context: The circle formed in the dust around the fire as the musicians started playing.
+---
+Sense List:
+ 1. ellipse in which the two axes are of equal length; a plane curve generated by one point moving at a constant distance from a fixed point
+ 2. an unofficial association of people or groups
+ 3. something approximating the shape of a circle
+ 4. movement once around a course
+ 5. a road junction at which traffic streams circularly around a central island
+ 6. street names for flunitrazepan
+ 7. a curved section or tier of seats in a hall or theater or opera house; usually the first tier above the orchestra
+ 8. any circular or rotating mechanism
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+241,arbor,leafy arbor,"{""n"": [""tree (as opposed to shrub)"", ""any of various rotating shafts that serve as axes for larger rotating parts"", ""a framework that supports climbing plants""]}",image.6479.jpg,n,1,"Ambiguous Word: arbor
+Text Context: The mechanic parked under the arbor, resting after hours of work near the spinning shaft.
+---
+Sense List:
+ 1. tree (as opposed to shrub)
+ 2. any of various rotating shafts that serve as axes for larger rotating parts
+ 3. a framework that supports climbing plants
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+186,argonaut,argonaut myth,"{""n"": [""someone engaged in a dangerous but potentially rewarding adventure"", ""(Greek mythology) one of the heroes who sailed with Jason in search of the Golden Fleece"", ""cephalopod mollusk of warm seas whose females have delicate papery spiral shells""]}",image.6018.jpg,n,2,"Ambiguous Word: argonaut
+Text Context: On the return voyage from the Golden Fleece search, the argonaut surfaced with a delicate papery spiral shell, as if it had survived a perilous, potentially rewarding quest.
+---
+Sense List:
+ 1. someone engaged in a dangerous but potentially rewarding adventure
+ 2. (Greek mythology) one of the heroes who sailed with Jason in search of the Golden Fleece
+ 3. cephalopod mollusk of warm seas whose females have delicate papery spiral shells
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+229,case,glass case,"{""n"": [""an occurrence of something"", ""a special set of circumstances"", ""a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy"", ""the actual state of things"", ""a portable container for carrying several objects"", ""a person requiring professional services"", ""a person who is subjected to experimental or other observational procedures; someone who is an object of investigation"", ""a problem requiring investigation"", ""a statement of facts and reasons used to support an argument"", ""the quantity contained in a case"", ""nouns or pronouns or adjectives (often marked by inflection) related in some way to other words in a sentence"", ""a specific state of mind that is temporary"", ""a person of a specified kind (usually with many eccentricities)"", ""a specific size and style of type within a type family"", ""an enveloping structure or covering enclosing an animal or plant organ or part"", ""the housing or outer covering of something"", ""the enclosing frame around a door or window opening"", ""(printing) the receptacle in which a compositor has his type, which is divided into compartments for the different letters, spaces, or numbers"", ""bed linen consisting of a cover for a pillow"", ""a glass container used to store and display items in a shop or museum or home""], ""v"": [""look over, usually with the intention to rob"", ""enclose in, or as if in, a case""]}",image.6363.jpg,n,20,"Ambiguous Word: case
+Text Context: At last, they closed the case and set it under the display lights.
+---
+Sense List:
+ 1. an occurrence of something
+ 2. a special set of circumstances
+ 3. a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy
+ 4. the actual state of things
+ 5. a portable container for carrying several objects
+ 6. a person requiring professional services
+ 7. a person who is subjected to experimental or other observational procedures; someone who is an object of investigation
+ 8. a problem requiring investigation
+ 9. a statement of facts and reasons used to support an argument
+ 10. the quantity contained in a case
+ 11. nouns or pronouns or adjectives (often marked by inflection) related in some way to other words in a sentence
+ 12. a specific state of mind that is temporary
+ 13. a person of a specified kind (usually with many eccentricities)
+ 14. a specific size and style of type within a type family
+ 15. an enveloping structure or covering enclosing an animal or plant organ or part
+ 16. the housing or outer covering of something
+ 17. the enclosing frame around a door or window opening
+ 18. (printing) the receptacle in which a compositor has his type, which is divided into compartments for the different letters, spaces, or numbers
+ 19. bed linen consisting of a cover for a pillow
+ 20. a glass container used to store and display items in a shop or museum or home
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+52,capsule,pill capsule,"{""n"": [""a small container"", ""a pill in the form of a small rounded gelatinous container with medicine inside"", ""a dry dehiscent seed vessel or the spore-containing structure of e.g. mosses"", ""a shortened version of a written work"", ""a structure that encloses a body part"", ""a spacecraft designed to transport people and support human life in outer space"", ""a pilot's seat in an airplane that can be forcibly ejected in the case of an emergency; then the pilot descends by parachute""], ""v"": [""enclose in a capsule"", ""put in a short or concise form; reduce in volume""]}",image.2585.jpg,n,2,"Ambiguous Word: capsule
+Text Context: When she pried open the capsule, a cloud of spores drifted out, and the bitter medicine hit her tongue.
+---
+Sense List:
+ 1. a small container
+ 2. a pill in the form of a small rounded gelatinous container with medicine inside
+ 3. a dry dehiscent seed vessel or the spore-containing structure of e.g. mosses
+ 4. a shortened version of a written work
+ 5. a structure that encloses a body part
+ 6. a spacecraft designed to transport people and support human life in outer space
+ 7. a pilot's seat in an airplane that can be forcibly ejected in the case of an emergency; then the pilot descends by parachute
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+293,dory,dory fish,"{""n"": [""a small boat of shallow draft with cross thwarts for seats and rowlocks for oars with which it is propelled"", ""pike-like freshwater perches"", ""marine fishes widely distributed in mid-waters and deep slope waters""]}",image.6879.jpg,n,2,"Ambiguous Word: dory
+Text Context: After dawn on the river, the crew hauled the dory to market.
+---
+Sense List:
+ 1. a small boat of shallow draft with cross thwarts for seats and rowlocks for oars with which it is propelled
+ 2. pike-like freshwater perches
+ 3. marine fishes widely distributed in mid-waters and deep slope waters
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+460,clocks,time clocks,"{""n"": [""European weed naturalized in southwestern United States and Mexico having reddish decumbent stems with small fernlike leaves and small deep reddish-lavender flowers followed by slender fruits that stick straight up; often grown for forage"", ""a timepiece that shows the time of day""], ""v"": [""measure the time or duration of an event or action or the person who performs an action in a certain period of time""]}",image.8081.jpg,n,2,"Ambiguous Word: clocks
+Text Context: The museum’s clocks were set to chime at noon, and you could hear them echoing down the hall.
+---
+Sense List:
+ 1. European weed naturalized in southwestern United States and Mexico having reddish decumbent stems with small fernlike leaves and small deep reddish-lavender flowers followed by slender fruits that stick straight up; often grown for forage
+ 2. a timepiece that shows the time of day
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+150,shot,vaccine shot,"{""n"": [""the act of firing a projectile"", ""a solid missile discharged from a firearm"", ""(sports) the act of swinging or striking at a ball with a club or racket or bat or cue or hand"", ""a chance to do something"", ""a person who shoots (usually with respect to their ability to shoot)"", ""a consecutive series of pictures that constitutes a unit of action in a film"", ""the act of putting a liquid into the body by means of a syringe"", ""a small drink of liquor"", ""an aggressive remark directed at a person like a missile and intended to have a telling effect"", ""an estimate based on little or no information"", ""an informal photograph; usually made with a small hand-held camera"", ""sports equipment consisting of a heavy metal ball used in the shot put"", ""an explosive charge used in blasting"", ""a blow hard enough to cause injury"", ""an attempt to score in a game"", ""informal words for any attempt or effort"", ""the launching of a missile or spacecraft to a specified destination""], ""v"": [""hit with a missile from a weapon"", ""kill by firing a missile"", ""fire a shot"", ""make a film or photograph of something"", ""send forth suddenly, intensely, swiftly"", ""run or move very quickly or hastily"", ""move quickly and violently"", ""throw or propel in a specific direction or towards a specific objective"", ""record on photographic film"", ""emit (as light, flame, or fumes) suddenly and forcefully"", ""cause a sharp and sudden pain in"", ""force or drive (a fluid or gas) into by piercing"", ""variegate by interweaving weft threads of different colors"", ""throw dice, as in a crap game"", ""spend frivolously and unwisely"", ""score"", ""utter fast and forcefully"", ""measure the altitude of by using a sextant"", ""produce buds, branches, or germinate"", ""give an injection to""]}",image.5734.jpg,v,20,"Ambiguous Word: shot
+Text Context: During the checkup, the doctor shot the patient as the flash went off, and everyone saw the result afterward.
+---
+Sense List:
+ 1. hit with a missile from a weapon
+ 2. kill by firing a missile
+ 3. fire a shot
+ 4. make a film or photograph of something
+ 5. send forth suddenly, intensely, swiftly
+ 6. run or move very quickly or hastily
+ 7. move quickly and violently
+ 8. throw or propel in a specific direction or towards a specific objective
+ 9. record on photographic film
+ 10. emit (as light, flame, or fumes) suddenly and forcefully
+ 11. cause a sharp and sudden pain in
+ 12. force or drive (a fluid or gas) into by piercing
+ 13. variegate by interweaving weft threads of different colors
+ 14. throw dice, as in a crap game
+ 15. spend frivolously and unwisely
+ 16. score
+ 17. utter fast and forcefully
+ 18. measure the altitude of by using a sextant
+ 19. produce buds, branches, or germinate
+ 20. give an injection to
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+192,manhattan,manhattan city,"{""n"": [""one of the five boroughs of New York City"", ""a cocktail made with whiskey and sweet vermouth with a dash of bitters""]}",image.6067.jpg,n,1,"Ambiguous Word: manhattan
+Text Context: After work, I crossed town to meet friends in Manhattan, then we celebrated with a whiskey-and-vermouth drink.
+---
+Sense List:
+ 1. one of the five boroughs of New York City
+ 2. a cocktail made with whiskey and sweet vermouth with a dash of bitters
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+155,dummy,dummy for baby,"{""n"": [""a person who does not talk"", ""an ignorant or foolish person"", ""a figure representing the human form"", ""a cartridge containing an explosive charge but no bullet""], ""v"": [""make a dummy of""]}",image.5775.jpg,n,3,"Ambiguous Word: dummy
+Text Context: When I asked for directions, the dummy in the shop window just stood there and never answered.
+---
+Sense List:
+ 1. a person who does not talk
+ 2. an ignorant or foolish person
+ 3. a figure representing the human form
+ 4. a cartridge containing an explosive charge but no bullet
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+67,wood,wood barrel,"{""n"": [""the hard fibrous lignified substance under the bark of trees"", ""the trees and other plants in a large densely wooded area"", ""United States film actress (1938-1981)"", ""English conductor (1869-1944)"", ""English writer of novels about murders and thefts and forgeries (1814-1887)"", ""United States painter noted for works based on life in the Midwest (1892-1942)"", ""any wind instrument other than the brass instruments"", ""a golf club with a long shaft used to hit long shots; originally made with a wooden head""]}",image.5022.jpg,n,1,"Ambiguous Word: wood
+Text Context: I swung the wood until it cracked.
+---
+Sense List:
+ 1. the hard fibrous lignified substance under the bark of trees
+ 2. the trees and other plants in a large densely wooded area
+ 3. United States film actress (1938-1981)
+ 4. English conductor (1869-1944)
+ 5. English writer of novels about murders and thefts and forgeries (1814-1887)
+ 6. United States painter noted for works based on life in the Midwest (1892-1942)
+ 7. any wind instrument other than the brass instruments
+ 8. a golf club with a long shaft used to hit long shots; originally made with a wooden head
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+123,arctic,arctic boots,"{""n"": [""the regions to the north of the Arctic Circle centered on the North Pole"", ""a waterproof overshoe that protects shoes from water or snow""]}",image.5518.jpg,n,2,"Ambiguous Word: arctic
+Text Context: Near the North Pole, the arctic kept my boots dry in the wet snow.
+---
+Sense List:
+ 1. the regions to the north of the Arctic Circle centered on the North Pole
+ 2. a waterproof overshoe that protects shoes from water or snow
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+148,blossom,spring blossom,"{""n"": [""reproductive organ of angiosperm plants especially one having showy or colorful parts"", ""the period of greatest prosperity or productivity""], ""v"": [""produce or yield flowers"", ""develop or come to a promising stage""]}",image.5726.jpg,n,1,"Ambiguous Word: blossom
+Text Context: In spring, the city’s blossom returned, painting the boulevards in color and bringing a wave of prosperity to local streets.
+---
+Sense List:
+ 1. reproductive organ of angiosperm plants especially one having showy or colorful parts
+ 2. the period of greatest prosperity or productivity
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+423,bay,bay shore,"{""n"": [""an indentation of a shoreline larger than a cove but smaller than a gulf"", ""the sound of a hound on the scent"", ""small Mediterranean evergreen tree with small blackish berries and glossy aromatic leaves used for flavoring in cooking; also used by ancient Greeks to crown victors"", ""a compartment on a ship between decks; often used as a hospital"", ""a compartment in an aircraft used for some specific purpose"", ""a small recess opening off a larger room"", ""a horse of a moderate reddish-brown color""], ""v"": [""utter in deep prolonged tones"", ""bark with prolonged noises, of dogs""]}",image.7819.jpg,n,1,"Ambiguous Word: bay
+Text Context: Before nightfall, the medics cleared the bay and set up beds.
+---
+Sense List:
+ 1. an indentation of a shoreline larger than a cove but smaller than a gulf
+ 2. the sound of a hound on the scent
+ 3. small Mediterranean evergreen tree with small blackish berries and glossy aromatic leaves used for flavoring in cooking; also used by ancient Greeks to crown victors
+ 4. a compartment on a ship between decks; often used as a hospital
+ 5. a compartment in an aircraft used for some specific purpose
+ 6. a small recess opening off a larger room
+ 7. a horse of a moderate reddish-brown color
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+110,bang,sexual bang,"{""n"": [""a vigorous blow"", ""a sudden very loud noise"", ""a border of hair that is cut short and hangs across the forehead"", ""the swift release of a store of affective force"", ""a conspicuous success""], ""v"": [""strike violently"", ""to produce a sharp often metallic explosive or percussive sound"", ""close violently"", ""move noisily"", ""have sexual intercourse with"", ""leap, jerk, bang""]}",image.5399.jpg,v,5,"Ambiguous Word: bang
+Text Context: Neighbors reported that the couple banged all night.
+---
+Sense List:
+ 1. strike violently
+ 2. to produce a sharp often metallic explosive or percussive sound
+ 3. close violently
+ 4. move noisily
+ 5. have sexual intercourse with
+ 6. leap, jerk, bang
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+294,rice,sticky rice,"{""n"": [""grains used as food either unpolished or more often polished"", ""annual or perennial rhizomatous marsh grasses; seed used for food; straw used for paper"", ""English lyricist who frequently worked with Andrew Lloyd Webber (born in 1944)"", ""United States playwright (1892-1967)""], ""v"": [""sieve so that it becomes the consistency of rice""]}",image.6883.jpg,n,1,"Ambiguous Word: rice
+Text Context: We toasted Rice at dinner.
+---
+Sense List:
+ 1. grains used as food either unpolished or more often polished
+ 2. annual or perennial rhizomatous marsh grasses; seed used for food; straw used for paper
+ 3. English lyricist who frequently worked with Andrew Lloyd Webber (born in 1944)
+ 4. United States playwright (1892-1967)
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+149,capsule,space capsule,"{""n"": [""a small container"", ""a pill in the form of a small rounded gelatinous container with medicine inside"", ""a dry dehiscent seed vessel or the spore-containing structure of e.g. mosses"", ""a shortened version of a written work"", ""a structure that encloses a body part"", ""a spacecraft designed to transport people and support human life in outer space"", ""a pilot's seat in an airplane that can be forcibly ejected in the case of an emergency; then the pilot descends by parachute""], ""v"": [""enclose in a capsule"", ""put in a short or concise form; reduce in volume""]}",image.2680.jpg,n,6,"Ambiguous Word: capsule
+Text Context: After reentry, the capsule touched down like a small pill, and the technicians discovered both the medicine label and the moss spores inside.
+---
+Sense List:
+ 1. a small container
+ 2. a pill in the form of a small rounded gelatinous container with medicine inside
+ 3. a dry dehiscent seed vessel or the spore-containing structure of e.g. mosses
+ 4. a shortened version of a written work
+ 5. a structure that encloses a body part
+ 6. a spacecraft designed to transport people and support human life in outer space
+ 7. a pilot's seat in an airplane that can be forcibly ejected in the case of an emergency; then the pilot descends by parachute
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+405,nail,nail hand,"{""n"": [""horny plate covering and protecting part of the dorsal surface of the digits"", ""a thin pointed piece of metal that is hammered into materials as a fastener"", ""a former unit of length for cloth equal to 1/16 of a yard""], ""v"": [""attach something somewhere by means of nails"", ""take into custody"", ""hit hard"", ""succeed in obtaining a position"", ""succeed at easily"", ""locate exactly"", ""complete a pass""]}",image.7687.jpg,n,1,"Ambiguous Word: nail
+Text Context: I chipped the nail while trimming my toenail clippers.
+---
+Sense List:
+ 1. horny plate covering and protecting part of the dorsal surface of the digits
+ 2. a thin pointed piece of metal that is hammered into materials as a fastener
+ 3. a former unit of length for cloth equal to 1/16 of a yard
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+6,tympanum,ear tympanum,"{""n"": [""the main cavity of the ear; between the eardrum and the inner ear"", ""the membrane in the ear that vibrates to sound"", ""a large hemispherical brass or copper percussion instrument with a drumhead that can be tuned by adjusting the tension on it""]}",image.4472.jpg,n,2,"Ambiguous Word: tympanum
+Text Context: After the loud blast, the technician tightened the tympanum, and I could feel it vibrating with every sound.
+---
+Sense List:
+ 1. the main cavity of the ear; between the eardrum and the inner ear
+ 2. the membrane in the ear that vibrates to sound
+ 3. a large hemispherical brass or copper percussion instrument with a drumhead that can be tuned by adjusting the tension on it
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+219,beam,long beam,"{""n"": [""a signal transmitted along a narrow path; guides airplane pilots in darkness or bad weather"", ""long thick piece of wood or metal or concrete, etc., used in construction"", ""a group of nearly parallel lines of electromagnetic radiation"", ""a column of light (as from a beacon)"", ""(nautical) breadth amidships"", ""the broad side of a ship"", ""a gymnastic apparatus used by women gymnasts""], ""v"": [""smile radiantly; express joy through one's facial expression"", ""emit light; be bright, as of the sun or a light"", ""express with a beaming face or smile"", ""broadcast over the airwaves, as in radio or television"", ""have a complexion with a strong bright color, such as red or pink"", ""experience a feeling of well-being or happiness, as from good health or an intense emotion""]}",image.1388.jpg,n,2,"Ambiguous Word: beam
+Text Context: The beam that illuminated the runway also formed the roof support.
+---
+Sense List:
+ 1. a signal transmitted along a narrow path; guides airplane pilots in darkness or bad weather
+ 2. long thick piece of wood or metal or concrete, etc., used in construction
+ 3. a group of nearly parallel lines of electromagnetic radiation
+ 4. a column of light (as from a beacon)
+ 5. (nautical) breadth amidships
+ 6. the broad side of a ship
+ 7. a gymnastic apparatus used by women gymnasts
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+452,chest,chest furniture,"{""n"": [""the part of the human torso between the neck and the diaphragm or the corresponding part in other vertebrates"", ""box with a lid; used for storage; usually large and sturdy"", ""the front of the trunk from the neck to the abdomen"", ""furniture with drawers for keeping clothes""]}",image.8015.jpg,n,4,"Ambiguous Word: chest
+Text Context: After moving, I packed my sweaters into the chest, and it rose and fell with every breath.
+---
+Sense List:
+ 1. the part of the human torso between the neck and the diaphragm or the corresponding part in other vertebrates
+ 2. box with a lid; used for storage; usually large and sturdy
+ 3. the front of the trunk from the neck to the abdomen
+ 4. furniture with drawers for keeping clothes
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+235,vesta,divine vesta,"{""n"": [""(Roman mythology) goddess of the hearth and its fire whose flame was tended by vestal virgins; counterpart of Greek Hestia"", ""the brightest asteroid but the fourth to be discovered""]}",image.6412.jpg,n,1,"Ambiguous Word: vesta
+Text Context: At dusk, the priestess lit the hearth in honor of Vesta, trusting the ancient goddess to keep their flame burning brightly.
+---
+Sense List:
+ 1. (Roman mythology) goddess of the hearth and its fire whose flame was tended by vestal virgins; counterpart of Greek Hestia
+ 2. the brightest asteroid but the fourth to be discovered
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"
+437,chuck,meat chuck,"{""n"": [""informal terms for a meal"", ""the part of a forequarter from the neck to the ribs and including the shoulder blade"", ""a holding device consisting of adjustable jaws that center a workpiece in a lathe or center a tool in a drill""], ""v"": [""throw carelessly"", ""throw away"", ""pat or squeeze fondly or playfully, especially under the chin"", ""eject the contents of the stomach through the mouth""]}",image.7912.jpg,n,2,"Ambiguous Word: chuck
+Text Context: My father braised the chuck until it fell apart, and we all went back for more.
+---
+Sense List:
+ 1. informal terms for a meal
+ 2. the part of a forequarter from the neck to the ribs and including the shoulder blade
+ 3. a holding device consisting of adjustable jaws that center a workpiece in a lathe or center a tool in a drill
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Prioritize the sense that best fits the given context, even if it is not the most direct match for the context.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"

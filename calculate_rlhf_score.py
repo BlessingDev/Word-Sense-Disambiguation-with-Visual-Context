@@ -10,7 +10,8 @@ class TextDataset(Dataset):
         self.set_df = df
         self.question_list = list()
         self.answer_list = df["generated_sentence"].tolist()
-        prompt_template = """Please create a natural sentence using the word '{word}'."""
+        prompt_template = """Write a sentence that sounds like something a native speaker would say or write using the word '{word}'."""
+        #prompt_template = """Write a sentence that is grammatically perfect and sounds like something a native speaker would say, but is intentionally ambiguous regarding the sense of the word '{word}'."""
         
         for idx, row in df.iterrows():
             self.question_list.append(prompt_template.format(word=row["word"]))
@@ -27,7 +28,10 @@ class TextDataset(Dataset):
 def evaluate_rewards_batched(args):
     # 2. 모델 및 토크나이저 로드
     model_name = args.model_checkpoint
-    device = "cuda" if torch.cuda.is_available() else "cpu"
+    if args.cpu:
+        device = "cpu"
+    else:
+        device = "cuda" if torch.cuda.is_available() else "cpu"
     
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForSequenceClassification.from_pretrained(model_name).to(device)
@@ -75,6 +79,6 @@ if __name__ == "__main__":
     parser.add_argument("--output_csv", type=str, required=True, help="Output CSV file to save the results with reward scores.")
     parser.add_argument("--text_column", type=str, default="generated_sentence", help="Column name in the CSV that contains the generated texts.")
     parser.add_argument("--batch_size", type=int, default=64, help="Batch size for processing texts.")
-
+    parser.add_argument("--cpu", action="store_true", help="Use CPU for inference.")
     args = parser.parse_args()
     evaluate_rewards_batched(args)

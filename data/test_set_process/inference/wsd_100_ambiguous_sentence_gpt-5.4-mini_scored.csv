@@ -9,7 +9,7 @@
 ---
 Generate a natural ambiguous sentence using polysemous word 'crow', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'crow' should be interpreted as 'black birds having a raucous call'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","At dawn, the crow over the field woke everyone.",-0.5507922172546387
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","At dawn, the crow over the field woke everyone.",-2.0513603687286377
 49,blackcap,blackcap gull,"{""n"": [""raspberry native to eastern North America having black thimble-shaped fruit"", ""small black-headed European gull"", ""chickadee having a dark crown"", ""small brownish-grey warbler with a black crown""]}",image.4857.jpg,n,2,"the noun 'blackcap' that can be interpreted as:
  1. raspberry native to eastern North America having black thimble-shaped fruit
  2. small black-headed European gull
@@ -18,7 +18,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'blackcap', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'blackcap' should be interpreted as 'small black-headed European gull'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","As the tide came in, the blackcap moved across the harbor in the pale light.",1.3901429176330566
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","As the tide came in, the blackcap moved across the harbor in the pale light.",0.3498496115207672
 342,crossroads,crossroads settlement,"{""n"": [""a community of people smaller than a village"", ""a crisis situation or point in time when a critical decision must be made"", ""a point where a choice must be made"", ""a junction where one street or road crosses another""]}",image.7232.jpg,n,1,"the noun 'crossroads' that can be interpreted as:
  1. a community of people smaller than a village
  2. a crisis situation or point in time when a critical decision must be made
@@ -27,7 +27,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'crossroads', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'crossroads' should be interpreted as 'a community of people smaller than a village'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","After the storm, Crossroads was quieter than usual.",-0.0014929757453501225
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","After the storm, Crossroads was quieter than usual.",-1.2559778690338135
 390,compass,drawing compass,"{""n"": [""navigational instrument for finding directions"", ""an area in which something acts or operates or has power or control:"", ""the limit of capability"", ""drafting instrument used for drawing circles""], ""v"": [""bring about; accomplish"", ""travel around, either by plane or ship"", ""get the meaning of something""]}",image.7570.jpg,n,4,"the noun 'compass' that can be interpreted as:
  1. navigational instrument for finding directions
  2. an area in which something acts or operates or has power or control:
@@ -36,7 +36,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'compass', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'compass' should be interpreted as 'drafting instrument used for drawing circles'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",She set the compass beside the paper before beginning the design.,-0.29093730449676514
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",She set the compass beside the paper before beginning the design.,-2.822824478149414
 378,arm,hunting arm,"{""n"": [""a human limb; technically the part of the superior limb between the shoulder and the elbow but commonly used to refer to the whole superior limb"", ""any projection that is thought to resemble a human arm"", ""any instrument or instrumentality used in fighting or hunting"", ""the part of an armchair or sofa that supports the elbow and forearm of a seated person"", ""a division of some larger or more complex organization"", ""the part of a garment that is attached at the armhole and that provides a cloth covering for the arm""], ""v"": [""prepare oneself for a military confrontation"", ""supply with arms""]}",image.7480.jpg,n,3,"the noun 'arm' that can be interpreted as:
  1. a human limb; technically the part of the superior limb between the shoulder and the elbow but commonly used to refer to the whole superior limb
  2. any projection that is thought to resemble a human arm
@@ -47,7 +47,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'arm', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'arm' should be interpreted as 'any instrument or instrumentality used in fighting or hunting'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","Before entering the woods, he packed an arm and a few provisions into his satchel.",-0.5900807976722717
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","Before entering the woods, he packed an arm and a few provisions into his satchel.",-2.199429750442505
 428,crop,cattle crop,"{""n"": [""the yield from plants in a single growing season"", ""a cultivated plant that is grown commercially on a large scale"", ""a collection of people or things appearing together"", ""the output of something in a season"", ""the stock or handle of a whip"", ""a pouch in many birds and some lower animals that resembles a stomach for storage and preliminary maceration of food""], ""v"": [""cut short"", ""prepare for crops"", ""yield crops"", ""let feed in a field or pasture or meadow"", ""feed as in a meadow or pasture"", ""cultivate, tend, and cut back the growth of""]}",image.7847.jpg,v,5,"the verb 'crop' that can be interpreted as:
  1. cut short
  2. prepare for crops
@@ -58,14 +58,14 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'crop', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the verb 'crop' should be interpreted as 'feed as in a meadow or pasture'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","At dusk, the ponies cropped quietly beside the stream.",-0.17957384884357452
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","At dusk, the ponies cropped quietly beside the stream.",-1.8946211338043213
 26,butterfly,flying butterfly,"{""n"": [""diurnal insect typically having a slender body with knobbed antennae and broad colorful wings"", ""a swimming stroke in which the arms are thrown forward together out of the water while the feet kick up and down""], ""v"": [""flutter like a butterfly"", ""cut and spread open, as in preparation for cooking"", ""talk or behave amorously, without serious intentions""]}",image.4654.jpg,n,1,"the noun 'butterfly' that can be interpreted as:
  1. diurnal insect typically having a slender body with knobbed antennae and broad colorful wings
  2. a swimming stroke in which the arms are thrown forward together out of the water while the feet kick up and down
 ---
 Generate a natural ambiguous sentence using polysemous word 'butterfly', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'butterfly' should be interpreted as 'diurnal insect typically having a slender body with knobbed antennae and broad colorful wings'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The butterfly was the first thing I noticed at the pool.,0.5560773611068726
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The butterfly was the first thing I noticed at the pool.,-1.1104955673217773
 388,flight,birds flight,"{""n"": [""a formation of aircraft in flight"", ""an instance of traveling by air"", ""a stairway (set of steps) between one floor or landing and the next"", ""the act of escaping physically"", ""an air force unit smaller than a squadron"", ""passing above and beyond ordinary bounds"", ""the path followed by an object moving through space"", ""a flock of flying birds"", ""a scheduled trip by plane between designated airports""], ""v"": [""shoot a bird in flight"", ""fly in a flock"", ""decorate with feathers""]}",image.7560.jpg,v,2,"the verb 'flight' that can be interpreted as:
  1. shoot a bird in flight
  2. fly in a flock
@@ -73,14 +73,14 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'flight', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the verb 'flight' should be interpreted as 'fly in a flock'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","At dusk, the swallows flighted over the river before settling in the reeds.",1.7196239233016968
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","At dusk, the swallows flighted over the river before settling in the reeds.",0.4681655764579773
 323,cheese,cheese food,"{""n"": [""a solid food prepared from the pressed curd of milk"", ""erect or decumbent Old World perennial with axillary clusters of rosy-purple flowers; introduced in United States""], ""v"": [""used in the imperative (get away, or stop it)"", ""wind onto a cheese""]}",image.7091.jpg,n,1,"the noun 'cheese' that can be interpreted as:
  1. a solid food prepared from the pressed curd of milk
  2. erect or decumbent Old World perennial with axillary clusters of rosy-purple flowers; introduced in United States
 ---
 Generate a natural ambiguous sentence using polysemous word 'cheese', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'cheese' should be interpreted as 'a solid food prepared from the pressed curd of milk'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By the corner booth, the cheese had a faint scent.",-0.4976479411125183
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By the corner booth, the cheese had a faint scent.",-2.11458420753479
 127,track,tank track,"{""n"": [""a line or route along which something travels or moves"", ""evidence pointing to a possible solution"", ""a pair of parallel rails providing a runway for wheels"", ""a course over which races are run"", ""a distinct selection of music from a recording or a compact disc"", ""an endless metal belt on which tracked vehicles move over the ground"", ""(computer science) one of the circular magnetic paths on a magnetic disk that serve as a guide for writing and reading data"", ""a groove on a phonograph recording"", ""a bar or pair of parallel bars of rolled steel making the railway along which railroad cars or other vehicles can roll"", ""any road or path affording passage especially a rough one"", ""the act of participating in an athletic competition involving running on a track""], ""v"": [""carry on the feet and deposit"", ""observe or plot the moving path of something"", ""go after with the intent to catch"", ""travel across or pass over"", ""make tracks upon""]}",image.5551.jpg,n,6,"the noun 'track' that can be interpreted as:
  1. a line or route along which something travels or moves
  2. evidence pointing to a possible solution
@@ -96,7 +96,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'track', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'track' should be interpreted as 'an endless metal belt on which tracked vehicles move over the ground'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","After the crossing, the bulldozer needed its track cleaned.",-0.5127859711647034
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","After the crossing, the bulldozer needed its track cleaned.",-2.0669329166412354
 188,filet,edible filet,"{""n"": [""a boneless steak cut from the tenderloin of beef"", ""a longitudinal slice or boned side of a fish"", ""lace having a square mesh""], ""v"": [""decorate with a lace of geometric designs"", ""cut into filets""]}",image.6035.jpg,n,2,"the noun 'filet' that can be interpreted as:
  1. a boneless steak cut from the tenderloin of beef
  2. a longitudinal slice or boned side of a fish
@@ -104,7 +104,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'filet', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'filet' should be interpreted as 'a longitudinal slice or boned side of a fish'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The chef plated the filet beside the greens.,1.5007089376449585
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The chef plated the filet beside the greens.,0.1055508479475975
 412,torpedo,sea torpedo,"{""n"": [""a professional killer who uses a gun"", ""a large sandwich made of a long crusty roll split lengthwise and filled with meats and cheese (and tomato and onion and lettuce and condiments); different names are used in different sections of the United States"", ""an explosive device that is set off in an oil well (or a gas well) to start or to increase the flow of oil (or gas)"", ""a small firework that consists of a percussion cap and some gravel wrapped in paper; explodes when thrown forcefully against a hard surface"", ""a small explosive device that is placed on a railroad track and fires when a train runs over it; the sound of the explosion warns the engineer of danger ahead"", ""armament consisting of a long cylindrical self-propelled underwater projectile that detonates on contact with a target"", ""any sluggish bottom-dwelling ray of the order Torpediniformes having a rounded body and electric organs on each side of the head capable of emitting strong electric discharges""], ""v"": [""attack or hit with torpedoes""]}",image.7737.jpg,n,7,"the noun 'torpedo' that can be interpreted as:
  1. a professional killer who uses a gun
  2. a large sandwich made of a long crusty roll split lengthwise and filled with meats and cheese (and tomato and onion and lettuce and condiments); different names are used in different sections of the United States
@@ -116,7 +116,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'torpedo', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'torpedo' should be interpreted as 'any sluggish bottom-dwelling ray of the order Torpediniformes having a rounded body and electric organs on each side of the head capable of emitting strong electric discharges'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By the reef, the torpedo lay motionless in the sand until a stray current stirred it.",1.0403363704681396
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By the reef, the torpedo lay motionless in the sand until a stray current stirred it.",-0.18487946689128876
 23,anemia,medical anemia,"{""n"": [""a deficiency of red blood cells"", ""a lack of vitality"", ""genus of terrestrial or lithophytic ferns having pinnatifid fronds; chiefly of tropical America""]}",image.4631.jpg,n,1,"the noun 'anemia' that can be interpreted as:
  1. a deficiency of red blood cells
  2. a lack of vitality
@@ -124,14 +124,14 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'anemia', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'anemia' should be interpreted as 'a deficiency of red blood cells'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","During the routine exam, the nurse noted anemia in the patient's chart.",1.3840950727462769
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","During the routine exam, the nurse noted anemia in the patient's chart.",-1.3291423320770264
 425,coachwhip,coachwhip snake,"{""n"": [""desert shrub of southwestern United States and Mexico having slender naked spiny branches that after the rainy season put forth foliage and clusters of red flowers"", ""a whipsnake of southern United States and Mexico; tail resembles a braided whip""]}",image.7831.jpg,n,2,"the noun 'coachwhip' that can be interpreted as:
  1. desert shrub of southwestern United States and Mexico having slender naked spiny branches that after the rainy season put forth foliage and clusters of red flowers
  2. a whipsnake of southern United States and Mexico; tail resembles a braided whip
 ---
 Generate a natural ambiguous sentence using polysemous word 'coachwhip', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'coachwhip' should be interpreted as 'a whipsnake of southern United States and Mexico; tail resembles a braided whip'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",We spotted a coachwhip near the trail at dusk.,-1.367503046989441
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",We spotted a coachwhip near the trail at dusk.,-3.1167681217193604
 325,globe,globe ball,"{""n"": [""the 3rd planet from the sun; the planet we live on"", ""an object with a spherical shape"", ""a sphere on which a map (especially of the earth) is represented""]}",image.7110.jpg,n,2,"the noun 'globe' that can be interpreted as:
  1. the 3rd planet from the sun; the planet we live on
  2. an object with a spherical shape
@@ -139,7 +139,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'globe', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'globe' should be interpreted as 'an object with a spherical shape'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",She set the globe on the table and watched it catch the light.,1.8244001865386963
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",She set the globe on the table and watched it catch the light.,-0.6343489289283752
 283,viola,viola shrub,"{""n"": [""any of the numerous plants of the genus Viola"", ""large genus of flowering herbs of temperate regions"", ""a bowed stringed instrument slightly larger than a violin, tuned a fifth lower""]}",image.6807.jpg,n,1,"the noun 'viola' that can be interpreted as:
  1. any of the numerous plants of the genus Viola
  2. large genus of flowering herbs of temperate regions
@@ -147,7 +147,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'viola', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'viola' should be interpreted as 'any of the numerous plants of the genus Viola'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",I noticed a viola by the window.,-0.7335077524185181
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",I noticed a viola by the window.,-2.647759437561035
 263,bird,vertebrate bird,"{""n"": [""warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modified as wings"", ""the flesh of a bird or fowl (wild or domestic) used as food"", ""informal terms for a (young) woman"", ""a cry or noise made to express displeasure or contempt"", ""badminton equipment consisting of a ball of cork or rubber with a crown of feathers""], ""v"": [""watch and study birds in their natural habitat""]}",image.6642.jpg,n,1,"the noun 'bird' that can be interpreted as:
  1. warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modified as wings
  2. the flesh of a bird or fowl (wild or domestic) used as food
@@ -157,7 +157,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'bird', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'bird' should be interpreted as 'warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modified as wings'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",A bird sat on the railing while we talked.,0.7553064823150635
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",A bird sat on the railing while we talked.,-1.3834282159805298
 383,blue,blue cheese,"{""n"": [""blue color or pigment; resembling the color of the clear sky in the daytime"", ""blue clothing"", ""any organization or party whose uniforms or badges are blue"", ""the sky as viewed during daylight"", ""used to whiten laundry or hair or give it a bluish tinge"", ""the sodium salt of amobarbital that is used as a barbiturate; used as a sedative and a hypnotic"", ""any of numerous small butterflies of the family Lycaenidae""], ""v"": [""turn blue""]}",image.7515.jpg,n,1,"the noun 'blue' that can be interpreted as:
  1. blue color or pigment; resembling the color of the clear sky in the daytime
  2. blue clothing
@@ -169,7 +169,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'blue', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'blue' should be interpreted as 'blue color or pigment; resembling the color of the clear sky in the daytime'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The designer settled on blue for the new logo.,-3.2405810356140137
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The designer settled on blue for the new logo.,-3.741924285888672
 208,delivery,delivery package,"{""n"": [""the act of delivering or distributing something (as goods or mail)"", ""the event of giving birth"", ""your characteristic style or manner of expressing yourself orally"", ""the voluntary transfer of something (title or possession) from one party to another"", ""(baseball) the act of throwing a baseball by a pitcher to a batter"", ""recovery or preservation from loss or danger"", ""the act of delivering a child""]}",image.6192.jpg,n,1,"the noun 'delivery' that can be interpreted as:
  1. the act of delivering or distributing something (as goods or mail)
  2. the event of giving birth
@@ -181,7 +181,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'delivery', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'delivery' should be interpreted as 'the act of delivering or distributing something (as goods or mail)'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The delivery went smoothly after the paperwork was signed.,0.23745806515216827
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The delivery went smoothly after the paperwork was signed.,-1.1959565877914429
 59,disk,music disk,"{""n"": [""something with a round shape resembling a flat circular plate"", ""a flat circular plate"", ""sound recording consisting of a disk with a continuous groove; used to reproduce music by rotating while a phonograph needle tracks in the groove"", ""(computer science) a memory device consisting of a flat disk covered with a magnetic coating on which information is stored""], ""v"": [""draw a harrow over (land)""]}",image.4946.jpg,n,3,"the noun 'disk' that can be interpreted as:
  1. something with a round shape resembling a flat circular plate
  2. a flat circular plate
@@ -190,7 +190,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'disk', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'disk' should be interpreted as 'sound recording consisting of a disk with a continuous groove; used to reproduce music by rotating while a phonograph needle tracks in the groove'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","The disk was scratched, but it still played beautifully.",-1.079359769821167
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","The disk was scratched, but it still played beautifully.",-2.7127039432525635
 404,sponge,living sponge,"{""n"": [""a porous mass of interlacing fibers that forms the internal skeleton of various marine animals and usable to absorb water or any porous rubber or cellulose product similarly used"", ""someone able to acquire new knowledge and skills rapidly and easily"", ""a follower who hangs around a host (without benefit to the host) in hope of gain or advantage"", ""primitive multicellular marine animal whose porous body is supported by a fibrous skeletal framework; usually occurs in sessile colonies""], ""v"": [""wipe with a sponge, so as to clean or moisten"", ""ask for and get free; be a parasite"", ""erase with a sponge; as of words on a blackboard"", ""soak up with a sponge"", ""gather sponges, in the ocean""]}",image.3157.jpg,n,4,"the noun 'sponge' that can be interpreted as:
  1. a porous mass of interlacing fibers that forms the internal skeleton of various marine animals and usable to absorb water or any porous rubber or cellulose product similarly used
  2. someone able to acquire new knowledge and skills rapidly and easily
@@ -199,7 +199,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'sponge', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'sponge' should be interpreted as 'primitive multicellular marine animal whose porous body is supported by a fibrous skeletal framework; usually occurs in sessile colonies'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","On the shaded reef, the sponge rested beside the coral.",1.5914242267608643
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","On the shaded reef, the sponge rested beside the coral.",0.8537131547927856
 90,madeira,madeira wine,"{""n"": [""a Brazilian river; tributary of the Amazon River"", ""an island in the Atlantic Ocean off the coast of Africa; the largest of the Madeira Islands"", ""an amber dessert wine from the Madeira Islands""]}",image.5221.jpg,n,3,"the noun 'madeira' that can be interpreted as:
  1. a Brazilian river; tributary of the Amazon River
  2. an island in the Atlantic Ocean off the coast of Africa; the largest of the Madeira Islands
@@ -207,7 +207,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'madeira', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'madeira' should be interpreted as 'an amber dessert wine from the Madeira Islands'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","At the end of dinner, he poured madeira to go with the dessert.",1.9974311590194702
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","At the end of dinner, he poured madeira to go with the dessert.",0.18615736067295074
 443,spring,matress spring,"{""n"": [""the season of growth"", ""a metal elastic device that returns to its shape or position when pushed or pulled or pressed"", ""a natural flow of ground water"", ""a point at which water issues forth"", ""the elasticity of something that can be stretched and returns to its original length"", ""a light, self-propelled movement upwards or forwards""], ""v"": [""move forward by leaps and bounds"", ""develop into a distinctive entity"", ""spring back; spring away from an impact"", ""develop suddenly"", ""produce or disclose suddenly or unexpectedly""]}",image.7954.jpg,n,2,"the noun 'spring' that can be interpreted as:
  1. the season of growth
  2. a metal elastic device that returns to its shape or position when pushed or pulled or pressed
@@ -218,14 +218,14 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'spring', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'spring' should be interpreted as 'a metal elastic device that returns to its shape or position when pushed or pulled or pressed'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",He noticed the spring in the old chair and set it aside.,-1.586655616760254
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",He noticed the spring in the old chair and set it aside.,-2.307734727859497
 126,uranus,planet uranus,"{""n"": [""(Greek mythology) god of the heavens; son and husband of Gaea and father of the Titans in ancient mythology"", ""a giant planet with a ring of ice particles; the 7th planet from the sun has a blue-green color and many satellites""]}",image.5546.jpg,n,2,"the noun 'uranus' that can be interpreted as:
  1. (Greek mythology) god of the heavens; son and husband of Gaea and father of the Titans in ancient mythology
  2. a giant planet with a ring of ice particles; the 7th planet from the sun has a blue-green color and many satellites
 ---
 Generate a natural ambiguous sentence using polysemous word 'uranus', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'uranus' should be interpreted as 'a giant planet with a ring of ice particles; the 7th planet from the sun has a blue-green color and many satellites'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","Uranus came up during the lecture, and everyone paid close attention.",-0.7659203410148621
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","Uranus came up during the lecture, and everyone paid close attention.",-2.1576406955718994
 195,battery,power battery,"{""n"": [""group of guns or missile launchers operated together at one place"", ""a device that produces electricity; may have several primary or secondary cells arranged in parallel or series"", ""a collection of related things intended for use together"", ""a unit composed of the pitcher and catcher"", ""a series of stamps operated in one mortar for crushing ores"", ""the heavy fire of artillery to saturate an area rather than hit a specific target"", ""an assault in which the assailant makes physical contact""]}",image.2323.jpg,n,2,"the noun 'battery' that can be interpreted as:
  1. group of guns or missile launchers operated together at one place
  2. a device that produces electricity; may have several primary or secondary cells arranged in parallel or series
@@ -237,7 +237,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'battery', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'battery' should be interpreted as 'a device that produces electricity; may have several primary or secondary cells arranged in parallel or series'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",I left the battery on the table next to the radio.,-0.2774618864059448
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",I left the battery on the table next to the radio.,-2.1124401092529297
 341,bat,flying bat,"{""n"": [""nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate"", ""(baseball) a turn trying to get a hit"", ""a small racket with a long handle used for playing squash"", ""the club used in playing cricket"", ""a club used for hitting a ball in various games""], ""v"": [""strike with, or as if with a baseball bat"", ""wink briefly"", ""have a turn at bat"", ""use a bat"", ""beat thoroughly and conclusively in a competition or fight""]}",image.7220.jpg,n,1,"the noun 'bat' that can be interpreted as:
  1. nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate
  2. (baseball) a turn trying to get a hit
@@ -247,14 +247,14 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'bat', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'bat' should be interpreted as 'nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",I watched a bat hang quietly by the window.,1.4166438579559326
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",I watched a bat hang quietly by the window.,-1.2924612760543823
 281,ara,chirping ara,"{""n"": [""a constellation in the southern hemisphere near Telescopium and Norma"", ""macaws""]}",image.6791.jpg,n,2,"the noun 'ara' that can be interpreted as:
  1. a constellation in the southern hemisphere near Telescopium and Norma
  2. macaws
 ---
 Generate a natural ambiguous sentence using polysemous word 'ara', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'ara' should be interpreted as 'macaws'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","In the fading light, the ara lingered above the valley.",0.9897696375846863
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","In the fading light, the ara lingered above the valley.",-0.12962834537029266
 119,chocolate,chocolate chunk,"{""n"": [""a beverage made from cocoa powder and milk and sugar; usually drunk hot"", ""a food made from roasted ground cacao beans"", ""a medium brown to dark-brown color""]}",image.435.jpg,n,2,"the noun 'chocolate' that can be interpreted as:
  1. a beverage made from cocoa powder and milk and sugar; usually drunk hot
  2. a food made from roasted ground cacao beans
@@ -262,7 +262,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'chocolate', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'chocolate' should be interpreted as 'a food made from roasted ground cacao beans'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",She added chocolate to the gift basket before leaving.,0.13432134687900543
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",She added chocolate to the gift basket before leaving.,-2.0232887268066406
 255,ecstasy,ecstasy drug,"{""n"": [""a state of being carried away by overwhelming emotion; - Charles Dickens"", ""a state of elated bliss"", ""street names for methylenedioxymethamphetamine""]}",image.5854.jpg,n,3,"the noun 'ecstasy' that can be interpreted as:
  1. a state of being carried away by overwhelming emotion; - Charles Dickens
  2. a state of elated bliss
@@ -270,21 +270,21 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'ecstasy', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'ecstasy' should be interpreted as 'street names for methylenedioxymethamphetamine'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","At the concert, the crowd kept talking about ecstasy all night.",-0.9420232772827148
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","At the concert, the crowd kept talking about ecstasy all night.",-3.6266767978668213
 142,formica,formica laminate,"{""n"": [""any of various plastic laminates containing melamine"", ""type genus of the Formicidae""]}",image.5671.jpg,n,1,"the noun 'formica' that can be interpreted as:
  1. any of various plastic laminates containing melamine
  2. type genus of the Formicidae
 ---
 Generate a natural ambiguous sentence using polysemous word 'formica', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'formica' should be interpreted as 'any of various plastic laminates containing melamine'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The countertop was finished in formica.,2.1893117427825928
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The countertop was finished in formica.,0.7082580327987671
 370,sock,foot sock,"{""n"": [""hosiery consisting of a cloth covering for the foot; worn inside the shoe; reaches to between the ankle and the knee"", ""a truncated cloth cone mounted on a mast; used (e.g., at airports) to show the direction of the wind""], ""v"": [""hit hard""]}",image.7422.jpg,n,1,"the noun 'sock' that can be interpreted as:
  1. hosiery consisting of a cloth covering for the foot; worn inside the shoe; reaches to between the ankle and the knee
  2. a truncated cloth cone mounted on a mast; used (e.g., at airports) to show the direction of the wind
 ---
 Generate a natural ambiguous sentence using polysemous word 'sock', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'sock' should be interpreted as 'hosiery consisting of a cloth covering for the foot; worn inside the shoe; reaches to between the ankle and the knee'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",I picked up a sock from the chair before leaving.,0.45425379276275635
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",I picked up a sock from the chair before leaving.,-2.5666682720184326
 80,basin,sink basin,"{""n"": [""a bowl-shaped vessel; usually used for holding food or liquids"", ""the quantity that a basin will hold"", ""a natural depression in the surface of the land often with a lake at the bottom of it"", ""the entire geographical area drained by a river and its tributaries; an area characterized by all runoff being conveyed to the same outlet"", ""a bathroom sink that is permanently installed and connected to a water supply and drainpipe; where you can wash your hands and face""]}",image.5134.jpg,n,5,"the noun 'basin' that can be interpreted as:
  1. a bowl-shaped vessel; usually used for holding food or liquids
  2. the quantity that a basin will hold
@@ -294,7 +294,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'basin', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'basin' should be interpreted as 'a bathroom sink that is permanently installed and connected to a water supply and drainpipe; where you can wash your hands and face'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The basin was still wet when I came in.,-1.0548770427703857
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The basin was still wet when I came in.,-2.0394093990325928
 266,crack,crack drug,"{""n"": [""a long narrow opening"", ""a narrow opening"", ""a long narrow depression in a surface"", ""a sudden sharp noise"", ""a chance to do something"", ""witty remark"", ""a blemish resulting from a break without complete separation of the parts"", ""a purified and potent form of cocaine that is smoked rather than snorted; highly addictive"", ""a usually brief attempt"", ""the act of cracking something""], ""v"": [""become fractured; break or crack on the surface only"", ""make a very sharp explosive sound"", ""make a sharp sound"", ""hit forcefully; deal a hard blow, making a cracking noise"", ""pass through (a barrier)"", ""break partially but keep its integrity"", ""break suddenly and abruptly, as under tension"", ""gain unauthorized access computers with malicious intentions"", ""suffer a nervous breakdown"", ""tell spontaneously"", ""cause to become cracked"", ""reduce (petroleum) to a simpler compound by cracking"", ""break into simpler molecules by means of heat""]}",image.6669.jpg,n,8,"the noun 'crack' that can be interpreted as:
  1. a long narrow opening
  2. a narrow opening
@@ -309,7 +309,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'crack', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'crack' should be interpreted as 'a purified and potent form of cocaine that is smoked rather than snorted; highly addictive'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By the time the music stopped, the crack had already gone around the room.",-2.077540874481201
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By the time the music stopped, the crack had already gone around the room.",-4.161247730255127
 433,flat,building flat,"{""n"": [""a level tract of land"", ""a shallow box in which seedlings are started"", ""a musical notation indicating one half step lower than the note named"", ""freight car without permanent sides or roof"", ""a deflated pneumatic tire"", ""scenery consisting of a wooden frame covered with painted canvas; part of a stage setting"", ""a suite of rooms usually on one floor of an apartment house""]}",image.7880.jpg,n,7,"the noun 'flat' that can be interpreted as:
  1. a level tract of land
  2. a shallow box in which seedlings are started
@@ -321,20 +321,20 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'flat', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'flat' should be interpreted as 'a suite of rooms usually on one floor of an apartment house'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",We found a flat near the park that had just enough room for the two of us.,0.7385507822036743
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",We found a flat near the park that had just enough room for the two of us.,-2.5008745193481445
 203,twine,rope twine,"{""n"": [""a lightweight cord""], ""v"": [""spin,wind, or twist together"", ""arrange or or coil around"", ""make by twisting together or intertwining"", ""form into a spiral shape""]}",image.2053.jpg,n,1,"the noun 'twine' that can be interpreted as:
  1. a lightweight cord
 ---
 Generate a natural ambiguous sentence using polysemous word 'twine', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'twine' should be interpreted as 'a lightweight cord'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By the sink, the twine sat beside the scissors.",1.8693947792053223
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By the sink, the twine sat beside the scissors.",-1.409421443939209
 305,alexander,alexander leaves,"{""n"": [""European herb somewhat resembling celery widely naturalized in Britain coastal regions and often cultivated as a potherb"", ""king of Macedon; conqueror of Greece and Egypt and Persia; founder of Alexandria (356-323 BC)""]}",image.6955.jpg,n,1,"the noun 'alexander' that can be interpreted as:
  1. European herb somewhat resembling celery widely naturalized in Britain coastal regions and often cultivated as a potherb
  2. king of Macedon; conqueror of Greece and Egypt and Persia; founder of Alexandria (356-323 BC)
 ---
 Generate a natural ambiguous sentence using polysemous word 'alexander', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'alexander' should be interpreted as 'European herb somewhat resembling celery widely naturalized in Britain coastal regions and often cultivated as a potherb'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","For supper, we had alexander with butter.",0.1207946315407753
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","For supper, we had alexander with butter.",-1.7056670188903809
 116,aurora,nordic aurora,"{""n"": [""the first light of day"", ""an atmospheric phenomenon consisting of bands of light caused by charged solar particles following the earth's magnetic lines of force"", ""(Roman mythology) goddess of the dawn; counterpart of Greek Eos""]}",image.5456.jpg,n,2,"the noun 'aurora' that can be interpreted as:
  1. the first light of day
  2. an atmospheric phenomenon consisting of bands of light caused by charged solar particles following the earth's magnetic lines of force
@@ -342,7 +342,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'aurora', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'aurora' should be interpreted as 'an atmospheric phenomenon consisting of bands of light caused by charged solar particles following the earth's magnetic lines of force'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",We saw the aurora shimmer faintly above the distant hills.,1.4548085927963257
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",We saw the aurora shimmer faintly above the distant hills.,0.6847676634788513
 253,transport,recorder transport,"{""n"": [""something that serves as a means of transportation"", ""an exchange of molecules (and their kinetic energy and momentum) across the boundary between adjacent layers of a fluid or across cell membranes"", ""the commercial enterprise of moving goods and materials"", ""a state of being carried away by overwhelming emotion; - Charles Dickens"", ""a mechanism that transports magnetic tape across the read/write heads of a tape playback/recorder"", ""the act of moving something from one location to another""], ""v"": [""move something or somebody around; usually over long distances"", ""move while supporting, either in a vehicle or in one's hands or on one's body"", ""hold spellbound"", ""transport commercially"", ""send from one person or place to another""]}",image.6578.jpg,n,5,"the noun 'transport' that can be interpreted as:
  1. something that serves as a means of transportation
  2. an exchange of molecules (and their kinetic energy and momentum) across the boundary between adjacent layers of a fluid or across cell membranes
@@ -353,7 +353,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'transport', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'transport' should be interpreted as 'a mechanism that transports magnetic tape across the read/write heads of a tape playback/recorder'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The old deck’s transport jammed during the session.,-1.6886818408966064
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The old deck’s transport jammed during the session.,-2.98530912399292
 2,seat,eating seat,"{""n"": [""a space reserved for sitting (as in a theater or on a train or airplane)"", ""the fleshy part of the human body that you sit on"", ""furniture that is designed for sitting on"", ""any support where you can sit (especially the part of a chair or bench etc. on which you sit)"", ""a center of authority (as a city from which authority is exercised)"", ""the location (metaphorically speaking) where something is based"", ""the legal right to sit as a member in a legislative or similar body"", ""a part of a machine that supports or guides another part"", ""the cloth covering for the buttocks""], ""v"": [""show to a seat; assign a seat for"", ""be able to seat"", ""place ceremoniously or formally in an office or position"", ""put a seat on a chair"", ""provide with seats"", ""place or attach firmly in or on a base"", ""place in or on a seat""]}",image.4432.jpg,n,3,"the noun 'seat' that can be interpreted as:
  1. a space reserved for sitting (as in a theater or on a train or airplane)
  2. the fleshy part of the human body that you sit on
@@ -367,7 +367,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'seat', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'seat' should be interpreted as 'furniture that is designed for sitting on'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",They moved the seat closer to the window.,-0.6937947869300842
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",They moved the seat closer to the window.,-2.0287325382232666
 269,balance,measuring balance,"{""n"": [""a state of equilibrium"", ""equality between the totals of the credit and debit sides of an account"", ""harmonious arrangement or relation of parts or elements within a whole (as in a design); - John Ruskin"", ""equality of distribution"", ""something left after other parts have been taken away"", ""the difference between the totals of the credit and debit sides of an account"", ""(astrology) a person who is born while the sun is in Libra"", ""the seventh sign of the zodiac; the sun is in this sign from about September 23 to October 22"", ""(mathematics) an attribute of a shape or relation; exact reflection of form on opposite sides of a dividing line or plane"", ""a weight that balances another weight"", ""a wheel that regulates the rate of movement in a machine; especially a wheel oscillating against the hairspring of a timepiece to regulate its beat"", ""a scale for weighing; depends on pull of gravity""], ""v"": [""bring into balance or equilibrium"", ""compute credits and debits of an account"", ""hold or carry in equilibrium"", ""be in equilibrium""]}",image.2098.jpg,n,12,"the noun 'balance' that can be interpreted as:
  1. a state of equilibrium
  2. equality between the totals of the credit and debit sides of an account
@@ -384,14 +384,14 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'balance', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'balance' should be interpreted as 'a scale for weighing; depends on pull of gravity'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The balance stood near the window all afternoon.,-0.5352160334587097
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The balance stood near the window all afternoon.,-2.0770137310028076
 248,dandy,dandy appearance,"{""n"": [""a man who is much concerned with his dress and appearance"", ""a sailing vessel with two masts; a small mizzen is aft of the rudderpost""]}",image.6537.jpg,n,1,"the noun 'dandy' that can be interpreted as:
  1. a man who is much concerned with his dress and appearance
  2. a sailing vessel with two masts; a small mizzen is aft of the rudderpost
 ---
 Generate a natural ambiguous sentence using polysemous word 'dandy', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'dandy' should be interpreted as 'a man who is much concerned with his dress and appearance'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By dusk, the dandy was waiting near the harbor lights.",0.37909939885139465
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By dusk, the dandy was waiting near the harbor lights.",-1.5247069597244263
 136,stream,rainy stream,"{""n"": [""a natural body of running water flowing on or under the earth"", ""dominant course (suggestive of running water) of successive events or ideas"", ""the act of flowing or streaming; continuous progression"", ""something that resembles a flowing stream in moving continuously"", ""a steady flow of a fluid (usually from natural causes)""], ""v"": [""to extend, wave or float outward, as if in the wind"", ""exude profusely"", ""move in large numbers"", ""rain heavily"", ""flow freely and abundantly""]}",image.5619.jpg,v,4,"the verb 'stream' that can be interpreted as:
  1. to extend, wave or float outward, as if in the wind
  2. exude profusely
@@ -401,21 +401,21 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'stream', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the verb 'stream' should be interpreted as 'rain heavily'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By the time we reached the porch, it had started to stream.",-1.3842668533325195
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By the time we reached the porch, it had started to stream.",-2.108851671218872
 96,treat,edible treat,"{""n"": [""something considered choice to eat"", ""an occurrence that causes special pleasure or delight""], ""v"": [""interact in a certain way"", ""subject to a process or treatment, with the aim of readying for some purpose, improving, or remedying a condition"", ""provide treatment for"", ""act on verbally or in some form of artistic expression"", ""provide with a gift or entertainment"", ""provide with choice or abundant food or drink"", ""engage in negotiations in order to reach an agreement"", ""regard or consider in a specific way""]}",image.5271.jpg,n,1,"the noun 'treat' that can be interpreted as:
  1. something considered choice to eat
  2. an occurrence that causes special pleasure or delight
 ---
 Generate a natural ambiguous sentence using polysemous word 'treat', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'treat' should be interpreted as 'something considered choice to eat'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","For the afternoon walk, she tucked a treat into her pocket.",1.4775089025497437
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","For the afternoon walk, she tucked a treat into her pocket.",-0.5800778865814209
 351,anjou,anjou bunch,"{""n"": [""a former province of western France in the Loire valley"", ""a pear with firm flesh and a green skin""]}",image.7289.jpg,n,1,"the noun 'anjou' that can be interpreted as:
  1. a former province of western France in the Loire valley
  2. a pear with firm flesh and a green skin
 ---
 Generate a natural ambiguous sentence using polysemous word 'anjou', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'anjou' should be interpreted as 'a former province of western France in the Loire valley'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",I kept thinking about Anjou after the lecture ended.,-2.4459099769592285
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",I kept thinking about Anjou after the lecture ended.,-3.583721399307251
 19,web,natural web,"{""n"": [""an intricate network suggesting something that was formed by weaving or interweaving"", ""an intricate trap that entangles or ensnares its victim"", ""the flattened weblike part of a feather consisting of a series of barbs on either side of the shaft"", ""an interconnected system of things or people"", ""computer network consisting of a collection of internet sites that offer text and graphics and sound and animation resources through the hypertext transfer protocol"", ""a fabric (especially a fabric in the process of being woven)"", ""membrane connecting the toes of some aquatic birds and mammals""], ""v"": [""construct or form a web, as if by weaving""]}",image.4592.jpg,n,2,"the noun 'web' that can be interpreted as:
  1. an intricate network suggesting something that was formed by weaving or interweaving
  2. an intricate trap that entangles or ensnares its victim
@@ -427,14 +427,14 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'web', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'web' should be interpreted as 'an intricate trap that entangles or ensnares its victim'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By dawn, he had already slipped into the web she had left waiting.",-1.5230382680892944
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By dawn, he had already slipped into the web she had left waiting.",-2.918696880340576
 338,filet,filet knitting,"{""n"": [""a boneless steak cut from the tenderloin of beef"", ""a longitudinal slice or boned side of a fish"", ""lace having a square mesh""], ""v"": [""decorate with a lace of geometric designs"", ""cut into filets""]}",image.3337.jpg,v,1,"the verb 'filet' that can be interpreted as:
  1. decorate with a lace of geometric designs
  2. cut into filets
 ---
 Generate a natural ambiguous sentence using polysemous word 'filet', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the verb 'filet' should be interpreted as 'decorate with a lace of geometric designs'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","Before the exhibition, the designer decided to filet the border of the curtain.",-1.5997759103775024
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","Before the exhibition, the designer decided to filet the border of the curtain.",-2.838109016418457
 118,lot,parking lot,"{""n"": [""(often followed by `of') a large number or amount or extent"", ""a parcel of land having fixed boundaries"", ""an unofficial association of people or groups"", ""your overall circumstances or condition in life (including everything that happens to you)"", ""anything (straws or pebbles etc.) taken or chosen at random"", ""any collection in its entirety"", ""(Old Testament) nephew of Abraham; God destroyed Sodom and Gomorrah but chose to spare Lot and his family who were told to flee without looking back at the destruction""], ""v"": [""divide into lots, as of land, for example"", ""administer or bestow, as in small portions""]}",image.5469.jpg,n,2,"the noun 'lot' that can be interpreted as:
  1. (often followed by `of') a large number or amount or extent
  2. a parcel of land having fixed boundaries
@@ -446,7 +446,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'lot', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'lot' should be interpreted as 'a parcel of land having fixed boundaries'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",They met at the lot behind the station just after sunset.,0.00919950008392334
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",They met at the lot behind the station just after sunset.,-2.2736475467681885
 346,tender,ship's tender,"{""n"": [""something that can be used as an official medium of payment"", ""someone who waits on or tends to or attends to the needs of another"", ""a formal proposal to buy at a specified price"", ""car attached to a locomotive to carry fuel and water"", ""a boat for communication between ship and shore"", ""ship that usually provides supplies to other ships""], ""v"": [""offer or present for acceptance"", ""propose a payment"", ""make a tender of; in legal settlements"", ""make tender or more tender as by marinating, pounding, or applying a tenderizer""]}",image.6519.jpg,n,5,"the noun 'tender' that can be interpreted as:
  1. something that can be used as an official medium of payment
  2. someone who waits on or tends to or attends to the needs of another
@@ -457,7 +457,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'tender', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'tender' should be interpreted as 'a boat for communication between ship and shore'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By morning, the tender was already waiting beside the ship.",1.7839720249176025
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By morning, the tender was already waiting beside the ship.",0.007024965714663267
 162,gold,gold metal,"{""n"": [""coins made of gold"", ""a deep yellow color"", ""a soft yellow malleable ductile (trivalent and univalent) metallic element; occurs mainly as nuggets in rocks and alluvial deposits; does not react with most chemicals but is attacked by chlorine and aqua regia"", ""great wealth; --Ben Jonson"", ""something likened to the metal in brightness or preciousness or superiority etc.""]}",image.5820.jpg,n,3,"the noun 'gold' that can be interpreted as:
  1. coins made of gold
  2. a deep yellow color
@@ -467,14 +467,14 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'gold', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'gold' should be interpreted as 'a soft yellow malleable ductile (trivalent and univalent) metallic element; occurs mainly as nuggets in rocks and alluvial deposits; does not react with most chemicals but is attacked by chlorine and aqua regia'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The technician weighed the gold under the lamp before sealing it in a labeled vial.,-1.133796215057373
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The technician weighed the gold under the lamp before sealing it in a labeled vial.,-2.4728524684906006
 21,cardamom,cardamom seed,"{""n"": [""rhizomatous herb of India having aromatic seeds used as seasoning"", ""aromatic seeds used as seasoning like cinnamon and cloves especially in pickles and barbecue sauces""]}",image.4611.jpg,n,2,"the noun 'cardamom' that can be interpreted as:
  1. rhizomatous herb of India having aromatic seeds used as seasoning
  2. aromatic seeds used as seasoning like cinnamon and cloves especially in pickles and barbecue sauces
 ---
 Generate a natural ambiguous sentence using polysemous word 'cardamom', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'cardamom' should be interpreted as 'aromatic seeds used as seasoning like cinnamon and cloves especially in pickles and barbecue sauces'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The cardamom on the shelf was starting to lose its aroma.,-0.40177711844444275
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The cardamom on the shelf was starting to lose its aroma.,-0.9858868718147278
 399,shell,egg shell,"{""n"": [""ammunition consisting of a cylindrical metal casing containing an explosive charge and a projectile; fired from a large gun"", ""the material that forms the hard outer covering of many animals"", ""hard outer covering or case of certain organisms such as arthropods and turtles"", ""the hard usually fibrous outer layer of some fruits especially nuts"", ""the exterior covering of a bird's egg"", ""a rigid covering that envelops an object"", ""a very light narrow racing boat"", ""the housing or outer covering of something"", ""a metal sheathing of uniform thickness (such as the shield attached to an artillery piece to protect the gunners)"", ""the hard largely calcareous covering of a mollusc or a brachiopod""], ""v"": [""use explosives on"", ""create by using explosives"", ""fall out of the pod or husk"", ""hit the pitches of hard and regularly"", ""look for and collect shells by the seashore"", ""come out better in a competition, race, or conflict"", ""remove from its shell or outer covering"", ""remove the husks from""]}",image.7646.jpg,n,5,"the noun 'shell' that can be interpreted as:
  1. ammunition consisting of a cylindrical metal casing containing an explosive charge and a projectile; fired from a large gun
  2. the material that forms the hard outer covering of many animals
@@ -489,41 +489,41 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'shell', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'shell' should be interpreted as 'the exterior covering of a bird's egg'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","After breakfast, she quietly swept the shell into the bin.",0.6300778388977051
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","After breakfast, she quietly swept the shell into the bin.",-1.39572012424469
 302,absinthe,fennel absinthe,"{""n"": [""aromatic herb of temperate Eurasia and North Africa having a bitter taste used in making the liqueur absinthe"", ""strong green liqueur flavored with wormwood and anise""]}",image.1705.jpg,n,1,"the noun 'absinthe' that can be interpreted as:
  1. aromatic herb of temperate Eurasia and North Africa having a bitter taste used in making the liqueur absinthe
  2. strong green liqueur flavored with wormwood and anise
 ---
 Generate a natural ambiguous sentence using polysemous word 'absinthe', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'absinthe' should be interpreted as 'aromatic herb of temperate Eurasia and North Africa having a bitter taste used in making the liqueur absinthe'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",She tucked a little absinthe behind the recipe card.,-0.9641287922859192
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",She tucked a little absinthe behind the recipe card.,-2.6874964237213135
 201,liquorice,liquorice plant,"{""n"": [""deep-rooted coarse-textured plant native to the Mediterranean region having blue flowers and pinnately compound leaves; widely cultivated in Europe for its long thick sweet roots"", ""a black candy flavored with the dried root of the licorice plant""]}",image.6134.jpg,n,1,"the noun 'liquorice' that can be interpreted as:
  1. deep-rooted coarse-textured plant native to the Mediterranean region having blue flowers and pinnately compound leaves; widely cultivated in Europe for its long thick sweet roots
  2. a black candy flavored with the dried root of the licorice plant
 ---
 Generate a natural ambiguous sentence using polysemous word 'liquorice', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'liquorice' should be interpreted as 'deep-rooted coarse-textured plant native to the Mediterranean region having blue flowers and pinnately compound leaves; widely cultivated in Europe for its long thick sweet roots'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","In the quiet corner of the garden, the liquorice leaned against the fence.",1.5189201831817627
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","In the quiet corner of the garden, the liquorice leaned against the fence.",-0.7736364006996155
 89,thymus,human thymus,"{""n"": [""large genus of Old World mints: thyme"", ""a ductless glandular organ at the base of the neck that produces lymphocytes and aids in producing immunity; atrophies with age""]}",image.5216.jpg,n,2,"the noun 'thymus' that can be interpreted as:
  1. large genus of Old World mints: thyme
  2. a ductless glandular organ at the base of the neck that produces lymphocytes and aids in producing immunity; atrophies with age
 ---
 Generate a natural ambiguous sentence using polysemous word 'thymus', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'thymus' should be interpreted as 'a ductless glandular organ at the base of the neck that produces lymphocytes and aids in producing immunity; atrophies with age'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The doctor checked the thymus before continuing with the examination.,0.8112840056419373
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The doctor checked the thymus before continuing with the examination.,-1.1462008953094482
 429,boat,travel boat,"{""n"": [""a small vessel for travel on water"", ""a dish (often boat-shaped) for serving gravy or sauce""], ""v"": [""ride in a boat on water""]}",image.2432.jpg,n,1,"the noun 'boat' that can be interpreted as:
  1. a small vessel for travel on water
  2. a dish (often boat-shaped) for serving gravy or sauce
 ---
 Generate a natural ambiguous sentence using polysemous word 'boat', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'boat' should be interpreted as 'a small vessel for travel on water'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The boat was waiting by the dock.,1.2190977334976196
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The boat was waiting by the dock.,-0.7740266919136047
 151,voyage,sea voyage,"{""n"": [""an act of traveling by water"", ""a journey to some distant place""], ""v"": [""travel on water propelled by wind or by other means""]}",image.5718.jpg,v,1,"the verb 'voyage' that can be interpreted as:
  1. travel on water propelled by wind or by other means
 ---
 Generate a natural ambiguous sentence using polysemous word 'voyage', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the verb 'voyage' should be interpreted as 'travel on water propelled by wind or by other means'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",We may voyage to the other shore by dawn.,-0.7589999437332153
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",We may voyage to the other shore by dawn.,-2.01599383354187
 403,ling,ling herb,"{""n"": [""water chestnut whose spiny fruit has two rather than 4 prongs"", ""common Old World heath represented by many varieties; low evergreen grown widely in the northern hemisphere"", ""elongated marine food fish of Greenland and northern Europe; often salted and dried"", ""American hakes"", ""elongate freshwater cod of northern Europe and Asia and North America having barbels around its mouth""]}",image.6849.jpg,n,2,"the noun 'ling' that can be interpreted as:
  1. water chestnut whose spiny fruit has two rather than 4 prongs
  2. common Old World heath represented by many varieties; low evergreen grown widely in the northern hemisphere
@@ -533,21 +533,21 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'ling', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'ling' should be interpreted as 'common Old World heath represented by many varieties; low evergreen grown widely in the northern hemisphere'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","At dusk, the ling along the path gave the air a faint, sweet scent.",-0.2612791955471039
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","At dusk, the ling along the path gave the air a faint, sweet scent.",-1.7118586301803589
 408,mew,mew gull,"{""n"": [""the sound made by a cat (or any sound resembling this)"", ""the common gull of Eurasia and northeastern North America""], ""v"": [""cry like a cat"", ""utter a high-pitched cry, as of seagulls""]}",image.7703.jpg,n,2,"the noun 'mew' that can be interpreted as:
  1. the sound made by a cat (or any sound resembling this)
  2. the common gull of Eurasia and northeastern North America
 ---
 Generate a natural ambiguous sentence using polysemous word 'mew', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'mew' should be interpreted as 'the common gull of Eurasia and northeastern North America'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","At dusk, a mew passed quietly over the harbor.",0.17351354658603668
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","At dusk, a mew passed quietly over the harbor.",-0.6424131393432617
 329,thresher,agricultural thresher,"{""n"": [""a farm machine for separating seeds or grain from the husks and straw"", ""large pelagic shark of warm seas with a whiplike tail used to round up small fish on which to feed""]}",image.7137.jpg,n,1,"the noun 'thresher' that can be interpreted as:
  1. a farm machine for separating seeds or grain from the husks and straw
  2. large pelagic shark of warm seas with a whiplike tail used to round up small fish on which to feed
 ---
 Generate a natural ambiguous sentence using polysemous word 'thresher', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'thresher' should be interpreted as 'a farm machine for separating seeds or grain from the husks and straw'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","At the harbor, the thresher was pulled aboard before sunset.",0.05752338841557503
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","At the harbor, the thresher was pulled aboard before sunset.",-1.6968563795089722
 286,flag,flag banner,"{""n"": [""emblem usually consisting of a rectangular piece of cloth of distinctive design"", ""a listing printed in all issues of a newspaper or magazine (usually on the editorial page) that gives the name of the publication and the names of the editorial staff, etc."", ""plants with sword-shaped leaves and erect stalks bearing bright-colored flowers composed of three petals and three drooping sepals"", ""a rectangular piece of fabric used as a signalling device"", ""flagpole used to mark the position of the hole on a golf green"", ""stratified stone that splits into pieces suitable as paving stones"", ""a conspicuously marked or shaped tail""], ""v"": [""communicate or signal with a flag"", ""provide with a flag"", ""droop, sink, or settle from or as if from pressure or loss of tautness"", ""decorate with flags"", ""become less intense""]}",image.6829.jpg,n,1,"the noun 'flag' that can be interpreted as:
  1. emblem usually consisting of a rectangular piece of cloth of distinctive design
  2. a listing printed in all issues of a newspaper or magazine (usually on the editorial page) that gives the name of the publication and the names of the editorial staff, etc.
@@ -559,7 +559,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'flag', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'flag' should be interpreted as 'emblem usually consisting of a rectangular piece of cloth of distinctive design'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The old flag hung quietly above the square.,1.0692062377929688
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The old flag hung quietly above the square.,-0.560417890548706
 189,compass,orientation compass,"{""n"": [""navigational instrument for finding directions"", ""an area in which something acts or operates or has power or control:"", ""the limit of capability"", ""drafting instrument used for drawing circles""], ""v"": [""bring about; accomplish"", ""travel around, either by plane or ship"", ""get the meaning of something""]}",image.6045.jpg,n,1,"the noun 'compass' that can be interpreted as:
  1. navigational instrument for finding directions
  2. an area in which something acts or operates or has power or control:
@@ -568,7 +568,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'compass', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'compass' should be interpreted as 'navigational instrument for finding directions'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",She placed the compass beside her map before leaving the cabin.,2.6332943439483643
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",She placed the compass beside her map before leaving the cabin.,-0.03789913281798363
 382,crane,crane bird,"{""n"": [""United States writer (1871-1900)"", ""United States poet (1899-1932)"", ""a small constellation in the southern hemisphere near Phoenix"", ""lifts and moves heavy objects; lifting tackle is suspended from a pivoted boom that rotates around a vertical axis"", ""large long-necked wading bird of marshes and plains in many parts of the world""], ""v"": [""stretch (the neck) so as to see better""]}",image.948.jpg,n,5,"the noun 'crane' that can be interpreted as:
  1. United States writer (1871-1900)
  2. United States poet (1899-1932)
@@ -578,7 +578,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'crane', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'crane' should be interpreted as 'large long-necked wading bird of marshes and plains in many parts of the world'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","From the distance, we saw a crane against the pale sky.",0.9992564916610718
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","From the distance, we saw a crane against the pale sky.",0.08761241286993027
 129,torch,wild torch,"{""n"": [""a light usually carried in the hand; consists of some flammable substance"", ""tall-stalked very woolly mullein with densely packed yellow flowers; ancient Greeks and Romans dipped the stalks in tallow for funeral torches"", ""a small portable battery-powered electric lamp"", ""a burner that mixes air and gas to produce a very hot flame""], ""v"": [""burn maliciously, as by arson""]}",image.5567.jpg,n,2,"the noun 'torch' that can be interpreted as:
  1. a light usually carried in the hand; consists of some flammable substance
  2. tall-stalked very woolly mullein with densely packed yellow flowers; ancient Greeks and Romans dipped the stalks in tallow for funeral torches
@@ -587,14 +587,14 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'torch', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'torch' should be interpreted as 'tall-stalked very woolly mullein with densely packed yellow flowers; ancient Greeks and Romans dipped the stalks in tallow for funeral torches'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","In the garden, a torch rose beside the wall, its yellow flowers bright in the dusk.",-0.8215951919555664
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","In the garden, a torch rose beside the wall, its yellow flowers bright in the dusk.",-1.763776183128357
 296,teddy,teddy garment,"{""n"": [""plaything consisting of a child's toy bear (usually plush and stuffed with soft materials)"", ""a woman's sleeveless undergarment""]}",image.6897.jpg,n,2,"the noun 'teddy' that can be interpreted as:
  1. plaything consisting of a child's toy bear (usually plush and stuffed with soft materials)
  2. a woman's sleeveless undergarment
 ---
 Generate a natural ambiguous sentence using polysemous word 'teddy', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'teddy' should be interpreted as 'a woman's sleeveless undergarment'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","When he entered the room, he noticed the teddy on the bed and paused.",1.870907187461853
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","When he entered the room, he noticed the teddy on the bed and paused.",-0.11593186110258102
 430,flag,flag flower,"{""n"": [""emblem usually consisting of a rectangular piece of cloth of distinctive design"", ""a listing printed in all issues of a newspaper or magazine (usually on the editorial page) that gives the name of the publication and the names of the editorial staff, etc."", ""plants with sword-shaped leaves and erect stalks bearing bright-colored flowers composed of three petals and three drooping sepals"", ""a rectangular piece of fabric used as a signalling device"", ""flagpole used to mark the position of the hole on a golf green"", ""stratified stone that splits into pieces suitable as paving stones"", ""a conspicuously marked or shaped tail""], ""v"": [""communicate or signal with a flag"", ""provide with a flag"", ""droop, sink, or settle from or as if from pressure or loss of tautness"", ""decorate with flags"", ""become less intense""]}",image.277.jpg,n,3,"the noun 'flag' that can be interpreted as:
  1. emblem usually consisting of a rectangular piece of cloth of distinctive design
  2. a listing printed in all issues of a newspaper or magazine (usually on the editorial page) that gives the name of the publication and the names of the editorial staff, etc.
@@ -606,7 +606,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'flag', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'flag' should be interpreted as 'plants with sword-shaped leaves and erect stalks bearing bright-colored flowers composed of three petals and three drooping sepals'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The flag by the pond had finally flowered.,-1.2686926126480103
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The flag by the pond had finally flowered.,-2.417645215988159
 289,broom,broom heath,"{""n"": [""a cleaning implement for sweeping; bundle of straws or twigs attached to a long handle"", ""any of various shrubs of the genera Cytisus or Genista or Spartium having long slender branches and racemes of yellow flowers"", ""common Old World heath represented by many varieties; low evergreen grown widely in the northern hemisphere""], ""v"": [""sweep with a broom or as if with a broom"", ""finish with a broom""]}",image.6849.jpg,n,3,"the noun 'broom' that can be interpreted as:
  1. a cleaning implement for sweeping; bundle of straws or twigs attached to a long handle
  2. any of various shrubs of the genera Cytisus or Genista or Spartium having long slender branches and racemes of yellow flowers
@@ -614,7 +614,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'broom', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'broom' should be interpreted as 'common Old World heath represented by many varieties; low evergreen grown widely in the northern hemisphere'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","At dusk, the narrow path was lined with broom and silence.",-0.7823376655578613
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","At dusk, the narrow path was lined with broom and silence.",-2.929356813430786
 369,bang,person bang,"{""n"": [""a vigorous blow"", ""a sudden very loud noise"", ""a border of hair that is cut short and hangs across the forehead"", ""the swift release of a store of affective force"", ""a conspicuous success""], ""v"": [""strike violently"", ""to produce a sharp often metallic explosive or percussive sound"", ""close violently"", ""move noisily"", ""have sexual intercourse with"", ""leap, jerk, bang""]}",image.7414.jpg,n,3,"the noun 'bang' that can be interpreted as:
  1. a vigorous blow
  2. a sudden very loud noise
@@ -624,14 +624,14 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'bang', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'bang' should be interpreted as 'a border of hair that is cut short and hangs across the forehead'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",She tucked the bang behind her ear before stepping outside.,0.5946169495582581
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",She tucked the bang behind her ear before stepping outside.,-2.158898115158081
 461,columba,columba stars,"{""n"": [""a constellation in the southern hemisphere near Puppis and Caelum"", ""type genus of the Columbidae: typical pigeons""]}",image.8089.jpg,n,1,"the noun 'columba' that can be interpreted as:
  1. a constellation in the southern hemisphere near Puppis and Caelum
  2. type genus of the Columbidae: typical pigeons
 ---
 Generate a natural ambiguous sentence using polysemous word 'columba', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'columba' should be interpreted as 'a constellation in the southern hemisphere near Puppis and Caelum'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By midnight, Columba was just a faint shape near the edge of the sky.",0.7883447408676147
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By midnight, Columba was just a faint shape near the edge of the sky.",-0.4050995111465454
 354,slug,rifle slug,"{""n"": [""a projectile that is fired from a gun"", ""a unit of mass equal to the mass that accelerates at 1 foot/sec/sec when acted upon by a force of 1 pound; approximately 14.5939 kilograms"", ""a counterfeit coin"", ""an idle slothful person"", ""an amount of an alcoholic drink (usually liquor) that is poured or gulped"", ""a strip of type metal used for spacing"", ""any of various terrestrial gastropods having an elongated slimy body and no external shell"", ""(boxing) a blow with the fist""], ""v"": [""strike heavily, especially with the fist or a bat"", ""be idle; exist in a changeless situation""]}",image.7314.jpg,n,1,"the noun 'slug' that can be interpreted as:
  1. a projectile that is fired from a gun
  2. a unit of mass equal to the mass that accelerates at 1 foot/sec/sec when acted upon by a force of 1 pound; approximately 14.5939 kilograms
@@ -644,21 +644,21 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'slug', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'slug' should be interpreted as 'a projectile that is fired from a gun'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","After the rifle was unloaded, he set the slug on the table and walked away.",-1.788743257522583
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","After the rifle was unloaded, he set the slug on the table and walked away.",-3.0898795127868652
 183,folder,folder for papers,"{""n"": [""a small book usually having a paper cover"", ""covering that is folded over to protect the contents""]}",image.5999.jpg,n,2,"the noun 'folder' that can be interpreted as:
  1. a small book usually having a paper cover
  2. covering that is folded over to protect the contents
 ---
 Generate a natural ambiguous sentence using polysemous word 'folder', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'folder' should be interpreted as 'covering that is folded over to protect the contents'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",She left the folder on the table beside the photos.,-1.1769919395446777
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",She left the folder on the table beside the photos.,-1.905110478401184
 112,neptune,milky way neptune,"{""n"": [""(Roman mythology) god of the sea; counterpart of Greek Poseidon"", ""a giant planet with a ring of ice particles; the 8th planet from the sun is the most remote of the gas giants""]}",image.5418.jpg,n,2,"the noun 'neptune' that can be interpreted as:
  1. (Roman mythology) god of the sea; counterpart of Greek Poseidon
  2. a giant planet with a ring of ice particles; the 8th planet from the sun is the most remote of the gas giants
 ---
 Generate a natural ambiguous sentence using polysemous word 'neptune', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'neptune' should be interpreted as 'a giant planet with a ring of ice particles; the 8th planet from the sun is the most remote of the gas giants'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","After sunset, Neptune was visible near the horizon.",2.25982403755188
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","After sunset, Neptune was visible near the horizon.",0.5762124061584473
 361,torch,torch battery,"{""n"": [""a light usually carried in the hand; consists of some flammable substance"", ""tall-stalked very woolly mullein with densely packed yellow flowers; ancient Greeks and Romans dipped the stalks in tallow for funeral torches"", ""a small portable battery-powered electric lamp"", ""a burner that mixes air and gas to produce a very hot flame""], ""v"": [""burn maliciously, as by arson""]}",image.7366.jpg,n,3,"the noun 'torch' that can be interpreted as:
  1. a light usually carried in the hand; consists of some flammable substance
  2. tall-stalked very woolly mullein with densely packed yellow flowers; ancient Greeks and Romans dipped the stalks in tallow for funeral torches
@@ -667,28 +667,28 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'torch', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'torch' should be interpreted as 'a small portable battery-powered electric lamp'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",I tucked the torch into my bag before leaving.,0.5718842148780823
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",I tucked the torch into my bag before leaving.,-1.893149971961975
 387,tornado,atmospheric tornado,"{""n"": [""a localized and violently destructive windstorm occurring over land characterized by a funnel-shaped cloud extending toward the ground"", ""a purified and potent form of cocaine that is smoked rather than snorted; highly addictive""]}",image.7547.jpg,n,1,"the noun 'tornado' that can be interpreted as:
  1. a localized and violently destructive windstorm occurring over land characterized by a funnel-shaped cloud extending toward the ground
  2. a purified and potent form of cocaine that is smoked rather than snorted; highly addictive
 ---
 Generate a natural ambiguous sentence using polysemous word 'tornado', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'tornado' should be interpreted as 'a localized and violently destructive windstorm occurring over land characterized by a funnel-shaped cloud extending toward the ground'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The tornado rolled in just after sunset.,-0.3733474016189575
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The tornado rolled in just after sunset.,-0.5599615573883057
 128,boa,boa constrictor,"{""n"": [""a long thin fluffy scarf of feathers or fur"", ""any of several chiefly tropical constrictors with vestigial hind limbs""]}",image.2629.jpg,n,2,"the noun 'boa' that can be interpreted as:
  1. a long thin fluffy scarf of feathers or fur
  2. any of several chiefly tropical constrictors with vestigial hind limbs
 ---
 Generate a natural ambiguous sentence using polysemous word 'boa', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'boa' should be interpreted as 'any of several chiefly tropical constrictors with vestigial hind limbs'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","In the dim light, Maria noticed a boa resting beside the old fence.",1.1049175262451172
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","In the dim light, Maria noticed a boa resting beside the old fence.",-0.6420610547065735
 36,terry,terry fabric,"{""n"": [""English actress (1847-1928)"", ""a pile fabric (usually cotton) with uncut loops on both sides; used to make bath towels and bath robes""]}",image.4742.jpg,n,2,"the noun 'terry' that can be interpreted as:
  1. English actress (1847-1928)
  2. a pile fabric (usually cotton) with uncut loops on both sides; used to make bath towels and bath robes
 ---
 Generate a natural ambiguous sentence using polysemous word 'terry', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'terry' should be interpreted as 'a pile fabric (usually cotton) with uncut loops on both sides; used to make bath towels and bath robes'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","After the wash, terry felt soft and thick.",0.1267501264810562
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","After the wash, terry felt soft and thick.",-0.19263046979904175
 267,disk,floppy disk,"{""n"": [""something with a round shape resembling a flat circular plate"", ""a flat circular plate"", ""sound recording consisting of a disk with a continuous groove; used to reproduce music by rotating while a phonograph needle tracks in the groove"", ""(computer science) a memory device consisting of a flat disk covered with a magnetic coating on which information is stored""], ""v"": [""draw a harrow over (land)""]}",image.6679.jpg,n,4,"the noun 'disk' that can be interpreted as:
  1. something with a round shape resembling a flat circular plate
  2. a flat circular plate
@@ -697,7 +697,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'disk', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'disk' should be interpreted as '(computer science) a memory device consisting of a flat disk covered with a magnetic coating on which information is stored'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",I found an old disk in the drawer and tried to access its files.,-1.2145177125930786
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",I found an old disk in the drawer and tried to access its files.,-2.8445792198181152
 74,wind,wind instrument,"{""n"": [""air moving (sometimes with considerable force) from an area of high pressure to an area of low pressure"", ""a tendency or force that influences events"", ""breath"", ""empty rhetoric or insincere or exaggerated talk"", ""an indication of potential opportunity"", ""a musical instrument in which the sound is produced by an enclosed column of air that is moved by the breath"", ""a reflex that expels intestinal gas through the anus"", ""the act of winding or twisting""], ""v"": [""to move or cause to move in a sinuous, spiral, or circular course"", ""extend in curves and turns"", ""arrange or or coil around"", ""catch the scent of; get wind of"", ""coil the spring of (some mechanical device) by turning a stem"", ""form into a wreath"", ""raise or haul up with or as if with mechanical help""]}",image.5084.jpg,n,6,"the noun 'wind' that can be interpreted as:
  1. air moving (sometimes with considerable force) from an area of high pressure to an area of low pressure
  2. a tendency or force that influences events
@@ -710,7 +710,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'wind', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'wind' should be interpreted as 'a musical instrument in which the sound is produced by an enclosed column of air that is moved by the breath'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","In the small ensemble, the wind blended softly with the strings.",1.3123377561569214
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","In the small ensemble, the wind blended softly with the strings.",-0.8769358992576599
 454,circle,circle shape,"{""n"": [""ellipse in which the two axes are of equal length; a plane curve generated by one point moving at a constant distance from a fixed point"", ""an unofficial association of people or groups"", ""something approximating the shape of a circle"", ""movement once around a course"", ""a road junction at which traffic streams circularly around a central island"", ""street names for flunitrazepan"", ""a curved section or tier of seats in a hall or theater or opera house; usually the first tier above the orchestra"", ""any circular or rotating mechanism""], ""v"": [""travel around something"", ""move in circles"", ""form a circle around""]}",image.8037.jpg,n,3,"the noun 'circle' that can be interpreted as:
  1. ellipse in which the two axes are of equal length; a plane curve generated by one point moving at a constant distance from a fixed point
  2. an unofficial association of people or groups
@@ -723,7 +723,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'circle', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'circle' should be interpreted as 'something approximating the shape of a circle'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",A pale circle appeared on the wall after the lamp was moved.,-0.3547210097312927
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",A pale circle appeared on the wall after the lamp was moved.,-2.4725418090820312
 241,arbor,leafy arbor,"{""n"": [""tree (as opposed to shrub)"", ""any of various rotating shafts that serve as axes for larger rotating parts"", ""a framework that supports climbing plants""]}",image.6479.jpg,n,1,"the noun 'arbor' that can be interpreted as:
  1. tree (as opposed to shrub)
  2. any of various rotating shafts that serve as axes for larger rotating parts
@@ -731,7 +731,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'arbor', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'arbor' should be interpreted as 'tree (as opposed to shrub)'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","We paused beside the arbor in the orchard, where its leaves rustled softly in the breeze.",3.259345054626465
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","We paused beside the arbor in the orchard, where its leaves rustled softly in the breeze.",2.2493765354156494
 186,argonaut,argonaut myth,"{""n"": [""someone engaged in a dangerous but potentially rewarding adventure"", ""(Greek mythology) one of the heroes who sailed with Jason in search of the Golden Fleece"", ""cephalopod mollusk of warm seas whose females have delicate papery spiral shells""]}",image.6018.jpg,n,2,"the noun 'argonaut' that can be interpreted as:
  1. someone engaged in a dangerous but potentially rewarding adventure
  2. (Greek mythology) one of the heroes who sailed with Jason in search of the Golden Fleece
@@ -739,7 +739,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'argonaut', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'argonaut' should be interpreted as '(Greek mythology) one of the heroes who sailed with Jason in search of the Golden Fleece'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","In the carving, the argonaut stood beside Jason, looking out to sea.",0.3151540160179138
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","In the carving, the argonaut stood beside Jason, looking out to sea.",-1.5541324615478516
 229,case,glass case,"{""n"": [""an occurrence of something"", ""a special set of circumstances"", ""a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy"", ""the actual state of things"", ""a portable container for carrying several objects"", ""a person requiring professional services"", ""a person who is subjected to experimental or other observational procedures; someone who is an object of investigation"", ""a problem requiring investigation"", ""a statement of facts and reasons used to support an argument"", ""the quantity contained in a case"", ""nouns or pronouns or adjectives (often marked by inflection) related in some way to other words in a sentence"", ""a specific state of mind that is temporary"", ""a person of a specified kind (usually with many eccentricities)"", ""a specific size and style of type within a type family"", ""an enveloping structure or covering enclosing an animal or plant organ or part"", ""the housing or outer covering of something"", ""the enclosing frame around a door or window opening"", ""(printing) the receptacle in which a compositor has his type, which is divided into compartments for the different letters, spaces, or numbers"", ""bed linen consisting of a cover for a pillow"", ""a glass container used to store and display items in a shop or museum or home""], ""v"": [""look over, usually with the intention to rob"", ""enclose in, or as if in, a case""]}",image.6363.jpg,n,20,"the noun 'case' that can be interpreted as:
  1. an occurrence of something
  2. a special set of circumstances
@@ -764,7 +764,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'case', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'case' should be interpreted as 'a glass container used to store and display items in a shop or museum or home'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The old case by the window reflected the afternoon light.,1.093307614326477
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The old case by the window reflected the afternoon light.,-1.770732045173645
 52,capsule,pill capsule,"{""n"": [""a small container"", ""a pill in the form of a small rounded gelatinous container with medicine inside"", ""a dry dehiscent seed vessel or the spore-containing structure of e.g. mosses"", ""a shortened version of a written work"", ""a structure that encloses a body part"", ""a spacecraft designed to transport people and support human life in outer space"", ""a pilot's seat in an airplane that can be forcibly ejected in the case of an emergency; then the pilot descends by parachute""], ""v"": [""enclose in a capsule"", ""put in a short or concise form; reduce in volume""]}",image.2585.jpg,n,2,"the noun 'capsule' that can be interpreted as:
  1. a small container
  2. a pill in the form of a small rounded gelatinous container with medicine inside
@@ -776,7 +776,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'capsule', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'capsule' should be interpreted as 'a pill in the form of a small rounded gelatinous container with medicine inside'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",She reached for the capsule on the counter before breakfast.,0.4492092728614807
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",She reached for the capsule on the counter before breakfast.,-1.682538628578186
 293,dory,dory fish,"{""n"": [""a small boat of shallow draft with cross thwarts for seats and rowlocks for oars with which it is propelled"", ""pike-like freshwater perches"", ""marine fishes widely distributed in mid-waters and deep slope waters""]}",image.6879.jpg,n,2,"the noun 'dory' that can be interpreted as:
  1. a small boat of shallow draft with cross thwarts for seats and rowlocks for oars with which it is propelled
  2. pike-like freshwater perches
@@ -784,14 +784,14 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'dory', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'dory' should be interpreted as 'pike-like freshwater perches'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","In the shallows by the bank, a dory lingered in the morning light.",3.157597064971924
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","In the shallows by the bank, a dory lingered in the morning light.",1.4388761520385742
 460,clocks,time clocks,"{""n"": [""European weed naturalized in southwestern United States and Mexico having reddish decumbent stems with small fernlike leaves and small deep reddish-lavender flowers followed by slender fruits that stick straight up; often grown for forage"", ""a timepiece that shows the time of day""], ""v"": [""measure the time or duration of an event or action or the person who performs an action in a certain period of time""]}",image.8081.jpg,n,2,"the noun 'clocks' that can be interpreted as:
  1. European weed naturalized in southwestern United States and Mexico having reddish decumbent stems with small fernlike leaves and small deep reddish-lavender flowers followed by slender fruits that stick straight up; often grown for forage
  2. a timepiece that shows the time of day
 ---
 Generate a natural ambiguous sentence using polysemous word 'clocks', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'clocks' should be interpreted as 'a timepiece that shows the time of day'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The clocks by the window were covered in a thin layer of dust.,0.37296152114868164
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The clocks by the window were covered in a thin layer of dust.,-1.3814842700958252
 150,shot,vaccine shot,"{""n"": [""the act of firing a projectile"", ""a solid missile discharged from a firearm"", ""(sports) the act of swinging or striking at a ball with a club or racket or bat or cue or hand"", ""a chance to do something"", ""a person who shoots (usually with respect to their ability to shoot)"", ""a consecutive series of pictures that constitutes a unit of action in a film"", ""the act of putting a liquid into the body by means of a syringe"", ""a small drink of liquor"", ""an aggressive remark directed at a person like a missile and intended to have a telling effect"", ""an estimate based on little or no information"", ""an informal photograph; usually made with a small hand-held camera"", ""sports equipment consisting of a heavy metal ball used in the shot put"", ""an explosive charge used in blasting"", ""a blow hard enough to cause injury"", ""an attempt to score in a game"", ""informal words for any attempt or effort"", ""the launching of a missile or spacecraft to a specified destination""], ""v"": [""hit with a missile from a weapon"", ""kill by firing a missile"", ""fire a shot"", ""make a film or photograph of something"", ""send forth suddenly, intensely, swiftly"", ""run or move very quickly or hastily"", ""move quickly and violently"", ""throw or propel in a specific direction or towards a specific objective"", ""record on photographic film"", ""emit (as light, flame, or fumes) suddenly and forcefully"", ""cause a sharp and sudden pain in"", ""force or drive (a fluid or gas) into by piercing"", ""variegate by interweaving weft threads of different colors"", ""throw dice, as in a crap game"", ""spend frivolously and unwisely"", ""score"", ""utter fast and forcefully"", ""measure the altitude of by using a sextant"", ""produce buds, branches, or germinate"", ""give an injection to""]}",image.5734.jpg,v,20,"the verb 'shot' that can be interpreted as:
  1. hit with a missile from a weapon
  2. kill by firing a missile
@@ -816,14 +816,14 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'shot', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the verb 'shot' should be interpreted as 'give an injection to'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","After a brief checkup, the nurse shot the patient and sent him home.",-0.6802178621292114
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","After a brief checkup, the nurse shot the patient and sent him home.",-2.839447259902954
 192,manhattan,manhattan city,"{""n"": [""one of the five boroughs of New York City"", ""a cocktail made with whiskey and sweet vermouth with a dash of bitters""]}",image.6067.jpg,n,1,"the noun 'manhattan' that can be interpreted as:
  1. one of the five boroughs of New York City
  2. a cocktail made with whiskey and sweet vermouth with a dash of bitters
 ---
 Generate a natural ambiguous sentence using polysemous word 'manhattan', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'manhattan' should be interpreted as 'one of the five boroughs of New York City'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",We talked about Manhattan while planning the rest of the evening.,0.52814781665802
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",We talked about Manhattan while planning the rest of the evening.,-1.8254252672195435
 155,dummy,dummy for baby,"{""n"": [""a person who does not talk"", ""an ignorant or foolish person"", ""a figure representing the human form"", ""a cartridge containing an explosive charge but no bullet""], ""v"": [""make a dummy of""]}",image.5775.jpg,n,3,"the noun 'dummy' that can be interpreted as:
  1. a person who does not talk
  2. an ignorant or foolish person
@@ -832,7 +832,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'dummy', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'dummy' should be interpreted as 'a figure representing the human form'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",She dressed the dummy in a blue coat before placing it near the window.,0.9216508865356445
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",She dressed the dummy in a blue coat before placing it near the window.,-1.5440372228622437
 67,wood,wood barrel,"{""n"": [""the hard fibrous lignified substance under the bark of trees"", ""the trees and other plants in a large densely wooded area"", ""United States film actress (1938-1981)"", ""English conductor (1869-1944)"", ""English writer of novels about murders and thefts and forgeries (1814-1887)"", ""United States painter noted for works based on life in the Midwest (1892-1942)"", ""any wind instrument other than the brass instruments"", ""a golf club with a long shaft used to hit long shots; originally made with a wooden head""]}",image.5022.jpg,n,1,"the noun 'wood' that can be interpreted as:
  1. the hard fibrous lignified substance under the bark of trees
  2. the trees and other plants in a large densely wooded area
@@ -845,21 +845,21 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'wood', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'wood' should be interpreted as 'the hard fibrous lignified substance under the bark of trees'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The wood by the window had turned dark and smooth with age.,1.0130009651184082
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The wood by the window had turned dark and smooth with age.,-0.8228580951690674
 123,arctic,arctic boots,"{""n"": [""the regions to the north of the Arctic Circle centered on the North Pole"", ""a waterproof overshoe that protects shoes from water or snow""]}",image.5518.jpg,n,2,"the noun 'arctic' that can be interpreted as:
  1. the regions to the north of the Arctic Circle centered on the North Pole
  2. a waterproof overshoe that protects shoes from water or snow
 ---
 Generate a natural ambiguous sentence using polysemous word 'arctic', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'arctic' should be interpreted as 'a waterproof overshoe that protects shoes from water or snow'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",I kept an arctic by the back door for wet days.,-2.3360037803649902
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",I kept an arctic by the back door for wet days.,-3.3035197257995605
 148,blossom,spring blossom,"{""n"": [""reproductive organ of angiosperm plants especially one having showy or colorful parts"", ""the period of greatest prosperity or productivity""], ""v"": [""produce or yield flowers"", ""develop or come to a promising stage""]}",image.5726.jpg,n,1,"the noun 'blossom' that can be interpreted as:
  1. reproductive organ of angiosperm plants especially one having showy or colorful parts
  2. the period of greatest prosperity or productivity
 ---
 Generate a natural ambiguous sentence using polysemous word 'blossom', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'blossom' should be interpreted as 'reproductive organ of angiosperm plants especially one having showy or colorful parts'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The blossom on the windowsill seemed to brighten the room.,0.936292290687561
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The blossom on the windowsill seemed to brighten the room.,-0.18470744788646698
 423,bay,bay shore,"{""n"": [""an indentation of a shoreline larger than a cove but smaller than a gulf"", ""the sound of a hound on the scent"", ""small Mediterranean evergreen tree with small blackish berries and glossy aromatic leaves used for flavoring in cooking; also used by ancient Greeks to crown victors"", ""a compartment on a ship between decks; often used as a hospital"", ""a compartment in an aircraft used for some specific purpose"", ""a small recess opening off a larger room"", ""a horse of a moderate reddish-brown color""], ""v"": [""utter in deep prolonged tones"", ""bark with prolonged noises, of dogs""]}",image.7819.jpg,n,1,"the noun 'bay' that can be interpreted as:
  1. an indentation of a shoreline larger than a cove but smaller than a gulf
  2. the sound of a hound on the scent
@@ -871,7 +871,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'bay', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'bay' should be interpreted as 'an indentation of a shoreline larger than a cove but smaller than a gulf'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By morning, the bay had gone still again.",0.34793102741241455
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By morning, the bay had gone still again.",-1.366560697555542
 110,bang,sexual bang,"{""n"": [""a vigorous blow"", ""a sudden very loud noise"", ""a border of hair that is cut short and hangs across the forehead"", ""the swift release of a store of affective force"", ""a conspicuous success""], ""v"": [""strike violently"", ""to produce a sharp often metallic explosive or percussive sound"", ""close violently"", ""move noisily"", ""have sexual intercourse with"", ""leap, jerk, bang""]}",image.5399.jpg,v,5,"the verb 'bang' that can be interpreted as:
  1. strike violently
  2. to produce a sharp often metallic explosive or percussive sound
@@ -882,7 +882,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'bang', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the verb 'bang' should be interpreted as 'have sexual intercourse with'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","After the long dinner, he hoped to bang her before the night was over.",-0.9016835689544678
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","After the long dinner, he hoped to bang her before the night was over.",-2.8951189517974854
 294,rice,sticky rice,"{""n"": [""grains used as food either unpolished or more often polished"", ""annual or perennial rhizomatous marsh grasses; seed used for food; straw used for paper"", ""English lyricist who frequently worked with Andrew Lloyd Webber (born in 1944)"", ""United States playwright (1892-1967)""], ""v"": [""sieve so that it becomes the consistency of rice""]}",image.6883.jpg,n,1,"the noun 'rice' that can be interpreted as:
  1. grains used as food either unpolished or more often polished
  2. annual or perennial rhizomatous marsh grasses; seed used for food; straw used for paper
@@ -891,7 +891,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'rice', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'rice' should be interpreted as 'grains used as food either unpolished or more often polished'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","After dinner, I noticed rice scattered by the door.",0.007174985017627478
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","After dinner, I noticed rice scattered by the door.",-2.176734685897827
 149,capsule,space capsule,"{""n"": [""a small container"", ""a pill in the form of a small rounded gelatinous container with medicine inside"", ""a dry dehiscent seed vessel or the spore-containing structure of e.g. mosses"", ""a shortened version of a written work"", ""a structure that encloses a body part"", ""a spacecraft designed to transport people and support human life in outer space"", ""a pilot's seat in an airplane that can be forcibly ejected in the case of an emergency; then the pilot descends by parachute""], ""v"": [""enclose in a capsule"", ""put in a short or concise form; reduce in volume""]}",image.2680.jpg,n,6,"the noun 'capsule' that can be interpreted as:
  1. a small container
  2. a pill in the form of a small rounded gelatinous container with medicine inside
@@ -903,7 +903,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'capsule', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'capsule' should be interpreted as 'a spacecraft designed to transport people and support human life in outer space'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By dawn, the capsule was sealed and ready to leave the station.",-0.533149003982544
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By dawn, the capsule was sealed and ready to leave the station.",-2.122053861618042
 405,nail,nail hand,"{""n"": [""horny plate covering and protecting part of the dorsal surface of the digits"", ""a thin pointed piece of metal that is hammered into materials as a fastener"", ""a former unit of length for cloth equal to 1/16 of a yard""], ""v"": [""attach something somewhere by means of nails"", ""take into custody"", ""hit hard"", ""succeed in obtaining a position"", ""succeed at easily"", ""locate exactly"", ""complete a pass""]}",image.7687.jpg,n,1,"the noun 'nail' that can be interpreted as:
  1. horny plate covering and protecting part of the dorsal surface of the digits
  2. a thin pointed piece of metal that is hammered into materials as a fastener
@@ -911,7 +911,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'nail', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'nail' should be interpreted as 'horny plate covering and protecting part of the dorsal surface of the digits'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",She carefully trimmed the nail before dinner.,-0.6889098882675171
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",She carefully trimmed the nail before dinner.,-2.26662015914917
 6,tympanum,ear tympanum,"{""n"": [""the main cavity of the ear; between the eardrum and the inner ear"", ""the membrane in the ear that vibrates to sound"", ""a large hemispherical brass or copper percussion instrument with a drumhead that can be tuned by adjusting the tension on it""]}",image.4472.jpg,n,2,"the noun 'tympanum' that can be interpreted as:
  1. the main cavity of the ear; between the eardrum and the inner ear
  2. the membrane in the ear that vibrates to sound
@@ -919,7 +919,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'tympanum', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'tympanum' should be interpreted as 'the membrane in the ear that vibrates to sound'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","When the music swelled, the tympanum began to vibrate.",0.2262069582939148
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","When the music swelled, the tympanum began to vibrate.",-1.2044990062713623
 219,beam,long beam,"{""n"": [""a signal transmitted along a narrow path; guides airplane pilots in darkness or bad weather"", ""long thick piece of wood or metal or concrete, etc., used in construction"", ""a group of nearly parallel lines of electromagnetic radiation"", ""a column of light (as from a beacon)"", ""(nautical) breadth amidships"", ""the broad side of a ship"", ""a gymnastic apparatus used by women gymnasts""], ""v"": [""smile radiantly; express joy through one's facial expression"", ""emit light; be bright, as of the sun or a light"", ""express with a beaming face or smile"", ""broadcast over the airwaves, as in radio or television"", ""have a complexion with a strong bright color, such as red or pink"", ""experience a feeling of well-being or happiness, as from good health or an intense emotion""]}",image.1388.jpg,n,2,"the noun 'beam' that can be interpreted as:
  1. a signal transmitted along a narrow path; guides airplane pilots in darkness or bad weather
  2. long thick piece of wood or metal or concrete, etc., used in construction
@@ -931,7 +931,7 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'beam', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'beam' should be interpreted as 'long thick piece of wood or metal or concrete, etc., used in construction'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The beam above the doorway needed repair.,0.8285199403762817
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",The beam above the doorway needed repair.,-1.150362491607666
 452,chest,chest furniture,"{""n"": [""the part of the human torso between the neck and the diaphragm or the corresponding part in other vertebrates"", ""box with a lid; used for storage; usually large and sturdy"", ""the front of the trunk from the neck to the abdomen"", ""furniture with drawers for keeping clothes""]}",image.8015.jpg,n,4,"the noun 'chest' that can be interpreted as:
  1. the part of the human torso between the neck and the diaphragm or the corresponding part in other vertebrates
  2. box with a lid; used for storage; usually large and sturdy
@@ -940,14 +940,14 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'chest', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'chest' should be interpreted as 'furniture with drawers for keeping clothes'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",We finally placed the chest in the hallway.,-0.10127801448106766
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.",We finally placed the chest in the hallway.,-1.5589679479599
 235,vesta,divine vesta,"{""n"": [""(Roman mythology) goddess of the hearth and its fire whose flame was tended by vestal virgins; counterpart of Greek Hestia"", ""the brightest asteroid but the fourth to be discovered""]}",image.6412.jpg,n,1,"the noun 'vesta' that can be interpreted as:
  1. (Roman mythology) goddess of the hearth and its fire whose flame was tended by vestal virgins; counterpart of Greek Hestia
  2. the brightest asteroid but the fourth to be discovered
 ---
 Generate a natural ambiguous sentence using polysemous word 'vesta', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'vesta' should be interpreted as '(Roman mythology) goddess of the hearth and its fire whose flame was tended by vestal virgins; counterpart of Greek Hestia'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By the hearth at dusk, Vesta seemed to keep the room quietly warm.",1.4290727376937866
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","By the hearth at dusk, Vesta seemed to keep the room quietly warm.",-0.31907758116722107
 437,chuck,meat chuck,"{""n"": [""informal terms for a meal"", ""the part of a forequarter from the neck to the ribs and including the shoulder blade"", ""a holding device consisting of adjustable jaws that center a workpiece in a lathe or center a tool in a drill""], ""v"": [""throw carelessly"", ""throw away"", ""pat or squeeze fondly or playfully, especially under the chin"", ""eject the contents of the stomach through the mouth""]}",image.7912.jpg,n,2,"the noun 'chuck' that can be interpreted as:
  1. informal terms for a meal
  2. the part of a forequarter from the neck to the ribs and including the shoulder blade
@@ -955,4 +955,4 @@ Suggest your final sentence in the format 'Generated Sentence: [your sentence]'.
 ---
 Generate a natural ambiguous sentence using polysemous word 'chuck', once so that the sentence can be interpreted in more than one meaning.
 In the generated sentence, the noun 'chuck' should be interpreted as 'the part of a forequarter from the neck to the ribs and including the shoulder blade'. However, the sentence should not imply any of the given definitions too strongly.
-Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","For Sunday dinner, she bought a chuck to roast.",1.262790560722351
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence.","For Sunday dinner, she bought a chuck to roast.",-1.2600734233856201

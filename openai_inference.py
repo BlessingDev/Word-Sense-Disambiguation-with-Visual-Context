@@ -28,7 +28,8 @@ def get_gpt_response(args, user_prompt):
         return response.output_text
 
     except Exception as e:
-        return f"오류가 발생했습니다: {e}"
+        print(f"오류가 발생했습니다: {e}")
+        return "None"
 
 # 실행 테스트
 if __name__ == "__main__":
