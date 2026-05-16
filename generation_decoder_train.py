@@ -2,7 +2,6 @@ import pandas as pd
 import torch
 from datasets import Dataset
 from transformers import (
-    AutoTokenizer,
     AutoModelForCausalLM,
     AutoProcessor,
     EarlyStoppingCallback,
@@ -28,6 +27,24 @@ VAL_DATASET_PATH = "/workspace/data/dataset_construction_train/val_set_pos.csv"
 MAX_INPUT_LENGTH = 2048
 MAX_OUTPUT_LENGTH = 256
 
+PROMPT_TEMPLATE = """Text Context: {context}
+Ambiguous Word: {word}
+---
+Sense List:
+{sense_list}
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+Provide your final decision as the format '[sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+"""
+
 def main(args):
     #model_name = args.model_checkpoint.split("/")[-1]
 
@@ -38,25 +55,42 @@ def main(args):
     # Load tokenizer and model
     processor = AutoProcessor.from_pretrained(args.model_checkpoint)
     processor.tokenizer.pad_token = processor.tokenizer.eos_token
-    model = AutoModelForCausalLM.from_pretrained(
-        args.model_checkpoint, 
-        device_map="auto",
-        attn_implementation='eager',
-    )
+    
+    if "Qwen" in args.model_checkpoint:
+        from transformers import Qwen3VLForConditionalGeneration
+        
+        model = Qwen3VLForConditionalGeneration.from_pretrained(
+            args.model_checkpoint, 
+            device_map="auto",
+            #attn_implementation=args.attn_implementation,
+        )
+    else:
+        model = AutoModelForCausalLM.from_pretrained(
+            args.model_checkpoint, 
+            device_map="auto",
+        )
     
 
     # 2. PREPROCESS THE DATA
     # ------------------------------------
     # We frame the task with a prefix to guide the model.
     def preprocess_function(sample):
-        assistant_text = "Answer: " + sample["label"]
+        assistant_text = str(int(sample["gold_sense"]))
+        
+        sense_list = json.loads(sample["senses"]).get(sample["gold_pos"], [])
+        sense_str = "\n".join([f" {idx + 1}. {sense}" for idx, sense in enumerate(sense_list)])
+        prompt = PROMPT_TEMPLATE.format(
+            context=sample["word_phrase"],
+            word=sample["word"],
+            sense_list=sense_str
+        )
         
         # Prepare inputs with the prefix
         return {
           "prompt": [
               {"role": "user", "content": [
                   {"type": "image", "url": os.path.join(args.image_dir, sample["gold_image"])},
-                  {"type": "text", "text": sample["prompt"]}
+                  {"type": "text", "text": prompt}
                 ]}
           ],
           "completion": [
@@ -159,6 +193,12 @@ if __name__ == "__main__":
         type=int,
         default=1,
         help="Number of gradient accumulation steps"
+    )
+    parser.add_argument(
+        "--attn_implementation",
+        type=str,
+        default="eager",
+        help="Attention implementation to use (eager, flash_attention_2, etc.)"
     )
     
     args = parser.parse_args()

@@ -141,6 +141,7 @@ def inference_image_zeroshot_gemma3(args):
             prompts = ("<bos><start_of_turn>user\n"
             f"<start_of_image><image_soft_token><end_of_image>{row['prompt']}<end_of_turn>\n"
             "<start_of_turn>model\n")
+            #prompts = prompts.replace("A: ", "")
             
             img_path = os.path.join(args.image_dir, row["gold_image"])
             
@@ -176,7 +177,7 @@ def inference_image_zeroshot_gemma3(args):
     data_df.loc[valid_indices, "generated_text"] = answers
     data_df.to_csv(args.output_file_path, index=False)
 
-def inference_zeroshot_gemma3(args):
+def inference_text_gemma3(args):
     data_df = pd.read_csv(args.inference_set_path)
 
     engine_args = EngineArgs(
@@ -234,19 +235,23 @@ def inference_image_zeroshot_qwen3(args):
     # The implementation would be similar to inference_image_dataset_gemma3, but the prompts and multi-modal data format would be adjusted according to Qwen-3's requirements.
     data_df = pd.read_csv(args.inference_set_path)
     
-    model_name = "Qwen/Qwen3-VL-4B-Instruct"
+    #model_name = "Qwen/Qwen3-VL-8B-Instruct"
 
     mm_limit = {"image": 1}
     engine_args = EngineArgs(
         model=args.model_checkpoint,
-        max_model_len=4096,
-        max_num_seqs=5,
+        max_model_len=8192,
+        max_num_seqs=2,
         mm_processor_kwargs={
             "min_pixels": 28 * 28,
             "max_pixels": 1280 * 28 * 28,
             "fps": 1,
         },
         limit_mm_per_prompt=mm_limit,
+    )
+    default_limits = {"image": 0, "video": 0, "audio": 0, "vision_chunk": 0}
+    engine_args.limit_mm_per_prompt = default_limits | dict(
+        engine_args.limit_mm_per_prompt or {}
     )
     engine_args.seed = args.seed
     engine_args.tensor_parallel_size = 4
@@ -305,7 +310,195 @@ def inference_image_zeroshot_qwen3(args):
     data_df.to_csv(args.output_file_path, index=False)
 
 def inference_zeroshot_qwen3(args):
-    pass
+    # This function is for zero-shot inference on Qwen-3, which does not require image preprocessing and can directly take image paths as input.
+    # The implementation would be similar to inference_image_dataset_gemma3, but the prompts and multi-modal data format would be adjusted according to Qwen-3's requirements.
+    data_df = pd.read_csv(args.inference_set_path)
+    
+    #model_name = "Qwen/Qwen3-VL-8B-Instruct"
+
+    engine_args = EngineArgs(
+        model=args.model_checkpoint,
+        max_model_len=8192,
+        max_num_seqs=2,
+    )
+    engine_args.seed = args.seed
+    engine_args.tensor_parallel_size = 4
+    
+    #llm = LLM(**engine_args_dict)
+    llm = LLM.from_engine_args(engine_args)
+    
+    row_per_run = 200
+    data_splits = [data_df[i:i + row_per_run].copy() for i in range(0, data_df.shape[0], row_per_run)]
+    
+    answers = []
+    valid_indices = []
+    for split_idx, data_split in enumerate(data_splits):
+        inputs = list()
+        for idx, row in data_split.iterrows():
+            prompts = ("<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n"
+            f"<|im_start|>user\n"
+            f"{row['prompt']}<|im_end|>\n"
+            "<|im_start|>assistant\n")
+            
+            inputs.append({
+                "prompt": prompts
+            })
+            valid_indices.append(idx)
+        
+        # Greedy Decoding
+        sampling_params = SamplingParams(temperature=0.0,
+                                        max_tokens=2048,
+                                        stop_token_ids=None)
+        
+        outputs = llm.generate(inputs, sampling_params=sampling_params)
+    
+    
+        for answer_idx, o in enumerate(outputs):
+            generated_text = o.outputs[0].text
+            answers.append(generated_text)
+        
+        print("Completed inference for split {}/{}.".format(split_idx + 1, len(data_splits)))
+        print("Answer Example: {}".format(answers[-1]))
+
+    
+    data_df.loc[valid_indices, "generated_text"] = answers
+    data_df.to_csv(args.output_file_path, index=False)
+
+def inference_image_zeroshot_exaone4d5(args):
+    # This function is for zero-shot inference on Exaone-4.5, which does not require image preprocessing and can directly take image paths as input.
+    # The implementation would be similar to inference_image_dataset_gemma3, but the prompts and multi-modal data format would be adjusted according to Exaone-4.5's requirements.
+    data_df = pd.read_csv(args.inference_set_path)
+    
+    #model_name = "Qwen/Qwen3-VL-8B-Instruct"
+
+    mm_limit = {"image": 1}
+    engine_args = EngineArgs(
+        model=args.model_checkpoint,
+        dtype="bfloat16",
+        max_model_len=8192,
+        max_num_seqs=2,
+        mm_processor_kwargs={
+            "min_pixels": 28 * 28,
+            "max_pixels": 1280 * 28 * 28,
+            "fps": 1,
+        },
+        limit_mm_per_prompt=mm_limit,
+    )
+    default_limits = {"image": 0, "video": 0, "audio": 0, "vision_chunk": 0}
+    engine_args.limit_mm_per_prompt = default_limits | dict(
+        engine_args.limit_mm_per_prompt or {}
+    )
+    engine_args.seed = args.seed
+    engine_args.tensor_parallel_size = 4
+    
+    llm = LLM.from_engine_args(engine_args)
+    
+    image_placeholder = "<vision><|image_pad|></vision>"
+    
+    row_per_run = 200
+    data_splits = [data_df[i:i + row_per_run].copy() for i in range(0, data_df.shape[0], row_per_run)]
+    
+    answers = []
+    valid_indices = []
+    for split_idx, data_split in enumerate(data_splits):
+        inputs = list()
+        for idx, row in data_split.iterrows():
+            prompts = ("<|system|>\nYou are a helpful assistant.<|endofturn|>\n"
+            f"<|user|>\n{image_placeholder}"
+            f"{row['prompt']}<|endofturn|>\n"
+            "<|assistant|>\n")
+            
+            img_path = os.path.join(args.image_dir, row["gold_image"])
+            
+            turncated = is_truncated(img_path)
+            if not turncated:
+                image_file = Image.open(img_path)
+                inputs.append({
+                    "prompt": prompts,
+                    "multi_modal_data": {
+                        "image": convert_image_mode(image_file, "RGB")
+                    },
+                    "thinking": True
+                })
+                valid_indices.append(idx)
+            else:
+                print(f"Image {img_path} is truncated. Skipping this sample.")
+        
+        # Greedy Decoding
+        sampling_params = SamplingParams(temperature=0.0,
+                                        max_tokens=2048,
+                                        stop_token_ids=None)
+        
+        outputs = llm.generate(inputs, sampling_params=sampling_params)
+    
+    
+        for answer_idx, o in enumerate(outputs):
+            generated_text = o.outputs[0].text
+            answers.append(generated_text)
+        
+        print("Completed inference for split {}/{}.".format(split_idx + 1, len(data_splits)))
+        print("Answer Example: {}".format(answers[-1]))
+
+    
+    data_df.loc[valid_indices, "generated_text"] = answers
+    data_df.to_csv(args.output_file_path, index=False)
+
+def inference_zeroshot_exaone4d5(args):
+    # This function is for zero-shot inference on Exaone-4.5, which does not require image preprocessing and can directly take image paths as input.
+    # The implementation would be similar to inference_image_dataset_gemma3, but the prompts and multi-modal data format would be adjusted according to Exaone-4.5's requirements.
+    data_df = pd.read_csv(args.inference_set_path)
+    
+    #model_name = "Qwen/Qwen3-VL-8B-Instruct"
+
+    engine_args = EngineArgs(
+        model=args.model_checkpoint,
+        dtype="bfloat16",
+        max_model_len=8192,
+        max_num_seqs=2,
+    )
+    engine_args.seed = args.seed
+    engine_args.tensor_parallel_size = 4
+    
+    #llm = LLM(**engine_args_dict)
+    llm = LLM.from_engine_args(engine_args)
+    
+    row_per_run = 200
+    data_splits = [data_df[i:i + row_per_run].copy() for i in range(0, data_df.shape[0], row_per_run)]
+    
+    answers = []
+    valid_indices = []
+    for split_idx, data_split in enumerate(data_splits):
+        inputs = list()
+        for idx, row in data_split.iterrows():
+            prompts = ("<|system|>\nYou are a helpful assistant.<|endofturn|>\n"
+            f"<|user|>\n"
+            f"{row['prompt']}<|endofturn|>\n"
+            "<|assistant|>\n")
+            
+            inputs.append({
+                "prompt": prompts,
+                "thinking": True
+            })
+            valid_indices.append(idx)
+        
+        # Greedy Decoding
+        sampling_params = SamplingParams(temperature=0.0,
+                                        max_tokens=2048,
+                                        stop_token_ids=None)
+        
+        outputs = llm.generate(inputs, sampling_params=sampling_params)
+    
+    
+        for answer_idx, o in enumerate(outputs):
+            generated_text = o.outputs[0].text
+            answers.append(generated_text)
+        
+        print("Completed inference for split {}/{}.".format(split_idx + 1, len(data_splits)))
+        print("Answer Example: {}".format(answers[-1]))
+
+    
+    data_df.loc[valid_indices, "generated_text"] = answers
+    data_df.to_csv(args.output_file_path, index=False)
 
 def inference_fewshot_dataset_gemma3(args):
     data_df = pd.read_csv(args.inference_set_path)
@@ -386,7 +579,7 @@ if __name__ == "__main__":
                         help="Path to the directory containing the images.")
     parser.add_argument("--image_number", type=int, default=1,
                         help="Number of images to use for inference.")
-
+    
     args = parser.parse_args()
     '''args = parser.parse_args([
         "--model_checkpoint", "google/gemma-3-12b-it",
@@ -399,14 +592,18 @@ if __name__ == "__main__":
     
     if args.image_dir is None:
         if "gemma-3" in args.model_checkpoint.lower():
-            inference_zeroshot_gemma3(args)
-        elif "qwen-3" in args.model_checkpoint.lower():
+            inference_text_gemma3(args)
+        elif "qwen3" in args.model_checkpoint.lower():
             inference_zeroshot_qwen3(args)
+        elif "exaone-4.5" in args.model_checkpoint.lower():
+            inference_zeroshot_exaone4d5(args)
     else:
         if args.example_set_path is None:
             if "gemma-3" in args.model_checkpoint.lower():
                 inference_image_zeroshot_gemma3(args)
-            elif "qwen-3" in args.model_checkpoint.lower():
+            elif "qwen3" in args.model_checkpoint.lower():
                 inference_image_zeroshot_qwen3(args)
+            elif "exaone-4.5" in args.model_checkpoint.lower():
+                inference_image_zeroshot_exaone4d5(args)
         else:
             inference_fewshot_dataset_gemma3(args)

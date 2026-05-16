@@ -1,0 +1,62 @@
+word_index,word,word_phrase,senses,gold_image,prompt,gold_pos,generated_text
+9358,lapidary,'expert' is a hypernym of the specific sense of 'lapidary'.,"{""n"": [""an expert on precious stones and the art of cutting and engraving them"", ""a skilled worker who cuts and engraves precious stones""], ""a"": [""of or relating to precious stones or the art of working with them; - Lord Byron""]}",image.4868.jpg,"Text Context: 'expert' is a hypernym of the specific sense of 'lapidary'.
+Ambiguous Word: lapidary
+---
+Sense List:
+ 1. an expert on precious stones and the art of cutting and engraving them
+ 2. a skilled worker who cuts and engraves precious stones
+---
+Image Web Search Results:
+The 'Searched Web Content' defines ""lapidaire"" as a French term relating to stone and also meaning ""terse"" or abruptly short. It also lists ""lapidary"" as a related noun. Given the image shows a ""Lapidarist"" (someone who cuts, polishes, or engraves stones), the definition confirms that ""lapidary"" relates to working with stone, and thus the image depicts someone engaged in a lapidary craft. The context phrase stating 'expert' is a hypernym of 'lapidary' is also supported, as a lapidarist is a skilled expert in the field of stone cutting and polishing.
+The image depicts a lapidarist, someone who cuts, polishes, and shapes gemstones. The search results confirm ""lapidary"" relates to gem cutting and stone polishing. ""Gemcutter"" is listed as a related term on Wikidata. The Wikipedia article on ""Lapidary"" and the images titled ""Thai Gem Cutting.jpg"" on Wikipedia and Wikimedia Commons directly support this interpretation, showing the process of cutting gemstones, similar to what is seen in the image. The context phrase ""expert is a hypernym of the specific sense of 'lapidary'"" is also supported, as a lapidary is a specialized skill requiring expertise within the broader field of gemmology or stone working. The other search results relate to shops selling cut gems or providing lapidary services, further reinforcing the meaning of the term.
+
+---
+You are an expert linguistic annotator. A specific target word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, Use web search results to determine whether there is any background information associated with the given image that cannot be discerned solely from its visual elements. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, read through the list of senses provided once again, carefully and in detail, one by one. Then, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+",n,"The image shows a person working with a stone and a polishing tool. The web search results confirm that ""lapidary"" relates to the art of cutting, polishing, and engraving gemstones. The context states that ""expert"" is a hypernym of ""lapidary,"" which aligns with the image as the person is clearly skilled in a craft. Both senses provided relate to working with stones, but sense 2, ""a skilled worker who cuts and engraves precious stones,"" is a more direct description of what is happening in the image than sense 1, ""an expert on precious stones and the art of cutting and engraving them.""
+
+A: 2"
+12460,act,'re-create' is a hypernym of the specific sense of 'act'.,"{""n"": [""a legal document codifying the result of deliberations of a committee or society or legislative body"", ""something that people do or cause to happen"", ""a subdivision of a play or opera or ballet"", ""a short theatrical performance that is part of a longer program"", ""a manifestation of insincerity""], ""v"": [""perform an action, or work out or perform (an action)"", ""behave in a certain manner; show a certain behavior; conduct or comport oneself"", ""play a role or part"", ""discharge one's duties"", ""pretend to have certain qualities or state of mind"", ""be suitable for theatrical performance"", ""have an effect or outcome; often the one desired or expected"", ""be engaged in an activity, often for no particular purpose other than pleasure"", ""behave unnaturally or affectedly"", ""perform on a stage or theater""]}",image.617.jpg,"Text Context: 're-create' is a hypernym of the specific sense of 'act'.
+Ambiguous Word: act
+---
+Sense List:
+ 1. a legal document codifying the result of deliberations of a committee or society or legislative body
+ 2. something that people do or cause to happen
+ 3. a subdivision of a play or opera or ballet
+ 4. a short theatrical performance that is part of a longer program
+ 5. a manifestation of insincerity
+---
+Image Web Search Results:
+The searched web content discusses various art scholarships, specifically mentioning ""Performing Arts Scholarships"" which include ""Theatre"" as a category. Within the Theatre category, the Archibald Rutledge Scholarship Program offers a scholarship for an ""original one-act play,"" indicating that ""act"" in this context refers to a theatrical performance or a segment of a play. This aligns with the image depicting individuals in what appears to be a historical theatrical setting, suggesting they are engaged in an ""act"" of performing a play. The content also highlights the importance of creativity and originality in performing arts, which is relevant to understanding the artistic nature of the ""act"" being depicted.
+The searched web content details numerous scholarships related to the performing arts, specifically mentioning ""acting"" and ""theater"" multiple times. Several scholarships, like the Irene Ryan Acting Scholarships, are directly focused on supporting students pursuing acting. The content also references ""drama"" as a field of study within the fine arts, which is closely related to acting. Given the image depicts individuals in what appears to be a theatrical performance, the context of ""act"" relates to the performance aspect of theater and the pursuit of acting as a skill and potential career path, supported by the scholarship opportunities outlined in the provided text. The phrase ""re-create"" being a hypernym of ""act"" suggests that acting involves embodying and recreating characters or scenarios, which aligns with the visual representation of individuals portraying roles in the image.
+The searched web content details several scholarships related to the arts, including theatre. Specifically, the Archibald Rutledge Scholarship Program includes a category for ""Theatre,"" requiring applicants to submit an original one-act play. The Florence Lemcke Memorial Scholarship also lists ""drama"" as a qualifying field of study within the fine arts. This context supports the image depicting individuals in what appears to be a theatrical performance, as ""act"" in this context refers to a performance or a part in a play – a creative endeavor supported by the scholarships mentioned. The context phrase ""re-create"" being a hypernym of ""act"" aligns with the idea of actors embodying characters and bringing a script to life through performance.
+The searched web content provides context for the word ""act"" as it relates to performing arts, specifically theatre. Several scholarships mentioned support students majoring in or creating works within the performing arts, including:
+
+*   **Theatre Scholarships:** The Archibald Rutledge Scholarship Program specifically offers a scholarship for an original one-act play.
+*   **Performing Arts Scholarships:** The Iowa Scholarship for the Arts supports students planning to major in the performing arts.
+*   **General Arts Scholarships:** Many scholarships support students in ""fine arts,"" which encompasses acting and theatrical performance.
+
+This aligns with the image depicting individuals in what appears to be a theatrical scene, suggesting they are ""acting"" in a play or performance. The context phrase ""re-create"" being a hypernym of ""act"" is supported by the idea that actors *re-create* characters and stories through their performance.
+
+---
+You are an expert linguistic annotator. A specific target word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, Use web search results to determine whether there is any background information associated with the given image that cannot be discerned solely from its visual elements. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, read through the list of senses provided once again, carefully and in detail, one by one. Then, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+",n,"The image depicts three people in what appears to be a historical theatrical performance. The web search results consistently link ""act"" to theatre, performing arts, and specifically to segments of plays (""one-act play""). The phrase ""re-create"" being a hypernym of ""act"" further reinforces this theatrical interpretation, as acting involves recreating characters and stories. Therefore, the most appropriate sense of ""act"" in this context is related to a theatrical performance.
+
+A: 3"

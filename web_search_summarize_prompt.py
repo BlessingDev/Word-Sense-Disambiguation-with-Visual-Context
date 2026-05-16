@@ -139,7 +139,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--wsd_set_path", type=str, default="/workspace/data/test_set_process/wsd_set_entire.csv")
     parser.add_argument("--retrieval_result_path", type=str, default="/workspace/data/test_set_process/wsd_set_entire_google_vision_result.csv")
-    parser.add_argument("--output_path", type=str, default="/workspace/data/test_set_process/wsd_set_entire_sense_search_prompt.csv")
+    parser.add_argument("--output_path", type=str, default="/workspace/data/test_set_process/wsd_set_entire_summarize_prompt.csv")
     parser.add_argument("--prompt_type", type=str, default="phrase", choices=["phrase", "sentence"], help="Whether to use the original word phrase or the generated ambiguous sentence as context in the prompt")
     args = parser.parse_args()
     

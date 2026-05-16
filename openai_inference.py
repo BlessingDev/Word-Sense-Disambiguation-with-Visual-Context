@@ -41,6 +41,7 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
     
+    print(f"Loading WSD set from: {args.wsd_set_path}")
     df = pd.read_csv(args.wsd_set_path)
     answer_list = list()
     
@@ -54,4 +55,5 @@ if __name__ == "__main__":
         answer_list.append(result)
     
     df["generated_sentence"] = answer_list
+    print(f"Saving results to: {args.output_path}")
     df.to_csv(args.output_path, index=False)

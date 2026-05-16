@@ -227,10 +227,34 @@ def supplement_goolge_vision_search_result(wsd_df_path, exist_output_file_path, 
     supplemented_df.to_csv(exist_output_file_path, index=False, encoding='utf-8')
     print(f"Supplemented WSD set with retrieved image result saved to {exist_output_file_path}")
 
+def divide_supplemented_set(original_df_path, supplemented_df_path, output_df_path):
+    """
+    divide_supplemented_set의 Docstring
+    
+    :param original_df_path: 원본 데이터가 저장된 파일 경로
+    :param supplemented_df_path: 보완된 데이터와 원본 데이터가 합쳐져 저장된 파일 경로
+    :param output_df_path: 나누어진 데이터를 저장할 파일 경로
+    """
+    import os
+    import pandas as pd
+    
+    original_df = pd.read_csv(original_df_path)
+    supplemented_df = pd.read_csv(supplemented_df_path)
+    
+    org_word_index = original_df["word_index"].tolist()
+    
+    drop_indices = list()
+    for idx, row in supplemented_df.iterrows():
+        if row["word_index"] in org_word_index:
+            drop_indices.append(idx)
+
+    divided_df = supplemented_df.drop(drop_indices)
+    divided_df.to_csv(output_df_path, index=False, encoding='utf-8')
+
 def main():
     #output_file_path = '/workspace/data/rearranged_polysemy_words.csv'
     #rearrange_trial_to_text_wsd(output_file_path)
-    #sample_and_save_wsd_set("/workspace/data/train_set_process/wsd_set_entire.csv", sample_size=-1, check_duplicates=True)
+    sample_and_save_wsd_set("/workspace/data/train_set_process/wsd_set_entire_no_dupl.csv", sample_size=-1, check_duplicates=True)
     #sample_and_save_wsd_set("/workspace/data/test_set_process/wsd_set_entire.csv", sample_size=-1, check_duplicates=False, data_path="/workspace/data/semeval-2023-V-WSD-test/en.test.data.v1.1.txt", gold_image_path="/workspace/data/semeval-2023-V-WSD-test/en.test.gold.v1.1.txt")
     #caption_trail_images(output_file_path)
     
@@ -248,7 +272,8 @@ def main():
     
     #generate_ambiguous_sentence_for_wsd_set("/workspace/data/train_set_process/wsd_set_n400.csv")
     #google_vision_search_for_wsd_set("/workspace/data/test_set_process/wsd_set_entire.csv", "/workspace/data/test_set_process/wsd_set_entire_google_vision_result.csv", image_dir="/workspace/data/semeval-2023-V-WSD-test/test_images/")
-    supplement_goolge_vision_search_result("/workspace/data/train_set_process/wsd_set_entire.csv", "/workspace/data/train_set_process/wsd_set_entire_google_vision_result.csv")
+    #supplement_goolge_vision_search_result("/workspace/data/train_set_process/wsd_set_entire.csv", "/workspace/data/train_set_process/wsd_set_entire_google_vision_result.csv")
+    divide_supplemented_set("/workspace/data/train_set_process/wsd_set_entire_no_dupl.csv", "/workspace/data/train_set_process/wsd_set_entire_hypernym.csv", "/workspace/data/train_set_process/wsd_set_duplicate_divided.csv")
     
 if __name__ == "__main__":
     main()
