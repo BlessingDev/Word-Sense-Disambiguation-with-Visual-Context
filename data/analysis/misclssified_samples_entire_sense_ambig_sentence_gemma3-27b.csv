@@ -1,0 +1,664 @@
+word_index,word,word_phrase,senses,gold_image,gold_pos,gold_sense,prompt,generated_text,predicted_label
+2,seat,eating seat,"{""n"": [""a space reserved for sitting (as in a theater or on a train or airplane)"", ""the fleshy part of the human body that you sit on"", ""furniture that is designed for sitting on"", ""any support where you can sit (especially the part of a chair or bench etc. on which you sit)"", ""a center of authority (as a city from which authority is exercised)"", ""the location (metaphorically speaking) where something is based"", ""the legal right to sit as a member in a legislative or similar body"", ""a part of a machine that supports or guides another part"", ""the cloth covering for the buttocks""], ""v"": [""show to a seat; assign a seat for"", ""be able to seat"", ""place ceremoniously or formally in an office or position"", ""put a seat on a chair"", ""provide with seats"", ""place or attach firmly in or on a base"", ""place in or on a seat""]}",image.4432.jpg,n,3.0,"Text Context: I moved the seat closer to the window.
+Ambiguous Word: seat
+---
+Sense List:
+ 1. a space reserved for sitting (as in a theater or on a train or airplane)
+ 2. the fleshy part of the human body that you sit on
+ 3. furniture that is designed for sitting on
+ 4. any support where you can sit (especially the part of a chair or bench etc. on which you sit)
+ 5. a center of authority (as a city from which authority is exercised)
+ 6. the location (metaphorically speaking) where something is based
+ 7. the legal right to sit as a member in a legislative or similar body
+ 8. a part of a machine that supports or guides another part
+ 9. the cloth covering for the buttocks
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The text context ""I moved the seat closer to the window"" refers to the chair in the image. The chair has a ""seat"" which is the part one sits on. Therefore, sense 4, ""any support where you can sit (especially the part of a chair or bench etc. on which you sit)"" is the most appropriate.
+
+A: 4",4.0
+6,tympanum,ear tympanum,"{""n"": [""the main cavity of the ear; between the eardrum and the inner ear"", ""the membrane in the ear that vibrates to sound"", ""a large hemispherical brass or copper percussion instrument with a drumhead that can be tuned by adjusting the tension on it""]}",image.4472.jpg,n,1.0,"Text Context: After the flight, my tympanum felt a little blocked.
+Ambiguous Word: tympanum
+---
+Sense List:
+ 1. the main cavity of the ear; between the eardrum and the inner ear
+ 2. the membrane in the ear that vibrates to sound
+ 3. a large hemispherical brass or copper percussion instrument with a drumhead that can be tuned by adjusting the tension on it
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The text mentions a ""tympanum"" feeling blocked after a flight. The image shows a cross-section of the ear, with structures labeled 1-4. Based on the image and the context, the tympanum refers to a part of the ear. The image shows the eardrum, which is a membrane that vibrates to sound. The context of feeling ""blocked"" after a flight strongly suggests a problem with the eardrum, as pressure changes during flight can affect it.
+
+Therefore, the most appropriate sense is the membrane in the ear that vibrates to sound.
+
+A: 2",2.0
+17,metal,metal steel,"{""n"": [""any of several chemical elements that are usually shiny solids that conduct heat or electricity and can be formed into sheets etc."", ""a mixture containing two or more metallic elements or metallic and nonmetallic elements usually fused together or dissolving into each other when molten""], ""v"": [""cover with metal""], ""a"": [""containing or made of or resembling or characteristic of a metal; ; ; - Ambrose Bierce""]}",image.4573.jpg,n,2.0,"Text Context: The jeweler recommended a metal for the bracelet that would keep its color.
+Ambiguous Word: metal
+---
+Sense List:
+ 1. any of several chemical elements that are usually shiny solids that conduct heat or electricity and can be formed into sheets etc.
+ 2. a mixture containing two or more metallic elements or metallic and nonmetallic elements usually fused together or dissolving into each other when molten
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The text context discusses a jeweler recommending a ""metal"" for a bracelet that would retain its color. The image shows a textured metal surface, specifically diamond plate metal.
+
+Considering the context, the jeweler is referring to a material used in jewelry making. This aligns with the first sense of ""metal"" – a chemical element that can be formed into sheets, and is often shiny. The second sense, a mixture of metallic elements, is also possible, as many jewelry alloys exist (like gold alloys). However, the jeweler's concern about ""keeping its color"" suggests they are looking for a pure metal or an alloy that is known for its color stability.
+
+The image reinforces the idea of a physical material, but doesn't strongly favor one sense over the other. However, the context of jewelry making leans towards the first sense, as jewelers often discuss the properties of individual metals (gold, silver, platinum, etc.).
+
+A: 1",1.0
+33,gin,gin cards,"{""n"": [""strong liquor flavored with juniper berries"", ""a trap for birds or small mammals; often has a slip noose"", ""a machine that separates the seeds from raw cotton fibers"", ""a form of rummy in which a player can go out if the cards remaining in their hand total less than 10 points""], ""v"": [""separate the seeds from (cotton) with a cotton gin"", ""trap with a snare""]}",image.4720.jpg,n,4.0,"Text Context: After dinner, we had gin for an hour before bed.
+Ambiguous Word: gin
+---
+Sense List:
+ 1. strong liquor flavored with juniper berries
+ 2. a trap for birds or small mammals; often has a slip noose
+ 3. a machine that separates the seeds from raw cotton fibers
+ 4. a form of rummy in which a player can go out if the cards remaining in their hand total less than 10 points
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The text context mentions ""gin"" after dinner, and the image shows a bottle labeled ""Gordon's London Dry Gin"" and a martini glass. This strongly suggests that ""gin"" refers to the alcoholic beverage.
+
+A: 1",1.0
+57,try,legal try,"{""n"": [""earnest and conscientious activity intended to do or accomplish something""], ""v"": [""make an effort or attempt"", ""put to the test, as for its quality, or give experimental use to"", ""put on trial or hear a case and sit as the judge at the trial of"", ""take a sample of"", ""examine or hear (evidence or a case) by judicial process"", ""give pain or trouble to"", ""test the limits of"", ""melt (fat or lard) in order to separate out impurities"", ""put on a garment in order to see whether it fits and looks nice""]}",image.4930.jpg,v,5.0,"Text Context: They will try the matter in court tomorrow.
+Ambiguous Word: try
+---
+Sense List:
+ 1. make an effort or attempt
+ 2. put to the test, as for its quality, or give experimental use to
+ 3. put on trial or hear a case and sit as the judge at the trial of
+ 4. take a sample of
+ 5. examine or hear (evidence or a case) by judicial process
+ 6. give pain or trouble to
+ 7. test the limits of
+ 8. melt (fat or lard) in order to separate out impurities
+ 9. put on a garment in order to see whether it fits and looks nice
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The image shows a courtroom scene with a judge presiding over what appears to be a trial. The text states ""They will try the matter in court tomorrow."" Given the context of a courtroom, the word ""try"" most likely refers to conducting a trial or hearing a case.
+
+Therefore, the most appropriate sense is:
+
+A: 3",3.0
+72,mastic,log mastic,"{""n"": [""an aromatic exudate from the mastic tree; used chiefly in varnishes"", ""a pasty cement used as an adhesive or filler"", ""an evergreen shrub of the Mediterranean region that is cultivated for its resin""]}",image.5062.jpg,n,1.0,"Text Context: Before he touched up the cupboard, he set the mastic aside.
+Ambiguous Word: mastic
+---
+Sense List:
+ 1. an aromatic exudate from the mastic tree; used chiefly in varnishes
+ 2. a pasty cement used as an adhesive or filler
+ 3. an evergreen shrub of the Mediterranean region that is cultivated for its resin
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The text mentions ""mastic"" being set aside before touching up a cupboard. The image shows a clear, viscous substance dripping from a tree bark. This aligns with the definition of mastic as a pasty cement or adhesive (sense 2). While sense 1 refers to an exudate used in varnishes, and sense 3 describes the tree itself, the context of ""touching up a cupboard"" strongly suggests a substance used for repair or adhesion. The image visually confirms a sticky substance, further supporting this interpretation.
+
+A: 2",2.0
+143,mate,mate tea,"{""n"": [""the officer below the master on a commercial ship"", ""a fellow member of a team"", ""the partner of an animal (especially a sexual partner)"", ""a person's partner in marriage"", ""an exact duplicate"", ""one of a pair"", ""South American holly; leaves used in making a drink like tea"", ""informal term for a friend of the same sex"", ""South American tea-like drink made from leaves of a South American holly called mate"", ""a chess move constituting an inescapable and indefensible attack on the opponent's king""], ""v"": [""engage in sexual intercourse"", ""bring two objects, ideas, or people together"", ""place an opponent's king under an attack from which it cannot escape and thus ending the game""]}",image.5675.jpg,n,7.0,"Text Context: I left mate on the kitchen counter.
+Ambiguous Word: mate
+---
+Sense List:
+ 1. the officer below the master on a commercial ship
+ 2. a fellow member of a team
+ 3. the partner of an animal (especially a sexual partner)
+ 4. a person's partner in marriage
+ 5. an exact duplicate
+ 6. one of a pair
+ 7. South American holly; leaves used in making a drink like tea
+ 8. informal term for a friend of the same sex
+ 9. South American tea-like drink made from leaves of a South American holly called mate
+ 10. a chess move constituting an inescapable and indefensible attack on the opponent's king
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The text context is ""I left mate on the kitchen counter."" The image shows a gourd with a drink and a metal straw, which is a traditional way to drink *yerba mate*. Therefore, the word ""mate"" refers to the South American tea-like drink.
+
+A: 9",9.0
+160,treat,medical treat,"{""n"": [""something considered choice to eat"", ""an occurrence that causes special pleasure or delight""], ""v"": [""interact in a certain way"", ""subject to a process or treatment, with the aim of readying for some purpose, improving, or remedying a condition"", ""provide treatment for"", ""act on verbally or in some form of artistic expression"", ""provide with a gift or entertainment"", ""provide with choice or abundant food or drink"", ""engage in negotiations in order to reach an agreement"", ""regard or consider in a specific way""]}",image.5812.jpg,v,2.0,"Text Context: I treated the wood before bringing it inside.
+Ambiguous Word: treat
+---
+Sense List:
+ 1. interact in a certain way
+ 2. subject to a process or treatment, with the aim of readying for some purpose, improving, or remedying a condition
+ 3. provide treatment for
+ 4. act on verbally or in some form of artistic expression
+ 5. provide with a gift or entertainment
+ 6. provide with choice or abundant food or drink
+ 7. engage in negotiations in order to reach an agreement
+ 8. regard or consider in a specific way
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The image shows a doctor attending to a patient in a hospital bed. The patient is connected to medical equipment, including an oxygen tube. The text ""I treated the wood before bringing it inside"" uses the word ""treat"" in a different context, referring to preparing wood. However, given the image, the word ""treat"" in the context of the image refers to providing medical care.
+
+Therefore, the most appropriate sense of ""treat"" in this context is to provide treatment for.
+
+A: 3",3.0
+177,folder,computer folder,"{""n"": [""a small book usually having a paper cover"", ""covering that is folded over to protect the contents""]}",image.423.jpg,n,1.0,"Text Context: She carried a folder home from the store.
+Ambiguous Word: folder
+---
+Sense List:
+ 1. a small book usually having a paper cover
+ 2. covering that is folded over to protect the contents
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The text context mentions a ""folder"" carried home from the store. The image depicts a computer file system with folders and files. This suggests the ""folder"" refers to a directory or container for organizing files, rather than a physical paper folder. However, the provided sense list does not include this meaning.
+
+Considering the available senses, the most appropriate one is **sense 2**: ""covering that is folded over to protect the contents"". While not a perfect match for a computer folder, it's closer in concept than ""a small book"". A folder *does* contain and protect its contents.
+
+A: 2",2.0
+181,match,burning match,"{""n"": [""lighter consisting of a thin piece of wood or cardboard tipped with combustible chemical; ignites with friction"", ""a formal contest in which two or more persons or teams compete"", ""a burning piece of wood or cardboard"", ""an exact duplicate"", ""the score needed to win a match"", ""a person regarded as a good matrimonial prospect"", ""a person who is of equal standing with another in a group"", ""a pair of people who live together"", ""something that resembles or harmonizes with""], ""v"": [""be compatible, similar or consistent; coincide in their characteristics"", ""provide funds complementary to"", ""bring two objects, ideas, or people together"", ""be equal to in quality or ability"", ""make correspond or harmonize"", ""satisfy or fulfill"", ""give or join in marriage"", ""set into opposition or rivalry"", ""be equal or harmonize"", ""make equal, uniform, corresponding, or matching""]}",image.5987.jpg,n,1.0,"Text Context: He flicked a match into the ashtray.
+Ambiguous Word: match
+---
+Sense List:
+ 1. lighter consisting of a thin piece of wood or cardboard tipped with combustible chemical; ignites with friction
+ 2. a formal contest in which two or more persons or teams compete
+ 3. a burning piece of wood or cardboard
+ 4. an exact duplicate
+ 5. the score needed to win a match
+ 6. a person regarded as a good matrimonial prospect
+ 7. a person who is of equal standing with another in a group
+ 8. a pair of people who live together
+ 9. something that resembles or harmonizes with
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The text context ""He flicked a match into the ashtray"" and the image of a lit match clearly indicate that ""match"" refers to the object used to create a flame. The image shows a burning match with smoke, which directly corresponds to sense 1: ""lighter consisting of a thin piece of wood or cardboard tipped with combustible chemical; ignites with friction"" and sense 3: ""a burning piece of wood or cardboard"". Sense 1 is more descriptive of the object before it is lit, while sense 3 describes the object while it is burning. Given the image shows a burning match, sense 3 is the more appropriate choice.
+
+A: 3",3.0
+193,try,try taste,"{""n"": [""earnest and conscientious activity intended to do or accomplish something""], ""v"": [""make an effort or attempt"", ""put to the test, as for its quality, or give experimental use to"", ""put on trial or hear a case and sit as the judge at the trial of"", ""take a sample of"", ""examine or hear (evidence or a case) by judicial process"", ""give pain or trouble to"", ""test the limits of"", ""melt (fat or lard) in order to separate out impurities"", ""put on a garment in order to see whether it fits and looks nice""]}",image.6073.jpg,v,4.0,"Text Context: Try the soup and let me know what you think.
+Ambiguous Word: try
+---
+Sense List:
+ 1. make an effort or attempt
+ 2. put to the test, as for its quality, or give experimental use to
+ 3. put on trial or hear a case and sit as the judge at the trial of
+ 4. take a sample of
+ 5. examine or hear (evidence or a case) by judicial process
+ 6. give pain or trouble to
+ 7. test the limits of
+ 8. melt (fat or lard) in order to separate out impurities
+ 9. put on a garment in order to see whether it fits and looks nice
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The image shows a man holding a glass of wine and looking at the camera. Another man is visible in the background. The text context is ""Try the soup and let me know what you think.""
+
+The word ""try"" in this context means to taste or sample the soup to assess its quality. This aligns with sense 2: ""put to the test, as for its quality, or give experimental use to"" and sense 4: ""take a sample of"". Sense 2 is a more general definition that encompasses sense 4.
+
+A: 2",2.0
+209,dressing,dressing compost,"{""n"": [""savory dressings for salads; basically of two kinds: either the thin French or vinaigrette type or the creamy mayonnaise type"", ""a mixture of seasoned ingredients used to stuff meats and vegetables"", ""making fertile as by applying fertilizer or manure"", ""a cloth covering for a wound or sore"", ""processes in the conversion of rough hides into leather"", ""the activity of getting dressed; putting on clothes"", ""the act of applying a bandage""], ""v"": [""put on clothes"", ""provide with clothes or put clothes on"", ""put a finish on"", ""dress in a certain manner"", ""dress or groom with elaborate care"", ""kill and prepare for market or consumption"", ""arrange in ranks"", ""decorate (food), as with parsley or other ornamental foods"", ""provide with decoration"", ""put a dressing on"", ""cultivate, tend, and cut back the growth of"", ""cut down rough-hewn (lumber) to standard thickness and width"", ""convert into leather"", ""apply a bandage or medication to"", ""give a neat appearance to"", ""arrange attractively""]}",image.6203.jpg,v,10.0,"Text Context: I was dressing the salad when the guests arrived.
+Ambiguous Word: dressing
+---
+Sense List:
+ 1. put on clothes
+ 2. provide with clothes or put clothes on
+ 3. put a finish on
+ 4. dress in a certain manner
+ 5. dress or groom with elaborate care
+ 6. kill and prepare for market or consumption
+ 7. arrange in ranks
+ 8. decorate (food), as with parsley or other ornamental foods
+ 9. provide with decoration
+ 10. put a dressing on
+ 11. cultivate, tend, and cut back the growth of
+ 12. cut down rough-hewn (lumber) to standard thickness and width
+ 13. convert into leather
+ 14. apply a bandage or medication to
+ 15. give a neat appearance to
+ 16. arrange attractively
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The text context is ""I was dressing the salad when the guests arrived."" The ambiguous word is ""dressing."" The image shows a person working in a field, seemingly planting or tending to crops.
+
+The most relevant sense of ""dressing"" in the text context is sense 8: ""decorate (food), as with parsley or other ornamental foods"" or sense 10: ""put a dressing on"". These senses relate to preparing a salad with dressing.
+
+However, considering the image, the context could be interpreted metaphorically. The person in the image is ""dressing"" the land, preparing it for crops, similar to how one dresses a salad. This aligns with sense 11: ""cultivate, tend, and cut back the growth of"".
+
+Given the image and the text, sense 11 is the most fitting. The person is actively preparing the land, which can be seen as ""dressing"" it for planting.
+
+A: 11",11.0
+218,caper,caper plant,"{""n"": [""any of numerous plants of the genus Capparis"", ""pickled flower buds used as a pungent relish in various dishes and sauces"", ""a crime (especially a robbery)"", ""a playful leap or hop"", ""gay or light-hearted recreational activity for diversion or amusement"", ""a ludicrous or grotesque act done for fun and amusement""], ""v"": [""jump about playfully""]}",image.6282.jpg,n,1.0,"Text Context: At the market, I picked up a caper.
+Ambiguous Word: caper
+---
+Sense List:
+ 1. any of numerous plants of the genus Capparis
+ 2. pickled flower buds used as a pungent relish in various dishes and sauces
+ 3. a crime (especially a robbery)
+ 4. a playful leap or hop
+ 5. gay or light-hearted recreational activity for diversion or amusement
+ 6. a ludicrous or grotesque act done for fun and amusement
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The text mentions picking up a ""caper"" at the market. The image depicts a plant labeled ""Capparis spinosa L."" and shows its flower buds, fruits, and leaves. This strongly suggests that the ""caper"" refers to the plant itself or its edible parts.
+
+Sense 2, ""pickled flower buds used as a pungent relish in various dishes and sauces,"" aligns perfectly with the image and the context of finding it at a market. Capers are commonly sold as a food item.
+
+Therefore, the correct sense is 2.
+
+A: 2",2.0
+233,bat,game bat,"{""n"": [""nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate"", ""(baseball) a turn trying to get a hit"", ""a small racket with a long handle used for playing squash"", ""the club used in playing cricket"", ""a club used for hitting a ball in various games""], ""v"": [""strike with, or as if with a baseball bat"", ""wink briefly"", ""have a turn at bat"", ""use a bat"", ""beat thoroughly and conclusively in a competition or fight""]}",image.6393.jpg,v,4.0,"Text Context: I bat at the park on Saturdays.
+Ambiguous Word: bat
+---
+Sense List:
+ 1. strike with, or as if with a baseball bat
+ 2. wink briefly
+ 3. have a turn at bat
+ 4. use a bat
+ 5. beat thoroughly and conclusively in a competition or fight
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The text context ""I bat at the park on Saturdays"" and the image of a baseball game clearly indicate that ""bat"" refers to participating in the act of hitting a baseball. The image shows a batter swinging a bat, a catcher, and an umpire, all elements of a baseball game. Therefore, the most appropriate sense is ""have a turn at bat"".
+
+A: 3",3.0
+256,beans,pill beans,"{""n"": [""any of various edible seeds of plants of the family Leguminosae used for food"", ""any of various seeds or fruits that are beans or resemble beans"", ""any of various leguminous plants grown for their edible seeds and pods"", ""informal terms for a human head""], ""v"": [""hit on the head, especially with a pitched baseball""]}",image.5854.jpg,n,4.0,"Text Context: After the long meeting, my beans were fried.
+Ambiguous Word: beans
+---
+Sense List:
+ 1. any of various edible seeds of plants of the family Leguminosae used for food
+ 2. any of various seeds or fruits that are beans or resemble beans
+ 3. any of various leguminous plants grown for their edible seeds and pods
+ 4. informal terms for a human head
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The image shows a collection of colorful pills, often associated with ecstasy or MDMA, commonly referred to as ""beans"" in slang. The text ""my beans were fried"" is also slang, meaning the person's mind was altered or overwhelmed, likely by drug use.
+
+Therefore, the correct sense of ""beans"" in this context is not related to the literal definition of edible seeds. It's a slang term for the pills themselves, and ""fried"" refers to the effect of the drug.
+
+A: 1",1.0
+283,viola,viola shrub,"{""n"": [""any of the numerous plants of the genus Viola"", ""large genus of flowering herbs of temperate regions"", ""a bowed stringed instrument slightly larger than a violin, tuned a fifth lower""]}",image.6807.jpg,n,1.0,"Text Context: There was a viola in the corner of the living room.
+Ambiguous Word: viola
+---
+Sense List:
+ 1. any of the numerous plants of the genus Viola
+ 2. large genus of flowering herbs of temperate regions
+ 3. a bowed stringed instrument slightly larger than a violin, tuned a fifth lower
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The text mentions a ""viola in the corner of the living room."" The image shows a purple flower growing in a natural setting. While a viola *can* refer to a flower (senses 1 and 2), it's highly unusual to find a flowering plant described as being ""in the corner of the living room."" The other sense, a musical instrument (sense 3), fits much better with the indoor location.
+
+A: 3",3.0
+284,vesta,vesta galaxy,"{""n"": [""(Roman mythology) goddess of the hearth and its fire whose flame was tended by vestal virgins; counterpart of Greek Hestia"", ""the brightest asteroid but the fourth to be discovered""]}",image.6815.jpg,n,1.0,"Text Context: I bought a book about Vesta yesterday.
+Ambiguous Word: vesta
+---
+Sense List:
+ 1. (Roman mythology) goddess of the hearth and its fire whose flame was tended by vestal virgins; counterpart of Greek Hestia
+ 2. the brightest asteroid but the fourth to be discovered
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The text context mentions a book about ""Vesta"". The image shows a galaxy. While galaxies are related to space, the context of buying a book suggests a specific subject. The sense list provides two options: a Roman goddess and an asteroid. Given that asteroids are celestial bodies studied in astronomy and often featured in science books, and the image depicts a celestial object, it's more likely the ""Vesta"" in the text refers to the asteroid.
+
+A: 2",2.0
+285,storage,computer storage,"{""n"": [""the act of storing something"", ""a depository for goods"", ""the commercial enterprise of storing goods and materials"", ""(computer science) the process of storing information in a computer memory or on a magnetic tape or disk"", ""an electronic memory device"", ""depositing in a warehouse""]}",image.6821.jpg,n,4.0,"Text Context: I don’t have enough storage for all these pictures.
+Ambiguous Word: storage
+---
+Sense List:
+ 1. the act of storing something
+ 2. a depository for goods
+ 3. the commercial enterprise of storing goods and materials
+ 4. (computer science) the process of storing information in a computer memory or on a magnetic tape or disk
+ 5. an electronic memory device
+ 6. depositing in a warehouse
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The text context ""I don’t have enough storage for all these pictures"" clearly refers to digital storage, likely on a computer or similar device. The image shows the inside of a computer, specifically RAM modules and other components. This reinforces the idea that the ""storage"" being discussed is related to computer memory or disk space.
+
+Therefore, the most appropriate sense is (computer science) the process of storing information in a computer memory or on a magnetic tape or disk, or the electronic memory device itself.
+
+A: 5",5.0
+302,absinthe,fennel absinthe,"{""n"": [""aromatic herb of temperate Eurasia and North Africa having a bitter taste used in making the liqueur absinthe"", ""strong green liqueur flavored with wormwood and anise""]}",image.1705.jpg,n,2.0,"Text Context: The bartender poured me an absinthe after dinner.
+Ambiguous Word: absinthe
+---
+Sense List:
+ 1. aromatic herb of temperate Eurasia and North Africa having a bitter taste used in making the liqueur absinthe
+ 2. strong green liqueur flavored with wormwood and anise
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The image shows a plant with silvery-green foliage, which appears to be wormwood (Artemisia absinthium). The text context mentions absinthe, a liqueur flavored with wormwood. Therefore, the plant in the image is the aromatic herb used to make the liqueur.
+
+A: 1",1.0
+335,force,force in baseball,"{""n"": [""a powerful effect or influence"", ""(physics) the influence that produces a change in a physical quantity"", ""physical energy or intensity"", ""group of people willing to obey orders"", ""a unit that is part of some military service"", ""an act of aggression (as one against a person who resists)"", ""one possessing or exercising power or influence or authority"", ""a group of people having the power of effective action"", ""(of a law) having legal validity"", ""a putout of a base runner who is required to run; the putout is accomplished by holding the ball while touching the base to which the runner must advance before the runner reaches that base""], ""v"": [""to cause to do through pressure or necessity, by physical, moral or intellectual means :"", ""urge or force (a person) to an action; constrain or motivate"", ""move with force,"", ""impose urgently, importunately, or inexorably"", ""squeeze like a wedge into a tight space"", ""force into or from an action or state, either physically or metaphorically"", ""cause to move by pulling"", ""do forcibly; exert force"", ""take by force""]}",image.7182.jpg,v,7.0,"Text Context: I force the curtains open every morning.
+Ambiguous Word: force
+---
+Sense List:
+ 1. to cause to do through pressure or necessity, by physical, moral or intellectual means :
+ 2. urge or force (a person) to an action; constrain or motivate
+ 3. move with force,
+ 4. impose urgently, importunately, or inexorably
+ 5. squeeze like a wedge into a tight space
+ 6. force into or from an action or state, either physically or metaphorically
+ 7. cause to move by pulling
+ 8. do forcibly; exert force
+ 9. take by force
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The text context is ""I force the curtains open every morning."" The ambiguous word is ""force."" The image shows a baseball player sliding into a base.
+
+The context refers to physically opening curtains. This aligns with the sense of ""move with force"" (sense 3). While other senses like ""cause to do"" could be stretched to fit, the most direct and natural meaning is applying physical effort to move the curtains. The baseball image doesn't provide any relevant background information to change this interpretation.
+
+A: 3",3.0
+427,bluebottle,bluebottle siphonophore,"{""n"": [""an annual Eurasian plant cultivated in North America having showy heads of blue or purple or pink or white flowers"", ""blowfly with iridescent blue body; makes a loud buzzing noise in flight""]}",image.7839.jpg,n,1.0,"Text Context: There was a bluebottle by the gate.
+Ambiguous Word: bluebottle
+---
+Sense List:
+ 1. an annual Eurasian plant cultivated in North America having showy heads of blue or purple or pink or white flowers
+ 2. blowfly with iridescent blue body; makes a loud buzzing noise in flight
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The image shows a marine creature, specifically a jellyfish-like organism with a long, trailing tentacle. This aligns with the common name ""bluebottle"" referring to a type of jellyfish (Physalia physalis). The text context ""There was a bluebottle by the gate"" suggests something found near a gate, which could be a beach gate where these jellyfish wash up.
+
+Therefore, the correct sense is the blowfly with iridescent blue body; makes a loud buzzing noise in flight.
+
+A: 2",2.0
+435,bighorn,bighorn river,"{""n"": [""a river that flows from central Wyoming to the Yellowstone River in southern Montana"", ""wild sheep of mountainous regions of western North America having massive curled horns""]}",image.7897.jpg,n,1.0,"Text Context: We took a few photos of bighorn before heading back.
+Ambiguous Word: bighorn
+---
+Sense List:
+ 1. a river that flows from central Wyoming to the Yellowstone River in southern Montana
+ 2. wild sheep of mountainous regions of western North America having massive curled horns
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The text mentions taking photos of ""bighorn"" before heading back. The image shows a bridge over a river in a natural landscape. Considering the context and the image, ""bighorn"" most likely refers to the wild sheep, as people often take photos of wildlife during outdoor excursions. While ""bighorn"" can also be a river, the act of *taking photos* of a river is less common than taking photos of animals.
+
+A: 2",2.0
+446,dip,swim dip,"{""n"": [""a depression in an otherwise level surface"", ""(physics) the angle that a magnetic needle makes with the plane of the horizon"", ""a thief who steals from the pockets or purses of others in public places"", ""tasty mixture or liquid into which bite-sized foods are dipped"", ""a brief immersion"", ""a sudden sharp decrease in some quantity"", ""a candle that is made by repeated dipping in a pool of wax or tallow"", ""a brief swim in water"", ""a gymnastic exercise on the parallel bars in which the body is lowered and raised by bending and straightening the arms""], ""v"": [""immerse briefly into a liquid so as to wet, coat, or saturate"", ""dip into a liquid while eating"", ""go down momentarily"", ""stain an object by immersing it in a liquid"", ""take a small amount from"", ""switch (a car's headlights) from a higher to a lower beam"", ""lower briefly"", ""appear to move downward"", ""slope downwards"", ""dip into a liquid"", ""place (candle wicks) into hot, liquid wax"", ""immerse in a disinfectant solution"", ""plunge (one's hand or a receptacle) into a container"", ""scoop up by plunging one's hand or a ladle below the surface""]}",image.7975.jpg,v,10.0,"Text Context: As she stirred, the spoon dipped into the tea for a moment.
+Ambiguous Word: dip
+---
+Sense List:
+ 1. immerse briefly into a liquid so as to wet, coat, or saturate
+ 2. dip into a liquid while eating
+ 3. go down momentarily
+ 4. stain an object by immersing it in a liquid
+ 5. take a small amount from
+ 6. switch (a car's headlights) from a higher to a lower beam
+ 7. lower briefly
+ 8. appear to move downward
+ 9. slope downwards
+ 10. dip into a liquid
+ 11. place (candle wicks) into hot, liquid wax
+ 12. immerse in a disinfectant solution
+ 13. plunge (one's hand or a receptacle) into a container
+ 14. scoop up by plunging one's hand or a ladle below the surface
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The text describes a spoon dipping into tea. The image shows people swimming in water. The word ""dip"" in the text refers to the action of briefly immersing something into a liquid. This aligns with sense 1 and 10 from the list. However, sense 1 is more general and sense 10 is specifically ""dip into a liquid"". Given the context of the text and the image, sense 1 is the most appropriate.
+
+A: 1",1.0
+454,circle,circle shape,"{""n"": [""ellipse in which the two axes are of equal length; a plane curve generated by one point moving at a constant distance from a fixed point"", ""an unofficial association of people or groups"", ""something approximating the shape of a circle"", ""movement once around a course"", ""a road junction at which traffic streams circularly around a central island"", ""street names for flunitrazepan"", ""a curved section or tier of seats in a hall or theater or opera house; usually the first tier above the orchestra"", ""any circular or rotating mechanism""], ""v"": [""travel around something"", ""move in circles"", ""form a circle around""]}",image.8037.jpg,n,3.0,"Text Context: I found a small circle on the kitchen table.
+Ambiguous Word: circle
+---
+Sense List:
+ 1. ellipse in which the two axes are of equal length; a plane curve generated by one point moving at a constant distance from a fixed point
+ 2. an unofficial association of people or groups
+ 3. something approximating the shape of a circle
+ 4. movement once around a course
+ 5. a road junction at which traffic streams circularly around a central island
+ 6. street names for flunitrazepan
+ 7. a curved section or tier of seats in a hall or theater or opera house; usually the first tier above the orchestra
+ 8. any circular or rotating mechanism
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The image shows a view looking up through a circular opening in a brick structure, revealing a blue sky with clouds. The text mentions finding a ""circle"" on a kitchen table.
+
+Considering the image, sense 1 (""ellipse in which the two axes are of equal length; a plane curve generated by one point moving at a constant distance from a fixed point"") and sense 3 (""something approximating the shape of a circle"") are the most relevant. However, the image depicts a very precise circle, and the text refers to something *found* on a table. This suggests a physical object with a circular shape. Sense 3 is more general, while sense 1 provides a more precise definition of a circle.
+
+Therefore, sense 1 is the most appropriate.
+
+A: 1",1.0
+455,milk,glass of milk,"{""n"": [""a white nutritious liquid secreted by mammals and used as food by human beings"", ""produced by mammary glands of female mammals for feeding their young"", ""a river that rises in the Rockies in northwestern Montana and flows eastward to become a tributary of the Missouri River"", ""any of several nutritive milklike liquids""], ""v"": [""take milk from female mammals"", ""exploit as much as possible"", ""add milk to""]}",image.3854.jpg,n,4.0,"Text Context: I need milk for the recipe.
+Ambiguous Word: milk
+---
+Sense List:
+ 1. a white nutritious liquid secreted by mammals and used as food by human beings
+ 2. produced by mammary glands of female mammals for feeding their young
+ 3. a river that rises in the Rockies in northwestern Montana and flows eastward to become a tributary of the Missouri River
+ 4. any of several nutritive milklike liquids
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The text context is ""I need milk for the recipe."" The image shows a glass of white liquid, which is clearly milk as a beverage. The recipe context further confirms this.
+
+Sense 1, ""a white nutritious liquid secreted by mammals and used as food by human beings,"" is the most appropriate sense. It directly relates to the image and the context of needing it for a recipe.
+
+A: 1",1.0
+462,diamond,diamond field,"{""n"": [""a transparent piece of diamond that has been cut and polished and is valued as a precious gem"", ""very hard native crystalline carbon valued as a gem"", ""a parallelogram with four equal sides; an oblique-angled equilateral parallelogram"", ""a playing card in the minor suit that has one or more red rhombuses on it"", ""the area of a baseball field that is enclosed by 3 bases and home plate"", ""the baseball playing field""]}",image.8095.jpg,n,5.0,"Text Context: The players gathered on the diamond before the game.
+Ambiguous Word: diamond
+---
+Sense List:
+ 1. a transparent piece of diamond that has been cut and polished and is valued as a precious gem
+ 2. very hard native crystalline carbon valued as a gem
+ 3. a parallelogram with four equal sides; an oblique-angled equilateral parallelogram
+ 4. a playing card in the minor suit that has one or more red rhombuses on it
+ 5. the area of a baseball field that is enclosed by 3 bases and home plate
+ 6. the baseball playing field
+---
+You are an expert linguistic annotator. An ambiguous word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the 'Text Context' and the image. Leverage both context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no additional background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The text context mentions ""players gathered on the diamond before the game."" The image shows a baseball field with players on it. Therefore, the ""diamond"" refers to the baseball playing field.
+
+A: 6",6.0

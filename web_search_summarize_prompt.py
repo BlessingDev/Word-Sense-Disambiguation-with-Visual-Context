@@ -26,9 +26,9 @@ You are a linguistic expert. Given 'Ambiguous Word', 'Context Phrase', and 'Enti
 ---
 Searched Web Content:
 - Title: {web_title}
-- {text_context}
+{web_content}
 ---
-First, Refer to the 'Entities in Image' section to understand the content of the image. Then, read the 'Searched Web Content' section carefully and judge whether it is related to both '{word}' and '{context}'. If there is some helpful information, generate a word 'Relevant', otherwise generate a word 'Not Relevant'. If the first line is 'Relevant', generate a summary of the helpful information in the 'Searched Web Content' that can explain the context of the image in relation to the 'Ambiguous Word'. If the first line is 'Not Relevant', do not generate any summary and end your generation.
+First, Refer to the 'Entities in Image' section to understand the content of the image. Then, read the 'Searched Web Content' section carefully and judge whether it is related to '{word}' in '{context}' and Entity '{entities}'. If there is some helpful information, generate a word 'Relevant', otherwise generate a word 'Not Relevant'. If the first line is 'Relevant', generate a summary of the helpful information in the 'Searched Web Content' that can explain the context of the image in relation to the 'Ambiguous Word'. If the first line is 'Not Relevant', do not generate any summary and end your generation.
 """
 
 prompt_sentence_template="""Ambiguous word: {word}
@@ -40,9 +40,22 @@ You are a linguistic expert. Given 'Ambiguous Word', 'Context Sentence', and 'En
 ---
 Searched Web Content:
 - Title: {web_title}
-- {text_context}
+{web_content}
 ---
 First, Refer to the 'Entities in Image' section to understand the content of the image. Then, read the 'Searched Web Content' section carefully and judge whether it is related to the usage of '{word}' in '{context}'. If there is some helpful information, generate a word 'Relevant', otherwise generate a word 'Not Relevant'. If the first line is 'Relevant', generate a summary of the helpful information in the 'Searched Web Content' that can explain the context of the image in relation to the 'Ambiguous Word'. If the first line is 'Not Relevant', do not generate any summary and end your generation.
+"""
+
+prompt_ambig_sentence_template="""Ambiguous word: {word}
+Entites in Image: 
+{entities}
+---
+You are a linguistic expert. Given 'Ambiguous Word', and 'Entities in Image', your task is to extract and summarize any additional and helpful information from the given 'Searched Web Content' that can help explain the context of the image in relation to the 'Ambiguous Word'. Do not try to describe the image itself if there is no relevant information in the 'Searched Web Content' that can be helpful for understanding the 'Ambiguous Word'.
+---
+Searched Web Content:
+- Title: {web_title}
+{web_content}
+---
+First, Refer to the 'Entities in Image' section to understand the content of the image. Then, read the 'Searched Web Content' section carefully and judge whether it is related to the '{word}'. If there is some helpful information, generate a word 'Relevant', otherwise generate a word 'Not Relevant'. If the first line is 'Relevant', generate a summary of the helpful information in the 'Searched Web Content' that can explain the context of the image in relation to the 'Ambiguous Word'. If the first line is 'Not Relevant', do not generate any summary and end your generation.
 """
 
 def main(args):
@@ -64,6 +77,8 @@ def main(args):
         prompt_template = prompt_phrase_template
     elif args.prompt_type == "sentence":
         prompt_template = prompt_sentence_template
+    elif args.prompt_type == "ambig_sentence":
+        prompt_template = prompt_ambig_sentence_template
     
     for index, row in tqdm(wsd_test_df.iterrows(), total=len(wsd_test_df)):
         word_index = row["word_index"]
@@ -71,11 +86,12 @@ def main(args):
         retrieved_urls = json.loads(retrieved_rows["web_urls"].iloc[0])
         retrieved_entities = json.loads(retrieved_rows["entities"].iloc[0])
         if len(retrieved_entities) > 0:
-            valid_entites = [retrieved_entities[0]["description"]]
-            for entity in retrieved_entities[1:]:
-                if entity["score"] >= 1.0:
+            entity_score_threshold = 0.8
+            valid_entites = []
+            for entity in retrieved_entities:
+                if entity["score"] >= entity_score_threshold:
                     valid_entites.append(entity["description"])
-            valid_entites = "\n".join([f"- {entity}" for entity in valid_entites])
+            valid_entites = ", ".join([f"{entity}" for entity in valid_entites])
         else:
             valid_entites = ""
         
@@ -90,12 +106,12 @@ def main(args):
             else:
                 web_content = extract_clean_text(cur_url)
             
-            if web_content is not None:
+            if web_content is not None and len(web_content) > 100:
                 web_content_split = web_content.split('\n')
                     
                 web_content_list = list()
                 cur_content = ""
-                content_threshold = 4096
+                content_threshold = 2048
                 for line in web_content_split:
                     # 현재 line이 threshold를 넘는지 확인
                     if len(line.strip()) < content_threshold:
@@ -110,12 +126,16 @@ def main(args):
                     web_content_list.append(cur_content)
                     
                 for content in web_content_list:
+                    if args.prompt_type == "ambig_sentence":
+                        prompt = prompt_template.format(word=row["word"], entities=valid_entites, web_title=cur_title, web_content=content)
+                    else:
+                        prompt = prompt_template.format(word=row["word"], context=row["word_phrase"], entities=valid_entites, web_title=cur_title, web_content=content)
                     df_dict["word_index"].append(word_index)
                     df_dict["word"].append(row["word"])
                     df_dict["word_phrase"].append(row["word_phrase"])
                     df_dict["senses"].append(row["senses"])
                     df_dict["gold_image"].append(row["gold_image"])
-                    df_dict["prompt"].append(prompt_template.format(word=row["word"], entities=valid_entites, context=row["word_phrase"], web_title=cur_title, text_context=content))
+                    df_dict["prompt"].append(prompt)
                 retrieved_urls_num += 1
             else:
                 none_page_titles.append(cur_title)
@@ -124,12 +144,16 @@ def main(args):
         # 마지막으로 3개 추가하는 동안 등장한 None 페이지 제목들을 한꺼번에 요약하도록 프롬프트 생성
         if len(none_page_titles) > 0:
             none_page_titles_str = "\n".join([f"- {title}" for title in none_page_titles])
+            if args.prompt_type == "ambig_sentence":
+                prompt = prompt_template.format(word=row["word"], entities=valid_entites, web_title=none_page_titles_str, web_content="")
+            else:
+                prompt = prompt_template.format(word=row["word"], context=row["word_phrase"], entities=valid_entites, web_title=none_page_titles_str, web_content="")
             df_dict["word_index"].append(word_index)
             df_dict["word"].append(row["word"])
             df_dict["word_phrase"].append(row["word_phrase"])
             df_dict["senses"].append(row["senses"])
             df_dict["gold_image"].append(row["gold_image"])
-            df_dict["prompt"].append(prompt_template.format(word=row["word"], entities=valid_entites, context=row["word_phrase"], web_title="etc.", text_context=none_page_titles_str))
+            df_dict["prompt"].append(prompt)
         
     inference_df = pd.DataFrame(df_dict)
     inference_df.to_csv(args.output_path, index=False)
@@ -140,7 +164,7 @@ if __name__ == "__main__":
     parser.add_argument("--wsd_set_path", type=str, default="/workspace/data/test_set_process/wsd_set_entire.csv")
     parser.add_argument("--retrieval_result_path", type=str, default="/workspace/data/test_set_process/wsd_set_entire_google_vision_result.csv")
     parser.add_argument("--output_path", type=str, default="/workspace/data/test_set_process/wsd_set_entire_summarize_prompt.csv")
-    parser.add_argument("--prompt_type", type=str, default="phrase", choices=["phrase", "sentence"], help="Whether to use the original word phrase or the generated ambiguous sentence as context in the prompt")
+    parser.add_argument("--prompt_type", type=str, default="phrase", choices=["phrase", "sentence", "ambig_sentence"], help="Whether to use the original word phrase or the generated ambiguous sentence as context in the prompt")
     args = parser.parse_args()
     
     main(args)

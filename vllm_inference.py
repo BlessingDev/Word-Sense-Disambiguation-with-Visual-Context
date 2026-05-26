@@ -9,6 +9,7 @@ from transformers import AutoTokenizer
 from vllm import LLM, EngineArgs, SamplingParams
 from vllm.multimodal.image import convert_image_mode
 from vllm.lora.request import LoRARequest
+from vllm.config import ReasoningConfig
 
 from PIL import Image
 import pandas as pd
@@ -136,6 +137,8 @@ def inference_image_zeroshot_gemma3(args):
     answers = []
     valid_indices = []
     for split_idx, data_split in enumerate(data_splits):
+        print("Completed inference for split {}/{}.".format(split_idx + 1, len(data_splits)))
+        
         inputs = list()
         for idx, row in data_split.iterrows():
             prompts = ("<bos><start_of_turn>user\n"
@@ -170,9 +173,7 @@ def inference_image_zeroshot_gemma3(args):
             generated_text = o.outputs[0].text
             answers.append(generated_text)
         
-        print("Completed inference for split {}/{}.".format(split_idx + 1, len(data_splits)))
         print("Answer Example: {}".format(answers[-1]))
-
     
     data_df.loc[valid_indices, "generated_text"] = answers
     data_df.to_csv(args.output_file_path, index=False)
@@ -199,6 +200,7 @@ def inference_text_gemma3(args):
     answers = []
     valid_indices = []
     for split_idx, data_split in enumerate(data_splits):
+        print("Completed inference for split {}/{}.".format(split_idx + 1, len(data_splits)))
         inputs = list()
         for idx, row in data_split.iterrows():
             prompts = ("<bos><start_of_turn>user\n"
@@ -223,7 +225,6 @@ def inference_text_gemma3(args):
             generated_text = o.outputs[0].text
             answers.append(generated_text)
         
-        print("Completed inference for split {}/{}.".format(split_idx + 1, len(data_splits)))
         print("Answer Example: {}".format(answers[-1]))
 
     
@@ -236,7 +237,10 @@ def inference_image_zeroshot_qwen3(args):
     data_df = pd.read_csv(args.inference_set_path)
     
     #model_name = "Qwen/Qwen3-VL-8B-Instruct"
-
+    reasoning_config = ReasoningConfig(
+        reasoning_start_str="<think>",
+        reasoning_end_str="</think>"
+    )
     mm_limit = {"image": 1}
     engine_args = EngineArgs(
         model=args.model_checkpoint,
@@ -248,6 +252,7 @@ def inference_image_zeroshot_qwen3(args):
             "fps": 1,
         },
         limit_mm_per_prompt=mm_limit,
+        reasoning_config=reasoning_config
     )
     default_limits = {"image": 0, "video": 0, "audio": 0, "vision_chunk": 0}
     engine_args.limit_mm_per_prompt = default_limits | dict(
@@ -292,7 +297,8 @@ def inference_image_zeroshot_qwen3(args):
         
         # Greedy Decoding
         sampling_params = SamplingParams(temperature=0.0,
-                                        max_tokens=2048,
+                                        thinking_token_budget=2048,
+                                        max_tokens=4096,
                                         stop_token_ids=None)
         
         outputs = llm.generate(inputs, sampling_params=sampling_params)
@@ -335,7 +341,7 @@ def inference_zeroshot_qwen3(args):
     for split_idx, data_split in enumerate(data_splits):
         inputs = list()
         for idx, row in data_split.iterrows():
-            prompts = ("<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n"
+            prompts = ("<|im_start|>system\nYou are a helpful assistant.\n"
             f"<|im_start|>user\n"
             f"{row['prompt']}<|im_end|>\n"
             "<|im_start|>assistant\n")
@@ -370,6 +376,10 @@ def inference_image_zeroshot_exaone4d5(args):
     data_df = pd.read_csv(args.inference_set_path)
     
     #model_name = "Qwen/Qwen3-VL-8B-Instruct"
+    reasoning_config = ReasoningConfig(
+        reasoning_start_str="<think>",
+        reasoning_end_str="</think>"
+    )
 
     mm_limit = {"image": 1}
     engine_args = EngineArgs(
@@ -383,6 +393,7 @@ def inference_image_zeroshot_exaone4d5(args):
             "fps": 1,
         },
         limit_mm_per_prompt=mm_limit,
+        reasoning_config=reasoning_config
     )
     default_limits = {"image": 0, "video": 0, "audio": 0, "vision_chunk": 0}
     engine_args.limit_mm_per_prompt = default_limits | dict(
@@ -426,7 +437,8 @@ def inference_image_zeroshot_exaone4d5(args):
         
         # Greedy Decoding
         sampling_params = SamplingParams(temperature=0.0,
-                                        max_tokens=2048,
+                                        thinking_token_budget=2048,
+                                        max_tokens=2304,
                                         stop_token_ids=None)
         
         outputs = llm.generate(inputs, sampling_params=sampling_params)
@@ -448,13 +460,17 @@ def inference_zeroshot_exaone4d5(args):
     # The implementation would be similar to inference_image_dataset_gemma3, but the prompts and multi-modal data format would be adjusted according to Exaone-4.5's requirements.
     data_df = pd.read_csv(args.inference_set_path)
     
-    #model_name = "Qwen/Qwen3-VL-8B-Instruct"
+    reasoning_config = ReasoningConfig(
+        reasoning_start_str="<think>",
+        reasoning_end_str="</think>"
+    )
 
     engine_args = EngineArgs(
         model=args.model_checkpoint,
         dtype="bfloat16",
         max_model_len=8192,
         max_num_seqs=2,
+        reasoning_config=reasoning_config
     )
     engine_args.seed = args.seed
     engine_args.tensor_parallel_size = 4
@@ -483,7 +499,8 @@ def inference_zeroshot_exaone4d5(args):
         
         # Greedy Decoding
         sampling_params = SamplingParams(temperature=0.0,
-                                        max_tokens=2048,
+                                        thinking_token_budget=2048,
+                                        max_tokens=2304,
                                         stop_token_ids=None)
         
         outputs = llm.generate(inputs, sampling_params=sampling_params)

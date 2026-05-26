@@ -1,0 +1,184 @@
+word_index,word,word_phrase,senses,gold_image,gold_pos,gold_sense,prompt
+34,seat,cyclist seat,"{""n"": [""a space reserved for sitting (as in a theater or on a train or airplane)"", ""the fleshy part of the human body that you sit on"", ""furniture that is designed for sitting on"", ""any support where you can sit (especially the part of a chair or bench etc. on which you sit)"", ""a center of authority (as a city from which authority is exercised)"", ""the location (metaphorically speaking) where something is based"", ""the legal right to sit as a member in a legislative or similar body"", ""a part of a machine that supports or guides another part"", ""the cloth covering for the buttocks""], ""v"": [""show to a seat; assign a seat for"", ""be able to seat"", ""place ceremoniously or formally in an office or position"", ""put a seat on a chair"", ""provide with seats"", ""place or attach firmly in or on a base"", ""place in or on a seat""]}",image.4727.jpg,n,4,"the noun 'seat' that can be interpreted as:
+ 1. a space reserved for sitting (as in a theater or on a train or airplane)
+ 2. the fleshy part of the human body that you sit on
+ 3. furniture that is designed for sitting on
+ 4. any support where you can sit (especially the part of a chair or bench etc. on which you sit)
+ 5. a center of authority (as a city from which authority is exercised)
+ 6. the location (metaphorically speaking) where something is based
+ 7. the legal right to sit as a member in a legislative or similar body
+ 8. a part of a machine that supports or guides another part
+ 9. the cloth covering for the buttocks
+---
+Generate a natural ambiguous sentence using polysemous word 'seat' once so that the sentence can be interpreted in more than one meaning.
+In the generated sentence, the noun 'seat' should be interpreted as 'any support where you can sit (especially the part of a chair or bench etc. on which you sit)'. However, the sentence should not imply any of the given definitions too strongly. The sentence should be natural and commonly used in daily life.
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence."
+47,ecstasy,ecstasy feeling,"{""n"": [""a state of being carried away by overwhelming emotion; - Charles Dickens"", ""a state of elated bliss"", ""street names for methylenedioxymethamphetamine""]}",image.4837.jpg,n,1,"the noun 'ecstasy' that can be interpreted as:
+ 1. a state of being carried away by overwhelming emotion; - Charles Dickens
+ 2. a state of elated bliss
+ 3. street names for methylenedioxymethamphetamine
+---
+Generate a natural ambiguous sentence using polysemous word 'ecstasy' once so that the sentence can be interpreted in more than one meaning.
+In the generated sentence, the noun 'ecstasy' should be interpreted as 'a state of being carried away by overwhelming emotion; - Charles Dickens'. However, the sentence should not imply any of the given definitions too strongly. The sentence should be natural and commonly used in daily life.
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence."
+83,cinnabar,cinnabar bug,"{""n"": [""a heavy reddish mineral consisting of mercuric sulfide; the chief source of mercury"", ""large red-and-black European moth; larvae feed on leaves of ragwort; introduced into United States to control ragwort""], ""a"": [""of a vivid red to reddish-orange color""]}",image.5163.jpg,n,2,"the noun 'cinnabar' that can be interpreted as:
+ 1. a heavy reddish mineral consisting of mercuric sulfide; the chief source of mercury
+ 2. large red-and-black European moth; larvae feed on leaves of ragwort; introduced into United States to control ragwort
+---
+Generate a natural ambiguous sentence using polysemous word 'cinnabar' once so that the sentence can be interpreted in more than one meaning.
+In the generated sentence, the noun 'cinnabar' should be interpreted as 'large red-and-black European moth; larvae feed on leaves of ragwort; introduced into United States to control ragwort'. However, the sentence should not imply any of the given definitions too strongly. The sentence should be natural and commonly used in daily life.
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence."
+91,caper,caper show,"{""n"": [""any of numerous plants of the genus Capparis"", ""pickled flower buds used as a pungent relish in various dishes and sauces"", ""a crime (especially a robbery)"", ""a playful leap or hop"", ""gay or light-hearted recreational activity for diversion or amusement"", ""a ludicrous or grotesque act done for fun and amusement""], ""v"": [""jump about playfully""]}",image.5234.jpg,n,5,"the noun 'caper' that can be interpreted as:
+ 1. any of numerous plants of the genus Capparis
+ 2. pickled flower buds used as a pungent relish in various dishes and sauces
+ 3. a crime (especially a robbery)
+ 4. a playful leap or hop
+ 5. gay or light-hearted recreational activity for diversion or amusement
+ 6. a ludicrous or grotesque act done for fun and amusement
+---
+Generate a natural ambiguous sentence using polysemous word 'caper' once so that the sentence can be interpreted in more than one meaning.
+In the generated sentence, the noun 'caper' should be interpreted as 'gay or light-hearted recreational activity for diversion or amusement'. However, the sentence should not imply any of the given definitions too strongly. The sentence should be natural and commonly used in daily life.
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence."
+117,paper,news paper,"{""n"": [""a material made of cellulose pulp derived mainly from wood or rags or certain grasses"", ""an essay (especially one written as an assignment)"", ""a daily or weekly publication on folded sheets; contains news and articles and advertisements"", ""a medium for written communication"", ""a scholarly article describing the results of observations or stating hypotheses"", ""a business firm that publishes newspapers"", ""the physical object that is the product of a newspaper publisher""], ""v"": [""cover with paper"", ""cover with wallpaper""]}",image.5463.jpg,n,7,"the noun 'paper' that can be interpreted as:
+ 1. a material made of cellulose pulp derived mainly from wood or rags or certain grasses
+ 2. an essay (especially one written as an assignment)
+ 3. a daily or weekly publication on folded sheets; contains news and articles and advertisements
+ 4. a medium for written communication
+ 5. a scholarly article describing the results of observations or stating hypotheses
+ 6. a business firm that publishes newspapers
+ 7. the physical object that is the product of a newspaper publisher
+---
+Generate a natural ambiguous sentence using polysemous word 'paper' once so that the sentence can be interpreted in more than one meaning.
+In the generated sentence, the noun 'paper' should be interpreted as 'the physical object that is the product of a newspaper publisher'. However, the sentence should not imply any of the given definitions too strongly. The sentence should be natural and commonly used in daily life.
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence."
+143,mate,mate tea,"{""n"": [""the officer below the master on a commercial ship"", ""a fellow member of a team"", ""the partner of an animal (especially a sexual partner)"", ""a person's partner in marriage"", ""an exact duplicate"", ""one of a pair"", ""South American holly; leaves used in making a drink like tea"", ""informal term for a friend of the same sex"", ""South American tea-like drink made from leaves of a South American holly called mate"", ""a chess move constituting an inescapable and indefensible attack on the opponent's king""], ""v"": [""engage in sexual intercourse"", ""bring two objects, ideas, or people together"", ""place an opponent's king under an attack from which it cannot escape and thus ending the game""]}",image.5675.jpg,n,9,"the noun 'mate' that can be interpreted as:
+ 1. the officer below the master on a commercial ship
+ 2. a fellow member of a team
+ 3. the partner of an animal (especially a sexual partner)
+ 4. a person's partner in marriage
+ 5. an exact duplicate
+ 6. one of a pair
+ 7. South American holly; leaves used in making a drink like tea
+ 8. informal term for a friend of the same sex
+ 9. South American tea-like drink made from leaves of a South American holly called mate
+ 10. a chess move constituting an inescapable and indefensible attack on the opponent's king
+---
+Generate a natural ambiguous sentence using polysemous word 'mate' once so that the sentence can be interpreted in more than one meaning.
+In the generated sentence, the noun 'mate' should be interpreted as 'South American tea-like drink made from leaves of a South American holly called mate'. However, the sentence should not imply any of the given definitions too strongly. The sentence should be natural and commonly used in daily life.
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence."
+160,treat,medical treat,"{""n"": [""something considered choice to eat"", ""an occurrence that causes special pleasure or delight""], ""v"": [""interact in a certain way"", ""subject to a process or treatment, with the aim of readying for some purpose, improving, or remedying a condition"", ""provide treatment for"", ""act on verbally or in some form of artistic expression"", ""provide with a gift or entertainment"", ""provide with choice or abundant food or drink"", ""engage in negotiations in order to reach an agreement"", ""regard or consider in a specific way""]}",image.5812.jpg,v,3,"the verb 'treat' that can be interpreted as:
+ 1. interact in a certain way
+ 2. subject to a process or treatment, with the aim of readying for some purpose, improving, or remedying a condition
+ 3. provide treatment for
+ 4. act on verbally or in some form of artistic expression
+ 5. provide with a gift or entertainment
+ 6. provide with choice or abundant food or drink
+ 7. engage in negotiations in order to reach an agreement
+ 8. regard or consider in a specific way
+---
+Generate a natural ambiguous sentence using polysemous word 'treat' once so that the sentence can be interpreted in more than one meaning.
+In the generated sentence, the verb 'treat' should be interpreted as 'provide treatment for'. However, the sentence should not imply any of the given definitions too strongly. The sentence should be natural and commonly used in daily life.
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence."
+177,folder,computer folder,"{""n"": [""a small book usually having a paper cover"", ""covering that is folded over to protect the contents""]}",image.423.jpg,n,2,"the noun 'folder' that can be interpreted as:
+ 1. a small book usually having a paper cover
+ 2. covering that is folded over to protect the contents
+---
+Generate a natural ambiguous sentence using polysemous word 'folder' once so that the sentence can be interpreted in more than one meaning.
+In the generated sentence, the noun 'folder' should be interpreted as 'covering that is folded over to protect the contents'. However, the sentence should not imply any of the given definitions too strongly. The sentence should be natural and commonly used in daily life.
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence."
+209,dressing,dressing compost,"{""n"": [""savory dressings for salads; basically of two kinds: either the thin French or vinaigrette type or the creamy mayonnaise type"", ""a mixture of seasoned ingredients used to stuff meats and vegetables"", ""making fertile as by applying fertilizer or manure"", ""a cloth covering for a wound or sore"", ""processes in the conversion of rough hides into leather"", ""the activity of getting dressed; putting on clothes"", ""the act of applying a bandage""], ""v"": [""put on clothes"", ""provide with clothes or put clothes on"", ""put a finish on"", ""dress in a certain manner"", ""dress or groom with elaborate care"", ""kill and prepare for market or consumption"", ""arrange in ranks"", ""decorate (food), as with parsley or other ornamental foods"", ""provide with decoration"", ""put a dressing on"", ""cultivate, tend, and cut back the growth of"", ""cut down rough-hewn (lumber) to standard thickness and width"", ""convert into leather"", ""apply a bandage or medication to"", ""give a neat appearance to"", ""arrange attractively""]}",image.6203.jpg,v,11,"the verb 'dressing' that can be interpreted as:
+ 1. put on clothes
+ 2. provide with clothes or put clothes on
+ 3. put a finish on
+ 4. dress in a certain manner
+ 5. dress or groom with elaborate care
+ 6. kill and prepare for market or consumption
+ 7. arrange in ranks
+ 8. decorate (food), as with parsley or other ornamental foods
+ 9. provide with decoration
+ 10. put a dressing on
+ 11. cultivate, tend, and cut back the growth of
+ 12. cut down rough-hewn (lumber) to standard thickness and width
+ 13. convert into leather
+ 14. apply a bandage or medication to
+ 15. give a neat appearance to
+ 16. arrange attractively
+---
+Generate a natural ambiguous sentence using polysemous word 'dressing' once so that the sentence can be interpreted in more than one meaning.
+In the generated sentence, the verb 'dressing' should be interpreted as 'cultivate, tend, and cut back the growth of'. However, the sentence should not imply any of the given definitions too strongly. The sentence should be natural and commonly used in daily life.
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence."
+223,card,greeting card,"{""n"": [""one of a set of small pieces of stiff paper marked in various ways and used for playing games or for telling fortunes"", ""a card certifying the identity of the bearer"", ""a rectangular piece of stiff paper used to send messages (may have printed greetings or pictures)"", ""thin cardboard, usually rectangular"", ""a witty amusing person who makes jokes"", ""a sign posted in a public place as an advertisement"", ""a printed or written greeting that is left to indicate that you have visited"", ""(golf) a record of scores (as in golf)"", ""a list of dishes available at a restaurant"", ""(baseball) a list of batters in the order in which they will bat"", ""a printed circuit that can be inserted into expansion slots in a computer to increase the computer's capabilities""], ""v"": [""separate the fibers of"", ""ask someone for identification to determine whether he or she is old enough to consume liquor""]}",image.6323.jpg,n,7,"the noun 'card' that can be interpreted as:
+ 1. one of a set of small pieces of stiff paper marked in various ways and used for playing games or for telling fortunes
+ 2. a card certifying the identity of the bearer
+ 3. a rectangular piece of stiff paper used to send messages (may have printed greetings or pictures)
+ 4. thin cardboard, usually rectangular
+ 5. a witty amusing person who makes jokes
+ 6. a sign posted in a public place as an advertisement
+ 7. a printed or written greeting that is left to indicate that you have visited
+ 8. (golf) a record of scores (as in golf)
+ 9. a list of dishes available at a restaurant
+ 10. (baseball) a list of batters in the order in which they will bat
+ 11. a printed circuit that can be inserted into expansion slots in a computer to increase the computer's capabilities
+---
+Generate a natural ambiguous sentence using polysemous word 'card' once so that the sentence can be interpreted in more than one meaning.
+In the generated sentence, the noun 'card' should be interpreted as 'a printed or written greeting that is left to indicate that you have visited'. However, the sentence should not imply any of the given definitions too strongly. The sentence should be natural and commonly used in daily life.
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence."
+284,vesta,vesta galaxy,"{""n"": [""(Roman mythology) goddess of the hearth and its fire whose flame was tended by vestal virgins; counterpart of Greek Hestia"", ""the brightest asteroid but the fourth to be discovered""]}",image.6815.jpg,n,2,"the noun 'vesta' that can be interpreted as:
+ 1. (Roman mythology) goddess of the hearth and its fire whose flame was tended by vestal virgins; counterpart of Greek Hestia
+ 2. the brightest asteroid but the fourth to be discovered
+---
+Generate a natural ambiguous sentence using polysemous word 'vesta' once so that the sentence can be interpreted in more than one meaning.
+In the generated sentence, the noun 'vesta' should be interpreted as 'the brightest asteroid but the fourth to be discovered'. However, the sentence should not imply any of the given definitions too strongly. The sentence should be natural and commonly used in daily life.
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence."
+285,storage,computer storage,"{""n"": [""the act of storing something"", ""a depository for goods"", ""the commercial enterprise of storing goods and materials"", ""(computer science) the process of storing information in a computer memory or on a magnetic tape or disk"", ""an electronic memory device"", ""depositing in a warehouse""]}",image.6821.jpg,n,5,"the noun 'storage' that can be interpreted as:
+ 1. the act of storing something
+ 2. a depository for goods
+ 3. the commercial enterprise of storing goods and materials
+ 4. (computer science) the process of storing information in a computer memory or on a magnetic tape or disk
+ 5. an electronic memory device
+ 6. depositing in a warehouse
+---
+Generate a natural ambiguous sentence using polysemous word 'storage' once so that the sentence can be interpreted in more than one meaning.
+In the generated sentence, the noun 'storage' should be interpreted as 'an electronic memory device'. However, the sentence should not imply any of the given definitions too strongly. The sentence should be natural and commonly used in daily life.
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence."
+302,absinthe,fennel absinthe,"{""n"": [""aromatic herb of temperate Eurasia and North Africa having a bitter taste used in making the liqueur absinthe"", ""strong green liqueur flavored with wormwood and anise""]}",image.1705.jpg,n,1,"the noun 'absinthe' that can be interpreted as:
+ 1. aromatic herb of temperate Eurasia and North Africa having a bitter taste used in making the liqueur absinthe
+ 2. strong green liqueur flavored with wormwood and anise
+---
+Generate a natural ambiguous sentence using polysemous word 'absinthe' once so that the sentence can be interpreted in more than one meaning.
+In the generated sentence, the noun 'absinthe' should be interpreted as 'aromatic herb of temperate Eurasia and North Africa having a bitter taste used in making the liqueur absinthe'. However, the sentence should not imply any of the given definitions too strongly. The sentence should be natural and commonly used in daily life.
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence."
+335,force,force in baseball,"{""n"": [""a powerful effect or influence"", ""(physics) the influence that produces a change in a physical quantity"", ""physical energy or intensity"", ""group of people willing to obey orders"", ""a unit that is part of some military service"", ""an act of aggression (as one against a person who resists)"", ""one possessing or exercising power or influence or authority"", ""a group of people having the power of effective action"", ""(of a law) having legal validity"", ""a putout of a base runner who is required to run; the putout is accomplished by holding the ball while touching the base to which the runner must advance before the runner reaches that base""], ""v"": [""to cause to do through pressure or necessity, by physical, moral or intellectual means :"", ""urge or force (a person) to an action; constrain or motivate"", ""move with force,"", ""impose urgently, importunately, or inexorably"", ""squeeze like a wedge into a tight space"", ""force into or from an action or state, either physically or metaphorically"", ""cause to move by pulling"", ""do forcibly; exert force"", ""take by force""]}",image.7182.jpg,v,6,"the verb 'force' that can be interpreted as:
+ 1. to cause to do through pressure or necessity, by physical, moral or intellectual means :
+ 2. urge or force (a person) to an action; constrain or motivate
+ 3. move with force,
+ 4. impose urgently, importunately, or inexorably
+ 5. squeeze like a wedge into a tight space
+ 6. force into or from an action or state, either physically or metaphorically
+ 7. cause to move by pulling
+ 8. do forcibly; exert force
+ 9. take by force
+---
+Generate a natural ambiguous sentence using polysemous word 'force' once so that the sentence can be interpreted in more than one meaning.
+In the generated sentence, the verb 'force' should be interpreted as 'force into or from an action or state, either physically or metaphorically'. However, the sentence should not imply any of the given definitions too strongly. The sentence should be natural and commonly used in daily life.
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence."
+428,crop,cattle crop,"{""n"": [""the yield from plants in a single growing season"", ""a cultivated plant that is grown commercially on a large scale"", ""a collection of people or things appearing together"", ""the output of something in a season"", ""the stock or handle of a whip"", ""a pouch in many birds and some lower animals that resembles a stomach for storage and preliminary maceration of food""], ""v"": [""cut short"", ""prepare for crops"", ""yield crops"", ""let feed in a field or pasture or meadow"", ""feed as in a meadow or pasture"", ""cultivate, tend, and cut back the growth of""]}",image.7847.jpg,v,5,"the verb 'crop' that can be interpreted as:
+ 1. cut short
+ 2. prepare for crops
+ 3. yield crops
+ 4. let feed in a field or pasture or meadow
+ 5. feed as in a meadow or pasture
+ 6. cultivate, tend, and cut back the growth of
+---
+Generate a natural ambiguous sentence using polysemous word 'crop' once so that the sentence can be interpreted in more than one meaning.
+In the generated sentence, the verb 'crop' should be interpreted as 'feed as in a meadow or pasture'. However, the sentence should not imply any of the given definitions too strongly. The sentence should be natural and commonly used in daily life.
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence."
+455,milk,glass of milk,"{""n"": [""a white nutritious liquid secreted by mammals and used as food by human beings"", ""produced by mammary glands of female mammals for feeding their young"", ""a river that rises in the Rockies in northwestern Montana and flows eastward to become a tributary of the Missouri River"", ""any of several nutritive milklike liquids""], ""v"": [""take milk from female mammals"", ""exploit as much as possible"", ""add milk to""]}",image.3854.jpg,n,1,"the noun 'milk' that can be interpreted as:
+ 1. a white nutritious liquid secreted by mammals and used as food by human beings
+ 2. produced by mammary glands of female mammals for feeding their young
+ 3. a river that rises in the Rockies in northwestern Montana and flows eastward to become a tributary of the Missouri River
+ 4. any of several nutritive milklike liquids
+---
+Generate a natural ambiguous sentence using polysemous word 'milk' once so that the sentence can be interpreted in more than one meaning.
+In the generated sentence, the noun 'milk' should be interpreted as 'a white nutritious liquid secreted by mammals and used as food by human beings'. However, the sentence should not imply any of the given definitions too strongly. The sentence should be natural and commonly used in daily life.
+Suggest your final sentence in the format 'Generated Sentence: [your sentence]'. Do not include any explanation, and end your generation after providing the sentence."
