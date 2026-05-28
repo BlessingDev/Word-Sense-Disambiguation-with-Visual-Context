@@ -289,7 +289,8 @@ def inference_image_zeroshot_qwen3(args):
                     "prompt": prompts,
                     "multi_modal_data": {
                         "image": convert_image_mode(image_file, "RGB")
-                    }
+                    },
+                    "thinking": True
                 })
                 valid_indices.append(idx)
             else:
@@ -321,11 +322,16 @@ def inference_zeroshot_qwen3(args):
     data_df = pd.read_csv(args.inference_set_path)
     
     #model_name = "Qwen/Qwen3-VL-8B-Instruct"
+    reasoning_config = ReasoningConfig(
+        reasoning_start_str="<think>",
+        reasoning_end_str="</think>"
+    )
 
     engine_args = EngineArgs(
         model=args.model_checkpoint,
         max_model_len=8192,
         max_num_seqs=2,
+        reasoning_config=reasoning_config
     )
     engine_args.seed = args.seed
     engine_args.tensor_parallel_size = 4
@@ -353,7 +359,8 @@ def inference_zeroshot_qwen3(args):
         
         # Greedy Decoding
         sampling_params = SamplingParams(temperature=0.0,
-                                        max_tokens=2048,
+                                        thinking_token_budget=2048,
+                                        max_tokens=4096,
                                         stop_token_ids=None)
         
         outputs = llm.generate(inputs, sampling_params=sampling_params)

@@ -46,16 +46,17 @@ First, Refer to the 'Entities in Image' section to understand the content of the
 """
 
 prompt_ambig_sentence_template="""Ambiguous word: {word}
+Context Sentence: {context}
 Entites in Image: 
 {entities}
 ---
-You are a linguistic expert. Given 'Ambiguous Word', and 'Entities in Image', your task is to extract and summarize any additional and helpful information from the given 'Searched Web Content' that can help explain the context of the image in relation to the 'Ambiguous Word'. Do not try to describe the image itself if there is no relevant information in the 'Searched Web Content' that can be helpful for understanding the 'Ambiguous Word'.
+You are a linguistic expert. Given 'Ambiguous Word', 'Context Sentence', and 'Entities in Image', your task is to extract and summarize any additional and helpful information from the given 'Searched Web Content' that can help explain the context of the image in relation to the 'Ambiguous Word'. Do not try to describe the image itself if there is no relevant information in the 'Searched Web Content' that can be helpful for understanding the 'Ambiguous Word'.
 ---
 Searched Web Content:
 - Title: {web_title}
 {web_content}
 ---
-First, Refer to the 'Entities in Image' section to understand the content of the image. Then, read the 'Searched Web Content' section carefully and judge whether it is related to the '{word}'. If there is some helpful information, generate a word 'Relevant', otherwise generate a word 'Not Relevant'. If the first line is 'Relevant', generate a summary of the helpful information in the 'Searched Web Content' that can explain the context of the image in relation to the 'Ambiguous Word'. If the first line is 'Not Relevant', do not generate any summary and end your generation.
+First, Refer to the 'Entities in Image' section to understand the content of the image. Then, read the 'Searched Web Content' section carefully and think to judge whether 1) it is helpful to determine the meaning of '{word}' in '{context}' or 2) it is helpful to the image related to '{word}'. If there is some helpful information, generate a word 'Relevant', otherwise generate a word 'Not Relevant'. If the first line is 'Relevant', generate a summary of the helpful information in the 'Searched Web Content' that can explain the context of the image in relation to the 'Ambiguous Word'. If the first line is 'Not Relevant', do not generate any summary and end your generation.
 """
 
 def main(args):
@@ -111,7 +112,7 @@ def main(args):
                     
                 web_content_list = list()
                 cur_content = ""
-                content_threshold = 2048
+                content_threshold = 4096
                 for line in web_content_split:
                     # 현재 line이 threshold를 넘는지 확인
                     if len(line.strip()) < content_threshold:
@@ -121,15 +122,27 @@ def main(args):
                             cur_content = line.strip()
                         else:
                             cur_content = next_content
+                    else:
+                        # 아무리 한 paragraph가 길어도 문장 구분은 있을 것
+                        # .을 기준으로 잘라서 threshold보다 작은 단위로 쪼개기 시도
+                        cur_content = cur_content + "\n"
+                        sentences = line.split('.')
+                        for sentence in sentences:
+                            sentence = sentence.strip() + '.'  # .을 기준으로 split 했으니 다시 붙여주기
+                            if sentence == "":
+                                continue
+                            next_content = cur_content + " " + sentence
+                            if len(next_content) > content_threshold:
+                                web_content_list.append(cur_content)
+                                cur_content = sentence
+                            else:
+                                cur_content = next_content
 
                 if len(cur_content) > 0:
                     web_content_list.append(cur_content)
                     
                 for content in web_content_list:
-                    if args.prompt_type == "ambig_sentence":
-                        prompt = prompt_template.format(word=row["word"], entities=valid_entites, web_title=cur_title, web_content=content)
-                    else:
-                        prompt = prompt_template.format(word=row["word"], context=row["word_phrase"], entities=valid_entites, web_title=cur_title, web_content=content)
+                    prompt = prompt_template.format(word=row["word"], context=row["word_phrase"], entities=valid_entites, web_title=cur_title, web_content=content)
                     df_dict["word_index"].append(word_index)
                     df_dict["word"].append(row["word"])
                     df_dict["word_phrase"].append(row["word_phrase"])
@@ -144,10 +157,7 @@ def main(args):
         # 마지막으로 3개 추가하는 동안 등장한 None 페이지 제목들을 한꺼번에 요약하도록 프롬프트 생성
         if len(none_page_titles) > 0:
             none_page_titles_str = "\n".join([f"- {title}" for title in none_page_titles])
-            if args.prompt_type == "ambig_sentence":
-                prompt = prompt_template.format(word=row["word"], entities=valid_entites, web_title=none_page_titles_str, web_content="")
-            else:
-                prompt = prompt_template.format(word=row["word"], context=row["word_phrase"], entities=valid_entites, web_title=none_page_titles_str, web_content="")
+            prompt = prompt_template.format(word=row["word"], context=row["word_phrase"], entities=valid_entites, web_title=none_page_titles_str, web_content="")
             df_dict["word_index"].append(word_index)
             df_dict["word"].append(row["word"])
             df_dict["word_phrase"].append(row["word_phrase"])
