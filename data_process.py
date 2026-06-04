@@ -167,6 +167,51 @@ def ambiguous_sentence_generation_prompts_for_wsd_set(wsd_set_path):
     
     return wsd_df
 
+def change_summarize_prompt(summarize_set_path, prompt_template, search_result_path, format_template=["word", "context", "web_content", "entities"]):
+    """
+    change_summarize_prompt의 Docstring
+    
+    :param summarize_set_path: 요약 문제 세트가 저장된 txt 파일 경로
+    :param prompt_template: 사용할 프롬프트 템플릿
+    :param search_result_path: 웹 이미지 검색 결과가 저장된 txt 파일 경로
+    :return: 요약 문제 세트가 포함된 DataFrame
+    """
+    
+    summarize_df = pd.read_csv(summarize_set_path)
+    search_df = pd.read_csv(search_result_path)
+    
+    for row_idx, row in summarize_df.iterrows():
+        prompt = row["prompt"]
+        web_content = prompt.split("---")[2].strip()
+        web_content = web_content.replace("Searched Web Content:", "").strip()
+        # entity 리스트를 검색 결과에서 기존과 다른 기준으로 추출 수행
+        search_result_row = search_df.loc[search_df["word_index"] == row["word_index"]]
+        retrieved_entities = json.loads(search_result_row["entities"].values[0]) if not search_result_row.empty else []
+        # 기존에는 threshold 0.8 이상이었으나
+        # top 1과 0.9 이상으로 변경
+        threshold = 0.9
+        entity_list = [retrieved_entities[0]["description"]]
+        for entity in retrieved_entities[1:]:
+            if entity["score"] >= threshold:
+                entity_list.append(entity["description"])
+
+        format_dict = dict()
+        for key in format_template:
+            if key == "word":
+                format_dict[key] = row['word']
+            elif key == "context":
+                format_dict[key] = row["word_phrase"]
+            elif key == "web_content":
+                format_dict[key] = web_content
+            elif key == "entities":
+                format_dict[key] = ", ".join(entity_list)
+
+        prompt = prompt_template.format(**format_dict)
+        
+        summarize_df.at[row_idx, 'prompt'] = prompt
+    
+    return summarize_df
+
 if __name__ == "__main__":
     from nltk.corpus import wordnet as wn
     import evaluate

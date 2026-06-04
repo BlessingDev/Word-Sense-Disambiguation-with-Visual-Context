@@ -251,10 +251,37 @@ def divide_supplemented_set(original_df_path, supplemented_df_path, output_df_pa
     divided_df = supplemented_df.drop(drop_indices)
     divided_df.to_csv(output_df_path, index=False, encoding='utf-8')
 
+def change_summarize_prompt_with_prompt(wsd_set_path, output_file_path, search_result_path="/workspace/data/test_set_process/wsd_set_entire_google_vision_result.csv"):
+    """
+    change_summarize_prompt_with_prompt의 Docstring
+    
+    :param wsd_set_path: WSD 문제 세트가 저장된 txt 파일 경로
+    :param output_file_path: 프롬프트가 포함된 데이터를 저장할 파일 경로
+    :return: WSD 문제 세트가 포함된 DataFrame
+    """
+    from data_process import change_summarize_prompt
+    
+    prompt_template = """Word: {word}
+Context Phrase: {context}
+
+Entities in Image: 
+{entities}
+---
+You are a linguistic expert. Given 'Word', 'Context Phrase', and 'Entities in Image', your task is to summarize any additional and helpful information from the given 'Searched Web Content' that can help explain the context of the image in relation to the '{word}' and '{context}'.
+---
+Searched Web Content:
+{web_content}
+---
+First, Refer to the 'Entities in Image' section to understand the content of the image. Then, read the 'Searched Web Content' section carefully to judge whether it is helpful to understand the context of given image. After all your reasoning is finished and there is some helpful information found, start to generate a summary of the helpful information from the 'Searched Web Content' within one paragraph. Otherwise, generate 'Not Relevant' and finish your generation."""
+    df = change_summarize_prompt(wsd_set_path, prompt_template, search_result_path, format_template=["word", "context", "web_content", "entities"])
+    
+    df.to_csv(output_file_path, index=False, encoding='utf-8')
+    
+
 def main():
     #output_file_path = '/workspace/data/rearranged_polysemy_words.csv'
     #rearrange_trial_to_text_wsd(output_file_path)
-    sample_and_save_wsd_set("/workspace/data/train_set_process/wsd_set_entire_no_dupl.csv", sample_size=-1, check_duplicates=True)
+    #sample_and_save_wsd_set("/workspace/data/train_set_process/wsd_set_entire_no_dupl.csv", sample_size=-1, check_duplicates=True)
     #sample_and_save_wsd_set("/workspace/data/test_set_process/wsd_set_entire.csv", sample_size=-1, check_duplicates=False, data_path="/workspace/data/semeval-2023-V-WSD-test/en.test.data.v1.1.txt", gold_image_path="/workspace/data/semeval-2023-V-WSD-test/en.test.gold.v1.1.txt")
     #caption_trail_images(output_file_path)
     
@@ -273,7 +300,9 @@ def main():
     #generate_ambiguous_sentence_for_wsd_set("/workspace/data/train_set_process/wsd_set_n400.csv")
     #google_vision_search_for_wsd_set("/workspace/data/test_set_process/wsd_set_entire.csv", "/workspace/data/test_set_process/wsd_set_entire_google_vision_result.csv", image_dir="/workspace/data/semeval-2023-V-WSD-test/test_images/")
     #supplement_goolge_vision_search_result("/workspace/data/train_set_process/wsd_set_entire.csv", "/workspace/data/train_set_process/wsd_set_entire_google_vision_result.csv")
-    divide_supplemented_set("/workspace/data/train_set_process/wsd_set_entire_no_dupl.csv", "/workspace/data/train_set_process/wsd_set_entire_hypernym.csv", "/workspace/data/train_set_process/wsd_set_duplicate_divided.csv")
+    #divide_supplemented_set("/workspace/data/train_set_process/wsd_set_entire_no_dupl.csv", "/workspace/data/train_set_process/wsd_set_entire_hypernym.csv", "/workspace/data/train_set_process/wsd_set_duplicate_divided.csv")
     
+    change_summarize_prompt_with_prompt("/workspace/data/test_set_process/wsd_set_entire_labeled_summarize_prompt.csv", "/workspace/data/test_set_process/wsd_set_entire_labeled_summarize2_prompt.csv")
+
 if __name__ == "__main__":
     main()

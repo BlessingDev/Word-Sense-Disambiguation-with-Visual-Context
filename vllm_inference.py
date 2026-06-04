@@ -8,6 +8,7 @@ from transformers import AutoTokenizer
 
 from vllm import LLM, EngineArgs, SamplingParams
 from vllm.multimodal.image import convert_image_mode
+from vllm.multimodal.utils import encode_image_url
 from vllm.lora.request import LoRARequest
 from vllm.config import ReasoningConfig
 
@@ -382,7 +383,6 @@ def inference_image_zeroshot_exaone4d5(args):
     # The implementation would be similar to inference_image_dataset_gemma3, but the prompts and multi-modal data format would be adjusted according to Exaone-4.5's requirements.
     data_df = pd.read_csv(args.inference_set_path)
     
-    #model_name = "Qwen/Qwen3-VL-8B-Instruct"
     reasoning_config = ReasoningConfig(
         reasoning_start_str="<think>",
         reasoning_end_str="</think>"
@@ -584,6 +584,150 @@ def inference_fewshot_dataset_gemma3(args):
     data_df["generated_text"] = answers
     data_df.to_csv(args.output_file_path, index=False)
 
+def run_mistral3(questions: list[str], modality: str) -> ModelRequestData:
+    assert modality == "image"
+
+    model_name = "mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+
+    # NOTE: Need L40 (or equivalent) to avoid OOM
+    engine_args = EngineArgs(
+        model=model_name,
+        max_model_len=8192,
+        max_num_seqs=2,
+        tensor_parallel_size=2,
+        limit_mm_per_prompt={modality: 1},
+        ignore_patterns=["consolidated.safetensors"],
+    )
+    
+    prompts = [f"<s>[INST]{question}\n[IMG][/INST]" for question in questions]
+
+    return ModelRequestData(
+        engine_args=engine_args,
+        prompts=prompts,
+    )
+
+def inference_image_zeroshot_mistral3(args):
+    # This function is for zero-shot inference on Mistral-3, which does not require image preprocessing and can directly take image paths as input.
+    # The implementation would be similar to inference_image_dataset_gemma3, but the prompts and multi-modal data format would be adjusted according to Mistral-3's requirements.
+    from tqdm.auto import tqdm
+    data_df = pd.read_csv(args.inference_set_path)
+    
+
+    engine_args = EngineArgs(
+        model=args.model_checkpoint,
+        max_model_len=8192,
+        max_num_seqs=2,
+        tensor_parallel_size=4,
+        limit_mm_per_prompt={"image": 1},
+        tokenizer_mode="mistral",
+        config_format="mistral",
+        load_format="mistral"
+    )
+    default_limits = {"image": 0, "video": 0, "audio": 0, "vision_chunk": 0}
+    engine_args.limit_mm_per_prompt = default_limits | dict(
+        engine_args.limit_mm_per_prompt or {}
+    )
+    engine_args.seed = args.seed
+    
+    llm = LLM.from_engine_args(engine_args)
+    
+    row_per_run = 200
+    data_splits = [data_df[i:i + row_per_run].copy() for i in range(0, data_df.shape[0], row_per_run)]
+    
+    answers = []
+    valid_indices = []
+    for split_idx, data_split in enumerate(data_splits):
+        print("Completed inference for split {}/{}.".format(split_idx + 1, len(data_splits)))
+        messages = list()
+        for idx, row in tqdm(data_split.iterrows(), total=len(data_split), desc="Processing messages"):
+            img_path = os.path.join(args.image_dir, row["gold_image"])
+            
+            turncated = is_truncated(img_path)
+            if not turncated:
+                #image_file = Image.open(img_path)
+                img_url = encode_image_url(Image.open(img_path))
+                messages.append([{
+                    "role": "user",
+                    "content": [
+                        {"type": "image_url", "image_url": {"url": img_url}},
+                        {"type": "text", "text": row['prompt']}
+                    ]
+                }])
+                valid_indices.append(idx)
+            else:
+                print(f"Image {img_path} is truncated. Skipping this sample.")
+        
+        # Greedy Decoding
+        sampling_params = SamplingParams(temperature=0.0,
+                                        max_tokens=2304,
+                                        stop_token_ids=None)
+        
+        outputs = llm.chat(messages, sampling_params=sampling_params)
+    
+    
+        for answer_idx, o in enumerate(outputs):
+            generated_text = o.outputs[0].text
+            answers.append(generated_text)
+        
+        print("Answer Example: {}".format(answers[-1]))
+
+    
+    data_df.loc[valid_indices, "generated_text"] = answers
+    data_df.to_csv(args.output_file_path, index=False)
+
+def inference_text_mistral3(args):
+    # This function is for zero-shot inference on Mistral-3, which does not require image preprocessing and can directly take image paths as input.
+    # The implementation would be similar to inference_image_dataset_gemma3, but the prompts and multi-modal data format would be adjusted according to Mistral-3's requirements.
+    data_df = pd.read_csv(args.inference_set_path)
+
+    engine_args = EngineArgs(
+        model=args.model_checkpoint,
+        max_model_len=8192,
+        max_num_seqs=2,
+        tensor_parallel_size=4,
+        tokenizer_mode="mistral",
+        config_format="mistral",
+        load_format="mistral"
+    )
+    engine_args.seed = args.seed
+    
+    llm = LLM.from_engine_args(engine_args)
+    
+    row_per_run = 200
+    data_splits = [data_df[i:i + row_per_run].copy() for i in range(0, data_df.shape[0], row_per_run)]
+    
+    answers = []
+    valid_indices = []
+    for split_idx, data_split in enumerate(data_splits):
+        print("Completed inference for split {}/{}.".format(split_idx + 1, len(data_splits)))
+        messages = list()
+        for idx, row in data_split.iterrows():
+            messages.append([{
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": row['prompt']}
+                ]
+            }])
+            valid_indices.append(idx)
+        
+        # Greedy Decoding
+        sampling_params = SamplingParams(temperature=0.0,
+                                        max_tokens=2304,
+                                        stop_token_ids=None)
+        
+        outputs = llm.chat(messages, sampling_params=sampling_params)
+    
+    
+        for answer_idx, o in enumerate(outputs):
+            generated_text = o.outputs[0].text
+            answers.append(generated_text)
+        
+        print("Answer Example: {}".format(answers[-1]))
+
+    
+    data_df.loc[valid_indices, "generated_text"] = answers
+    data_df.to_csv(args.output_file_path, index=False)
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Demo on using vLLM for offline inference with "
@@ -621,6 +765,8 @@ if __name__ == "__main__":
             inference_zeroshot_qwen3(args)
         elif "exaone-4.5" in args.model_checkpoint.lower():
             inference_zeroshot_exaone4d5(args)
+        elif "mistral-small-3" in args.model_checkpoint.lower():
+            inference_text_mistral3(args)
     else:
         if args.example_set_path is None:
             if "gemma-3" in args.model_checkpoint.lower():
@@ -629,5 +775,7 @@ if __name__ == "__main__":
                 inference_image_zeroshot_qwen3(args)
             elif "exaone-4.5" in args.model_checkpoint.lower():
                 inference_image_zeroshot_exaone4d5(args)
+            elif "mistral-small-3" in args.model_checkpoint.lower():
+                inference_image_zeroshot_mistral3(args)
         else:
             inference_fewshot_dataset_gemma3(args)

@@ -19,7 +19,7 @@ def extract_clean_text(url):
 
 prompt_phrase_template="""Ambiguous word: {word}
 Context Phrase: {context}
-Entites in Image: 
+Entities in Image: 
 {entities}
 ---
 You are a linguistic expert. Given 'Ambiguous Word', 'Context Phrase', and 'Entities in Image', your task is to extract and summarize any additional and helpful information from the given 'Searched Web Content' that can help explain the context of the image in relation to the 'Ambiguous Word'. Do not try to describe the image itself if there is no relevant information in the 'Searched Web Content' that can be helpful for understanding the 'Ambiguous Word'.
@@ -33,7 +33,7 @@ First, Refer to the 'Entities in Image' section to understand the content of the
 
 prompt_sentence_template="""Ambiguous word: {word}
 Context Sentence: {context}
-Entites in Image: 
+Entities in Image: 
 {entities}
 ---
 You are a linguistic expert. Given 'Ambiguous Word', 'Context Sentence', and 'Entities in Image', your task is to extract and summarize any additional and helpful information from the given 'Searched Web Content' that can help explain the context of the image in relation to the 'Ambiguous Word'. Do not try to describe the image itself if there is no relevant information in the 'Searched Web Content' that can be helpful for understanding the 'Ambiguous Word'.
@@ -47,7 +47,7 @@ First, Refer to the 'Entities in Image' section to understand the content of the
 
 prompt_ambig_sentence_template="""Ambiguous word: {word}
 Context Sentence: {context}
-Entites in Image: 
+Entities in Image: 
 {entities}
 ---
 You are a linguistic expert. Given 'Ambiguous Word', 'Context Sentence', and 'Entities in Image', your task is to extract and summarize any additional and helpful information from the given 'Searched Web Content' that can help explain the context of the image in relation to the 'Ambiguous Word'. Do not try to describe the image itself if there is no relevant information in the 'Searched Web Content' that can be helpful for understanding the 'Ambiguous Word'.
@@ -56,8 +56,7 @@ Searched Web Content:
 - Title: {web_title}
 {web_content}
 ---
-First, Refer to the 'Entities in Image' section to understand the content of the image. Then, read the 'Searched Web Content' section carefully and think to judge whether 1) it is helpful to determine the meaning of '{word}' in '{context}' or 2) it is helpful to the image related to '{word}'. If there is some helpful information, generate a word 'Relevant', otherwise generate a word 'Not Relevant'. If the first line is 'Relevant', generate a summary of the helpful information in the 'Searched Web Content' that can explain the context of the image in relation to the 'Ambiguous Word'. If the first line is 'Not Relevant', do not generate any summary and end your generation.
-"""
+First, Refer to the 'Entities in Image' section to understand the content of the image. Then, read the 'Searched Web Content' section carefully and think to judge whether 1) it is helpful to determine the meaning of '{word}' in '{context}' or 2) it is helpful to the image related to '{word}'. If there is some helpful information, generate a word 'Relevant', otherwise generate a word 'Not Relevant'. If the first line is 'Relevant', generate a summary of the helpful information in the 'Searched Web Content' that can explain the context of the image in relation to the 'Ambiguous Word'. If the first line is 'Not Relevant', do not generate any summary and end your generation."""
 
 def main(args):
     wsd_test_df = pd.read_csv(args.wsd_set_path)
