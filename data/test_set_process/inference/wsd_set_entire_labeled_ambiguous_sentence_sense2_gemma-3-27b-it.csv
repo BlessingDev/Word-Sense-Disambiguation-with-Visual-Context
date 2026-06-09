@@ -5727,7 +5727,7 @@ After all your reasoning is finished, provide your final decision as the format 
 Therefore, sense 5, ""a mechanism that transports magnetic tape across the read/write heads of a tape playback/recorder,"" is the most appropriate. While the image doesn't definitively show a tape player, it depicts a complex mechanical system consistent with such a device, and the context of ""missing the last song"" aligns with a malfunctioning audio player.
 
 A: 5"
-254,earthnut,earthnut tuber,"{""n"": [""any of various highly prized edible subterranean fungi of the genus Tuber; grow naturally in southwestern Europe"", ""a common European plant having edible tubers with the flavor of roasted chestnuts"", ""pod of the peanut vine containing usually 2 nuts or seeds; `groundnut' and `monkey nut' are British terms"", ""edible subterranean fungus of the genus Tuber""]}",image.6583.jpg,n,4.0,"Text Context: At the farmers’ market, I bought an earthnut for dinner.
+254,earthnut,earthnut tuber,"{""n"": [""any of various highly prized edible subterranean fungi of the genus Tuber; grow naturally in southwestern Europe"", ""a common European plant having edible tubers with the flavor of roasted chestnuts"", ""pod of the peanut vine containing usually 2 nuts or seeds; `groundnut' and `monkey nut' are British terms"", ""edible subterranean fungus of the genus Tuber""]}",image.6583.jpg,n,1,"Text Context: At the farmers’ market, I bought an earthnut for dinner.
 Ambiguous Word: earthnut
 ---
 Sense List:

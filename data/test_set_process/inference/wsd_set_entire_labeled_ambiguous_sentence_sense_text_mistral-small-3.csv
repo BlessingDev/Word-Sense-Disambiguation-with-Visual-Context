@@ -7474,7 +7474,7 @@ After all your reasoning is finished, provide your final decision as the format 
 Given the context, the most fitting sense is:
 
 A: 1"
-254,earthnut,earthnut tuber,"{""n"": [""any of various highly prized edible subterranean fungi of the genus Tuber; grow naturally in southwestern Europe"", ""a common European plant having edible tubers with the flavor of roasted chestnuts"", ""pod of the peanut vine containing usually 2 nuts or seeds; `groundnut' and `monkey nut' are British terms"", ""edible subterranean fungus of the genus Tuber""]}",image.6583.jpg,n,4.0,"Ambiguous Word: earthnut
+254,earthnut,earthnut tuber,"{""n"": [""any of various highly prized edible subterranean fungi of the genus Tuber; grow naturally in southwestern Europe"", ""a common European plant having edible tubers with the flavor of roasted chestnuts"", ""pod of the peanut vine containing usually 2 nuts or seeds; `groundnut' and `monkey nut' are British terms"", ""edible subterranean fungus of the genus Tuber""]}",image.6583.jpg,n,1,"Ambiguous Word: earthnut
 Text Context: At the farmers’ market, I bought an earthnut for dinner.
 ---
 Sense List:

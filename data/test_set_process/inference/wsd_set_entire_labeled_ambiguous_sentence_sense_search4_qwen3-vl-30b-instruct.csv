@@ -6673,7 +6673,7 @@ Directness of Meaning: If no meaningful background information can be obtained f
 ---
 After all your reasoning is finished, read through the list of senses provided once again, carefully and in detail, one by one. Then, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
 ",A: 5
-254,earthnut,"At the farmers’ market, I bought an earthnut for dinner.","{""n"": [""any of various highly prized edible subterranean fungi of the genus Tuber; grow naturally in southwestern Europe"", ""a common European plant having edible tubers with the flavor of roasted chestnuts"", ""pod of the peanut vine containing usually 2 nuts or seeds; `groundnut' and `monkey nut' are British terms"", ""edible subterranean fungus of the genus Tuber""]}",image.6583.jpg,n,4.0,"Text Context: At the farmers’ market, I bought an earthnut for dinner.
+254,earthnut,"At the farmers’ market, I bought an earthnut for dinner.","{""n"": [""any of various highly prized edible subterranean fungi of the genus Tuber; grow naturally in southwestern Europe"", ""a common European plant having edible tubers with the flavor of roasted chestnuts"", ""pod of the peanut vine containing usually 2 nuts or seeds; `groundnut' and `monkey nut' are British terms"", ""edible subterranean fungus of the genus Tuber""]}",image.6583.jpg,n,1.0,"Text Context: At the farmers’ market, I bought an earthnut for dinner.
 Ambiguous Word: earthnut
 ---
 Sense List:

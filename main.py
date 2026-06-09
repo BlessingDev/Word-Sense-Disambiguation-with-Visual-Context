@@ -276,7 +276,30 @@ First, Refer to the 'Entities in Image' section to understand the content of the
     df = change_summarize_prompt(wsd_set_path, prompt_template, search_result_path, format_template=["word", "context", "web_content", "entities"])
     
     df.to_csv(output_file_path, index=False, encoding='utf-8')
+
+def extract_ambiguous_sentence_for_wsd_set(wsd_set_path, output_file_path):
+    """
+    extract_ambiguous_sentence_for_wsd_set의 Docstring
     
+    :param wsd_set_path: WSD 문제 세트가 저장된 txt 파일 경로
+    :param output_file_path: 모호한 문장이 포함된 데이터를 저장할 파일 경로
+    :return: WSD 문제 세트가 포함된 DataFrame
+    """
+    import pandas as pd
+    
+    df = pd.read_csv(wsd_set_path)
+    
+    sentence_list = list()
+    for idx, row in df.iterrows():
+        prompt = row["prompt"]
+        
+        ambiguous_sentence = prompt.split("\n")[0].split("Text Context:")[-1].strip()
+        sentence_list.append(ambiguous_sentence)
+        
+    df["word_phrase"] = sentence_list
+    df = df[["word_index", "word", "word_phrase", "senses", "gold_image", "gold_pos", "gold_sense"]]
+    df.to_csv(output_file_path, index=False, encoding='utf-8')
+
 
 def main():
     #output_file_path = '/workspace/data/rearranged_polysemy_words.csv'
@@ -302,7 +325,8 @@ def main():
     #supplement_goolge_vision_search_result("/workspace/data/train_set_process/wsd_set_entire.csv", "/workspace/data/train_set_process/wsd_set_entire_google_vision_result.csv")
     #divide_supplemented_set("/workspace/data/train_set_process/wsd_set_entire_no_dupl.csv", "/workspace/data/train_set_process/wsd_set_entire_hypernym.csv", "/workspace/data/train_set_process/wsd_set_duplicate_divided.csv")
     
-    change_summarize_prompt_with_prompt("/workspace/data/test_set_process/wsd_set_entire_labeled_summarize_prompt.csv", "/workspace/data/test_set_process/wsd_set_entire_labeled_summarize2_prompt.csv")
+    #change_summarize_prompt_with_prompt("/workspace/data/test_set_process/wsd_set_entire_labeled_summarize_prompt.csv", "/workspace/data/test_set_process/wsd_set_entire_labeled_summarize2_prompt.csv")
+    extract_ambiguous_sentence_for_wsd_set("/workspace/data/test_set_process/inference/wsd_set_entire_sense_ambig_sentence_baseline_gemma-3-27b-it.csv", "/workspace/data/test_set_process/wsd_set_entire_labeled_baseline.csv")
 
 if __name__ == "__main__":
     main()
