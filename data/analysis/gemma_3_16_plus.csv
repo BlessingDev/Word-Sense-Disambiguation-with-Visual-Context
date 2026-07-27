@@ -1,0 +1,464 @@
+word_index,word,word_phrase,senses,gold_image,gold_pos,gold_sense,prompt,generated_text,predicted_label,sense_number
+65,work,I work better when the house is quiet.,"{""n"": [""activity directed toward making or doing something"", ""a product produced or accomplished through the effort or activity or agency of a person or thing"", ""the occupation for which you are paid"", ""applying the mind to learning and understanding a subject (especially by reading)"", ""(physics) a manifestation of energy; the transfer of energy from one physical system to another expressed as the product of a force and the distance through which it moves a body in the direction of that force"", ""a place where work is done"", ""the total output of a writer or artist (or a substantial part of it)""], ""v"": [""exert oneself by doing mental or physical work for a purpose or out of necessity"", ""be employed"", ""have an effect or outcome; often the one desired or expected"", ""perform as expected when applied"", ""shape, form, or improve a material"", ""give a workout to"", ""proceed along a path"", ""operate in a certain place, area, or specialty"", ""proceed towards a goal or along a path or through an activity"", ""move in an agitated manner"", ""cause to happen or to occur as a consequence"", ""cause to work"", ""prepare for crops"", ""behave in a certain way when handled"", ""have and exert influence or effect"", ""operate in or through"", ""cause to operate or function"", ""provoke or excite"", ""gratify and charm, usually in order to influence"", ""make something, usually for a specific function"", ""move into or onto"", ""make uniform"", ""use or manipulate to one's advantage"", ""find the solution to (a problem or question) or understand the meaning of"", ""cause to undergo fermentation"", ""go sour or spoil"", ""arrive at a certain condition through repeated motion""]}",image.5001.jpg,v,1.0,"Text Context: I work better when the house is quiet.
+Ambiguous Word: work
+---
+Sense List:
+ 1. exert oneself by doing mental or physical work for a purpose or out of necessity
+ 2. be employed
+ 3. have an effect or outcome; often the one desired or expected
+ 4. perform as expected when applied
+ 5. shape, form, or improve a material
+ 6. give a workout to
+ 7. proceed along a path
+ 8. operate in a certain place, area, or specialty
+ 9. proceed towards a goal or along a path or through an activity
+ 10. move in an agitated manner
+ 11. cause to happen or to occur as a consequence
+ 12. cause to work
+ 13. prepare for crops
+ 14. behave in a certain way when handled
+ 15. have and exert influence or effect
+ 16. operate in or through
+ 17. cause to operate or function
+ 18. provoke or excite
+ 19. gratify and charm, usually in order to influence
+ 20. make something, usually for a specific function
+ 21. move into or onto
+ 22. make uniform
+ 23. use or manipulate to one's advantage
+ 24. find the solution to (a problem or question) or understand the meaning of
+ 25. cause to undergo fermentation
+ 26. go sour or spoil
+ 27. arrive at a certain condition through repeated motion
+---
+Image Web Search Results:
+
+---
+You are an expert linguistic annotator. A specific target word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the given context: The image, 'Text Context', and 'Image Web Search Results'. Leverage those context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no meaningful background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, read through the list of senses provided once again, carefully and in detail, one by one. Then, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","Here's my reasoning:
+
+The image shows a man studying a large book, likely a religious text (given his attire). The text context is ""I work better when the house is quiet."" This suggests ""work"" refers to mental effort, concentration, or study.
+
+Looking at the sense list, several options relate to effort or activity. However, sense 1, ""exert oneself by doing mental or physical work for a purpose or out of necessity,"" is the most fitting. The man is clearly engaged in a focused activity (studying), and the context implies he needs quiet to do this effectively.
+
+Other senses like ""be employed"" or ""operate in a certain place"" don't align with the context.
+
+A: 1",1.0,27.0
+139,shot,The shot went wide and disappeared into the grass.,"{""n"": [""the act of firing a projectile"", ""a solid missile discharged from a firearm"", ""(sports) the act of swinging or striking at a ball with a club or racket or bat or cue or hand"", ""a chance to do something"", ""a person who shoots (usually with respect to their ability to shoot)"", ""a consecutive series of pictures that constitutes a unit of action in a film"", ""the act of putting a liquid into the body by means of a syringe"", ""a small drink of liquor"", ""an aggressive remark directed at a person like a missile and intended to have a telling effect"", ""an estimate based on little or no information"", ""an informal photograph; usually made with a small hand-held camera"", ""sports equipment consisting of a heavy metal ball used in the shot put"", ""an explosive charge used in blasting"", ""a blow hard enough to cause injury"", ""an attempt to score in a game"", ""informal words for any attempt or effort"", ""the launching of a missile or spacecraft to a specified destination""], ""v"": [""hit with a missile from a weapon"", ""kill by firing a missile"", ""fire a shot"", ""make a film or photograph of something"", ""send forth suddenly, intensely, swiftly"", ""run or move very quickly or hastily"", ""move quickly and violently"", ""throw or propel in a specific direction or towards a specific objective"", ""record on photographic film"", ""emit (as light, flame, or fumes) suddenly and forcefully"", ""cause a sharp and sudden pain in"", ""force or drive (a fluid or gas) into by piercing"", ""variegate by interweaving weft threads of different colors"", ""throw dice, as in a crap game"", ""spend frivolously and unwisely"", ""score"", ""utter fast and forcefully"", ""measure the altitude of by using a sextant"", ""produce buds, branches, or germinate"", ""give an injection to""], ""a"": [""varying in color when seen in different lights or from different angles""]}",image.5648.jpg,n,2.0,"Text Context: The shot went wide and disappeared into the grass.
+Ambiguous Word: shot
+---
+Sense List:
+ 1. the act of firing a projectile
+ 2. a solid missile discharged from a firearm
+ 3. (sports) the act of swinging or striking at a ball with a club or racket or bat or cue or hand
+ 4. a chance to do something
+ 5. a person who shoots (usually with respect to their ability to shoot)
+ 6. a consecutive series of pictures that constitutes a unit of action in a film
+ 7. the act of putting a liquid into the body by means of a syringe
+ 8. a small drink of liquor
+ 9. an aggressive remark directed at a person like a missile and intended to have a telling effect
+ 10. an estimate based on little or no information
+ 11. an informal photograph; usually made with a small hand-held camera
+ 12. sports equipment consisting of a heavy metal ball used in the shot put
+ 13. an explosive charge used in blasting
+ 14. a blow hard enough to cause injury
+ 15. an attempt to score in a game
+ 16. informal words for any attempt or effort
+ 17. the launching of a missile or spacecraft to a specified destination
+---
+Image Web Search Results:
+
+---
+You are an expert linguistic annotator. A specific target word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the given context: The image, 'Text Context', and 'Image Web Search Results'. Leverage those context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no meaningful background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, read through the list of senses provided once again, carefully and in detail, one by one. Then, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The image shows a collection of airgun pellets, which are projectiles. The text context mentions a ""shot"" that went wide. Given this, the most appropriate sense of ""shot"" is a solid missile discharged from a firearm.
+
+A: 2",2.0,17.0
+150,shot,The nurse shot him before the flight.,"{""n"": [""the act of firing a projectile"", ""a solid missile discharged from a firearm"", ""(sports) the act of swinging or striking at a ball with a club or racket or bat or cue or hand"", ""a chance to do something"", ""a person who shoots (usually with respect to their ability to shoot)"", ""a consecutive series of pictures that constitutes a unit of action in a film"", ""the act of putting a liquid into the body by means of a syringe"", ""a small drink of liquor"", ""an aggressive remark directed at a person like a missile and intended to have a telling effect"", ""an estimate based on little or no information"", ""an informal photograph; usually made with a small hand-held camera"", ""sports equipment consisting of a heavy metal ball used in the shot put"", ""an explosive charge used in blasting"", ""a blow hard enough to cause injury"", ""an attempt to score in a game"", ""informal words for any attempt or effort"", ""the launching of a missile or spacecraft to a specified destination""], ""v"": [""hit with a missile from a weapon"", ""kill by firing a missile"", ""fire a shot"", ""make a film or photograph of something"", ""send forth suddenly, intensely, swiftly"", ""run or move very quickly or hastily"", ""move quickly and violently"", ""throw or propel in a specific direction or towards a specific objective"", ""record on photographic film"", ""emit (as light, flame, or fumes) suddenly and forcefully"", ""cause a sharp and sudden pain in"", ""force or drive (a fluid or gas) into by piercing"", ""variegate by interweaving weft threads of different colors"", ""throw dice, as in a crap game"", ""spend frivolously and unwisely"", ""score"", ""utter fast and forcefully"", ""measure the altitude of by using a sextant"", ""produce buds, branches, or germinate"", ""give an injection to""], ""a"": [""varying in color when seen in different lights or from different angles""]}",image.5734.jpg,v,20.0,"Text Context: The nurse shot him before the flight.
+Ambiguous Word: shot
+---
+Sense List:
+ 1. hit with a missile from a weapon
+ 2. kill by firing a missile
+ 3. fire a shot
+ 4. make a film or photograph of something
+ 5. send forth suddenly, intensely, swiftly
+ 6. run or move very quickly or hastily
+ 7. move quickly and violently
+ 8. throw or propel in a specific direction or towards a specific objective
+ 9. record on photographic film
+ 10. emit (as light, flame, or fumes) suddenly and forcefully
+ 11. cause a sharp and sudden pain in
+ 12. force or drive (a fluid or gas) into by piercing
+ 13. variegate by interweaving weft threads of different colors
+ 14. throw dice, as in a crap game
+ 15. spend frivolously and unwisely
+ 16. score
+ 17. utter fast and forcefully
+ 18. measure the altitude of by using a sextant
+ 19. produce buds, branches, or germinate
+ 20. give an injection to
+---
+Image Web Search Results:
+The 'Searched Web Content' explains that a tuberculosis skin test involves a tiny injection on the inside of the arm, which is a type of 'shot'. This context helps clarify that in the sentence ""The nurse shot him before the flight,"" the word 'shot' likely refers to administering an injection, such as a TB test or vaccine, rather than a literal shooting. The image shows a syringe being used to inject a substance into the arm, which aligns with the medical context provided in the web content.
+---
+You are an expert linguistic annotator. A specific target word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the given context: The image, 'Text Context', and 'Image Web Search Results'. Leverage those context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no meaningful background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, read through the list of senses provided once again, carefully and in detail, one by one. Then, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The image shows a nurse administering an injection to a patient's arm. The text context states ""The nurse shot him before the flight."" The web search results confirm that ""shot"" can refer to giving an injection, specifically mentioning a tuberculosis skin test. This aligns perfectly with the visual evidence of a syringe being used on an arm. Therefore, the most appropriate sense of ""shot"" is to give an injection.
+
+A: 20",20.0,20.0
+167,field,"After dinner, we walked through the field and picked some wildflowers.","{""n"": [""a piece of land cleared of trees and usually enclosed"", ""a region where a battle is being (or has been) fought"", ""somewhere (away from a studio or office or library or laboratory) where practical work is done or data is collected"", ""a branch of knowledge"", ""the space around a radiating body within which its electromagnetic oscillations can exert force on another similar body not in contact with it"", ""a particular kind of commercial enterprise"", ""a particular environment or walk of life"", ""a piece of land prepared for playing a game"", ""extensive tract of level open land"", ""(mathematics) a set of elements such that addition and multiplication are commutative and associative and multiplication is distributive over addition and there are two elements 0 and 1"", ""a region in which active military operations are in progress"", ""all of the horses in a particular horse race"", ""all the competitors in a particular contest or sporting event"", ""a geographic region (land or sea) under which something valuable is found"", ""(computer science) a set of one or more adjacent characters comprising a unit of information"", ""the area that is visible (as through an optical instrument)"", ""a place where planes take off and land""], ""v"": [""catch or pick up (balls) in baseball or cricket"", ""play as a fielder"", ""answer adequately or successfully"", ""select (a team or individual player) for a game""]}",image.1222.jpg,n,1.0,"Text Context: After dinner, we walked through the field and picked some wildflowers.
+Ambiguous Word: field
+---
+Sense List:
+ 1. a piece of land cleared of trees and usually enclosed
+ 2. a region where a battle is being (or has been) fought
+ 3. somewhere (away from a studio or office or library or laboratory) where practical work is done or data is collected
+ 4. a branch of knowledge
+ 5. the space around a radiating body within which its electromagnetic oscillations can exert force on another similar body not in contact with it
+ 6. a particular kind of commercial enterprise
+ 7. a particular environment or walk of life
+ 8. a piece of land prepared for playing a game
+ 9. extensive tract of level open land
+ 10. (mathematics) a set of elements such that addition and multiplication are commutative and associative and multiplication is distributive over addition and there are two elements 0 and 1
+ 11. a region in which active military operations are in progress
+ 12. all of the horses in a particular horse race
+ 13. all the competitors in a particular contest or sporting event
+ 14. a geographic region (land or sea) under which something valuable is found
+ 15. (computer science) a set of one or more adjacent characters comprising a unit of information
+ 16. the area that is visible (as through an optical instrument)
+ 17. a place where planes take off and land
+---
+Image Web Search Results:
+The 'Searched Web Content' includes several images related to agriculture and fields, such as ""Agricultura de autoconsumo.jpg"", ""AgriculturaExtensiva.jpg"", ""AgriculturaIntensiva.jpg"", ""AgriculturaTradicional.jpg"", ""AgriculturqaModerna.jpg"", ""Barbecho.jpg"", ""CamposAbiertos.jpg"", ""CamposCerrados01.JPG"", ""huerta.jpg"", ""Latifundio.jpg"", ""Monocultivo.jpg"", ""Pequeña propiedad.jpg"", ""plantación-algodón.jpg"", ""Propiedad privada.jpg"", ""Regadío.jpg"", ""Rotación de cultivos.jpg"", ""Secano.jpg"". These images suggest that 'field' in the context of the sentence likely refers to an open area of land used for growing crops or grass, which aligns with the image provided. The context of walking through a field and picking wildflowers further supports the interpretation of 'field' as an open, natural area of land.
+---
+You are an expert linguistic annotator. A specific target word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the given context: The image, 'Text Context', and 'Image Web Search Results'. Leverage those context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no meaningful background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, read through the list of senses provided once again, carefully and in detail, one by one. Then, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The image shows a patchwork of agricultural fields, and the text mentions walking through a field and picking wildflowers. This strongly suggests the 'field' refers to a piece of land used for agriculture or natural growth.
+
+Considering the senses provided, the most appropriate one is:
+
+1. a piece of land cleared of trees and usually enclosed
+9. extensive tract of level open land
+
+Sense 1 is a good fit, as it describes a typical field. Sense 9 is also relevant, describing the overall appearance of the land in the image. Given the context of picking wildflowers, sense 1 is slightly more specific and therefore a better fit.
+
+A: 1",1.0,17.0
+175,lead,The inspector found lead in the house.,"{""n"": [""an advantage held by a competitor in a race"", ""a soft heavy toxic malleable metallic element; bluish white when freshly cut but tarnishes readily to dull grey"", ""evidence pointing to a possible solution"", ""a position of leadership (especially in the phrase `take the lead')"", ""the angle between the direction a gun is aimed and the position of a moving target (correcting for the flight time of the missile)"", ""the introductory section of a story"", ""(sports) the score by which a team or individual is winning"", ""an actor who plays a principal role"", ""(baseball) the position taken by a base runner preparing to advance to the next base"", ""an indication of potential opportunity"", ""a news story of major importance"", ""the timing of ignition relative to the position of the piston in an internal-combustion engine"", ""restraint consisting of a rope (or light chain) used to restrain an animal"", ""thin strip of metal used to separate lines of type in printing"", ""mixture of graphite with clay in different degrees of hardness; the marking substance in a pencil"", ""a jumper that consists of a short piece of wire"", ""the playing of a card to start a trick in bridge""], ""v"": [""take somebody somewhere"", ""have as a result or residue"", ""tend to or result in"", ""travel in front of; go in advance of others"", ""cause to undertake a certain action"", ""stretch out over a distance, space, time, or scope; run or extend between two points or beyond a certain point"", ""be in charge of"", ""be ahead of others; be the first"", ""be conducive to"", ""lead, as in the performance of a composition"", ""lead, extend, or afford access"", ""move ahead (of others) in time or space"", ""cause something to pass or lead somewhere"", ""preside over""]}",image.5939.jpg,n,2.0,"Text Context: The inspector found lead in the house.
+Ambiguous Word: lead
+---
+Sense List:
+ 1. an advantage held by a competitor in a race
+ 2. a soft heavy toxic malleable metallic element; bluish white when freshly cut but tarnishes readily to dull grey
+ 3. evidence pointing to a possible solution
+ 4. a position of leadership (especially in the phrase `take the lead')
+ 5. the angle between the direction a gun is aimed and the position of a moving target (correcting for the flight time of the missile)
+ 6. the introductory section of a story
+ 7. (sports) the score by which a team or individual is winning
+ 8. an actor who plays a principal role
+ 9. (baseball) the position taken by a base runner preparing to advance to the next base
+ 10. an indication of potential opportunity
+ 11. a news story of major importance
+ 12. the timing of ignition relative to the position of the piston in an internal-combustion engine
+ 13. restraint consisting of a rope (or light chain) used to restrain an animal
+ 14. thin strip of metal used to separate lines of type in printing
+ 15. mixture of graphite with clay in different degrees of hardness; the marking substance in a pencil
+ 16. a jumper that consists of a short piece of wire
+ 17. the playing of a card to start a trick in bridge
+---
+Image Web Search Results:
+The 'Searched Web Content' provides information about ""lead shields"" (מצודת עופרת), which are structures made of lead used for radiation protection in various applications, including nuclear industry and activities involving ionizing radiation. This content is relevant to the ambiguous word ""lead"" in the context sentence ""The inspector found lead in the house,"" as it explains that lead can be used in the form of shields or structures for radiation protection. This information helps clarify that ""lead"" in this context refers to the metal used for shielding purposes, which could be relevant if the image shows such lead structures.
+---
+You are an expert linguistic annotator. A specific target word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the given context: The image, 'Text Context', and 'Image Web Search Results'. Leverage those context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no meaningful background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, read through the list of senses provided once again, carefully and in detail, one by one. Then, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The image shows metallic, L-shaped objects. The text context states that an inspector found ""lead"" in the house. The web search results indicate that ""lead"" can refer to the metal used for radiation shielding. The objects in the image appear to be made of a dense metal, potentially lead, and could be used for shielding purposes. Therefore, sense 2, ""a soft heavy toxic malleable metallic element; bluish white when freshly cut but tarnishes readily to dull grey,"" is the most appropriate sense.
+
+A: 2",2.0,17.0
+206,case,She moved the case near the door before leaving.,"{""n"": [""an occurrence of something"", ""a special set of circumstances"", ""a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy"", ""the actual state of things"", ""a portable container for carrying several objects"", ""a person requiring professional services"", ""a person who is subjected to experimental or other observational procedures; someone who is an object of investigation"", ""a problem requiring investigation"", ""a statement of facts and reasons used to support an argument"", ""the quantity contained in a case"", ""nouns or pronouns or adjectives (often marked by inflection) related in some way to other words in a sentence"", ""a specific state of mind that is temporary"", ""a person of a specified kind (usually with many eccentricities)"", ""a specific size and style of type within a type family"", ""an enveloping structure or covering enclosing an animal or plant organ or part"", ""the housing or outer covering of something"", ""the enclosing frame around a door or window opening"", ""(printing) the receptacle in which a compositor has his type, which is divided into compartments for the different letters, spaces, or numbers"", ""bed linen consisting of a cover for a pillow"", ""a glass container used to store and display items in a shop or museum or home""], ""v"": [""look over, usually with the intention to rob"", ""enclose in, or as if in, a case""]}",image.6179.jpg,n,5.0,"Text Context: She moved the case near the door before leaving.
+Ambiguous Word: case
+---
+Sense List:
+ 1. an occurrence of something
+ 2. a special set of circumstances
+ 3. a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy
+ 4. the actual state of things
+ 5. a portable container for carrying several objects
+ 6. a person requiring professional services
+ 7. a person who is subjected to experimental or other observational procedures; someone who is an object of investigation
+ 8. a problem requiring investigation
+ 9. a statement of facts and reasons used to support an argument
+ 10. the quantity contained in a case
+ 11. nouns or pronouns or adjectives (often marked by inflection) related in some way to other words in a sentence
+ 12. a specific state of mind that is temporary
+ 13. a person of a specified kind (usually with many eccentricities)
+ 14. a specific size and style of type within a type family
+ 15. an enveloping structure or covering enclosing an animal or plant organ or part
+ 16. the housing or outer covering of something
+ 17. the enclosing frame around a door or window opening
+ 18. (printing) the receptacle in which a compositor has his type, which is divided into compartments for the different letters, spaces, or numbers
+ 19. bed linen consisting of a cover for a pillow
+ 20. a glass container used to store and display items in a shop or museum or home
+---
+Image Web Search Results:
+The 'Searched Web Content' mentions ""Suitcase Valises En Anglais Different Types Baggage Bags Cases ..."", which indicates that ""case"" can refer to a type of baggage or suitcase. This aligns with the image showing a large piece of luggage, which is a type of case. Therefore, the context sentence ""She moved the case near the door before leaving."" likely refers to moving a suitcase or baggage case.
+---
+You are an expert linguistic annotator. A specific target word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the given context: The image, 'Text Context', and 'Image Web Search Results'. Leverage those context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no meaningful background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, read through the list of senses provided once again, carefully and in detail, one by one. Then, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The image shows a suitcase. The text context states ""She moved the case near the door before leaving."" The web search results confirm that ""case"" can refer to a suitcase or baggage. Therefore, the most appropriate sense is the one referring to a portable container for carrying objects.
+
+A: 5",5.0,20.0
+209,dressing,She spent the morning dressing the roses by the fence.,"{""n"": [""savory dressings for salads; basically of two kinds: either the thin French or vinaigrette type or the creamy mayonnaise type"", ""a mixture of seasoned ingredients used to stuff meats and vegetables"", ""making fertile as by applying fertilizer or manure"", ""a cloth covering for a wound or sore"", ""processes in the conversion of rough hides into leather"", ""the activity of getting dressed; putting on clothes"", ""the act of applying a bandage""], ""v"": [""put on clothes"", ""provide with clothes or put clothes on"", ""put a finish on"", ""dress in a certain manner"", ""dress or groom with elaborate care"", ""kill and prepare for market or consumption"", ""arrange in ranks"", ""decorate (food), as with parsley or other ornamental foods"", ""provide with decoration"", ""put a dressing on"", ""cultivate, tend, and cut back the growth of"", ""cut down rough-hewn (lumber) to standard thickness and width"", ""convert into leather"", ""apply a bandage or medication to"", ""give a neat appearance to"", ""arrange attractively""]}",image.6203.jpg,v,11.0,"Text Context: She spent the morning dressing the roses by the fence.
+Ambiguous Word: dressing
+---
+Sense List:
+ 1. put on clothes
+ 2. provide with clothes or put clothes on
+ 3. put a finish on
+ 4. dress in a certain manner
+ 5. dress or groom with elaborate care
+ 6. kill and prepare for market or consumption
+ 7. arrange in ranks
+ 8. decorate (food), as with parsley or other ornamental foods
+ 9. provide with decoration
+ 10. put a dressing on
+ 11. cultivate, tend, and cut back the growth of
+ 12. cut down rough-hewn (lumber) to standard thickness and width
+ 13. convert into leather
+ 14. apply a bandage or medication to
+ 15. give a neat appearance to
+ 16. arrange attractively
+---
+Image Web Search Results:
+The search results provide information about fertilizers, which is relevant to the context of the image. The term ""dressing"" in the context of gardening can refer to the application of fertilizer or other soil amendments to plants. In the image, the person appears to be applying something to the soil, which could be fertilizer. The search results confirm that fertilizers are used to nourish plants and improve soil quality, which aligns with the action depicted in the image. Therefore, the context of ""dressing"" in the sentence likely refers to the application of fertilizer to the roses, similar to how the person in the image is applying something to the soil.
+---
+You are an expert linguistic annotator. A specific target word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the given context: The image, 'Text Context', and 'Image Web Search Results'. Leverage those context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no meaningful background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, read through the list of senses provided once again, carefully and in detail, one by one. Then, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The image shows a person working in a field, seemingly applying something to the soil near young plants. The text context mentions ""dressing the roses."" The image web search results point to fertilizers as a relevant meaning of ""dressing"" in a gardening context. Considering this, the most appropriate sense of ""dressing"" is the one related to cultivating or applying nutrients to plants.
+
+Looking at the sense list, sense 11, ""cultivate, tend, and cut back the growth of,"" and sense 10, ""put a dressing on,"" are the most relevant. However, sense 10 is more directly related to applying something *to* the plants or soil, which is what the image depicts.
+
+A: 10",10.0,16.0
+229,case,The case in the hallway caught the afternoon light.,"{""n"": [""an occurrence of something"", ""a special set of circumstances"", ""a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy"", ""the actual state of things"", ""a portable container for carrying several objects"", ""a person requiring professional services"", ""a person who is subjected to experimental or other observational procedures; someone who is an object of investigation"", ""a problem requiring investigation"", ""a statement of facts and reasons used to support an argument"", ""the quantity contained in a case"", ""nouns or pronouns or adjectives (often marked by inflection) related in some way to other words in a sentence"", ""a specific state of mind that is temporary"", ""a person of a specified kind (usually with many eccentricities)"", ""a specific size and style of type within a type family"", ""an enveloping structure or covering enclosing an animal or plant organ or part"", ""the housing or outer covering of something"", ""the enclosing frame around a door or window opening"", ""(printing) the receptacle in which a compositor has his type, which is divided into compartments for the different letters, spaces, or numbers"", ""bed linen consisting of a cover for a pillow"", ""a glass container used to store and display items in a shop or museum or home""], ""v"": [""look over, usually with the intention to rob"", ""enclose in, or as if in, a case""]}",image.6363.jpg,n,20.0,"Text Context: The case in the hallway caught the afternoon light.
+Ambiguous Word: case
+---
+Sense List:
+ 1. an occurrence of something
+ 2. a special set of circumstances
+ 3. a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy
+ 4. the actual state of things
+ 5. a portable container for carrying several objects
+ 6. a person requiring professional services
+ 7. a person who is subjected to experimental or other observational procedures; someone who is an object of investigation
+ 8. a problem requiring investigation
+ 9. a statement of facts and reasons used to support an argument
+ 10. the quantity contained in a case
+ 11. nouns or pronouns or adjectives (often marked by inflection) related in some way to other words in a sentence
+ 12. a specific state of mind that is temporary
+ 13. a person of a specified kind (usually with many eccentricities)
+ 14. a specific size and style of type within a type family
+ 15. an enveloping structure or covering enclosing an animal or plant organ or part
+ 16. the housing or outer covering of something
+ 17. the enclosing frame around a door or window opening
+ 18. (printing) the receptacle in which a compositor has his type, which is divided into compartments for the different letters, spaces, or numbers
+ 19. bed linen consisting of a cover for a pillow
+ 20. a glass container used to store and display items in a shop or museum or home
+---
+Image Web Search Results:
+
+---
+You are an expert linguistic annotator. A specific target word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the given context: The image, 'Text Context', and 'Image Web Search Results'. Leverage those context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no meaningful background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, read through the list of senses provided once again, carefully and in detail, one by one. Then, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The text refers to ""the case in the hallway"" catching the light. The image shows a hallway lined with glass display cases containing artifacts. Therefore, the word ""case"" refers to a glass container used to store and display items in a museum.
+
+A: 20",20.0,20.0
+348,field,We met at the field behind the school.,"{""n"": [""a piece of land cleared of trees and usually enclosed"", ""a region where a battle is being (or has been) fought"", ""somewhere (away from a studio or office or library or laboratory) where practical work is done or data is collected"", ""a branch of knowledge"", ""the space around a radiating body within which its electromagnetic oscillations can exert force on another similar body not in contact with it"", ""a particular kind of commercial enterprise"", ""a particular environment or walk of life"", ""a piece of land prepared for playing a game"", ""extensive tract of level open land"", ""(mathematics) a set of elements such that addition and multiplication are commutative and associative and multiplication is distributive over addition and there are two elements 0 and 1"", ""a region in which active military operations are in progress"", ""all of the horses in a particular horse race"", ""all the competitors in a particular contest or sporting event"", ""a geographic region (land or sea) under which something valuable is found"", ""(computer science) a set of one or more adjacent characters comprising a unit of information"", ""the area that is visible (as through an optical instrument)"", ""a place where planes take off and land""], ""v"": [""catch or pick up (balls) in baseball or cricket"", ""play as a fielder"", ""answer adequately or successfully"", ""select (a team or individual player) for a game""]}",image.7267.jpg,n,8.0,"Text Context: We met at the field behind the school.
+Ambiguous Word: field
+---
+Sense List:
+ 1. a piece of land cleared of trees and usually enclosed
+ 2. a region where a battle is being (or has been) fought
+ 3. somewhere (away from a studio or office or library or laboratory) where practical work is done or data is collected
+ 4. a branch of knowledge
+ 5. the space around a radiating body within which its electromagnetic oscillations can exert force on another similar body not in contact with it
+ 6. a particular kind of commercial enterprise
+ 7. a particular environment or walk of life
+ 8. a piece of land prepared for playing a game
+ 9. extensive tract of level open land
+ 10. (mathematics) a set of elements such that addition and multiplication are commutative and associative and multiplication is distributive over addition and there are two elements 0 and 1
+ 11. a region in which active military operations are in progress
+ 12. all of the horses in a particular horse race
+ 13. all the competitors in a particular contest or sporting event
+ 14. a geographic region (land or sea) under which something valuable is found
+ 15. (computer science) a set of one or more adjacent characters comprising a unit of information
+ 16. the area that is visible (as through an optical instrument)
+ 17. a place where planes take off and land
+---
+Image Web Search Results:
+The 'Searched Web Content' mentions ""Riederwaldstadion"" and ""Eintracht Frankfurt,"" which are related to the entities in the image. The context sentence ""We met at the field behind the school"" can be clarified by understanding that ""field"" in this context likely refers to a sports field or stadium, as the image shows a sports field (Riederwaldstadion) associated with Eintracht Frankfurt. The content confirms that Eintracht Frankfurt is a football club, and the field in the image is part of their stadium, thus providing context for the ambiguous word ""field.""
+---
+You are an expert linguistic annotator. A specific target word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the given context: The image, 'Text Context', and 'Image Web Search Results'. Leverage those context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no meaningful background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, read through the list of senses provided once again, carefully and in detail, one by one. Then, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The image shows a sports field, specifically a soccer field with a running track around it. The web search results confirm this is the Riederwaldstadion, associated with the football club Eintracht Frankfurt. The context ""We met at the field behind the school"" suggests a place for sports or recreation. Therefore, the most appropriate sense of ""field"" is a piece of land prepared for playing a game.
+
+A: 8",8.0,17.0
+401,case,"The case was delayed again, so we moved our plans to Friday.","{""n"": [""an occurrence of something"", ""a special set of circumstances"", ""a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy"", ""the actual state of things"", ""a portable container for carrying several objects"", ""a person requiring professional services"", ""a person who is subjected to experimental or other observational procedures; someone who is an object of investigation"", ""a problem requiring investigation"", ""a statement of facts and reasons used to support an argument"", ""the quantity contained in a case"", ""nouns or pronouns or adjectives (often marked by inflection) related in some way to other words in a sentence"", ""a specific state of mind that is temporary"", ""a person of a specified kind (usually with many eccentricities)"", ""a specific size and style of type within a type family"", ""an enveloping structure or covering enclosing an animal or plant organ or part"", ""the housing or outer covering of something"", ""the enclosing frame around a door or window opening"", ""(printing) the receptacle in which a compositor has his type, which is divided into compartments for the different letters, spaces, or numbers"", ""bed linen consisting of a cover for a pillow"", ""a glass container used to store and display items in a shop or museum or home""], ""v"": [""look over, usually with the intention to rob"", ""enclose in, or as if in, a case""]}",image.7656.jpg,n,3.0,"Text Context: The case was delayed again, so we moved our plans to Friday.
+Ambiguous Word: case
+---
+Sense List:
+ 1. an occurrence of something
+ 2. a special set of circumstances
+ 3. a comprehensive term for any proceeding in a court of law whereby an individual seeks a legal remedy
+ 4. the actual state of things
+ 5. a portable container for carrying several objects
+ 6. a person requiring professional services
+ 7. a person who is subjected to experimental or other observational procedures; someone who is an object of investigation
+ 8. a problem requiring investigation
+ 9. a statement of facts and reasons used to support an argument
+ 10. the quantity contained in a case
+ 11. nouns or pronouns or adjectives (often marked by inflection) related in some way to other words in a sentence
+ 12. a specific state of mind that is temporary
+ 13. a person of a specified kind (usually with many eccentricities)
+ 14. a specific size and style of type within a type family
+ 15. an enveloping structure or covering enclosing an animal or plant organ or part
+ 16. the housing or outer covering of something
+ 17. the enclosing frame around a door or window opening
+ 18. (printing) the receptacle in which a compositor has his type, which is divided into compartments for the different letters, spaces, or numbers
+ 19. bed linen consisting of a cover for a pillow
+ 20. a glass container used to store and display items in a shop or museum or home
+---
+Image Web Search Results:
+The 'case' in the context sentence refers to a legal proceeding or trial. The Searched Web Content discusses the historical context of Galileo Galilei's trial by the Catholic Church, known as the Galileo affair. This trial was a significant legal proceeding where Galileo was charged with heresy for promoting the heliocentric model of the universe, which contradicted the Church's geocentric view. The content explains that Galileo was ordered to Rome for a trial, faced charges for breaking the rules he had agreed to in 1616, and was ultimately found guilty of ""vehement suspicion of heresy."" This historical event provides a clear example of a 'case' as a legal proceeding, which aligns with the context sentence where 'case' refers to a delayed legal matter.
+---
+You are an expert linguistic annotator. A specific target word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the given context: The image, 'Text Context', and 'Image Web Search Results'. Leverage those context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no meaningful background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, read through the list of senses provided once again, carefully and in detail, one by one. Then, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The image depicts a formal setting with people in robes and attire suggestive of a legal or religious proceeding. The web search results confirm this, explicitly stating the image relates to Galileo Galilei's trial by the Catholic Church. The context sentence mentions a ""case"" being delayed, which aligns perfectly with a legal proceeding. Therefore, the most appropriate sense of ""case"" is a legal trial or proceeding.
+
+A: 3",3.0,20.0
+414,lift,Could you lift the suitcase onto the bed?,"{""n"": [""the act of giving temporary assistance"", ""the component of the aerodynamic forces acting on an airfoil that opposes gravity"", ""the event of something being raised upward"", ""a wave that lifts the surface of the water or ground"", ""a powered conveyance that carries skiers up a hill"", ""a device worn in a shoe or boot to make the wearer look taller or to correct a shortened leg"", ""one of the layers forming the heel of a shoe or boot"", ""lifting device consisting of a platform or cage that is raised and lowered mechanically in a vertical shaft in order to move people from one floor to another in a building"", ""plastic surgery to remove wrinkles and other signs of aging from your face; an incision is made near the hair line and skin is pulled back and excess tissue is excised"", ""transportation of people or goods by air (especially when other means of access are unavailable)"", ""a ride in a car"", ""the act of raising something""], ""v"": [""raise from a lower to a higher position"", ""take hold of something and move it to a different location"", ""move upwards"", ""move upward"", ""make audible"", ""cancel officially"", ""make off with belongings of others"", ""raise or haul up with or as if with mechanical help"", ""invigorate or heighten"", ""raise in rank or condition"", ""take off or away by decreasing"", ""rise up"", ""pay off (a mortgage)"", ""take without referencing from someone else's writing or speech; of intellectual property"", ""take illegally"", ""fly people or goods to or from places not accessible by other means"", ""take (root crops) out of the ground"", ""call to stop the hunt or to retire, as of hunting dogs"", ""rise upward, as from pressure or moisture"", ""put an end to"", ""remove (hair) by scalping"", ""remove from a seedbed or from a nursery"", ""remove from a surface"", ""perform cosmetic surgery on someone's face""]}",image.7750.jpg,v,1.0,"Text Context: Could you lift the suitcase onto the bed?
+Ambiguous Word: lift
+---
+Sense List:
+ 1. raise from a lower to a higher position
+ 2. take hold of something and move it to a different location
+ 3. move upwards
+ 4. move upward
+ 5. make audible
+ 6. cancel officially
+ 7. make off with belongings of others
+ 8. raise or haul up with or as if with mechanical help
+ 9. invigorate or heighten
+ 10. raise in rank or condition
+ 11. take off or away by decreasing
+ 12. rise up
+ 13. pay off (a mortgage)
+ 14. take without referencing from someone else's writing or speech; of intellectual property
+ 15. take illegally
+ 16. fly people or goods to or from places not accessible by other means
+ 17. take (root crops) out of the ground
+ 18. call to stop the hunt or to retire, as of hunting dogs
+ 19. rise upward, as from pressure or moisture
+ 20. put an end to
+ 21. remove (hair) by scalping
+ 22. remove from a seedbed or from a nursery
+ 23. remove from a surface
+ 24. perform cosmetic surgery on someone's face
+---
+Image Web Search Results:
+
+---
+You are an expert linguistic annotator. A specific target word found within the context of a given text, and a list of potential senses for that word are provided. Your task is to determine the correct sense by selecting the one that most directly aligns with the context and its background event.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+First, take a look at the given context: The image, 'Text Context', and 'Image Web Search Results'. Leverage those context to analyze any significant background context is provided in the image. If such information exists, prioritize the sense that best fits this background information, even if it is not the most direct match for the visual content.
+
+Directness of Meaning: If no meaningful background information can be obtained from the web search results, choose the sense that provides the most direct and specific fit for the visual and linguistic context. Even if a perfect match does not exist, select the sense that is the closest indirect match.
+---
+After all your reasoning is finished, read through the list of senses provided once again, carefully and in detail, one by one. Then, provide your final decision as the format 'A: [sense number]' and end your generation. In here, [sense number] is the index of your chosen sense from the provided list.
+","The image depicts a professional wrestling move where one wrestler is lifting another wrestler off the ground. The text asks to ""lift the suitcase onto the bed"". The word ""lift"" in both contexts refers to raising something from a lower to a higher position.
+
+Therefore, the most appropriate sense is:
+
+A: 1",1.0,24.0

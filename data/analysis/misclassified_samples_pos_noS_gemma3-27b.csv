@@ -1,0 +1,202 @@
+word_index,word,word_phrase,senses,gold_image,prompt,generated_text,gold_pos,gold_sense,predicted_label
+60,bay,trotting bay,"{""n"": [""an indentation of a shoreline larger than a cove but smaller than a gulf"", ""the sound of a hound on the scent"", ""small Mediterranean evergreen tree with small blackish berries and glossy aromatic leaves used for flavoring in cooking; also used by ancient Greeks to crown victors"", ""a compartment on a ship between decks; often used as a hospital"", ""a compartment in an aircraft used for some specific purpose"", ""a small recess opening off a larger room"", ""a horse of a moderate reddish-brown color""], ""v"": [""utter in deep prolonged tones"", ""bark with prolonged noises, of dogs""], ""a"": [""(used of animals especially a horse) of a moderate reddish-brown color""]}",image.4957.jpg,"
+Ambiguous word: bay
+---
+Noun Senses:
+1) an indentation of a shoreline larger than a cove but smaller than a gulf
+2) the sound of a hound on the scent
+3) small Mediterranean evergreen tree with small blackish berries and glossy aromatic leaves used for flavoring in cooking; also used by ancient Greeks to crown victors
+4) a compartment on a ship between decks; often used as a hospital
+5) a compartment in an aircraft used for some specific purpose
+6) a small recess opening off a larger room
+7) a horse of a moderate reddish-brown color
+
+---
+Verb Senses:
+1) utter in deep prolonged tones
+2) bark with prolonged noises, of dogs
+
+---
+Adjective Senses:
+1) (used of animals especially a horse) of a moderate reddish-brown color
+
+---
+
+
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb, adjective.
+
+Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Verb is considered when:
+* no noun sense is provided.
+* the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
+
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
+
+
+Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
+
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb, adjective).
+","The image shows a horse that is a reddish-brown color. The adjective sense ""of a moderate reddish-brown color"" directly describes the horse's coat.
+
+A: adjective",n,7.0,a
+83,cinnabar,cinnabar bug,"{""n"": [""a heavy reddish mineral consisting of mercuric sulfide; the chief source of mercury"", ""large red-and-black European moth; larvae feed on leaves of ragwort; introduced into United States to control ragwort""], ""a"": [""of a vivid red to reddish-orange color""]}",image.5163.jpg,"
+Ambiguous word: cinnabar
+---
+Noun Senses:
+1) a heavy reddish mineral consisting of mercuric sulfide; the chief source of mercury
+2) large red-and-black European moth; larvae feed on leaves of ragwort; introduced into United States to control ragwort
+
+---
+Adjective Senses:
+1) of a vivid red to reddish-orange color
+
+---
+
+
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, adjective.
+
+Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Adjective is considered when:
+* the photo can not be considered to depict an object or action of given word.
+* the photo depicts a state rather than an action or an object itself, and there is a corresponding sense in the list of adjectives
+
+
+
+Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
+
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, adjective).
+","The image shows a moth with vivid red markings on its black wings. The word ""cinnabar"" has a sense relating to a vivid red color (adjective sense 1). This directly corresponds to the color of the moth's markings. The other senses relate to a mineral or a specific type of moth, but the color description is the most prominent and direct connection to the image.
+
+A: adjective",n,2.0,a
+91,caper,caper show,"{""n"": [""any of numerous plants of the genus Capparis"", ""pickled flower buds used as a pungent relish in various dishes and sauces"", ""a crime (especially a robbery)"", ""a playful leap or hop"", ""gay or light-hearted recreational activity for diversion or amusement"", ""a ludicrous or grotesque act done for fun and amusement""], ""v"": [""jump about playfully""]}",image.5234.jpg,"
+Ambiguous word: caper
+---
+Noun Senses:
+1) any of numerous plants of the genus Capparis
+2) pickled flower buds used as a pungent relish in various dishes and sauces
+3) a crime (especially a robbery)
+4) a playful leap or hop
+5) gay or light-hearted recreational activity for diversion or amusement
+6) a ludicrous or grotesque act done for fun and amusement
+
+---
+Verb Senses:
+1) jump about playfully
+
+---
+
+
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+
+Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Verb is considered when:
+* no noun sense is provided.
+* the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
+
+
+
+Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
+
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+","The image shows a man sitting on a stool with one foot propped up, and his hand raised in a gesturing motion. This could be interpreted as a playful or light-hearted pose. Considering the senses provided, the verb sense ""jump about playfully"" or the noun sense ""a playful leap or hop"" seem most relevant. However, the image doesn't show a full jump, but rather a relaxed pose with a raised hand. The noun sense ""gay or light-hearted recreational activity for diversion or amusement"" is too abstract to be directly represented in the image.
+
+Given the options, the verb ""jump about playfully"" is the closest fit, as the pose suggests a casual, playful attitude.
+
+A: verb",n,5.0,v
+203,twine,rope twine,"{""n"": [""a lightweight cord""], ""v"": [""spin,wind, or twist together"", ""arrange or or coil around"", ""make by twisting together or intertwining"", ""form into a spiral shape""]}",image.2053.jpg,"
+Ambiguous word: twine
+---
+Noun Senses:
+1) a lightweight cord
+
+---
+Verb Senses:
+1) spin,wind, or twist together
+2) arrange or or coil around
+3) make by twisting together or intertwining
+4) form into a spiral shape
+
+---
+
+
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+
+Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Verb is considered when:
+* no noun sense is provided.
+* the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
+
+
+
+Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
+
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+","The image shows multiple balls of a lightweight cord. The word ""twine"" as a noun, meaning a lightweight cord, directly corresponds to what is visible in the image. There is no action being depicted, only the objects themselves.
+
+A: noun",v,1.0,n
+428,crop,cattle crop,"{""n"": [""the yield from plants in a single growing season"", ""a cultivated plant that is grown commercially on a large scale"", ""a collection of people or things appearing together"", ""the output of something in a season"", ""the stock or handle of a whip"", ""a pouch in many birds and some lower animals that resembles a stomach for storage and preliminary maceration of food""], ""v"": [""cut short"", ""prepare for crops"", ""yield crops"", ""let feed in a field or pasture or meadow"", ""feed as in a meadow or pasture"", ""cultivate, tend, and cut back the growth of""]}",image.7847.jpg,"
+Ambiguous word: crop
+---
+Noun Senses:
+1) the yield from plants in a single growing season
+2) a cultivated plant that is grown commercially on a large scale
+3) a collection of people or things appearing together
+4) the output of something in a season
+5) the stock or handle of a whip
+6) a pouch in many birds and some lower animals that resembles a stomach for storage and preliminary maceration of food
+
+---
+Verb Senses:
+1) cut short
+2) prepare for crops
+3) yield crops
+4) let feed in a field or pasture or meadow
+5) feed as in a meadow or pasture
+6) cultivate, tend, and cut back the growth of
+
+---
+
+
+You are an expert linguistic annotator. Image, a specific target word found within the context of that image, and a list of potential senses for that word are given. Each sense is categorized by a Part of Speech (POS): noun, verb.
+
+Your goal is to determine the correct POS by selecting the sense that most directly aligns with the visual context.
+---
+Decision Logic & Rules
+Follow these rules in order of priority to make your decision:
+
+Verb is considered when:
+* no noun sense is provided.
+* the photo depicts an action—either directly or indirectly—rather than the object itself, and if there is a verb sense in the provided list that corresponds to the action shown in the photo.
+
+
+
+Always consider which sense can be most directly and concretely represented in the image. Avoid overcomplicating the reasoning process; focus on the most straightforward interpretation of the visual information in relation to the senses provided.
+
+---
+After all your reasoning is finished, provide your final decision as the format 'A: [POS]', where [POS] is your chosen Part of Speech (noun, verb).
+","The image shows a field with sheep grazing. The word ""crop"" in this context refers to the yield from plants, specifically the grass the sheep are eating. This aligns with the noun sense ""the yield from plants in a single growing season"".
+
+A: noun",v,5.0,n

@@ -10,8 +10,8 @@ model_checkpoint="google/gemma-3-27b-it"
 
 python /workspace/vllm_inference.py \
     --model_checkpoint ${model_checkpoint} \
-    --inference_set_path /workspace/data/test_set_process/wsd_set_entire_baseline_ambiguous_sentence_sense2_prompt.csv \
-    --output_file_path /workspace/data/test_set_process/inference/wsd_set_entire_labeled_baseline_sense2_gemma-3-27b-it.csv \
+    --inference_set_path /workspace/data/test_set_process/wsd_set_entire_labeled_image_sense_prompt.csv \
+    --output_file_path /workspace/data/test_set_process/inference/wsd_set_entire_labeled_image_sense_gemma-3-27b-it.csv \
     --image_dir /workspace/data/semeval-2023-V-WSD-test/test_images/ \
     --image_number 1 \
     --seed 42
