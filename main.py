@@ -300,6 +300,33 @@ def extract_ambiguous_sentence_for_wsd_set(wsd_set_path, output_file_path):
     df = df[["word_index", "word", "word_phrase", "senses", "gold_image", "gold_pos", "gold_sense"]]
     df.to_csv(output_file_path, index=False, encoding='utf-8')
 
+def image_data_export(wsd_set_path, image_dir, output_dir):
+    """
+    image_data_export의 Docstring
+    
+    :param wsd_set_path: WSD 데이터 세트가 저장된 파일 경로
+    :param image_dir: 이미지가 저장된 디렉토리 경로
+    :param output_dir: 이미지를 내보낼 디렉토리 경로
+    """
+    import os
+    import shutil
+    import pandas as pd
+    from tqdm.auto import tqdm
+    
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    
+    # Read the WSD set to get the list of images to export
+    df = pd.read_csv(wsd_set_path)
+    image_filenames = set(df["gold_image"].dropna())
+    
+    for filename in tqdm(os.listdir(image_dir), desc="Exporting images"):
+        if filename in image_filenames:
+            src_path = os.path.join(image_dir, filename)
+            dst_path = os.path.join(output_dir, filename)
+            shutil.copy(src_path, dst_path)
+    
+    print(f"Images exported from {image_dir} to {output_dir}")
 
 def main():
     #output_file_path = '/workspace/data/rearranged_polysemy_words.csv'
@@ -326,7 +353,13 @@ def main():
     #divide_supplemented_set("/workspace/data/train_set_process/wsd_set_entire_no_dupl.csv", "/workspace/data/train_set_process/wsd_set_entire_hypernym.csv", "/workspace/data/train_set_process/wsd_set_duplicate_divided.csv")
     
     #change_summarize_prompt_with_prompt("/workspace/data/test_set_process/wsd_set_entire_labeled_summarize_prompt.csv", "/workspace/data/test_set_process/wsd_set_entire_labeled_summarize2_prompt.csv")
-    extract_ambiguous_sentence_for_wsd_set("/workspace/data/test_set_process/inference/wsd_set_entire_sense_ambig_sentence_baseline_gemma-3-27b-it.csv", "/workspace/data/test_set_process/wsd_set_entire_labeled_baseline.csv")
+    #extract_ambiguous_sentence_for_wsd_set("/workspace/data/test_set_process/inference/wsd_set_entire_sense_ambig_sentence_baseline_gemma-3-27b-it.csv", "/workspace/data/test_set_process/wsd_set_entire_labeled_baseline.csv")
+    
+    image_data_export(
+        "/workspace/data/train_set_process/wsd_set_entire_ambiguous_sentence_base.csv",
+        "/workspace/data/semeval-2023-task-1-V-WSD-train-v1/train_v1/train_images_v1",
+        "/workspace/data/train_images_exported/"
+    )
 
 if __name__ == "__main__":
     main()
